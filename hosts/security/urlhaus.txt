@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-12 20:25:11 (UTC)                      #
+# Last updated: 2026-02-12 21:20:19 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -23,7 +23,6 @@
 127.0.0.1	admin.byte.in.ua
 127.0.0.1	admin.gestroom.it
 127.0.0.1	adobeappsxpyrf-update.click
-127.0.0.1	adver.com.br
 127.0.0.1	agence-immobiliere-lyon.com
 127.0.0.1	alarmline.com.br
 127.0.0.1	alineeleuterio.com.br
@@ -160,7 +159,6 @@
 127.0.0.1	filerit.com
 127.0.0.1	filezilla.cc
 127.0.0.1	first-security-verden.de
-127.0.0.1	fitforevercavan.ie
 127.0.0.1	fjolml5b.dursamurai.digital
 127.0.0.1	flyingmutts.com
 127.0.0.1	frvrefrigeracao.com.br
@@ -511,4 +509,4 @@
 127.0.0.1	zephyr41.overplaymarbles.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 505
+# Number of entries: 503

@@ -1,11 +1,18 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-12 18:53:55 UTC                        #
+# Last updated: 2026-02-12 21:28:58 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	kde-exe.with.playit.plus
+127.0.0.1	ouryearofmoney001.duckdns.org
+127.0.0.1	sseeo.org
+127.0.0.1	v2.sseeo.org
+127.0.0.1	v3.sseeo.org
+127.0.0.1	malware.battolka.sa.com
+127.0.0.1	battolka.sa.com
 127.0.0.1	assin6k7n.rye93shishaty.coupons
 127.0.0.1	mag1q9t.rye93shishaty.coupons
 127.0.0.1	idi-nahuy.net
@@ -56484,5 +56491,4 @@
 127.0.0.1	dekelins.com
 127.0.0.1	flyinglotuss.shop
 127.0.0.1	okx.death-angel.shop
-127.0.0.1	ns1.kohlerco.site
-# Number of entries: 56479
+# Number of entries: 56485
