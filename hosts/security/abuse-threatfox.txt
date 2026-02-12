@@ -1,11 +1,12 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-12 18:41:17 UTC                        #
+# Last updated: 2026-02-12 18:53:55 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	assin6k7n.rye93shishaty.coupons
 127.0.0.1	mag1q9t.rye93shishaty.coupons
 127.0.0.1	idi-nahuy.net
 127.0.0.1	diva.ru.com
@@ -56484,4 +56485,4 @@
 127.0.0.1	flyinglotuss.shop
 127.0.0.1	okx.death-angel.shop
 127.0.0.1	ns1.kohlerco.site
-# Number of entries: 56478
+# Number of entries: 56479

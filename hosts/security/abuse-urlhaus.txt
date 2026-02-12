@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-12 18:43:30 (UTC)                      #
+# Last updated: 2026-02-12 19:00:10 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -24,6 +24,7 @@
 127.0.0.1	adobeappsxpyrf-update.click
 127.0.0.1	adver.com.br
 127.0.0.1	agence-immobiliere-lyon.com
+127.0.0.1	ahnbbd.com
 127.0.0.1	alarmline.com.br
 127.0.0.1	alineeleuterio.com.br
 127.0.0.1	aliyundunupdate.xyz
@@ -40,6 +41,7 @@
 127.0.0.1	areyouready.co.za
 127.0.0.1	artacom.com.br
 127.0.0.1	asl-company.ru
+127.0.0.1	assin6k7n.rye93shishaty.coupons
 127.0.0.1	atasapka.com.tr
 127.0.0.1	audicontadores.com
 127.0.0.1	augsburg-auto.com
@@ -50,7 +52,6 @@
 127.0.0.1	bankgarantia.ru
 127.0.0.1	basil902.dealharbor2.coupons
 127.0.0.1	bbb.xfrwu.cn
-127.0.0.1	bblissmassage.com
 127.0.0.1	bfacollege.co.in
 127.0.0.1	biducaconfeitos.com.br
 127.0.0.1	blaiz.me
@@ -90,7 +91,6 @@
 127.0.0.1	computersupportexperts.com
 127.0.0.1	connects-magiceden.io
 127.0.0.1	continentalgroup.net.in
-127.0.0.1	coralpac.com
 127.0.0.1	corporacioncrf.com
 127.0.0.1	crimefreesoftware.com
 127.0.0.1	crystal.travelvoucher.coupons
@@ -144,6 +144,7 @@
 127.0.0.1	elisans.novayonetim.com
 127.0.0.1	embedone.com
 127.0.0.1	ember.quicksavings.coupons
+127.0.0.1	en.taichuan.com
 127.0.0.1	energy63.ru
 127.0.0.1	epanpano.com
 127.0.0.1	estudio.ythan.com.br
@@ -179,7 +180,6 @@
 127.0.0.1	hitman-pro.ru
 127.0.0.1	hitstation.nl
 127.0.0.1	hjekd8c.huowdy.com
-127.0.0.1	hobobot.net
 127.0.0.1	hotellacastellana.com.uy
 127.0.0.1	hqweb.id.vn
 127.0.0.1	hseda.com
@@ -205,7 +205,9 @@
 127.0.0.1	k4n7a3n.favour128influen.coupons
 127.0.0.1	kamin-premium.ru
 127.0.0.1	karoonpc.com
+127.0.0.1	kavacanada.ca
 127.0.0.1	khavar.com
+127.0.0.1	khoancatbetong89.vn
 127.0.0.1	kimyen.net
 127.0.0.1	konsor.ru
 127.0.0.1	kramersmarionnettes.com
@@ -223,7 +225,6 @@
 127.0.0.1	lon-01.dlo4d.com
 127.0.0.1	lumen.dailyoffers.coupons
 127.0.0.1	lumen.pucker8reined.coupons
-127.0.0.1	lun.tukitravel.com
 127.0.0.1	m-global.hksty.net
 127.0.0.1	mag1q9t.rye93shishaty.coupons
 127.0.0.1	maidforyou1985.com
@@ -247,7 +248,6 @@
 127.0.0.1	my-expense.nishant-labs.com
 127.0.0.1	n.vs108.com
 127.0.0.1	ncxps.com
-127.0.0.1	ndirection.kr
 127.0.0.1	ndown2.ra2ol.com
 127.0.0.1	nectar.dle759zone.coupons
 127.0.0.1	nelees.com
@@ -319,6 +319,7 @@
 127.0.0.1	reauthenticator.com
 127.0.0.1	records.dennisign.se
 127.0.0.1	redlk.com
+127.0.0.1	refaccionesalma.com.mx
 127.0.0.1	refrigeracion.delmondexpress.com
 127.0.0.1	reifenquick.de
 127.0.0.1	reparertelephone.fr
@@ -339,10 +340,12 @@
 127.0.0.1	scainseto.com.br
 127.0.0.1	schenckel.com.br
 127.0.0.1	scorpcasinos.com
+127.0.0.1	scrcarental.com
 127.0.0.1	sdvgpro.ru
 127.0.0.1	sec.xiaoshabi.nl
 127.0.0.1	separadordecc.com
 127.0.0.1	sg123.net
+127.0.0.1	shaderm.com
 127.0.0.1	shop.mediasova.ru
 127.0.0.1	shqdown.ggzuhao.com
 127.0.0.1	simbhaolisugars.in
@@ -356,7 +359,6 @@
 127.0.0.1	solutelco.com
 127.0.0.1	sparkle.smartshopping.coupons
 127.0.0.1	sparrow.way17call-in.coupons
-127.0.0.1	spoar.org.in
 127.0.0.1	static.ilclock.com
 127.0.0.1	static.topxgun.com
 127.0.0.1	static.youdm.cn
@@ -394,7 +396,6 @@
 127.0.0.1	tr0ff3.cn
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	trtmyanmar.com
-127.0.0.1	tsmau.com
 127.0.0.1	tyahelp.top
 127.0.0.1	ukguk71.ru
 127.0.0.1	umbrella.semifinal-matching.coupons
@@ -483,7 +484,6 @@
 127.0.0.1	www.zhikey.com
 127.0.0.1	x77r44p.rye93shishaty.coupons
 127.0.0.1	xai830k.com
-127.0.0.1	xdcq3.com
 127.0.0.1	xemhang.vn
 127.0.0.1	xenon.studio
 127.0.0.1	xn--90abegbttpjb3bzb2j.xn--p1ai
