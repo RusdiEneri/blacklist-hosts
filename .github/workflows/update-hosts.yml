@@ -44,6 +44,20 @@ jobs:
             ["security/urlhaus"]="https://urlhaus.abuse.ch/downloads/hostfile/"
             ["security/phishing-army"]="https://phishing.army/download/phishing_army_blocklist_extended.txt"
             ["security/nocoin"]="https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+            ["security/abuse-malware"]="https://feodotracker.abuse.ch/downloads/hostfile/"
+            ["security/botvrij"]="https://www.botvrij.eu/data/ioclist.hostname"
+            ["security/blocklistproject-malware"]="https://blocklistproject.github.io/Lists/abuse.txt"
+            ["security/blocklistproject-phishing"]="https://blocklistproject.github.io/Lists/phishing.txt"
+            ["security/blocklistproject-ransomware"]="https://blocklistproject.github.io/Lists/ransomware.txt"
+            ["security/blocklistproject-scam"]="https://blocklistproject.github.io/Lists/scam.txt"
+            ["security/dynamic-dns"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
+            ["security/proxy-list"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
+            ["security/tor-exit"]="https://check.torproject.org/torbulkexitlist"
+            ["policy/gambling"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
+            ["policy/porn"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
+            ["policy/social"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/social.txt"
+            ["policy/piracy"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/anti.piracy.txt"
+            ["security/spam-tlds"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt"
           )
 
           rm -rf hosts
