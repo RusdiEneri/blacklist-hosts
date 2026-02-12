@@ -32,7 +32,7 @@ jobs:
             ["fakenews/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
             ["gambling/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
             ["porn/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
-            ["unified/stevenblack.txt"]="https://sbc.io/hosts/hosts"
+            ["unified/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
             ["porn/oisd-nsfw"]="https://nsfw.oisd.nl"
             ["ads-track/oisd"]="https://big.oisd.nl"
             ["hagezi/ultimate"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt"
