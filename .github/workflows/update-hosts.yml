@@ -22,8 +22,8 @@ jobs:
       - name: Install HostlistCompiler
         run: |
           git clone https://github.com/AdguardTeam/HostlistCompiler.git
-          cd HostlistCompiler
-          dotnet publish -c Release -o ../hlc
+          cd HostlistCompiler/src/HostlistCompiler
+          dotnet publish -c Release -o ../../../hlc
 
       - name: Fetch & Process Sources
         shell: bash
