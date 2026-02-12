@@ -20,11 +20,14 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Install HostlistCompiler
+      - name: Install HostlistCompiler (Release Binary)
         run: |
-          git clone https://github.com/AdguardTeam/HostlistCompiler.git
-          cd HostlistCompiler/src/HostlistCompiler
-          dotnet publish -c Release -o ../../../hlc
+          mkdir -p hlc
+          curl -L \
+            https://github.com/AdguardTeam/HostlistCompiler/releases/latest/download/HostlistCompiler-linux-x64 \
+            -o hlc/HostlistCompiler
+
+          chmod +x hlc/HostlistCompiler
 
       - name: Fetch & Process Sources
         shell: bash
