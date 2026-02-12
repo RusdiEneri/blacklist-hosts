@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch Sources
+      - name: Fetch Sources (RAW)
         shell: bash
         run: |
           set -Eeuo pipefail
@@ -37,8 +37,8 @@ jobs:
             ["unified/stevenblack"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
 
             ["hagezi/ultimate"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt"
-            ["hagezi/doh"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
             ["hagezi/dga"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dga30.txt"
+            ["hagezi/doh"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
             ["hagezi/tif"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt"
 
             ["security/urlhaus"]="https://urlhaus.abuse.ch/downloads/hostfile/"
@@ -53,13 +53,14 @@ jobs:
             local url="$1"
             local out="$2"
 
-            if curl -L --retry 3 --connect-timeout 20 --max-time 120 \
-              -A "Mozilla/5.0" "$url" -o "$out"; then
-              echo "✓ OK"
-            else
-              echo "⚠ Failed: $url"
-              rm -f "$out"
-            fi
+            echo "Downloading $out"
+            curl -L \
+              --retry 3 \
+              --connect-timeout 20 \
+              --max-time 300 \
+              -A "Mozilla/5.0" \
+              --fail \
+              "$url" -o "$out"
           }
 
           for path in "${!SOURCES[@]}"; do
@@ -67,23 +68,8 @@ jobs:
             dest="hosts/$path.txt"
 
             mkdir -p "$(dirname "$dest")"
-            echo "Downloading $path"
             download "$url" "$dest"
           done
-
-          # ========= MASTER MERGE =========
-          mkdir -p hosts/merged
-
-          find hosts -type f ! -path "*/merged/*" -exec cat {} + \
-          | grep -vE '^\s*($|!|#|@@)' \
-          | sed -E '
-              s#^\|\|([^/\^\$]+).*#\1#;
-              s#^(0\.0\.0\.0|127\.0\.0\.1)[[:space:]]+([^[:space:]]+).*#\2#;
-          ' \
-          | grep -E '\.' \
-          | sort -u \
-          | awk '{print "0.0.0.0 "$0}' \
-          > hosts/merged/master.txt
 
       - name: Generate README
         shell: bash
@@ -91,6 +77,7 @@ jobs:
           set -Eeuo pipefail
 
           BASE="https://raw.githubusercontent.com/${{ github.repository }}/main"
+          total=0
 
           count_domains() {
             grep -vE '^\s*($|!|#|@@)' "$1" 2>/dev/null \
@@ -103,12 +90,10 @@ jobs:
             | wc -l
           }
 
-          total=0
-
           cat > README.md <<EOF
           # Blacklist Hosts
 
-          Curated multi-source domain block registry.
+          Curated multi-source domain block registry (RAW).
 
           ## Statistics
 
@@ -123,7 +108,7 @@ jobs:
           done < <(find hosts -type f | sort)
 
           echo "" >> README.md
-          echo "**Total Domains (Sum of Individual Lists):** $total" >> README.md
+          echo "**Total Domains (Sum of Lists):** $total" >> README.md
           echo "" >> README.md
           echo "Last Updated: $(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')" >> README.md
 
@@ -140,5 +125,5 @@ jobs:
 
           git commit -m "auto: update hosts"
 
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push origin HEAD:main
