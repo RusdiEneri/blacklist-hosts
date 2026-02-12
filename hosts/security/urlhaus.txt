@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-12 18:22:21 (UTC)                      #
+# Last updated: 2026-02-12 18:33:20 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -204,12 +204,10 @@
 127.0.0.1	jungle.pricepirate.coupons
 127.0.0.1	jyothishmathi.in
 127.0.0.1	k4n7a3n.favour128influen.coupons
-127.0.0.1	k9x5nff.tronk6vesta.coupons
 127.0.0.1	kamin-premium.ru
 127.0.0.1	karoonpc.com
 127.0.0.1	khavar.com
 127.0.0.1	kimyen.net
-127.0.0.1	kobilen.icu
 127.0.0.1	konsor.ru
 127.0.0.1	kramersmarionnettes.com
 127.0.0.1	krisidev.com
@@ -377,9 +375,7 @@
 127.0.0.1	tanscarattorneys.co.tz
 127.0.0.1	tapestryoftruth.com
 127.0.0.1	techauto.net
-127.0.0.1	techbud.ro
 127.0.0.1	tecunonline.com
-127.0.0.1	ted9q6r.favour128influen.coupons
 127.0.0.1	tehnomag.rs
 127.0.0.1	temirtau-adm.ru
 127.0.0.1	tengfeidn.cn
@@ -497,11 +493,10 @@
 127.0.0.1	yongtai.cn
 127.0.0.1	yourdox.icu
 127.0.0.1	youtransfer.net
-127.0.0.1	z4kt1r.tronk6vesta.coupons
 127.0.0.1	zamilgroups.com
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zephyr41.overplaymarbles.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 498
+# Number of entries: 493
