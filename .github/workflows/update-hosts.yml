@@ -79,10 +79,25 @@ jobs:
           } > README.md
 
           while IFS= read -r file; do
-            count=$(grep -vE '^\s*(#|!)' "$file" | grep -vE '^\s*$' | wc -l || true)
-            total=$((total + count))
-            echo "| [\`$file\`](${BASE_URL}/$file) | $count |" >> README.md
-          done < <(find hosts -type f | sort)
+
+  if [[ "$file" == *.txt ]]; then
+    # adblock-style list: count rules like ||domain^
+    count=$(grep -E '^\s*\|\|[^@][^/]+?\^' "$file" \
+      | grep -vE '^\s*@@' \
+      | wc -l)
+  else
+    # hosts-file style (plain host per line)
+    count=$(grep -vE '^\s*([#\!]|127\.0\.0\.1)' "$file" \
+      | awk '{print $2}' \
+      | sort -u \
+      | wc -l)
+  fi
+
+  total=$((total + count))
+
+  echo "| [\`$file\`](${BASE_URL}/$file) | $count |" >> README.md
+
+done < <(find hosts -type f | sort)
 
           {
             echo ""
