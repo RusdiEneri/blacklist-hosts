@@ -89,40 +89,16 @@ jobs:
           total=0
 
           count_domains() {
-            file="$1"
+          file="$1"
 
-            grep -vE '^\s*($|!|#)' "$file" 2>/dev/null \
-            | sed 's/\r//g' \
-            | while read -r line; do
-
-                [[ -z "$line" ]] && continue
-                [[ "$line" =~ ^@@ ]] && continue
-
-                # adblock rule
-                if [[ "$line" =~ ^\|\| ]]; then
-                  echo "$line" | sed -E 's#^\|\|([^/\^\$]+).*#\1#'
-                  continue
-                fi
-
-                # hosts format
-                if [[ "$line" =~ ^(0\.0\.0\.0|127\.0\.0\.1)[[:space:]]+ ]]; then
-                  echo "$line" | awk '{print $2}'
-                  continue
-                fi
-
-                # plain domain
-                if [[ "$line" =~ \. ]]; then
-                  echo "$line"
-                  continue
-                fi
-
-                # regex rule
-                if [[ "$line" =~ ^/.+/ ]]; then
-                  echo "$line"
-                  continue
-                fi
-
-            done | sort -u | wc -l
+          grep -vE '^\s*($|!|#|@@)' "$file" 2>/dev/null \
+          | sed -E '
+          s#^\|\|([^/\^\$]+).*#\1#;
+          s#^(0\.0\.0\.0|127\.0\.0\.1)[[:space:]]+([^[:space:]]+).*#\2#;
+          ' \
+          | grep -E '\.|/' \
+          | sort -u \
+          | wc -l
           }
 
           cat > README.md <<EOF
