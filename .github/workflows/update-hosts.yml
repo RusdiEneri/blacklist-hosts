@@ -14,37 +14,39 @@ concurrency:
 
 jobs:
   update:
-    name: Fetch & Build Hosts
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Fetch Sources
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
 
           declare -A SOURCES=(
+
             ["ads-track/adguard.txt"]="https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
             ["ads-track/d3host.txt"]="https://raw.githubusercontent.com/Turtlecute33/toolz/master/src/d3host.adblock"
+
             ["fakenews/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
             ["gambling/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
             ["porn/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
             ["unified/stevenblack.txt"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
-            ["porn/oisd-nsfw"]="https://nsfw.oisd.nl"
+
+            ["porn/oisd"]="https://nsfw.oisd.nl"
             ["ads-track/oisd"]="https://big.oisd.nl"
+
             ["hagezi/ultimate"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt"
-            ["hagezi/Threat-Intelligence-Feeds"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
-            ["hagezi/Dynamic-DNS-blocking"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt"
-            ["hagezi/Badware-Hoster-blocking"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt"
-            ["hagezi/Most-Abused-TLDs"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt"
-            ["hagezi/Newly-Registered-Domains"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga30.txt"
-            ["hagezi/Gambling"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
-            ["hagezi/Anti-Piracy"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt"
-            ["hagezi/Safesearch-not-supported"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt"
-            ["hagezi/DoH-VPN-TOR-Proxy-Bypass"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt"
+            ["hagezi/tif"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
+            ["hagezi/dyndns"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt"
+            ["hagezi/hoster"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt"
+            ["hagezi/spam-tlds"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt"
+            ["hagezi/dga"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga30.txt"
+            ["hagezi/gambling"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
+            ["hagezi/anti-piracy"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt"
+            ["hagezi/nosafesearch"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt"
+            ["hagezi/doh"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt"
             ["hagezi/nsfw"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt"
           )
 
@@ -53,79 +55,75 @@ jobs:
 
           for path in "${!SOURCES[@]}"; do
             url="${SOURCES[$path]}"
-            mkdir -p "hosts/$(dirname "$path")"
-            echo "Downloading: $path"
-            curl -fsSL "$url" -o "hosts/$path"
+            dest="hosts/$path"
+
+            mkdir -p "$(dirname "$dest")"
+
+            echo "Downloading $path"
+
+            curl -A "Mozilla/5.0" \
+                 --retry 4 \
+                 --retry-delay 5 \
+                 --connect-timeout 30 \
+                 -fsSL "$url" -o "$dest"
           done
 
       - name: Generate README
         shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
 
-          BASE_URL="https://raw.githubusercontent.com/${{ github.repository }}/main"
+          BASE="https://raw.githubusercontent.com/${{ github.repository }}/main"
 
           total=0
 
-          {
-            echo "# Blacklist Hosts"
-            echo ""
-            echo "Curated multi-source domain block registry."
-            echo ""
-            echo "## 📊 Statistics"
-            echo ""
-            echo "| File | Domains |"
-            echo "|------|----------|"
-          } > README.md
+          mkdir -p .
 
-          while IFS= read -r file; do
+          cat > README.md <<EOF
+          # Blacklist Hosts
 
-  if [[ "$file" == *.txt ]]; then
-    # adblock-style list: count rules like ||domain^
-    count=$(grep -E '^\s*\|\|[^@][^/]+?\^' "$file" \
-      | grep -vE '^\s*@@' \
-      | wc -l)
-  else
-    # hosts-file style (plain host per line)
-    count=$(grep -vE '^\s*([#\!]|127\.0\.0\.1)' "$file" \
-      | awk '{print $2}' \
-      | sort -u \
-      | wc -l)
-  fi
+          Curated multi-source domain block registry.
 
-  total=$((total + count))
+          ## Statistics
 
-  echo "| [\`$file\`](${BASE_URL}/$file) | $count |" >> README.md
+          | File | Domains |
+          |------|--------|
+          EOF
 
-done < <(find hosts -type f | sort)
+          while read -r file; do
 
-          {
-            echo ""
-            echo "**Total Blocked Domains:** $total"
-            echo ""
-            echo "🕒 Last Updated: \`$(TZ="Asia/Jakarta" date '+%Y-%m-%d %H:%M WIB')\`"
-          } >> README.md
+            if [[ "$file" == *.txt ]]; then
+              count=$(grep -E '^\|\|[^@].*\^' "$file" | wc -l || true)
+            else
+              count=$(grep -vE '^(#|!|$)' "$file" \
+                      | awk '{print $2}' \
+                      | sort -u \
+                      | wc -l || true)
+            fi
+
+            total=$((total + count))
+
+            echo "| [\`$file\`]($BASE/$file) | $count |" >> README.md
+
+          done < <(find hosts -type f | sort)
+
+          echo "" >> README.md
+          echo "**Total Domains:** $total" >> README.md
+          echo "" >> README.md
+          echo "Last Updated: $(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')" >> README.md
 
       - name: Commit Changes
-        shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
 
-          git config user.name "github-actions[bot]"
-git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-git add hosts README.md
+          git add .
 
-if git diff --cached --quiet; then
-  echo "No changes detected."
-  exit 0
-fi
+          git diff --cached --quiet && exit 0
 
-git commit -m "chore: update hosts registry"
+          git commit -m "auto: update hosts"
 
-for i in {1..5}; do
-  git pull --rebase origin main && break
-  sleep 2
-done
-
-git push --force-with-lease origin main
+          git pull --rebase origin main || true
+          git push origin HEAD:main
