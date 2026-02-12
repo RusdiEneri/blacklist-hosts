@@ -1,17 +1,12 @@
 name: Update Hosts Registry
 
 on:
-  push:
   schedule:
     - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: update-hosts
-  cancel-in-progress: true
 
 jobs:
   update:
@@ -20,7 +15,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch Sources (RAW)
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install HostlistCompiler
+        run: |
+          git clone https://github.com/AdguardTeam/HostlistCompiler.git
+          cd HostlistCompiler
+          dotnet publish -c Release -o ../hlc
+
+      - name: Fetch & Process Sources
         shell: bash
         run: |
           set -Eeuo pipefail
@@ -29,61 +34,50 @@ jobs:
 
             ["ads-track/adguard"]="https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
             ["ads-track/oisd-big"]="https://big.oisd.nl"
-            ["ads-track/oisd-small"]="https://small.oisd.nl"
-
-            ["ads-track/1hosts-lite"]="https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
             ["ads-track/1hosts-xtra"]="https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
 
-            ["unified/stevenblack"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
-
             ["hagezi/ultimate"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt"
-            ["hagezi/dga"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dga30.txt"
-            ["hagezi/doh"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
-            ["hagezi/tif"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt"
 
             ["security/urlhaus"]="https://urlhaus.abuse.ch/downloads/hostfile/"
             ["security/phishing-army"]="https://phishing.army/download/phishing_army_blocklist_extended.txt"
-            ["security/nocoin"]="https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
-            ["security/abuse-urlhaus"]="https://urlhaus.abuse.ch/downloads/hostfile/"
-            ["security/abuse-threatfox"]="https://threatfox.abuse.ch/downloads/hostfile/"
-            ["security/botvrij"]="https://www.botvrij.eu/data/ioclist.hostname"
-            ["security/blocklistproject-malware"]="https://blocklistproject.github.io/Lists/abuse.txt"
-            ["security/blocklistproject-phishing"]="https://blocklistproject.github.io/Lists/phishing.txt"
-            ["security/blocklistproject-ransomware"]="https://blocklistproject.github.io/Lists/ransomware.txt"
-            ["security/blocklistproject-scam"]="https://blocklistproject.github.io/Lists/scam.txt"
-            ["security/dynamic-dns"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
-            ["security/proxy-list"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
-            ["security/tor-exit"]="https://check.torproject.org/torbulkexitlist"
-            ["policy/gambling"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
-            ["policy/porn"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
-            ["policy/social"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/social.txt"
-            ["policy/piracy"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/anti.piracy.txt"
-            ["security/spam-tlds"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt"
           )
 
-          rm -rf hosts
-          mkdir -p hosts
+          rm -rf sources hosts
+          mkdir -p sources hosts
 
-          download() {
-            local url="$1"
-            local out="$2"
+          is_adguard_compatible() {
+            file="$1"
 
-            echo "Downloading $out"
-            curl -L \
-              --retry 3 \
-              --connect-timeout 20 \
-              --max-time 300 \
-              -A "Mozilla/5.0" \
-              --fail \
-              "$url" -o "$out"
+            # cek apakah file punya format umum AGH
+            if grep -qE '^0\.0\.0\.0|^127\.0\.0\.1|\|\||^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' "$file"; then
+              return 0
+            else
+              return 1
+            fi
           }
 
           for path in "${!SOURCES[@]}"; do
             url="${SOURCES[$path]}"
+            src="sources/$(echo "$path" | tr '/' '_').txt"
             dest="hosts/$path.txt"
 
             mkdir -p "$(dirname "$dest")"
-            download "$url" "$dest"
+
+            echo "Downloading $path"
+            curl -L --retry 3 --fail "$url" -o "$src"
+
+            if is_adguard_compatible "$src"; then
+              echo "✔ Compatible → RAW copy"
+              cp "$src" "$dest"
+            else
+              echo "⚙ Compiling with HostlistCompiler"
+              echo "$PWD/$src" > input.txt
+
+              ./hlc/HostlistCompiler \
+                --input input.txt \
+                --output "$dest" \
+                --format hosts
+            fi
           done
 
       - name: Generate README
@@ -106,9 +100,9 @@ jobs:
           }
 
           cat > README.md <<EOF
-          # Blacklist Hosts
+          # Blacklist Hosts (Per Source)
 
-          Curated multi-source domain block registry (RAW).
+          Processed individually using AdGuard HostlistCompiler if required.
 
           ## Statistics
 
@@ -129,8 +123,6 @@ jobs:
 
       - name: Commit Changes
         run: |
-          set -Eeuo pipefail
-
           git config user.name github-actions
           git config user.email github-actions@github.com
 
@@ -138,7 +130,5 @@ jobs:
 
           git diff --cached --quiet && exit 0
 
-          git commit -m "auto: update hosts"
-
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git commit -m "auto: update per-source hosts"
+          git push
