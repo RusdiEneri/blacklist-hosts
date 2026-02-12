@@ -6,7 +6,7 @@ Curated multi-source domain block registry.
 
 | File | Domains |
 |------|----------|
-| [`hosts/ads-track/adguard.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/adguard.txt) | 146716 |
+| [`hosts/ads-track/adguard.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/adguard.txt) | 146739 |
 | [`hosts/ads-track/d3host.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/d3host.txt) | 133 |
 | [`hosts/ads-track/oisd`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/oisd) | 294364 |
 | [`hosts/fakenews/stevenblack.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/fakenews/stevenblack.txt) | 81546 |
@@ -21,11 +21,11 @@ Curated multi-source domain block registry.
 | [`hosts/hagezi/Safesearch-not-supported`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/Safesearch-not-supported) | 213 |
 | [`hosts/hagezi/Threat-Intelligence-Feeds`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/Threat-Intelligence-Feeds) | 598950 |
 | [`hosts/hagezi/nsfw`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/nsfw) | 69103 |
-| [`hosts/hagezi/ultimate`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/ultimate) | 304790 |
+| [`hosts/hagezi/ultimate`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/ultimate) | 305166 |
 | [`hosts/porn/oisd-nsfw`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/porn/oisd-nsfw) | 244327 |
 | [`hosts/porn/stevenblack.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/porn/stevenblack.txt) | 155148 |
 | [`hosts/unified/stevenblack.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/unified/stevenblack.txt) | 79008 |
 
-**Total Blocked Domains:** 4187462
+**Total Blocked Domains:** 4187861
 
-🕒 Last Updated: `2026-02-12 06:05 UTC`
+🕒 Last Updated: `2026-02-12 07:53 UTC`
