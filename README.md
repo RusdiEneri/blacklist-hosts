@@ -21,11 +21,11 @@ Curated multi-source domain block registry.
 | [`hosts/hagezi/Safesearch-not-supported`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/Safesearch-not-supported) | 213 |
 | [`hosts/hagezi/Threat-Intelligence-Feeds`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/Threat-Intelligence-Feeds) | 598950 |
 | [`hosts/hagezi/nsfw`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/nsfw) | 69103 |
-| [`hosts/hagezi/ultimate`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/ultimate) | 304790 |
-| [`hosts/porn/oisd-nsfw`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/porn/oisd-nsfw) | 244327 |
+| [`hosts/hagezi/ultimate`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/ultimate) | 305166 |
+| [`hosts/porn/oisd-nsfw`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/porn/oisd-nsfw) | 244326 |
 | [`hosts/porn/stevenblack.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/porn/stevenblack.txt) | 155148 |
 | [`hosts/unified/stevenblack.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/unified/stevenblack.txt) | 79008 |
 
-**Total Blocked Domains:** 4187504
+**Total Blocked Domains:** 4187879
 
-🕒 Last Updated: `2026-02-12 08:50 UTC`
+🕒 Last Updated: `2026-02-12 09:52 UTC`
