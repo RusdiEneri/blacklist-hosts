@@ -20,10 +20,17 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Install HostlistCompiler (NuGet Tool)
+      - name: Clone HostlistCompiler
         run: |
-          dotnet tool install -g Adguard.HostlistCompiler
-          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+          git clone --depth 1 https://github.com/AdguardTeam/HostlistCompiler.git
+
+      - name: Build HostlistCompiler
+        run: |
+          cd HostlistCompiler
+          dotnet restore
+          dotnet publish -c Release -o ../hlc
+          cd ..
+          chmod +x hlc/HostlistCompiler
 
       - name: Fetch & Process Sources
         shell: bash
