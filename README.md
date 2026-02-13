@@ -8,9 +8,9 @@ Curated multi-source domain block registry (RAW).
 |------|--------|
 | [`hosts/ads-track/1hosts-lite.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/1hosts-lite.txt) | 93825 |
 | [`hosts/ads-track/1hosts-xtra.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/1hosts-xtra.txt) | 927085 |
-| [`hosts/ads-track/adguard.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/adguard.txt) | 146847 |
-| [`hosts/ads-track/oisd-big.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/oisd-big.txt) | 254714 |
-| [`hosts/ads-track/oisd-small.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/oisd-small.txt) | 50935 |
+| [`hosts/ads-track/adguard.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/adguard.txt) | 146876 |
+| [`hosts/ads-track/oisd-big.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/oisd-big.txt) | 254684 |
+| [`hosts/ads-track/oisd-small.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/ads-track/oisd-small.txt) | 50895 |
 | [`hosts/hagezi/dga.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/dga.txt) | 1993643 |
 | [`hosts/hagezi/doh.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/doh.txt) | 13972 |
 | [`hosts/hagezi/tif.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/hagezi/tif.txt) | 612519 |
@@ -19,8 +19,8 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/policy/piracy.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/policy/piracy.txt) | 11735 |
 | [`hosts/policy/porn.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/policy/porn.txt) | 155187 |
 | [`hosts/policy/social.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/policy/social.txt) | 888 |
-| [`hosts/security/abuse-threatfox.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/abuse-threatfox.txt) | 47173 |
-| [`hosts/security/abuse-urlhaus.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/abuse-urlhaus.txt) | 557 |
+| [`hosts/security/abuse-threatfox.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/abuse-threatfox.txt) | 47291 |
+| [`hosts/security/abuse-urlhaus.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/abuse-urlhaus.txt) | 559 |
 | [`hosts/security/blocklistproject-malware.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/blocklistproject-malware.txt) | 435155 |
 | [`hosts/security/blocklistproject-phishing.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/blocklistproject-phishing.txt) | 190222 |
 | [`hosts/security/blocklistproject-ransomware.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/blocklistproject-ransomware.txt) | 1904 |
@@ -28,13 +28,13 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/security/botvrij.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/botvrij.txt) | 2 |
 | [`hosts/security/dynamic-dns.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/dynamic-dns.txt) | 1482 |
 | [`hosts/security/nocoin.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/nocoin.txt) | 313 |
-| [`hosts/security/phishing-army.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/phishing-army.txt) | 155315 |
+| [`hosts/security/phishing-army.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/phishing-army.txt) | 155387 |
 | [`hosts/security/proxy-list.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/proxy-list.txt) | 81587 |
 | [`hosts/security/spam-tlds.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/spam-tlds.txt) | 435 |
 | [`hosts/security/tor-exit.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/tor-exit.txt) | 1335 |
-| [`hosts/security/urlhaus.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/urlhaus.txt) | 557 |
+| [`hosts/security/urlhaus.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/security/urlhaus.txt) | 559 |
 | [`hosts/unified/stevenblack.txt`](https://raw.githubusercontent.com/IlhamRustdist/blacklist-hosts/main/hosts/unified/stevenblack.txt) | 79081 |
 
-**Total Domains (Sum of Lists):** 5648080
+**Total Domains (Sum of Lists):** 5648233
 
-Last Updated: 2026-02-13 13:07 WIB
+Last Updated: 2026-02-13 14:53 WIB
