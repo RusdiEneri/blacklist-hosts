@@ -1,11 +1,14 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-13 16:47:29 UTC                        #
+# Last updated: 2026-02-13 17:04:19 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	calc-rn1.connect8mathem.coupons
+127.0.0.1	trustconnectsoftware.com
+127.0.0.1	formula.connect8mathem.coupons
 127.0.0.1	c9n4p.connect8mathem.coupons
 127.0.0.1	pr0ph3t.fortune23tv.coupons
 127.0.0.1	oracle.fortune23tv.coupons
@@ -56705,5 +56708,4 @@
 127.0.0.1	cofik60057-64752.portmap.host
 127.0.0.1	px.zcidc.net
 127.0.0.1	inverterpos.duckdns.org
-127.0.0.1	data.death-angel.shop
-# Number of entries: 56700
+# Number of entries: 56702

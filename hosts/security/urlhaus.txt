@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-13 16:49:06 (UTC)                      #
+# Last updated: 2026-02-13 17:32:08 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -59,7 +59,6 @@
 127.0.0.1	bbb.xfrwu.cn
 127.0.0.1	benn4x.brisk7dento.coupons
 127.0.0.1	beyond.trak8lin4zo.ru
-127.0.0.1	bfacollege.co.in
 127.0.0.1	biducaconfeitos.com.br
 127.0.0.1	blaiz.me
 127.0.0.1	blessdayservices.org
@@ -75,6 +74,7 @@
 127.0.0.1	bvaco.com
 127.0.0.1	c1ear-v.clint9vargo.coupons
 127.0.0.1	c9n4p.connect8mathem.coupons
+127.0.0.1	calc-rn1.connect8mathem.coupons
 127.0.0.1	cambodiatouristservice.com
 127.0.0.1	carry.plax482verdi.coupons
 127.0.0.1	cat.xiaoshabi.nl
@@ -177,6 +177,7 @@
 127.0.0.1	first-security-verden.de
 127.0.0.1	fjord305.offer6orchard.coupons
 127.0.0.1	flyingmutts.com
+127.0.0.1	formula.connect8mathem.coupons
 127.0.0.1	frvrefrigeracao.com.br
 127.0.0.1	ftp.ywxww.net
 127.0.0.1	fukt.link
@@ -586,4 +587,4 @@
 127.0.0.1	zephyr41.overplaymarbles.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 580
+# Number of entries: 581
