@@ -1,11 +1,17 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-13 11:12:01 UTC                        #
+# Last updated: 2026-02-13 12:56:58 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	z9t2d.drift2cargo.coupons
+127.0.0.1	harbor.plint7marco.coupons
+127.0.0.1	k4m8q.plint7marco.coupons
+127.0.0.1	n0va-rn.brisk4tango.coupons
+127.0.0.1	echo3.brisk4tango.coupons
+127.0.0.1	x7p9a.brisk4tango.coupons
 127.0.0.1	legend.griv8ton5za.ru
 127.0.0.1	laalmirchitakeaway.co.uk
 127.0.0.1	wunder.griv8ton5za.ru
@@ -56623,8 +56629,4 @@
 127.0.0.1	squeaxz.top
 127.0.0.1	maoismn.top
 127.0.0.1	email.atmgift.com
-127.0.0.1	bestoffivem.online
-127.0.0.1	trust-mpg.gl.at.ply.gg
-127.0.0.1	mission-dude.gl.at.ply.gg
-127.0.0.1	z10nx711111111-61801.portmap.host
-# Number of entries: 56621
+# Number of entries: 56623

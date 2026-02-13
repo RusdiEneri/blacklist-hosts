@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-13 11:20:21 (UTC)                      #
+# Last updated: 2026-02-13 12:58:07 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -60,7 +60,6 @@
 127.0.0.1	beyond.trak8lin4zo.ru
 127.0.0.1	bfacollege.co.in
 127.0.0.1	biducaconfeitos.com.br
-127.0.0.1	bins.herios.st
 127.0.0.1	blaiz.me
 127.0.0.1	blessdayservices.org
 127.0.0.1	blogs.sokun.jp
@@ -68,7 +67,6 @@
 127.0.0.1	bombayonline.in
 127.0.0.1	book.rollingvideogames.com
 127.0.0.1	bracell.latitude.net.br
-127.0.0.1	bravery.fron4tek7ly.ru
 127.0.0.1	breeze.travelvoucher.coupons
 127.0.0.1	bridgeroad.maverickpreviews.com
 127.0.0.1	brightworks.cz
@@ -134,7 +132,6 @@
 127.0.0.1	dl.dzqzd.com
 127.0.0.1	dl.natgo.cn
 127.0.0.1	donkeytourscroatia.com
-127.0.0.1	donner.plar9ten2zo.ru
 127.0.0.1	down.54nb.com
 127.0.0.1	down.fwqlt.com
 127.0.0.1	down.pcclear.com
@@ -156,6 +153,7 @@
 127.0.0.1	dweixin.cn
 127.0.0.1	dyzc.cn
 127.0.0.1	easybrand.vn
+127.0.0.1	echo3.brisk4tango.coupons
 127.0.0.1	echo918.discount5den.coupons
 127.0.0.1	electri.billregulator.com
 127.0.0.1	elisans.novayonetim.com
@@ -164,7 +162,6 @@
 127.0.0.1	en.taichuan.com
 127.0.0.1	energy63.ru
 127.0.0.1	epanpano.com
-127.0.0.1	espoir.plar9ten2zo.ru
 127.0.0.1	estudio.ythan.com.br
 127.0.0.1	evangroup.ru
 127.0.0.1	fakers.co.jp
@@ -175,7 +172,6 @@
 127.0.0.1	file.uhsea.com
 127.0.0.1	filerit.com
 127.0.0.1	filezilla.cc
-127.0.0.1	finesse.plon6var1ty.ru
 127.0.0.1	first-security-verden.de
 127.0.0.1	fjord305.offer6orchard.coupons
 127.0.0.1	flyingmutts.com
@@ -196,6 +192,7 @@
 127.0.0.1	grikom.info
 127.0.0.1	gutando.com
 127.0.0.1	harbor.enter483pro.coupons
+127.0.0.1	harbor.plint7marco.coupons
 127.0.0.1	harbor.rewardwallet.coupons
 127.0.0.1	hasalltalent.com
 127.0.0.1	hass-8r3p.plax482verdi.coupons
@@ -213,7 +210,6 @@
 127.0.0.1	ideprea.icu
 127.0.0.1	igra123.com
 127.0.0.1	iiiconstruction.net
-127.0.0.1	infinity.glor5ven2ta.ru
 127.0.0.1	injectroblox.ru
 127.0.0.1	innaflux.com
 127.0.0.1	innlive.in
@@ -229,11 +225,11 @@
 127.0.0.1	joyeriatauro.com
 127.0.0.1	jungle.pricepirate.coupons
 127.0.0.1	jyothishmathi.in
+127.0.0.1	k4m8q.plint7marco.coupons
 127.0.0.1	k4n7a3n.favour128influen.coupons
 127.0.0.1	k9x5nff.tronk6vesta.coupons
 127.0.0.1	kamin-premium.ru
 127.0.0.1	karoonpc.com
-127.0.0.1	kavacanada.ca
 127.0.0.1	khavar.com
 127.0.0.1	khoancatbetong89.vn
 127.0.0.1	kobilen.icu
@@ -268,6 +264,7 @@
 127.0.0.1	mango72k.valuevault8.coupons
 127.0.0.1	marlin204.promoportal4.coupons
 127.0.0.1	meat-9q2t.unt452hub.coupons
+127.0.0.1	meetvideogoogle.com
 127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	metrics.gocloudmaps.com
 127.0.0.1	mirage.glor5ven2ta.ru
@@ -284,6 +281,7 @@
 127.0.0.1	muzzumilruheel.com
 127.0.0.1	my-expense.nishant-labs.com
 127.0.0.1	n.vs108.com
+127.0.0.1	n0va-rn.brisk4tango.coupons
 127.0.0.1	ncxps.com
 127.0.0.1	ndirection.kr
 127.0.0.1	ndown2.ra2ol.com
@@ -339,6 +337,7 @@
 127.0.0.1	pass5x1m.favour128influen.coupons
 127.0.0.1	pay.aqiu6.com
 127.0.0.1	pburl.link
+127.0.0.1	pcupd.com
 127.0.0.1	petal.beautybundle.coupons
 127.0.0.1	pid.fly160.com
 127.0.0.1	pin-up0045.com
@@ -346,6 +345,7 @@
 127.0.0.1	pixel.dealfinder.coupons
 127.0.0.1	planetariumobil.ro
 127.0.0.1	plasma707.promoportal4.coupons
+127.0.0.1	play.mclighthouse.ir
 127.0.0.1	pns.org.pk
 127.0.0.1	pobedastaff.ru
 127.0.0.1	polar9dash.bargainbridge1.coupons
@@ -378,6 +378,7 @@
 127.0.0.1	res.advisort.com
 127.0.0.1	resourceedge.org
 127.0.0.1	resume.management
+127.0.0.1	reusable-flex.com
 127.0.0.1	rewardclaimpoint.info
 127.0.0.1	rheddh.com
 127.0.0.1	riderspin.com
@@ -408,6 +409,7 @@
 127.0.0.1	sierra14.bonus7basket.coupons
 127.0.0.1	simbhaolisugars.in
 127.0.0.1	sk-comtel.com
+127.0.0.1	skanswers.com
 127.0.0.1	skillnorequired.cc
 127.0.0.1	smartermail.host
 127.0.0.1	soft.110route.com
@@ -424,7 +426,6 @@
 127.0.0.1	static.youdm.cn
 127.0.0.1	stdown.dinju.com
 127.0.0.1	steam66.cn
-127.0.0.1	stille.fron4tek7ly.ru
 127.0.0.1	stonecradle.com
 127.0.0.1	studiogioeli.it
 127.0.0.1	summit.dealfinder.coupons
@@ -458,6 +459,7 @@
 127.0.0.1	transalpinafan.ro
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	trtmyanmar.com
+127.0.0.1	tsmau.com
 127.0.0.1	tukotoks-uz.sbs
 127.0.0.1	tundra803.savvy3spree.coupons
 127.0.0.1	tyahelp.top
@@ -493,12 +495,12 @@
 127.0.0.1	willow.bargainhunter.coupons
 127.0.0.1	windomstatetheater.com
 127.0.0.1	wittenhorst.eu
-127.0.0.1	wunder.griv8ton5za.ru
 127.0.0.1	www.api.nishant-labs.com
 127.0.0.1	www.ardguisser.com
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
 127.0.0.1	www.backupallfresh2030.com
+127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
 127.0.0.1	www.bratusferramentas.grupomoltz.com.br
 127.0.0.1	www.cippe.com.cn
@@ -524,6 +526,7 @@
 127.0.0.1	www.newkey.co.kr
 127.0.0.1	www.notbak.com
 127.0.0.1	www.ojang.pe.kr
+127.0.0.1	www.okhan.net
 127.0.0.1	www.opolis.io
 127.0.0.1	www.pin-up0045.com
 127.0.0.1	www.playtown.co.za
@@ -554,6 +557,7 @@
 127.0.0.1	x400l.ltangarorw.org
 127.0.0.1	x49k7m.buckshot3hha.coupons
 127.0.0.1	x77r44p.rye93shishaty.coupons
+127.0.0.1	x7p9a.brisk4tango.coupons
 127.0.0.1	xai830k.com
 127.0.0.1	xanax.enzostress.st
 127.0.0.1	xdcq3.com
@@ -569,6 +573,7 @@
 127.0.0.1	yourdox.icu
 127.0.0.1	youtransfer.net
 127.0.0.1	z4kt1r.tronk6vesta.coupons
+127.0.0.1	z9t2d.drift2cargo.coupons
 127.0.0.1	zamilgroups.com
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
@@ -576,6 +581,5 @@
 127.0.0.1	zephyr41.overplaymarbles.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zoom.hopquatet.net
-127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
-# Number of entries: 572
+# Number of entries: 576
