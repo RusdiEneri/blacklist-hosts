@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-13 07:45:20 (UTC)                      #
+# Last updated: 2026-02-13 08:43:13 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -26,7 +26,6 @@
 127.0.0.1	adobeappsxpyrf-update.click
 127.0.0.1	adver.com.br
 127.0.0.1	agence-immobiliere-lyon.com
-127.0.0.1	ahnbbd.com
 127.0.0.1	alarmline.com.br
 127.0.0.1	alineeleuterio.com.br
 127.0.0.1	aliyundunupdate.xyz
@@ -69,6 +68,7 @@
 127.0.0.1	bombayonline.in
 127.0.0.1	book.rollingvideogames.com
 127.0.0.1	bracell.latitude.net.br
+127.0.0.1	bravery.fron4tek7ly.ru
 127.0.0.1	breeze.travelvoucher.coupons
 127.0.0.1	bridgeroad.maverickpreviews.com
 127.0.0.1	brightworks.cz
@@ -514,7 +514,6 @@
 127.0.0.1	www.newkey.co.kr
 127.0.0.1	www.notbak.com
 127.0.0.1	www.ojang.pe.kr
-127.0.0.1	www.okhan.net
 127.0.0.1	www.opolis.io
 127.0.0.1	www.pin-up0045.com
 127.0.0.1	www.playtown.co.za
@@ -544,8 +543,8 @@
 127.0.0.1	x1-n9q.prong8tatsky.coupons
 127.0.0.1	x49k7m.buckshot3hha.coupons
 127.0.0.1	x77r44p.rye93shishaty.coupons
+127.0.0.1	xanax.enzostress.st
 127.0.0.1	xdcq3.com
-127.0.0.1	xemhang.vn
 127.0.0.1	xenon.studio
 127.0.0.1	xerpa.flint09marko.coupons
 127.0.0.1	xn--90abegbttpjb3bzb2j.xn--p1ai
@@ -565,4 +564,4 @@
 127.0.0.1	zephyr41.overplaymarbles.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 559
+# Number of entries: 558

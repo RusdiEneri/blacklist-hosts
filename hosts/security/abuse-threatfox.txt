@@ -1,11 +1,15 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-13 07:28:41 UTC                        #
+# Last updated: 2026-02-13 08:33:46 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	clartã©.tron6val4ky.ru
+127.0.0.1	huu.emiraride.com
+127.0.0.1	huu.megaexdistribuidora.com.br
+127.0.0.1	bravery.fron4tek7ly.ru
 127.0.0.1	7zip.cloud
 127.0.0.1	pulse.herosms.cc
 127.0.0.1	spark.herosms.io
@@ -56616,5 +56620,4 @@
 127.0.0.1	mission-dude.gl.at.ply.gg
 127.0.0.1	z10nx711111111-61801.portmap.host
 127.0.0.1	venom-lazarus.life
-127.0.0.1	blq.death-angel.shop
-# Number of entries: 56611
+# Number of entries: 56614
