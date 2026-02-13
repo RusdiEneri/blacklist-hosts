@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-13 18:49:07 (UTC)                      #
+# Last updated: 2026-02-13 19:37:05 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -14,7 +14,6 @@
 127.0.0.1	2.off3.ru
 127.0.0.1	655rd9or.caretouched.digital
 127.0.0.1	a6mm9t.glint39parko.coupons
-127.0.0.1	a6t9q.whirl189wind.coupons
 127.0.0.1	a7k3z.unt452hub.coupons
 127.0.0.1	abissnet.net
 127.0.0.1	acaviationsupplies.com
@@ -33,6 +32,7 @@
 127.0.0.1	allendostmen.com
 127.0.0.1	allister.ee
 127.0.0.1	alternativas.ru
+127.0.0.1	altstadt.ja8u2rudila.ru
 127.0.0.1	anchor.pricepirate.coupons
 127.0.0.1	antvietnam.com
 127.0.0.1	api.nishant-labs.com
@@ -41,6 +41,7 @@
 127.0.0.1	apple-service93.ru
 127.0.0.1	ardena.pro
 127.0.0.1	areyouready.co.za
+127.0.0.1	argentvif.8etmon1sto.ru
 127.0.0.1	ark7r5k.kolos56tomat.coupons
 127.0.0.1	artacom.com.br
 127.0.0.1	asl-company.ru
@@ -71,9 +72,7 @@
 127.0.0.1	bridgeroad.maverickpreviews.com
 127.0.0.1	brightworks.cz
 127.0.0.1	bvaco.com
-127.0.0.1	c1ear-v.clint9vargo.coupons
 127.0.0.1	c9n4p.connect8mathem.coupons
-127.0.0.1	calc-rn1.connect8mathem.coupons
 127.0.0.1	cambodiatouristservice.com
 127.0.0.1	carry.plax482verdi.coupons
 127.0.0.1	cat.xiaoshabi.nl
@@ -104,6 +103,7 @@
 127.0.0.1	computersupportexperts.com
 127.0.0.1	connects-magiceden.io
 127.0.0.1	continentalgroup.net.in
+127.0.0.1	corepilatesnicaragua.com
 127.0.0.1	corporacioncrf.com
 127.0.0.1	crimefreesoftware.com
 127.0.0.1	crystal.travelvoucher.coupons
@@ -150,6 +150,7 @@
 127.0.0.1	downloads.beaconvistamedical.com
 127.0.0.1	dowonline.ru
 127.0.0.1	dreamwatchevent.com
+127.0.0.1	drevos.ro
 127.0.0.1	drift8wave.coupon9cabin.coupons
 127.0.0.1	dusttv.com
 127.0.0.1	dweixin.cn
@@ -176,7 +177,6 @@
 127.0.0.1	first-security-verden.de
 127.0.0.1	fjord305.offer6orchard.coupons
 127.0.0.1	flyingmutts.com
-127.0.0.1	formula.connect8mathem.coupons
 127.0.0.1	frvrefrigeracao.com.br
 127.0.0.1	ftp.ywxww.net
 127.0.0.1	fukt.link
@@ -189,12 +189,11 @@
 127.0.0.1	glacier.art67quarrel.coupons
 127.0.0.1	glanz.trak8lin4zo.ru
 127.0.0.1	globaltechbilling.com
-127.0.0.1	gobiotechpestcontrol.com
+127.0.0.1	goldcoin.8etmon1sto.ru
 127.0.0.1	gordon-and-son.com
 127.0.0.1	grikom.info
 127.0.0.1	gutando.com
 127.0.0.1	harbor.enter483pro.coupons
-127.0.0.1	harbor.plint7marco.coupons
 127.0.0.1	harbor.rewardwallet.coupons
 127.0.0.1	hasalltalent.com
 127.0.0.1	hass-8r3p.plax482verdi.coupons
@@ -202,8 +201,10 @@
 127.0.0.1	hitman-pro.ru
 127.0.0.1	hitstation.nl
 127.0.0.1	hjekd8c.huowdy.com
+127.0.0.1	hobobot.net
 127.0.0.1	hotellacastellana.com.uy
 127.0.0.1	hqweb.id.vn
+127.0.0.1	hseda.com
 127.0.0.1	i.404.pm
 127.0.0.1	icoffeecloud.com
 127.0.0.1	id3basketball.com
@@ -225,7 +226,6 @@
 127.0.0.1	joyeriatauro.com
 127.0.0.1	jungle.pricepirate.coupons
 127.0.0.1	jyothishmathi.in
-127.0.0.1	k4m8q.plint7marco.coupons
 127.0.0.1	k4n7a3n.favour128influen.coupons
 127.0.0.1	k9x5nff.tronk6vesta.coupons
 127.0.0.1	kamin-premium.ru
@@ -280,7 +280,6 @@
 127.0.0.1	muzzumilruheel.com
 127.0.0.1	my-expense.nishant-labs.com
 127.0.0.1	n.vs108.com
-127.0.0.1	n0va-rn.brisk4tango.coupons
 127.0.0.1	ncxps.com
 127.0.0.1	ndirection.kr
 127.0.0.1	ndown2.ra2ol.com
@@ -327,10 +326,8 @@
 127.0.0.1	our.wolfeadvisory.com
 127.0.0.1	owlcity.ru
 127.0.0.1	p3.zbjimg.com
-127.0.0.1	p8x4n.mile163stone.coupons
 127.0.0.1	palharesinformatica.com.br
 127.0.0.1	panychurasc0.com
-127.0.0.1	papeoficial.com.br
 127.0.0.1	parmisbuilding.com
 127.0.0.1	pass5x1m.favour128influen.coupons
 127.0.0.1	pburl.link
@@ -342,7 +339,6 @@
 127.0.0.1	pixel.dealfinder.coupons
 127.0.0.1	planetariumobil.ro
 127.0.0.1	plasma707.promoportal4.coupons
-127.0.0.1	play.mclighthouse.ir
 127.0.0.1	pns.org.pk
 127.0.0.1	pobedastaff.ru
 127.0.0.1	polar9dash.bargainbridge1.coupons
@@ -359,7 +355,7 @@
 127.0.0.1	r332a8q.buckshot3hha.coupons
 127.0.0.1	r4ven.unt452hub.coupons
 127.0.0.1	r5k0t.flint09marko.coupons
-127.0.0.1	r5m2x.fortune23tv.coupons
+127.0.0.1	raksun.in
 127.0.0.1	ramactools.net
 127.0.0.1	ramirex.ro
 127.0.0.1	ransokk.de
@@ -406,7 +402,6 @@
 127.0.0.1	shop.mediasova.ru
 127.0.0.1	shqdown.ggzuhao.com
 127.0.0.1	sierra14.bonus7basket.coupons
-127.0.0.1	signal.clint9vargo.coupons
 127.0.0.1	simbhaolisugars.in
 127.0.0.1	sk-comtel.com
 127.0.0.1	skanswers.com
@@ -414,13 +409,13 @@
 127.0.0.1	smartermail.host
 127.0.0.1	soft.110route.com
 127.0.0.1	softcatalog.ru
+127.0.0.1	softswapp.com
 127.0.0.1	solstice77.reward2rocket.coupons
 127.0.0.1	solutelco.com
 127.0.0.1	sonnyangel.us
 127.0.0.1	sourire.brav7mon3ky.ru
 127.0.0.1	sparrow.way17call-in.coupons
-127.0.0.1	st0ne-rn.mile163stone.coupons
-127.0.0.1	static.ilclock.com
+127.0.0.1	spoar.org.in
 127.0.0.1	static.topxgun.com
 127.0.0.1	static.youdm.cn
 127.0.0.1	stdown.dinju.com
@@ -469,8 +464,6 @@
 127.0.0.1	update.volam2005pk.com
 127.0.0.1	upsinfo2025.com
 127.0.0.1	vagler.ru
-127.0.0.1	vcc-library.uk
-127.0.0.1	vedantawisdom.org
 127.0.0.1	velvet.beautybundle.coupons
 127.0.0.1	versaclean.com.br
 127.0.0.1	veryboys.com
@@ -563,6 +556,7 @@
 127.0.0.1	xdcq3.com
 127.0.0.1	xemhang.vn
 127.0.0.1	xenon.studio
+127.0.0.1	xenos.love
 127.0.0.1	xerpa.flint09marko.coupons
 127.0.0.1	xn--90abegbttpjb3bzb2j.xn--p1ai
 127.0.0.1	xn--b1afiqif6c.xn--p1ai
@@ -574,7 +568,6 @@
 127.0.0.1	yourdox.icu
 127.0.0.1	youtransfer.net
 127.0.0.1	z4kt1r.tronk6vesta.coupons
-127.0.0.1	z9t2d.drift2cargo.coupons
 127.0.0.1	zamilgroups.com
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
@@ -582,4 +575,4 @@
 127.0.0.1	zephyr41.overplaymarbles.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 576
+# Number of entries: 569
