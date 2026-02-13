@@ -1,11 +1,15 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-12 22:58:04 UTC                        #
+# Last updated: 2026-02-13 00:22:10 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	vision.klon2par6si.ru
+127.0.0.1	freiheit.drim9sol3ka.ru
+127.0.0.1	lumiere.drim9sol3ka.ru
+127.0.0.1	beyond.trak8lin4zo.ru
 127.0.0.1	glanz.trak8lin4zo.ru
 127.0.0.1	miraclemiracleoluwa.duckdns.org
 127.0.0.1	greatthingshapppenthanku.duckdns.org
@@ -56495,4 +56499,4 @@
 127.0.0.1	security.flavregurads.com
 127.0.0.1	dekelins.com
 127.0.0.1	flyinglotuss.shop
-# Number of entries: 56489
+# Number of entries: 56493
