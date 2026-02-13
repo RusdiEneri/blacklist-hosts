@@ -1,11 +1,14 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-13 22:07:50 UTC                        #
+# Last updated: 2026-02-13 22:47:33 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	www.timaglobalservices.com
+127.0.0.1	www.timaglobalservicesbackup1.com
+127.0.0.1	www.timaglobalservicesbackup2.com
 127.0.0.1	grandmonde.f2ctoryp1anet.ru
 127.0.0.1	globalwork.f2ctoryp1anet.ru
 127.0.0.1	geheimcode.cav1ng5cript.ru
@@ -56725,5 +56728,4 @@
 127.0.0.1	mar-cant.gl.at.ply.gg
 127.0.0.1	ec2-3-8-147-54.eu-west-2.compute.amazonaws.com
 127.0.0.1	amaprox.click
-127.0.0.1	fog.death-angel.shop
-# Number of entries: 56720
+# Number of entries: 56722
