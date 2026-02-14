@@ -1,11 +1,13 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 17:18:36 UTC                        #
+# Last updated: 2026-02-14 18:04:42 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	hoathinh3d.la
+127.0.0.1	gomabkiruna.ru.com
 127.0.0.1	h0m0-vvex.homo483geneous.coupons
 127.0.0.1	artifact.homo483geneous.coupons
 127.0.0.1	p8x1m.homo483geneous.coupons
@@ -56853,9 +56855,4 @@
 127.0.0.1	strm.messager.my
 127.0.0.1	host0.tryfancify.com
 127.0.0.1	xuyo.org
-127.0.0.1	what-nudist.gl.at.ply.gg
-127.0.0.1	had-palmer.gl.at.ply.gg
-127.0.0.1	educare1.ddns.net
-127.0.0.1	coldalt.coldalt.com
-127.0.0.1	vvig.cc
-# Number of entries: 56852
+# Number of entries: 56849

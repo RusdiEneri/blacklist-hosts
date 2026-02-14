@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-14 17:20:07 (UTC)                      #
+# Last updated: 2026-02-14 18:27:16 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -44,7 +44,6 @@
 127.0.0.1	argentvif.8etmon1sto.ru
 127.0.0.1	ark7r5k.kolos56tomat.coupons
 127.0.0.1	artacom.com.br
-127.0.0.1	artifact.homo483geneous.coupons
 127.0.0.1	asiaengrs.com
 127.0.0.1	asl-company.ru
 127.0.0.1	assin6k7n.rye93shishaty.coupons
@@ -94,7 +93,6 @@
 127.0.0.1	checkinetverifk.com
 127.0.0.1	chinaapper.com
 127.0.0.1	chiptune.com
-127.0.0.1	chuguadventures.co.tz
 127.0.0.1	cinder930.bonus7basket.coupons
 127.0.0.1	classroomseven.com
 127.0.0.1	clipaid.app
@@ -143,6 +141,7 @@
 127.0.0.1	down.54nb.com
 127.0.0.1	down.fwqlt.com
 127.0.0.1	down.pcclear.com
+127.0.0.1	down.qqfarmer.com.cn
 127.0.0.1	download.caihong.com
 127.0.0.1	download.doumaibiji.cn
 127.0.0.1	download.haozip.com
@@ -177,6 +176,7 @@
 127.0.0.1	farschid.de
 127.0.0.1	file.blackint3.com
 127.0.0.1	file.edunet.ac
+127.0.0.1	file.uhsea.com
 127.0.0.1	filerit.com
 127.0.0.1	filezilla.cc
 127.0.0.1	finesse.plon6var1ty.ru
@@ -430,6 +430,7 @@
 127.0.0.1	solutelco.com
 127.0.0.1	sonnyangel.us
 127.0.0.1	sourire.brav7mon3ky.ru
+127.0.0.1	spoar.org.in
 127.0.0.1	st0ne-rn.mile163stone.coupons
 127.0.0.1	static.ilclock.com
 127.0.0.1	static.topxgun.com
@@ -472,7 +473,6 @@
 127.0.0.1	tr0ff3.cn
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	trtmyanmar.com
-127.0.0.1	tsmau.com
 127.0.0.1	tukotoks-uz.sbs
 127.0.0.1	tundra803.savvy3spree.coupons
 127.0.0.1	tyahelp.top
