@@ -1,11 +1,13 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 06:30:20 UTC                        #
+# Last updated: 2026-02-14 07:19:35 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	eco-nature.clairforet.coupons
+127.0.0.1	bois-vert.clairforet.coupons
 127.0.0.1	stern-fahrt.stolzmond.coupons
 127.0.0.1	mond-schein.stolzmond.coupons
 127.0.0.1	webxio1231-40781.portmap.host
@@ -56724,11 +56726,4 @@
 127.0.0.1	antique-proper-prizes-civilian.trycloudflare.com
 127.0.0.1	oxford-sri-fast-eve.trycloudflare.com
 127.0.0.1	access.skaparade.com
-127.0.0.1	redroademail.com
-127.0.0.1	vendomen.com
-127.0.0.1	captchaverift.com
-127.0.0.1	items-ana.gl.at.ply.gg
-127.0.0.1	analyticanoden.com
-127.0.0.1	security.flacergurad.com
-127.0.0.1	coverdealsforfood.icu
-# Number of entries: 56725
+# Number of entries: 56720
