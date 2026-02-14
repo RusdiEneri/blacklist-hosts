@@ -1,11 +1,59 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 14:25:29 UTC                        #
+# Last updated: 2026-02-14 15:23:56 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	uqhjqliqb4shjkmd.frostapi.com
+127.0.0.1	upload.frostapi.com
+127.0.0.1	evasivestars.com
+127.0.0.1	176.65.148.31.ptr.pfcloud.network
+127.0.0.1	ckvyonlulzcjnleiknrmvmwouqvjkgaijcagpspr.duckdns.org
+127.0.0.1	gwdvcxhfzaplyiyvcpfbdepelkxnegdnjnywopeb.duckdns.org
+127.0.0.1	qkoyfenxbyimpvnbsoibyfovpdydxjghovpqzxys.duckdns.org
+127.0.0.1	ragxggbbhytljtuxtdkltyucygeyvegfctbsurnz.duckdns.org
+127.0.0.1	uhadenozoowgoxokqgjvctlehtjmhwyocirfrjcg.duckdns.org
+127.0.0.1	portuge.cyou
+127.0.0.1	brekaz.shop
+127.0.0.1	fxplay.in
+127.0.0.1	displaysecurity.com
+127.0.0.1	liveworkplaylkn.com
+127.0.0.1	ranchernandez.store
+127.0.0.1	sportsstories.gr
+127.0.0.1	constructora-alpigroup.com
+127.0.0.1	territoriodoagro.com
+127.0.0.1	razzledazzlejewelrystore.com
+127.0.0.1	thewigdoctorshop.com
+127.0.0.1	meguri-toroge.com
+127.0.0.1	storehouseholdingsinc.com
+127.0.0.1	ajedrezchiletorneos.cl
+127.0.0.1	campbrainstorm.com
+127.0.0.1	anotherroadtutoring.com
+127.0.0.1	protectormexico.com.mx
+127.0.0.1	bekaskantor.com
+127.0.0.1	shreeshyammotors.in
+127.0.0.1	creators--cloud.com
+127.0.0.1	arnaelevators.com
+127.0.0.1	thewrightgiftstore.com
+127.0.0.1	tentori.cloud
+127.0.0.1	buckscountytaxattorney.com
+127.0.0.1	wiki.webitfactory.io
+127.0.0.1	cuve-fioul-services.fr
+127.0.0.1	divinedirectory.com
+127.0.0.1	thekeyfactor.org
+127.0.0.1	prospectorplumbing.com
+127.0.0.1	translator.isotoop.be
+127.0.0.1	smtp.bldg-restoration.com
+127.0.0.1	cyrex.cc
+127.0.0.1	cpanel.terriberrynj.com
+127.0.0.1	zjrhp8su2.localto.net
+127.0.0.1	captiort.shop
+127.0.0.1	task.osmagnatas.net
+127.0.0.1	bju1b4zl.websphere.digital
+127.0.0.1	qhqkhnsg.websphere.digital
+127.0.0.1	nab0k0v-llnk.nabokov30slam.coupons
 127.0.0.1	verbatim.nabokov30slam.coupons
 127.0.0.1	z3n7a.nabokov30slam.coupons
 127.0.0.1	pr1sk-rnate.prisk7tarvo.coupons
@@ -65,6 +113,63 @@
 127.0.0.1	ironsteel.f2bricat9sar.ru
 127.0.0.1	mainrepair.du5tmanrepai7.ru
 127.0.0.1	quickfix.du5tmanrepai7.ru
+127.0.0.1	zaraazra.mitreeki.com
+127.0.0.1	thewheel.staging.ebowdev.com
+127.0.0.1	vapekz.com
+127.0.0.1	unicprimavera.com.br
+127.0.0.1	vitanatura-gr.ekd.fwv.mybluehost.me
+127.0.0.1	spanishtravelandstudies.com
+127.0.0.1	ringer.vn
+127.0.0.1	smtp.arcmidlands.org
+127.0.0.1	testes.nsgrafica.ao
+127.0.0.1	selax.pl
+127.0.0.1	sfgraphics.com.ar
+127.0.0.1	pi.afiunemaya.com.mx
+127.0.0.1	old.se.staging.xrf.digital
+127.0.0.1	portal.habitatbonaire.com
+127.0.0.1	ns2.liposemcortes3d.com
+127.0.0.1	ns2.ivamediagroup.com
+127.0.0.1	nolamz.com
+127.0.0.1	np.hanse-werbeshop.com
+127.0.0.1	noihamxuong.cokhiviendong.com
+127.0.0.1	mail.satitravel.com
+127.0.0.1	mail.theoldschool.sc
+127.0.0.1	nhacaired88.com
+127.0.0.1	nieuwsbrief.kinderkoopjesjager.nl
+127.0.0.1	mail.residencial-primecaxias.com
+127.0.0.1	mail.rolyatmosi.com
+127.0.0.1	mail.thebluestartrans.com
+127.0.0.1	martina-riederer.de
+127.0.0.1	mail.dudethatdelivers.com
+127.0.0.1	mail.gerafort.com.br
+127.0.0.1	mail.elitechoiceig.com
+127.0.0.1	mail.guestpertpublishing.com
+127.0.0.1	mail.bestfsg.com
+127.0.0.1	lovehun.shop
+127.0.0.1	mail.afforableappliancerepair.com
+127.0.0.1	mail.caminosac.com
+127.0.0.1	invoices.plus-ed.com
+127.0.0.1	imap.arcmidlands.org
+127.0.0.1	hrh.tkn.mybluehost.me
+127.0.0.1	littlejoyonline.nl
+127.0.0.1	helmut-riederer.de
+127.0.0.1	howcouldyouloseweightfast.moneymaking-opportunities.com
+127.0.0.1	epicentreglobalevents.com
+127.0.0.1	dev.dary.com.qa
+127.0.0.1	ff-walbersdorf.at
+127.0.0.1	ftp.ndpparticipacoes.com.br
+127.0.0.1	baltonmed.ru
+127.0.0.1	ejewel.whizzo-tech.com
+127.0.0.1	faqs-postgraduate.nu.edu.eg
+127.0.0.1	clubemperor.com.sg
+127.0.0.1	bxl.myinvestment.properties
+127.0.0.1	case3.test-wl.com
+127.0.0.1	autodiscover.shalomstudios.in
+127.0.0.1	awareness.accarda.com
+127.0.0.1	assine-gap.conk.com.br
+127.0.0.1	acc.dms.mechan.nl
+127.0.0.1	aicenterworld.net
+127.0.0.1	26430.b3307.dhpage.net
 127.0.0.1	edlerkranz.be5t2lancrown.ru
 127.0.0.1	topking.be5t2lancrown.ru
 127.0.0.1	argentvif.8etmon1sto.ru
@@ -56748,5 +56853,4 @@
 127.0.0.1	coldalt.coldalt.com
 127.0.0.1	vvig.cc
 127.0.0.1	stat.messager.my
-127.0.0.1	base.death-angel.shop
-# Number of entries: 56743
+# Number of entries: 56847
