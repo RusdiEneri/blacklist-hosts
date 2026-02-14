@@ -1,11 +1,14 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 21:12:10 UTC                        #
+# Last updated: 2026-02-14 22:24:40 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	7wgxbccc.cyberlane.digital
+127.0.0.1	cqebzhel.cyberlane.digital
+127.0.0.1	p1ea-rnask.plea36slavneck.coupons
 127.0.0.1	lantern.plea36slavneck.coupons
 127.0.0.1	r2k6d.plea36slavneck.coupons
 127.0.0.1	gologpoint.com
@@ -56854,4 +56857,4 @@
 127.0.0.1	login.infodatasinc.com
 127.0.0.1	m2th3k.top
 127.0.0.1	dd.death-angel.shop
-# Number of entries: 56848
+# Number of entries: 56851
