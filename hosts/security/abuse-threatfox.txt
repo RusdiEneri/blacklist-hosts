@@ -1,11 +1,16 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 22:24:40 UTC                        #
+# Last updated: 2026-02-14 23:23:41 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	secure-login-area.cielsombre.coupons
+127.0.0.1	v3.cielsombre.coupons
+127.0.0.1	fssop-77-91-148-5.a.free.pinggy.link
+127.0.0.1	cptoptious.com
+127.0.0.1	www.xoilaciu.tv
 127.0.0.1	7wgxbccc.cyberlane.digital
 127.0.0.1	cqebzhel.cyberlane.digital
 127.0.0.1	p1ea-rnask.plea36slavneck.coupons
@@ -56857,4 +56862,4 @@
 127.0.0.1	login.infodatasinc.com
 127.0.0.1	m2th3k.top
 127.0.0.1	dd.death-angel.shop
-# Number of entries: 56851
+# Number of entries: 56856

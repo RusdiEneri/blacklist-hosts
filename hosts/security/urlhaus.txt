@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-14 22:13:11 (UTC)                      #
+# Last updated: 2026-02-14 23:22:13 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -333,6 +333,7 @@
 127.0.0.1	opencart.notebookparcalari.com
 127.0.0.1	oracle.fortune23tv.coupons
 127.0.0.1	orion.onl
+127.0.0.1	p1ea-rnask.plea36slavneck.coupons
 127.0.0.1	p3.zbjimg.com
 127.0.0.1	p8x4n.mile163stone.coupons
 127.0.0.1	palharesinformatica.com.br
@@ -477,6 +478,7 @@
 127.0.0.1	update.cg100iii.com
 127.0.0.1	update.volam2005pk.com
 127.0.0.1	upsinfo2025.com
+127.0.0.1	v3.cielsombre.coupons
 127.0.0.1	vagler.ru
 127.0.0.1	vcc-library.uk
 127.0.0.1	vector.drift2cargo.coupons
@@ -592,4 +594,4 @@
 127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
 127.0.0.1	zukunft.blen7kor2za.ru
-# Number of entries: 586
+# Number of entries: 588
