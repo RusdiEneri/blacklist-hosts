@@ -1,11 +1,15 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 01:15:52 UTC                        #
+# Last updated: 2026-02-14 03:01:52 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	webxio1231-40781.portmap.host
+127.0.0.1	7mgtwzocu.localto.net
+127.0.0.1	promo-libre.ventdoux.coupons
+127.0.0.1	www.koga.ar
 127.0.0.1	vent-frais.ventdoux.coupons
 127.0.0.1	blitz-deal.blaukraft.coupons
 127.0.0.1	top-angebot.blaukraft.coupons
@@ -56730,5 +56734,4 @@
 127.0.0.1	whiteness.hopto.org
 127.0.0.1	jajaj2024.kozow.com
 127.0.0.1	mar-cant.gl.at.ply.gg
-127.0.0.1	ec2-3-8-147-54.eu-west-2.compute.amazonaws.com
-# Number of entries: 56725
+# Number of entries: 56728
