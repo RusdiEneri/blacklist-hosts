@@ -1,11 +1,19 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-14 08:31:59 UTC                        #
+# Last updated: 2026-02-14 09:25:28 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	mon-tresor.noitresor.coupons
+127.0.0.1	vn-vlxx.com
+127.0.0.1	wald-lauf.herbstlauf.coupons
+127.0.0.1	boscodellabella.ch
+127.0.0.1	gold-zeit.herbstlauf.coupons
+127.0.0.1	t72k-30675.portmap.host
+127.0.0.1	ggmenp120-43957.portmap.host
+127.0.0.1	odayrifaii-37201.portmap.host
 127.0.0.1	nuit-douce.revesage.coupons
 127.0.0.1	hotehotehotel123.dynuddns.com
 127.0.0.1	grand-reve.revesage.coupons
@@ -56728,7 +56736,4 @@
 127.0.0.1	programs-realty.gl.at.ply.gg
 127.0.0.1	series-segments.gl.at.ply.gg
 127.0.0.1	static.death-angel.shop
-127.0.0.1	antique-proper-prizes-civilian.trycloudflare.com
-127.0.0.1	oxford-sri-fast-eve.trycloudflare.com
-127.0.0.1	access.skaparade.com
-# Number of entries: 56725
+# Number of entries: 56730
