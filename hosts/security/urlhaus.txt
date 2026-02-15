@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-15 10:24:09 (UTC)                      #
+# Last updated: 2026-02-15 11:19:05 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -39,6 +39,7 @@
 127.0.0.1	ardena.pro
 127.0.0.1	areyouready.co.za
 127.0.0.1	argentvif.8etmon1sto.ru
+127.0.0.1	arnb3r-0rb.amber2vivid.coupons
 127.0.0.1	artacom.com.br
 127.0.0.1	artifact.homo483geneous.coupons
 127.0.0.1	asl-company.ru
@@ -78,6 +79,7 @@
 127.0.0.1	c9t5q.kozhevnik6lan.coupons
 127.0.0.1	calc-rn1.connect8mathem.coupons
 127.0.0.1	cambodiatouristservice.com
+127.0.0.1	cascade.amber2vivid.coupons
 127.0.0.1	cascade.flint1zarco.coupons
 127.0.0.1	cat.xiaoshabi.nl
 127.0.0.1	catbaparadisehotel.com.vn
@@ -271,6 +273,7 @@
 127.0.0.1	m-global.hksty.net
 127.0.0.1	m3q7v.clint9vargo.coupons
 127.0.0.1	m6r8p.prisk7tarvo.coupons
+127.0.0.1	m9r3p.jungle9orbit.coupons
 127.0.0.1	maidforyou1985.com
 127.0.0.1	main.dsn.ovh
 127.0.0.1	mainrepair.du5tmanrepai7.ru
@@ -429,6 +432,7 @@
 127.0.0.1	svirtual.sanviatorperu.edu.pe
 127.0.0.1	swiftfusion.tech
 127.0.0.1	t4k2n.flint1zarco.coupons
+127.0.0.1	t6k2n.amber2vivid.coupons
 127.0.0.1	tajalrayhan.com
 127.0.0.1	talentrecruitments.com
 127.0.0.1	tanscarattorneys.co.tz
@@ -581,4 +585,4 @@
 127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
 127.0.0.1	zukunft.blen7kor2za.ru
-# Number of entries: 575
+# Number of entries: 579

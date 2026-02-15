@@ -1,11 +1,32 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 10:22:46 UTC                        #
+# Last updated: 2026-02-15 11:18:55 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	m9r3p.jungle9orbit.coupons
+127.0.0.1	dawdawf-32460.portmap.host
+127.0.0.1	y2mate.it.com
+127.0.0.1	ecqiea.ru.com
+127.0.0.1	arnb3r-0rb.amber2vivid.coupons
+127.0.0.1	cascade.amber2vivid.coupons
+127.0.0.1	t6k2n.amber2vivid.coupons
+127.0.0.1	procelo.cyou
+127.0.0.1	undimik.cyou
+127.0.0.1	upbeata.cyou
+127.0.0.1	currane.cyou
+127.0.0.1	drawnbe.cyou
+127.0.0.1	malaysa.cyou
+127.0.0.1	penmank.cyou
+127.0.0.1	interti.cyou
+127.0.0.1	kipeety.cyou
+127.0.0.1	revqhuu.cyou
+127.0.0.1	tothelo.cyou
+127.0.0.1	ziziphe.cyou
+127.0.0.1	conneci.cyou
+127.0.0.1	ciliate.cyou
 127.0.0.1	octopox.com
 127.0.0.1	a2aagentive.com
 127.0.0.1	vcopp.com
@@ -56881,4 +56902,4 @@
 127.0.0.1	172-104-53-127.ip.linodeusercontent.com
 127.0.0.1	z10nx710011-53037.portmap.host
 127.0.0.1	phentermine-institute.gl.at.ply.gg
-# Number of entries: 56875
+# Number of entries: 56896
