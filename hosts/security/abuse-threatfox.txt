@@ -1,11 +1,16 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 16:23:52 UTC                        #
+# Last updated: 2026-02-15 17:13:16 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	api.dealharbor.coupons
+127.0.0.1	user-node4.mintvoucher.coupons
+127.0.0.1	secure-gateway-app.mintvoucher.coupons
+127.0.0.1	cdn.mintvoucher.coupons
+127.0.0.1	auth88.snapbargain.coupons
 127.0.0.1	static-data-srv.snapbargain.coupons
 127.0.0.1	v5.snapbargain.coupons
 127.0.0.1	fus10n-vvex.fusion2harbor.coupons
@@ -56760,4 +56765,4 @@
 127.0.0.1	mind.fsdragonballs.com
 127.0.0.1	s2gj9tonn.localto.net
 127.0.0.1	ngdgbedgtw-35702.portmap.host
-# Number of entries: 56754
+# Number of entries: 56759
