@@ -1,11 +1,24 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 18:37:54 UTC                        #
+# Last updated: 2026-02-15 19:29:26 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	gbo.gadgetwalabd.com
+127.0.0.1	hil.gadgetwalabd.com
+127.0.0.1	gor.gadgetwalabd.com
+127.0.0.1	gbo.alpinematters.com
+127.0.0.1	hil.alpinematters.com
+127.0.0.1	gor.alpinematters.com
+127.0.0.1	jvz.gadgetwalabd.com
+127.0.0.1	jvz.alpinematters.com
+127.0.0.1	beta-node.deal4harbor.coupons
+127.0.0.1	remote-access-v1.deal4harbor.coupons
+127.0.0.1	37.tcp.cpolar.top
+127.0.0.1	ws.deal4harbor.coupons
+127.0.0.1	edge-cache2.perkparcel.coupons
 127.0.0.1	internal-promo-zone.perkparcel.coupons
 127.0.0.1	go.perkparcel.coupons
 127.0.0.1	srv-90.dealharbor.coupons
@@ -56775,4 +56788,4 @@
 127.0.0.1	cancersincura15.ddns.net
 127.0.0.1	mind.fsdragonballs.com
 127.0.0.1	s2gj9tonn.localto.net
-# Number of entries: 56769
+# Number of entries: 56782
