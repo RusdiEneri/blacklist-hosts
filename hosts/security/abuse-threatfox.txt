@@ -1,11 +1,13 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 07:09:28 UTC                        #
+# Last updated: 2026-02-15 08:10:26 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	harvest.nebula4tango.coupons
+127.0.0.1	x7p9a.nebula4tango.coupons
 127.0.0.1	hanano-63144.portmap.host
 127.0.0.1	helpmeporkogpeimeoptimize.dynuddns.com
 127.0.0.1	gramskate.ddns.net
@@ -56863,4 +56865,4 @@
 127.0.0.1	z10nx710011-53037.portmap.host
 127.0.0.1	phentermine-institute.gl.at.ply.gg
 127.0.0.1	demo.shop.plex.name
-# Number of entries: 56857
+# Number of entries: 56859

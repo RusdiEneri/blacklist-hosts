@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-15 07:34:15 (UTC)                      #
+# Last updated: 2026-02-15 08:30:17 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -35,7 +35,6 @@
 127.0.0.1	antvietnam.com
 127.0.0.1	api.nishant-labs.com
 127.0.0.1	app.appzcvb.com
-127.0.0.1	app.terrepure.coupons
 127.0.0.1	apple-service93.ru
 127.0.0.1	ardena.pro
 127.0.0.1	areyouready.co.za
@@ -118,13 +117,13 @@
 127.0.0.1	dcwblida.dz
 127.0.0.1	deepdark.cav1ng5cript.ru
 127.0.0.1	definitely-not.gay
+127.0.0.1	delp-heizungsbau.de
 127.0.0.1	derekludlow.com
 127.0.0.1	device.redirec.com
 127.0.0.1	devilnet.xyz
 127.0.0.1	dexios.co.za
 127.0.0.1	dezcom.com
 127.0.0.1	dhnconstrucciones.com.ar
-127.0.0.1	dialkwik.in
 127.0.0.1	direct-gateway-77.vifespoir.coupons
 127.0.0.1	disk.accord1key.cn
 127.0.0.1	divvanews.com
@@ -195,6 +194,7 @@
 127.0.0.1	glacier.kozhevnik6lan.coupons
 127.0.0.1	globaltechbilling.com
 127.0.0.1	globalwork.f2ctoryp1anet.ru
+127.0.0.1	gobiotechpestcontrol.com
 127.0.0.1	gohpit.lol
 127.0.0.1	gold-zeit.herbstlauf.coupons
 127.0.0.1	goldcoin.8etmon1sto.ru
@@ -208,6 +208,7 @@
 127.0.0.1	h0m0-vvex.homo483geneous.coupons
 127.0.0.1	harbor.plint7marco.coupons
 127.0.0.1	harvest.blint8darvo.coupons
+127.0.0.1	harvest.nebula4tango.coupons
 127.0.0.1	hasalltalent.com
 127.0.0.1	hideplo.com
 127.0.0.1	hitman-pro.ru
@@ -303,6 +304,7 @@
 127.0.0.1	o24o.ru
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
+127.0.0.1	oknoplastik.sk
 127.0.0.1	onfiltre.com.tr
 127.0.0.1	onlineappdownload.507.net.cn
 127.0.0.1	onyxarmorcrypt.de
@@ -324,7 +326,6 @@
 127.0.0.1	onyxshieldcore.de
 127.0.0.1	onyxstealthnet.de
 127.0.0.1	openaigrok.com
-127.0.0.1	opencart.notebookparcalari.com
 127.0.0.1	oracle.fortune23tv.coupons
 127.0.0.1	orion.onl
 127.0.0.1	outpost.prisk7tarvo.coupons
@@ -351,7 +352,6 @@
 127.0.0.1	primedatahost4.lol
 127.0.0.1	promo-libre.ventdoux.coupons
 127.0.0.1	proship.ae
-127.0.0.1	protherapycenter.com
 127.0.0.1	public.demo.securecloudsandbox.com
 127.0.0.1	pvsa.gxfugy.cn
 127.0.0.1	q7m9v.crint3valko.coupons
@@ -383,8 +383,8 @@
 127.0.0.1	rxquickpay.com
 127.0.0.1	sabungkingbet189.com
 127.0.0.1	sancaktepekombiservis.com
+127.0.0.1	save.jnrsmcu.com
 127.0.0.1	scainseto.com.br
-127.0.0.1	schenckel.com.br
 127.0.0.1	scorpcasinos.com
 127.0.0.1	sdh.ro
 127.0.0.1	sdvgpro.ru
@@ -406,6 +406,7 @@
 127.0.0.1	soft.110route.com
 127.0.0.1	softcatalog.ru
 127.0.0.1	softcloud.dy5trops7uffy.ru
+127.0.0.1	softswapp.com
 127.0.0.1	solutelco.com
 127.0.0.1	spoar.org.in
 127.0.0.1	st0ne-rn.mile163stone.coupons
@@ -425,7 +426,6 @@
 127.0.0.1	swiftfusion.tech
 127.0.0.1	t4k2n.flint1zarco.coupons
 127.0.0.1	tajalrayhan.com
-127.0.0.1	take-care.africa
 127.0.0.1	talentrecruitments.com
 127.0.0.1	tanscarattorneys.co.tz
 127.0.0.1	tapestryoftruth.com
@@ -514,6 +514,7 @@
 127.0.0.1	www.longfeng188.com
 127.0.0.1	www.luuk-lifestyle.eu
 127.0.0.1	www.medises.co.kr
+127.0.0.1	www.mevetlab.cl
 127.0.0.1	www.mixturro.com
 127.0.0.1	www.mobimpex.ro
 127.0.0.1	www.myvcart.com
@@ -549,6 +550,7 @@
 127.0.0.1	www.zhikey.com
 127.0.0.1	x400l.ltangarorw.org
 127.0.0.1	x7p9a.brisk4tango.coupons
+127.0.0.1	x7p9a.nebula4tango.coupons
 127.0.0.1	x8p3a.blint8darvo.coupons
 127.0.0.1	xai830k.com
 127.0.0.1	xanax.enzostress.st
@@ -574,4 +576,4 @@
 127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
 127.0.0.1	zukunft.blen7kor2za.ru
-# Number of entries: 568
+# Number of entries: 570
