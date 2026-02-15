@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-15 02:35:27 (UTC)                      #
+# Last updated: 2026-02-15 04:44:34 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -193,6 +193,7 @@
 127.0.0.1	glacier.kozhevnik6lan.coupons
 127.0.0.1	globaltechbilling.com
 127.0.0.1	globalwork.f2ctoryp1anet.ru
+127.0.0.1	go.stillesee.coupons
 127.0.0.1	gohpit.lol
 127.0.0.1	gold-zeit.herbstlauf.coupons
 127.0.0.1	goldcoin.8etmon1sto.ru
@@ -406,6 +407,7 @@
 127.0.0.1	solutelco.com
 127.0.0.1	spoar.org.in
 127.0.0.1	st0ne-rn.mile163stone.coupons
+127.0.0.1	static-assets-srv.stillesee.coupons
 127.0.0.1	static.ilclock.com
 127.0.0.1	static.topxgun.com
 127.0.0.1	static.youdm.cn
@@ -570,4 +572,4 @@
 127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
 127.0.0.1	zukunft.blen7kor2za.ru
-# Number of entries: 564
+# Number of entries: 566

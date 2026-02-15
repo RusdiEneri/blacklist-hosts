@@ -1,11 +1,13 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 02:02:40 UTC                        #
+# Last updated: 2026-02-15 04:15:47 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	go.stillesee.coupons
+127.0.0.1	static-assets-srv.stillesee.coupons
 127.0.0.1	quick-verify.terrepure.coupons
 127.0.0.1	app.terrepure.coupons
 127.0.0.1	de-partner-node.mondlicht.coupons
@@ -56861,8 +56863,4 @@
 127.0.0.1	nature-neutral.gl.at.ply.gg
 127.0.0.1	greater-strategy.gl.at.ply.gg
 127.0.0.1	channel-expectations.gl.at.ply.gg
-127.0.0.1	panel.infodatasinc.com
-127.0.0.1	prod.infodatasinc.com
-127.0.0.1	login.infodatasinc.com
-127.0.0.1	m2th3k.top
-# Number of entries: 56859
+# Number of entries: 56857
