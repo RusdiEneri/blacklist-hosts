@@ -1,11 +1,23 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 22:22:49 UTC                        #
+# Last updated: 2026-02-15 23:04:20 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	ftp.henfruit.ro
+127.0.0.1	majin-54074.portmap.host
+127.0.0.1	v2.bet88hs.com
+127.0.0.1	v3.bet88hs.com
+127.0.0.1	bet88hs.com
+127.0.0.1	endlessgrumbler.cc
+127.0.0.1	cdn-303-web.flash5saver.coupons
+127.0.0.1	update-system-srv.flash5saver.coupons
+127.0.0.1	dev.flash5saver.coupons
+127.0.0.1	primedatahost1.lol
+127.0.0.1	primedatahost2.lol
+127.0.0.1	primedatahost3.lol
 127.0.0.1	primedatahost4.lol
 127.0.0.1	tri2s-sh7es.com
 127.0.0.1	mndivorcemediator.com
@@ -56502,4 +56514,4 @@
 127.0.0.1	ec2-16-170-232-86.eu-north-1.compute.amazonaws.com
 127.0.0.1	gitcompay.com
 127.0.0.1	smtp.mx.plex.name
-# Number of entries: 56496
+# Number of entries: 56508

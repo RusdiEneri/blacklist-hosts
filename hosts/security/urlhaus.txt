@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-15 22:20:09 (UTC)                      #
+# Last updated: 2026-02-15 23:28:13 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -82,6 +82,7 @@
 127.0.0.1	cat.xiaoshabi.nl
 127.0.0.1	catbaparadisehotel.com.vn
 127.0.0.1	cdaonline.com.ar
+127.0.0.1	cdn-303-web.flash5saver.coupons
 127.0.0.1	cdn.file6.goodid.com
 127.0.0.1	celebratingseniors.net
 127.0.0.1	chat-server.maverickpreviews.com
@@ -121,6 +122,7 @@
 127.0.0.1	definitely-not.gay
 127.0.0.1	delp-heizungsbau.de
 127.0.0.1	derekludlow.com
+127.0.0.1	dev.flash5saver.coupons
 127.0.0.1	devc.ws
 127.0.0.1	device.redirec.com
 127.0.0.1	devilnet.xyz
@@ -464,6 +466,7 @@
 127.0.0.1	uniform-factory.ae
 127.0.0.1	upaicdn.xinmei365.com
 127.0.0.1	upchemicals.co.in
+127.0.0.1	update-system-srv.flash5saver.coupons
 127.0.0.1	update.cg100iii.com
 127.0.0.1	update.volam2005pk.com
 127.0.0.1	upsinfo2025.com
@@ -579,4 +582,4 @@
 127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
 127.0.0.1	zukunft.blen7kor2za.ru
-# Number of entries: 573
+# Number of entries: 576
