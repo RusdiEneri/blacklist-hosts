@@ -1,11 +1,25 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 04:15:47 UTC                        #
+# Last updated: 2026-02-15 07:09:28 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	hanano-63144.portmap.host
+127.0.0.1	helpmeporkogpeimeoptimize.dynuddns.com
+127.0.0.1	gramskate.ddns.net
+127.0.0.1	ynhasmi-46863.portmap.host
+127.0.0.1	gramskate.camdvr.org
+127.0.0.1	remcos5050.duckdns.org
+127.0.0.1	support.eztechnj.com
+127.0.0.1	blackbearer.za.com
+127.0.0.1	cityforum.sa.com
+127.0.0.1	roninhk.com
+127.0.0.1	internal-promo-link.federleicht.coupons
+127.0.0.1	b3-alpha.federleicht.coupons
+127.0.0.1	direct-gateway-77.vifespoir.coupons
+127.0.0.1	tracking.vifespoir.coupons
 127.0.0.1	go.stillesee.coupons
 127.0.0.1	static-assets-srv.stillesee.coupons
 127.0.0.1	quick-verify.terrepure.coupons
@@ -56849,18 +56863,4 @@
 127.0.0.1	z10nx710011-53037.portmap.host
 127.0.0.1	phentermine-institute.gl.at.ply.gg
 127.0.0.1	demo.shop.plex.name
-127.0.0.1	rianid.ir
-127.0.0.1	ee.vvbb321.com
-127.0.0.1	ee.jjkk567.com
-127.0.0.1	ee.nnmm234.com
-127.0.0.1	ee.aass654.com
-127.0.0.1	ee.xxcc789.com
-127.0.0.1	documents-here.gl.at.ply.gg
-127.0.0.1	henzelvab.com
-127.0.0.1	security.flaegrudad.com
-127.0.0.1	4kdownload.pro
-127.0.0.1	evbnet.top
-127.0.0.1	nature-neutral.gl.at.ply.gg
-127.0.0.1	greater-strategy.gl.at.ply.gg
-127.0.0.1	channel-expectations.gl.at.ply.gg
 # Number of entries: 56857
