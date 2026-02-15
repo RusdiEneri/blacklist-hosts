@@ -1,11 +1,14 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 19:29:26 UTC                        #
+# Last updated: 2026-02-15 20:27:56 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	cloud-st1.perk9parcel.coupons
+127.0.0.1	direct-web-client.perk9parcel.coupons
+127.0.0.1	app.perk9parcel.coupons
 127.0.0.1	gbo.gadgetwalabd.com
 127.0.0.1	hil.gadgetwalabd.com
 127.0.0.1	gor.gadgetwalabd.com
@@ -56788,4 +56791,4 @@
 127.0.0.1	cancersincura15.ddns.net
 127.0.0.1	mind.fsdragonballs.com
 127.0.0.1	s2gj9tonn.localto.net
-# Number of entries: 56782
+# Number of entries: 56785
