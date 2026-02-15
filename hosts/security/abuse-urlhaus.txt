@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-15 17:27:19 (UTC)                      #
+# Last updated: 2026-02-15 18:37:19 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -176,11 +176,13 @@
 127.0.0.1	espoir.plar9ten2zo.ru
 127.0.0.1	estudio.ythan.com.br
 127.0.0.1	evangroup.ru
+127.0.0.1	event-cpd.com
 127.0.0.1	extra-bonus.pommerouge.coupons
 127.0.0.1	f1int-0rb.flint1zarco.coupons
 127.0.0.1	fakers.co.jp
 127.0.0.1	falconsplayingpoker.com
 127.0.0.1	farschid.de
+127.0.0.1	fast-track-delivery.dealharbor.coupons
 127.0.0.1	file.blackint3.com
 127.0.0.1	file.edunet.ac
 127.0.0.1	file.uhsea.com
@@ -201,10 +203,10 @@
 127.0.0.1	galerisenimutiara.com
 127.0.0.1	gallivantinggoals.com
 127.0.0.1	geheimcode.cav1ng5cript.ru
-127.0.0.1	glacier.breeze1falcon.coupons
 127.0.0.1	glacier.kozhevnik6lan.coupons
 127.0.0.1	globaltechbilling.com
 127.0.0.1	globalwork.f2ctoryp1anet.ru
+127.0.0.1	go.perkparcel.coupons
 127.0.0.1	gohpit.lol
 127.0.0.1	gold-zeit.herbstlauf.coupons
 127.0.0.1	goldcoin.8etmon1sto.ru
@@ -312,7 +314,6 @@
 127.0.0.1	o24o.ru
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
-127.0.0.1	oknoplastik.sk
 127.0.0.1	onfiltre.com.tr
 127.0.0.1	onlineappdownload.507.net.cn
 127.0.0.1	onyxarmorcrypt.de
@@ -369,7 +370,6 @@
 127.0.0.1	quanlyphongnet.com
 127.0.0.1	quickfix.du5tmanrepai7.ru
 127.0.0.1	quicrob.com
-127.0.0.1	r2k6d.fusion2harbor.coupons
 127.0.0.1	r2k6d.plea36slavneck.coupons
 127.0.0.1	r5m2x.fortune23tv.coupons
 127.0.0.1	ramactools.net
@@ -385,7 +385,6 @@
 127.0.0.1	reifenquick.de
 127.0.0.1	resourceedge.org
 127.0.0.1	reusable-flex.com
-127.0.0.1	rfk.crossfitmissionbay.com
 127.0.0.1	rheddh.com
 127.0.0.1	riderspin.com
 127.0.0.1	rnatr1x-vvay.matrix8piano.coupons
@@ -394,6 +393,7 @@
 127.0.0.1	royalindiancurryclub.com
 127.0.0.1	rxquickpay.com
 127.0.0.1	sabungkingbet189.com
+127.0.0.1	samuelramachandran.com
 127.0.0.1	sancaktepekombiservis.com
 127.0.0.1	save.jnrsmcu.com
 127.0.0.1	scainseto.com.br
@@ -423,6 +423,7 @@
 127.0.0.1	softswapp.com
 127.0.0.1	solutelco.com
 127.0.0.1	spoar.org.in
+127.0.0.1	srv-90.dealharbor.coupons
 127.0.0.1	st0ne-rn.mile163stone.coupons
 127.0.0.1	static-data-srv.snapbargain.coupons
 127.0.0.1	static.ilclock.com
@@ -589,4 +590,4 @@
 127.0.0.1	zoommeetingsetup.info
 127.0.0.1	zptjv.com
 127.0.0.1	zukunft.blen7kor2za.ru
-# Number of entries: 583
+# Number of entries: 584

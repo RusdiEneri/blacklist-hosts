@@ -1,11 +1,22 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 17:13:16 UTC                        #
+# Last updated: 2026-02-15 18:37:54 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	internal-promo-zone.perkparcel.coupons
+127.0.0.1	go.perkparcel.coupons
+127.0.0.1	srv-90.dealharbor.coupons
+127.0.0.1	fqq121qq-33728.portmap.host
+127.0.0.1	tri.eu.com
+127.0.0.1	sun-win.us.org
+127.0.0.1	analytics.uk.net
+127.0.0.1	unnleashed.uk.com
+127.0.0.1	gallerydept.us.com
+127.0.0.1	xdm111-37027.portmap.host
+127.0.0.1	fast-track-delivery.dealharbor.coupons
 127.0.0.1	api.dealharbor.coupons
 127.0.0.1	user-node4.mintvoucher.coupons
 127.0.0.1	secure-gateway-app.mintvoucher.coupons
@@ -56764,5 +56775,4 @@
 127.0.0.1	cancersincura15.ddns.net
 127.0.0.1	mind.fsdragonballs.com
 127.0.0.1	s2gj9tonn.localto.net
-127.0.0.1	ngdgbedgtw-35702.portmap.host
-# Number of entries: 56759
+# Number of entries: 56769
