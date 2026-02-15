@@ -1,11 +1,14 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-15 15:22:24 UTC                        #
+# Last updated: 2026-02-15 16:23:52 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	static-data-srv.snapbargain.coupons
+127.0.0.1	v5.snapbargain.coupons
+127.0.0.1	fus10n-vvex.fusion2harbor.coupons
 127.0.0.1	formula.fusion2harbor.coupons
 127.0.0.1	r2k6d.fusion2harbor.coupons
 127.0.0.1	qa7sawuw.wildframe41.digital
@@ -56757,5 +56760,4 @@
 127.0.0.1	mind.fsdragonballs.com
 127.0.0.1	s2gj9tonn.localto.net
 127.0.0.1	ngdgbedgtw-35702.portmap.host
-127.0.0.1	laughing-lumiere.35-179-93-188.plesk.page
-# Number of entries: 56752
+# Number of entries: 56754
