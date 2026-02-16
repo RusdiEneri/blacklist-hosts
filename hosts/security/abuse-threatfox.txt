@@ -1,11 +1,18 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 11:34:37 UTC                        #
+# Last updated: 2026-02-16 12:44:16 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	contour.paw85silhouette.coupons
+127.0.0.1	c9t5q.paw85silhouette.coupons
+127.0.0.1	firazit.com
+127.0.0.1	hecker12345-61516.portmap.host
+127.0.0.1	software-garlic.gl.at.ply.gg
+127.0.0.1	rep0rt-rnix.reporter9speck.coupons
+127.0.0.1	dispatch.reporter9speck.coupons
 127.0.0.1	pic.gadgetwalabd.com
 127.0.0.1	pic.alpinematters.com
 127.0.0.1	z3n7a.reporter9speck.coupons
@@ -56643,8 +56650,4 @@
 127.0.0.1	indianagoods.club
 127.0.0.1	seamonkey.club
 127.0.0.1	ai.api.plex.name
-127.0.0.1	bootaa.anondns.net
-127.0.0.1	crimey1337-43127.portmap.host
-127.0.0.1	carljas.duckdns.org
-127.0.0.1	an-schema.gl.at.ply.gg
-# Number of entries: 56641
+# Number of entries: 56644

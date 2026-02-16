@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-16 11:39:09 (UTC)                      #
+# Last updated: 2026-02-16 13:08:21 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -15,7 +15,6 @@
 127.0.0.1	6yd.ru
 127.0.0.1	7wgxbccc.cyberlane.digital
 127.0.0.1	abissnet.net
-127.0.0.1	acaviationsupplies.com
 127.0.0.1	acc.jiangsujiaxue.com
 127.0.0.1	access.skaparade.com
 127.0.0.1	ace-project.org
@@ -23,6 +22,7 @@
 127.0.0.1	admin.byte.in.ua
 127.0.0.1	admin.gestroom.it
 127.0.0.1	adver.com.br
+127.0.0.1	agence-immobiliere-lyon.com
 127.0.0.1	alarmline.com.br
 127.0.0.1	alineeleuterio.com.br
 127.0.0.1	aliyundunupdate.xyz
@@ -42,6 +42,7 @@
 127.0.0.1	arnb3r-0rb.amber2vivid.coupons
 127.0.0.1	artacom.com.br
 127.0.0.1	artifact.homo483geneous.coupons
+127.0.0.1	asiaengrs.com
 127.0.0.1	asl-company.ru
 127.0.0.1	atasapka.com.tr
 127.0.0.1	atelier.blu45modern.coupons
@@ -55,7 +56,6 @@
 127.0.0.1	backupso.com
 127.0.0.1	banappeals.net
 127.0.0.1	bankgarantia.ru
-127.0.0.1	be1ieve-vvave.believein41fant.coupons
 127.0.0.1	beta-node.deal4harbor.coupons
 127.0.0.1	bfacollege.co.in
 127.0.0.1	biducaconfeitos.com.br
@@ -77,6 +77,7 @@
 127.0.0.1	bvaco.com
 127.0.0.1	c9t5q.breeze1falcon.coupons
 127.0.0.1	c9t5q.kozhevnik6lan.coupons
+127.0.0.1	c9t5q.paw85silhouette.coupons
 127.0.0.1	cambodiatouristservice.com
 127.0.0.1	cascade.amber2vivid.coupons
 127.0.0.1	cascade.flint1zarco.coupons
@@ -107,6 +108,7 @@
 127.0.0.1	connects-magiceden.io
 127.0.0.1	contentmentfairnesspesky.com
 127.0.0.1	continentalgroup.net.in
+127.0.0.1	contour.paw85silhouette.coupons
 127.0.0.1	corporacioncrf.com
 127.0.0.1	cr1nt-vvay.crint3valko.coupons
 127.0.0.1	crystalpvp.ru
@@ -159,6 +161,7 @@
 127.0.0.1	dowonline.ru
 127.0.0.1	dreamwatchevent.com
 127.0.0.1	drevos.ro
+127.0.0.1	drhenrylopez.com
 127.0.0.1	drp.greenenergygroup.org
 127.0.0.1	dusttv.com
 127.0.0.1	dweixin.cn
@@ -167,6 +170,7 @@
 127.0.0.1	eco-nature.clairforet.coupons
 127.0.0.1	edge-cache2.perkparcel.coupons
 127.0.0.1	eis-bahn.winterzug.coupons
+127.0.0.1	eishin-kk-co.asia
 127.0.0.1	electri.billregulator.com
 127.0.0.1	elisans.novayonetim.com
 127.0.0.1	embedone.com
@@ -218,8 +222,8 @@
 127.0.0.1	hideplo.com
 127.0.0.1	hitman-pro.ru
 127.0.0.1	hitstation.nl
+127.0.0.1	hobobot.net
 127.0.0.1	hop.greenenergygroup.org
-127.0.0.1	horizon.believein41fant.coupons
 127.0.0.1	hotellacastellana.com.uy
 127.0.0.1	hqweb.id.vn
 127.0.0.1	hseda.com
@@ -227,8 +231,6 @@
 127.0.0.1	icoffeecloud.com
 127.0.0.1	id3basketball.com
 127.0.0.1	igra123.com
-127.0.0.1	image-thaihometown.com
-127.0.0.1	infinitaki.com
 127.0.0.1	injectroblox.ru
 127.0.0.1	innaflux.com
 127.0.0.1	innlive.in
@@ -266,7 +268,6 @@
 127.0.0.1	lantern.plea36slavneck.coupons
 127.0.0.1	lantern.rocket7flora.coupons
 127.0.0.1	launcher1.muonliness6.com
-127.0.0.1	ledger.pitman123wid.coupons
 127.0.0.1	lindenappliances.co.za
 127.0.0.1	lindnerelektroanlagen.de
 127.0.0.1	linktoxic34.com
@@ -282,11 +283,11 @@
 127.0.0.1	m0d-rnflux.blu45modern.coupons
 127.0.0.1	m6r8p.prisk7tarvo.coupons
 127.0.0.1	m9r3p.jungle9orbit.coupons
-127.0.0.1	m9r3p.pitman123wid.coupons
 127.0.0.1	maidforyou1985.com
 127.0.0.1	mail.ssacenter.top
 127.0.0.1	main.dsn.ovh
 127.0.0.1	mandarin.net.au
+127.0.0.1	meetvideogoogle.com
 127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	metrics.gocloudmaps.com
 127.0.0.1	mitreart.com
@@ -341,11 +342,11 @@
 127.0.0.1	outpost.prisk7tarvo.coupons
 127.0.0.1	owlcity.ru
 127.0.0.1	p1ea-rnask.plea36slavneck.coupons
-127.0.0.1	p1trnan-vvex.pitman123wid.coupons
 127.0.0.1	p3.zbjimg.com
 127.0.0.1	p8x1m.homo483geneous.coupons
 127.0.0.1	p8x1m.shadow6nectar.coupons
 127.0.0.1	palharesinformatica.com.br
+127.0.0.1	panychurasc0.com
 127.0.0.1	parmisbuilding.com
 127.0.0.1	pay.aqiu6.com
 127.0.0.1	pcupd.com
@@ -353,6 +354,7 @@
 127.0.0.1	pin-up0045.com
 127.0.0.1	pkr.greenenergygroup.org
 127.0.0.1	planetariumobil.ro
+127.0.0.1	play.mclighthouse.ir
 127.0.0.1	pns.org.pk
 127.0.0.1	pobedastaff.ru
 127.0.0.1	polonyauniversiteleri.com.tr
@@ -360,9 +362,9 @@
 127.0.0.1	pr1sk-rnate.prisk7tarvo.coupons
 127.0.0.1	promo-libre.ventdoux.coupons
 127.0.0.1	proship.ae
+127.0.0.1	protherapycenter.com
 127.0.0.1	public.demo.securecloudsandbox.com
 127.0.0.1	pvsa.gxfugy.cn
-127.0.0.1	q4m8v.believein41fant.coupons
 127.0.0.1	q4m8v.rocket7flora.coupons
 127.0.0.1	q7m9v.crint3valko.coupons
 127.0.0.1	qa7sawuw.wildframe41.digital
@@ -387,6 +389,7 @@
 127.0.0.1	refrigeracion.delmondexpress.com
 127.0.0.1	reifenquick.de
 127.0.0.1	remote-access-v1.deal4harbor.coupons
+127.0.0.1	rep0rt-rnix.reporter9speck.coupons
 127.0.0.1	resourceedge.org
 127.0.0.1	reusable-flex.com
 127.0.0.1	rfk.crossfitmissionbay.com
@@ -399,7 +402,6 @@
 127.0.0.1	rxquickpay.com
 127.0.0.1	sabungkingbet189.com
 127.0.0.1	sakuraloyalty.com
-127.0.0.1	salessteer.com
 127.0.0.1	sancaktepekombiservis.com
 127.0.0.1	save.jnrsmcu.com
 127.0.0.1	scainseto.com.br
@@ -412,6 +414,7 @@
 127.0.0.1	separadordecc.com
 127.0.0.1	sg123.net
 127.0.0.1	shad0vv-rnix.shadow6nectar.coupons
+127.0.0.1	shaderm.com
 127.0.0.1	sharecodepro.com
 127.0.0.1	shop.mediasova.ru
 127.0.0.1	shqdown.ggzuhao.com
@@ -424,7 +427,6 @@
 127.0.0.1	softcatalog.ru
 127.0.0.1	softswapp.com
 127.0.0.1	solutelco.com
-127.0.0.1	spoar.org.in
 127.0.0.1	srv-90.dealharbor.coupons
 127.0.0.1	static-assets-srv.stillesee.coupons
 127.0.0.1	static-data-srv.snapbargain.coupons
@@ -434,6 +436,7 @@
 127.0.0.1	stdown.dinju.com
 127.0.0.1	steam66.cn
 127.0.0.1	stern-fahrt.stolzmond.coupons
+127.0.0.1	stonecradle.com
 127.0.0.1	studiogioeli.it
 127.0.0.1	superbet388.one
 127.0.0.1	supercleanspb.ru
@@ -442,7 +445,6 @@
 127.0.0.1	swiftfusion.tech
 127.0.0.1	t4k2n.flint1zarco.coupons
 127.0.0.1	t6k2n.amber2vivid.coupons
-127.0.0.1	t6k2n.khlopotun6turn.coupons
 127.0.0.1	tajalrayhan.com
 127.0.0.1	tak.crossfitmissionbay.com
 127.0.0.1	talentrecruitments.com
@@ -456,6 +458,7 @@
 127.0.0.1	tesllamacapp.com
 127.0.0.1	test.peperoncinochepassione.it
 127.0.0.1	tests.yjzj.org
+127.0.0.1	tfortytimes.com
 127.0.0.1	thebrandmantra.in
 127.0.0.1	theholidayroads.com
 127.0.0.1	theoremaoliveoil.com
@@ -509,7 +512,6 @@
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
 127.0.0.1	www.backupallfresh2030.com
-127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
 127.0.0.1	www.bratusferramentas.grupomoltz.com.br
 127.0.0.1	www.cippe.com.cn
@@ -579,10 +581,9 @@
 127.0.0.1	youtransfer.net
 127.0.0.1	z3n7a.matrix8piano.coupons
 127.0.0.1	z3n7a.nabokov30slam.coupons
-127.0.0.1	z3n7a.reporter9speck.coupons
 127.0.0.1	zamilgroups.com
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 579
+# Number of entries: 580
