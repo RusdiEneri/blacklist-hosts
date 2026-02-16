@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-16 08:52:12 (UTC)                      #
+# Last updated: 2026-02-16 09:58:16 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -56,7 +56,7 @@
 127.0.0.1	backupso.com
 127.0.0.1	banappeals.net
 127.0.0.1	bankgarantia.ru
-127.0.0.1	bbb.xfrwu.cn
+127.0.0.1	be1ieve-vvave.believein41fant.coupons
 127.0.0.1	beta-node.deal4harbor.coupons
 127.0.0.1	bfacollege.co.in
 127.0.0.1	biducaconfeitos.com.br
@@ -86,7 +86,6 @@
 127.0.0.1	catbaparadisehotel.com.vn
 127.0.0.1	cdaonline.com.ar
 127.0.0.1	cdn-303-web.flash5saver.coupons
-127.0.0.1	cdn-b12.nifty4locker.coupons
 127.0.0.1	cdn.file6.goodid.com
 127.0.0.1	cdn.mintvoucher.coupons
 127.0.0.1	cdn7.mondlicht.coupons
@@ -107,6 +106,7 @@
 127.0.0.1	compuserviceonline.com.br
 127.0.0.1	computersupportexperts.com
 127.0.0.1	connects-magiceden.io
+127.0.0.1	contentmentfairnesspesky.com
 127.0.0.1	continentalgroup.net.in
 127.0.0.1	corporacioncrf.com
 127.0.0.1	cr1nt-vvay.crint3valko.coupons
@@ -121,7 +121,6 @@
 127.0.0.1	d.14yaa.com
 127.0.0.1	d.wanyouxi7.com
 127.0.0.1	dansorium.gr
-127.0.0.1	data-flow-central.amber9stash.coupons
 127.0.0.1	data.yhydl.com
 127.0.0.1	dcrun.co.uk
 127.0.0.1	dcwblida.dz
@@ -145,7 +144,6 @@
 127.0.0.1	dl.asis.io
 127.0.0.1	dl.dzqzd.com
 127.0.0.1	dl.natgo.cn
-127.0.0.1	dl.plum5parcel.coupons
 127.0.0.1	donkeytourscroatia.com
 127.0.0.1	down.54nb.com
 127.0.0.1	down.fwqlt.com
@@ -193,6 +191,7 @@
 127.0.0.1	fotosdepuebla.org
 127.0.0.1	frvrefrigeracao.com.br
 127.0.0.1	ftp.ywxww.net
+127.0.0.1	fukt.link
 127.0.0.1	fullstacknir.com
 127.0.0.1	fus10n-vvex.fusion2harbor.coupons
 127.0.0.1	fz.tiansys.cn
@@ -221,6 +220,7 @@
 127.0.0.1	hitman-pro.ru
 127.0.0.1	hitstation.nl
 127.0.0.1	hop.greenenergygroup.org
+127.0.0.1	horizon.believein41fant.coupons
 127.0.0.1	hotellacastellana.com.uy
 127.0.0.1	hqweb.id.vn
 127.0.0.1	hseda.com
@@ -228,6 +228,7 @@
 127.0.0.1	icoffeecloud.com
 127.0.0.1	id3basketball.com
 127.0.0.1	igra123.com
+127.0.0.1	image-thaihometown.com
 127.0.0.1	injectroblox.ru
 127.0.0.1	innaflux.com
 127.0.0.1	innlive.in
@@ -401,7 +402,6 @@
 127.0.0.1	scorpcasinos.com
 127.0.0.1	sdvgpro.ru
 127.0.0.1	sec.xiaoshabi.nl
-127.0.0.1	secure-access-point.nifty4locker.coupons
 127.0.0.1	secure-gateway-app.mintvoucher.coupons
 127.0.0.1	secure-login-area.cielsombre.coupons
 127.0.0.1	separadordecc.com
@@ -436,6 +436,7 @@
 127.0.0.1	swiftfusion.tech
 127.0.0.1	t4k2n.flint1zarco.coupons
 127.0.0.1	t6k2n.amber2vivid.coupons
+127.0.0.1	t6k2n.khlopotun6turn.coupons
 127.0.0.1	tajalrayhan.com
 127.0.0.1	tak.crossfitmissionbay.com
 127.0.0.1	talentrecruitments.com
@@ -495,6 +496,7 @@
 127.0.0.1	widexenmexico.com.mx
 127.0.0.1	windomstatetheater.com
 127.0.0.1	wittenhorst.eu
+127.0.0.1	workshop.khlopotun6turn.coupons
 127.0.0.1	ws.deal4harbor.coupons
 127.0.0.1	www.api.nishant-labs.com
 127.0.0.1	www.ardguisser.com
@@ -576,4 +578,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 570
+# Number of entries: 572

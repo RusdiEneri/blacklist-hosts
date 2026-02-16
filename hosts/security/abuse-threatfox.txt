@@ -1,11 +1,19 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 08:45:18 UTC                        #
+# Last updated: 2026-02-16 09:54:25 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	ruruurururururu.ru
+127.0.0.1	workshop.khlopotun6turn.coupons
+127.0.0.1	t6k2n.khlopotun6turn.coupons
+127.0.0.1	six.aaahorneswell.com
+127.0.0.1	58winn.store
+127.0.0.1	onirban.in.net
+127.0.0.1	be1ieve-vvave.believein41fant.coupons
+127.0.0.1	horizon.believein41fant.coupons
 127.0.0.1	q4m8v.believein41fant.coupons
 127.0.0.1	m0d-rnflux.blu45modern.coupons
 127.0.0.1	atelier.blu45modern.coupons
@@ -56630,4 +56638,4 @@
 127.0.0.1	qiuy.org
 127.0.0.1	windows-updates.nice-data.top
 127.0.0.1	9ra2xnnm8v62x.cfc-execute.bj.baidubce.com
-# Number of entries: 56624
+# Number of entries: 56632
