@@ -1,11 +1,21 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 12:44:16 UTC                        #
+# Last updated: 2026-02-16 14:40:57 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	v1.bleuforet.coupons
+127.0.0.1	treatise.capitul98hypo.coupons
+127.0.0.1	a5v9n.capitul98hypo.coupons
+127.0.0.1	f0ur-rnark.four486stop.coupons
+127.0.0.1	waypoint.four486stop.coupons
+127.0.0.1	r2k6d.four486stop.coupons
+127.0.0.1	st0ne-vvyrd.stone48tyranny.coupons
+127.0.0.1	monolith.stone48tyranny.coupons
+127.0.0.1	p8x1m.stone48tyranny.coupons
+127.0.0.1	si1h0uette-llnk.paw85silhouette.coupons
 127.0.0.1	contour.paw85silhouette.coupons
 127.0.0.1	c9t5q.paw85silhouette.coupons
 127.0.0.1	firazit.com
@@ -56649,5 +56659,4 @@
 127.0.0.1	asesoriaseguridadysalud.com
 127.0.0.1	indianagoods.club
 127.0.0.1	seamonkey.club
-127.0.0.1	ai.api.plex.name
-# Number of entries: 56644
+# Number of entries: 56653
