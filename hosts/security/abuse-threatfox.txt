@@ -1,11 +1,16 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 17:30:17 UTC                        #
+# Last updated: 2026-02-16 18:29:29 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	id-9921-auth.eisenherz.coupons
+127.0.0.1	p-link.eisenherz.coupons
+127.0.0.1	horus65-58899.portmap.host
+127.0.0.1	z99.clairsol.coupons
+127.0.0.1	fast-path-x.clairsol.coupons
 127.0.0.1	m3921.clairsol.coupons
 127.0.0.1	v-n-v.zeitgeist.coupons
 127.0.0.1	unique-set-02.zeitgeist.coupons
@@ -56634,7 +56639,4 @@
 127.0.0.1	andezileb.com
 127.0.0.1	industries-ii-wine-details.trycloudflare.com
 127.0.0.1	archeckfix.com
-127.0.0.1	telemetrywatson.live
-127.0.0.1	restaurant-do.gl.at.ply.gg
-127.0.0.1	snfers-56365.portmap.host
-# Number of entries: 56631
+# Number of entries: 56633

@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-16 17:34:08 (UTC)                      #
+# Last updated: 2026-02-16 18:38:22 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -51,7 +51,6 @@
 127.0.0.1	audicontadores.com
 127.0.0.1	augsburg-auto.com
 127.0.0.1	aulist.com
-127.0.0.1	auth-global-zone.schnellauf.coupons
 127.0.0.1	auth88.snapbargain.coupons
 127.0.0.1	avbackup.acionline.de
 127.0.0.1	b1int-rnix.blint8darvo.coupons
@@ -107,12 +106,12 @@
 127.0.0.1	cloud-st1.perk9parcel.coupons
 127.0.0.1	cloudstay168.com
 127.0.0.1	clubdetiroelpicarcho.com
+127.0.0.1	cnc.frtewq.online
 127.0.0.1	co-emas.com
 127.0.0.1	coffre-fort.noitresor.coupons
 127.0.0.1	compuserviceonline.com.br
 127.0.0.1	computersupportexperts.com
 127.0.0.1	connects-magiceden.io
-127.0.0.1	contentmentfairnesspesky.com
 127.0.0.1	continentalgroup.net.in
 127.0.0.1	contour.paw85silhouette.coupons
 127.0.0.1	corporacioncrf.com
@@ -182,6 +181,7 @@
 127.0.0.1	eis-bahn.winterzug.coupons
 127.0.0.1	eishin-kk-co.asia
 127.0.0.1	electri.billregulator.com
+127.0.0.1	elisans.novayonetim.com
 127.0.0.1	embedone.com
 127.0.0.1	en.taichuan.com
 127.0.0.1	energy63.ru
@@ -193,6 +193,7 @@
 127.0.0.1	f1int-0rb.flint1zarco.coupons
 127.0.0.1	fakers.co.jp
 127.0.0.1	farschid.de
+127.0.0.1	fast-path-x.clairsol.coupons
 127.0.0.1	fast-track-delivery.dealharbor.coupons
 127.0.0.1	file.blackint3.com
 127.0.0.1	file.edunet.ac
@@ -356,11 +357,11 @@
 127.0.0.1	outpost.jungle9orbit.coupons
 127.0.0.1	outpost.prisk7tarvo.coupons
 127.0.0.1	owlcity.ru
+127.0.0.1	p-link.eisenherz.coupons
 127.0.0.1	p1ea-rnask.plea36slavneck.coupons
 127.0.0.1	p3.zbjimg.com
 127.0.0.1	p8x1m.homo483geneous.coupons
 127.0.0.1	p8x1m.shadow6nectar.coupons
-127.0.0.1	p8x1m.stone48tyranny.coupons
 127.0.0.1	palharesinformatica.com.br
 127.0.0.1	panychurasc0.com
 127.0.0.1	parmisbuilding.com
@@ -390,7 +391,6 @@
 127.0.0.1	quicrob.com
 127.0.0.1	qwt.greenenergygroup.org
 127.0.0.1	r0cket-rnix.rocket7flora.coupons
-127.0.0.1	r2k6d.four486stop.coupons
 127.0.0.1	r2k6d.fusion2harbor.coupons
 127.0.0.1	r2k6d.plea36slavneck.coupons
 127.0.0.1	ramactools.net
@@ -422,7 +422,6 @@
 127.0.0.1	scorpcasinos.com
 127.0.0.1	sdvgpro.ru
 127.0.0.1	sec.xiaoshabi.nl
-127.0.0.1	secure-cloud-link.bleuforet.coupons
 127.0.0.1	secure-gateway-app.mintvoucher.coupons
 127.0.0.1	secure-login-area.cielsombre.coupons
 127.0.0.1	separadordecc.com
@@ -485,8 +484,6 @@
 127.0.0.1	tr0ff3.cn
 127.0.0.1	tracking.vifespoir.coupons
 127.0.0.1	transparenciacanaa.com.br
-127.0.0.1	trck.zeitgeist.coupons
-127.0.0.1	treatise.capitul98hypo.coupons
 127.0.0.1	trtmyanmar.com
 127.0.0.1	tsmau.com
 127.0.0.1	tukotoks-uz.sbs
@@ -504,7 +501,6 @@
 127.0.0.1	usatodayssgirlsslek.net
 127.0.0.1	user-node4.mintvoucher.coupons
 127.0.0.1	v-n-v.zeitgeist.coupons
-127.0.0.1	v1.bleuforet.coupons
 127.0.0.1	v3.cielsombre.coupons
 127.0.0.1	vagler.ru
 127.0.0.1	vent-frais.ventdoux.coupons
@@ -605,9 +601,10 @@
 127.0.0.1	youtransfer.net
 127.0.0.1	z3n7a.matrix8piano.coupons
 127.0.0.1	z3n7a.nabokov30slam.coupons
+127.0.0.1	z99.clairsol.coupons
 127.0.0.1	zamilgroups.com
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 604
+# Number of entries: 601
