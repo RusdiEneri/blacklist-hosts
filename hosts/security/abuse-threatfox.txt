@@ -1,11 +1,19 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 20:18:33 UTC                        #
+# Last updated: 2026-02-16 21:22:43 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	p77.debug-edge-cases.coupons
+127.0.0.1	gateway-node-x.debug-edge-cases.coupons
+127.0.0.1	user29.debug-edge-cases.coupons
+127.0.0.1	b-3.stackdump-collector.coupons
+127.0.0.1	unique-trace-id.stackdump-collector.coupons
+127.0.0.1	pachisuave.com
+127.0.0.1	m-91.stackdump-collector.coupons
+127.0.0.1	z-node.telemetry-api-v1.coupons
 127.0.0.1	session-8201.telemetry-api-v1.coupons
 127.0.0.1	v-ref.telemetry-api-v1.coupons
 127.0.0.1	x8.browser-crash-report.coupons
@@ -56643,6 +56651,4 @@
 127.0.0.1	s3ov838.ddns.net
 127.0.0.1	itredirect.merseine.com
 127.0.0.1	tp.api.plex.name
-127.0.0.1	security.gueradflwre.com
-127.0.0.1	andezileb.com
-# Number of entries: 56639
+# Number of entries: 56645
