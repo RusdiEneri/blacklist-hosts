@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-16 14:43:17 (UTC)                      #
+# Last updated: 2026-02-16 15:39:17 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -11,6 +11,7 @@
 127.0.0.1	111101111.ru
 127.0.0.1	123.ywxww.net
 127.0.0.1	1717.1000uc.com
+127.0.0.1	176.65.148.189.ptr.pfcloud.network
 127.0.0.1	2.off3.ru
 127.0.0.1	6yd.ru
 127.0.0.1	7wgxbccc.cyberlane.digital
@@ -23,7 +24,6 @@
 127.0.0.1	admin.byte.in.ua
 127.0.0.1	admin.gestroom.it
 127.0.0.1	adver.com.br
-127.0.0.1	agence-immobiliere-lyon.com
 127.0.0.1	alarmline.com.br
 127.0.0.1	alineeleuterio.com.br
 127.0.0.1	aliyundunupdate.xyz
@@ -34,6 +34,7 @@
 127.0.0.1	api.dealharbor.coupons
 127.0.0.1	api.files.link
 127.0.0.1	api.nishant-labs.com
+127.0.0.1	api.nuitetoile.coupons
 127.0.0.1	app.appzcvb.com
 127.0.0.1	app.perk9parcel.coupons
 127.0.0.1	app.terrepure.coupons
@@ -86,6 +87,7 @@
 127.0.0.1	catbaparadisehotel.com.vn
 127.0.0.1	cdaonline.com.ar
 127.0.0.1	cdn-303-web.flash5saver.coupons
+127.0.0.1	cdn-b9.bleuforet.coupons
 127.0.0.1	cdn.file6.goodid.com
 127.0.0.1	cdn.mintvoucher.coupons
 127.0.0.1	cdn7.mondlicht.coupons
@@ -122,6 +124,7 @@
 127.0.0.1	d.14yaa.com
 127.0.0.1	d.wanyouxi7.com
 127.0.0.1	dansorium.gr
+127.0.0.1	data-transfer-srv.starkwind.coupons
 127.0.0.1	data.yhydl.com
 127.0.0.1	dcrun.co.uk
 127.0.0.1	dcwblida.dz
@@ -161,7 +164,6 @@
 127.0.0.1	dowonline.ru
 127.0.0.1	dreamwatchevent.com
 127.0.0.1	drevos.ro
-127.0.0.1	drhenrylopez.com
 127.0.0.1	drp.greenenergygroup.org
 127.0.0.1	dusttv.com
 127.0.0.1	dweixin.cn
@@ -178,6 +180,7 @@
 127.0.0.1	epanpano.com
 127.0.0.1	estudio.ythan.com.br
 127.0.0.1	evangroup.ru
+127.0.0.1	external-web-node.nuitetoile.coupons
 127.0.0.1	f0ur-rnark.four486stop.coupons
 127.0.0.1	f1int-0rb.flint1zarco.coupons
 127.0.0.1	fakers.co.jp
@@ -201,6 +204,7 @@
 127.0.0.1	galaxis.pw
 127.0.0.1	galerisenimutiara.com
 127.0.0.1	gallivantinggoals.com
+127.0.0.1	gate-v7.nuitetoile.coupons
 127.0.0.1	glacier.breeze1falcon.coupons
 127.0.0.1	glacier.kozhevnik6lan.coupons
 127.0.0.1	global-site-check.bonus3basket.coupons
@@ -306,6 +310,7 @@
 127.0.0.1	nebula-vv1ng.nebula4tango.coupons
 127.0.0.1	neilshairdressers.co.uk
 127.0.0.1	nelees.com
+127.0.0.1	node44.starkwind.coupons
 127.0.0.1	noithaticon.vn
 127.0.0.1	ns1.bonus3basket.coupons
 127.0.0.1	nuit-douce.revesage.coupons
@@ -406,6 +411,7 @@
 127.0.0.1	scorpcasinos.com
 127.0.0.1	sdvgpro.ru
 127.0.0.1	sec.xiaoshabi.nl
+127.0.0.1	secure-cloud-link.bleuforet.coupons
 127.0.0.1	secure-gateway-app.mintvoucher.coupons
 127.0.0.1	secure-login-area.cielsombre.coupons
 127.0.0.1	separadordecc.com
@@ -508,6 +514,7 @@
 127.0.0.1	windomstatetheater.com
 127.0.0.1	wittenhorst.eu
 127.0.0.1	ws.deal4harbor.coupons
+127.0.0.1	ws.starkwind.coupons
 127.0.0.1	www.api.nishant-labs.com
 127.0.0.1	www.ardguisser.com
 127.0.0.1	www.astenterprises.com.pk
@@ -585,4 +592,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 579
+# Number of entries: 586

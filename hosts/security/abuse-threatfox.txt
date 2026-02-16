@@ -1,11 +1,24 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 14:40:57 UTC                        #
+# Last updated: 2026-02-16 15:39:30 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	dl.schnellauf.coupons
+127.0.0.1	hyp0-vvrite.capitul98hypo.coupons
+127.0.0.1	gate-v7.nuitetoile.coupons
+127.0.0.1	external-web-node.nuitetoile.coupons
+127.0.0.1	api.nuitetoile.coupons
+127.0.0.1	node44.starkwind.coupons
+127.0.0.1	data-transfer-srv.starkwind.coupons
+127.0.0.1	ws.starkwind.coupons
+127.0.0.1	client.signin-katapult.com
+127.0.0.1	shareitdownload.net
+127.0.0.1	chiwatoken.com
+127.0.0.1	cdn-b9.bleuforet.coupons
+127.0.0.1	secure-cloud-link.bleuforet.coupons
 127.0.0.1	v1.bleuforet.coupons
 127.0.0.1	treatise.capitul98hypo.coupons
 127.0.0.1	a5v9n.capitul98hypo.coupons
@@ -56657,6 +56670,4 @@
 127.0.0.1	airiosystems.com
 127.0.0.1	alivehydrolounge.com
 127.0.0.1	asesoriaseguridadysalud.com
-127.0.0.1	indianagoods.club
-127.0.0.1	seamonkey.club
-# Number of entries: 56653
+# Number of entries: 56664
