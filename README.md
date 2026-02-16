@@ -8,8 +8,8 @@ Curated multi-source domain block registry (RAW).
 |------|--------|
 | [`hosts/ads-track/1hosts-lite.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/1hosts-lite.txt) | 93155 |
 | [`hosts/ads-track/1hosts-xtra.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/1hosts-xtra.txt) | 948710 |
-| [`hosts/ads-track/adguard.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/adguard.txt) | 147357 |
-| [`hosts/ads-track/oisd-big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/oisd-big.txt) | 263002 |
+| [`hosts/ads-track/adguard.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/adguard.txt) | 147375 |
+| [`hosts/ads-track/oisd-big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/oisd-big.txt) | 263111 |
 | [`hosts/ads-track/oisd-small.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/ads-track/oisd-small.txt) | 51979 |
 | [`hosts/hagezi/dga.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/dga.txt) | 1974625 |
 | [`hosts/hagezi/doh.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/doh.txt) | 13821 |
@@ -19,8 +19,8 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/policy/piracy.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/policy/piracy.txt) | 11709 |
 | [`hosts/policy/porn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/policy/porn.txt) | 155187 |
 | [`hosts/policy/social.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/policy/social.txt) | 889 |
-| [`hosts/security/abuse-threatfox.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/abuse-threatfox.txt) | 47294 |
-| [`hosts/security/abuse-urlhaus.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/abuse-urlhaus.txt) | 586 |
+| [`hosts/security/abuse-threatfox.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/abuse-threatfox.txt) | 47250 |
+| [`hosts/security/abuse-urlhaus.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/abuse-urlhaus.txt) | 597 |
 | [`hosts/security/blocklistproject-malware.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/blocklistproject-malware.txt) | 435155 |
 | [`hosts/security/blocklistproject-phishing.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/blocklistproject-phishing.txt) | 190222 |
 | [`hosts/security/blocklistproject-ransomware.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/blocklistproject-ransomware.txt) | 1904 |
@@ -32,9 +32,9 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/security/proxy-list.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/proxy-list.txt) | 81587 |
 | [`hosts/security/spam-tlds.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/spam-tlds.txt) | 435 |
 | [`hosts/security/tor-exit.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/tor-exit.txt) | 1224 |
-| [`hosts/security/urlhaus.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/urlhaus.txt) | 586 |
+| [`hosts/security/urlhaus.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/security/urlhaus.txt) | 597 |
 | [`hosts/unified/stevenblack.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/unified/stevenblack.txt) | 79081 |
 
-**Total Domains (Sum of Lists):** 5617935
+**Total Domains (Sum of Lists):** 5618040
 
-Last Updated: 2026-02-16 22:47 WIB
+Last Updated: 2026-02-16 23:53 WIB

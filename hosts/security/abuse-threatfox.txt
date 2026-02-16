@@ -1,11 +1,30 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 15:39:30 UTC                        #
+# Last updated: 2026-02-16 16:36:36 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	xqz-p.goldberg.coupons
+127.0.0.1	u842.goldberg.coupons
+127.0.0.1	shenron19862.duckdns.org
+127.0.0.1	cattlegold.xyz
+127.0.0.1	bikesdonkey.info
+127.0.0.1	instrumentvolcano.space
+127.0.0.1	homefireman.xyz
+127.0.0.1	edge-99.vertjardin.coupons
+127.0.0.1	direct-access-point.vertjardin.coupons
+127.0.0.1	kyc.kyowlmsapcxxx.com
+127.0.0.1	jyx7jwja.blue128cinder.digital
+127.0.0.1	app.vertjardin.coupons
+127.0.0.1	rz8u2m81.blue128cinder.digital
+127.0.0.1	frechkotikru-221.icu
+127.0.0.1	noelmeowru-339.icu
+127.0.0.1	huligankotru-451.icu
+127.0.0.1	uri2df93.blue128cinder.digital
+127.0.0.1	6qgqyv15.blue128cinder.digital
+127.0.0.1	auth-global-zone.schnellauf.coupons
 127.0.0.1	dl.schnellauf.coupons
 127.0.0.1	hyp0-vvrite.capitul98hypo.coupons
 127.0.0.1	gate-v7.nuitetoile.coupons
@@ -56607,67 +56626,4 @@
 127.0.0.1	telemetrywatson.live
 127.0.0.1	restaurant-do.gl.at.ply.gg
 127.0.0.1	snfers-56365.portmap.host
-127.0.0.1	propiaworser.quest
-127.0.0.1	rosekarat.quest
-127.0.0.1	route36grille.com
-127.0.0.1	sheller.net
-127.0.0.1	sinchew.asia
-127.0.0.1	szwanglou.com
-127.0.0.1	tangerinearray.com
-127.0.0.1	tispenodnos.quest
-127.0.0.1	twdesignacreation.com
-127.0.0.1	vortex-crystal.com
-127.0.0.1	waynenicholson.net
-127.0.0.1	xmegami.store
-127.0.0.1	xn--balcasurucukursu-khc93a.net
-127.0.0.1	zozovahbrands.com
-127.0.0.1	hoanghachai.com
-127.0.0.1	isportdata.com
-127.0.0.1	jaqeba.com
-127.0.0.1	jeanmarielafon.com
-127.0.0.1	jetbud.store
-127.0.0.1	jmcorporationkorea.com
-127.0.0.1	justabunchofbs.com
-127.0.0.1	kcverse.com
-127.0.0.1	kurlonhyderabad.com
-127.0.0.1	managejabsurd.com
-127.0.0.1	marine-struct.net
-127.0.0.1	marthaoneil.com
-127.0.0.1	menocon.com
-127.0.0.1	mgav71.xyz
-127.0.0.1	mlscolumbus.info
-127.0.0.1	mtrainierlodge.com
-127.0.0.1	munozconsulting.online
-127.0.0.1	no1parnell.com
-127.0.0.1	ofvbufybsvirfg.cloud
-127.0.0.1	pawz-store.xyz
-127.0.0.1	plantestine.com
-127.0.0.1	plumbersincali.com
-127.0.0.1	assetacre.com
-127.0.0.1	associates-pl.net
-127.0.0.1	axiabjj.com
-127.0.0.1	beatbopped.com
-127.0.0.1	bracunis.com
-127.0.0.1	bsessis.com
-127.0.0.1	bundimshelbwala.com
-127.0.0.1	carshaltonfestival.com
-127.0.0.1	carter-wallace.com
-127.0.0.1	chaikuo.com
-127.0.0.1	chouinardcustomcreations.com
-127.0.0.1	columbiabutikk.com
-127.0.0.1	coolingmvmath.online
-127.0.0.1	creacn.com
-127.0.0.1	dfgdfgivetender.com
-127.0.0.1	dtcandco.com
-127.0.0.1	epointbd.xyz
-127.0.0.1	equestrianlimousine.com
-127.0.0.1	fkjdkjreiofkkldskldfklefd.store
-127.0.0.1	frfrfrjrbfkfncifnsnqwnxbcb.com
-127.0.0.1	healthians.care
-127.0.0.1	302mh.com
-127.0.0.1	33m123.com
-127.0.0.1	6montecitoblvd.com
-127.0.0.1	airiosystems.com
-127.0.0.1	alivehydrolounge.com
-127.0.0.1	asesoriaseguridadysalud.com
-# Number of entries: 56664
+# Number of entries: 56620
