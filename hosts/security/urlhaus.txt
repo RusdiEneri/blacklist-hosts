@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-16 22:28:06 (UTC)                      #
+# Last updated: 2026-02-16 23:28:07 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -68,6 +68,7 @@
 127.0.0.1	blit.co.za
 127.0.0.1	blitz-deal.blaukraft.coupons
 127.0.0.1	blogs.sokun.jp
+127.0.0.1	blueocean.endpoint-metrics-internal.coupons
 127.0.0.1	bmdcompany.com
 127.0.0.1	bois-vert.clairforet.coupons
 127.0.0.1	bolixtiol.lol
@@ -254,7 +255,6 @@
 127.0.0.1	kalt-start.winterzug.coupons
 127.0.0.1	kamin-premium.ru
 127.0.0.1	karoonpc.com
-127.0.0.1	kavacanada.ca
 127.0.0.1	keepass-xc.com
 127.0.0.1	khavar.com
 127.0.0.1	khoancatbetong89.vn
@@ -353,6 +353,7 @@
 127.0.0.1	pay.aqiu6.com
 127.0.0.1	pcupd.com
 127.0.0.1	pid.fly160.com
+127.0.0.1	pin-up0045.com
 127.0.0.1	pkr.greenenergygroup.org
 127.0.0.1	planetariumobil.ro
 127.0.0.1	pns.org.pk
@@ -391,6 +392,7 @@
 127.0.0.1	refrigeracion.delmondexpress.com
 127.0.0.1	reifenquick.de
 127.0.0.1	remote-access-v1.deal4harbor.coupons
+127.0.0.1	report-stream-55.dev-trace-analyzer.coupons
 127.0.0.1	resourceedge.org
 127.0.0.1	reusable-flex.com
 127.0.0.1	rfk.crossfitmissionbay.com
@@ -593,4 +595,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 587
+# Number of entries: 589
