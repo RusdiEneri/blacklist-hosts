@@ -1,11 +1,23 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 09:54:25 UTC                        #
+# Last updated: 2026-02-16 11:34:37 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	pic.gadgetwalabd.com
+127.0.0.1	pic.alpinematters.com
+127.0.0.1	z3n7a.reporter9speck.coupons
+127.0.0.1	p1trnan-vvex.pitman123wid.coupons
+127.0.0.1	xxblessings.minhaempresa.tv
+127.0.0.1	arhibooks.radio.fm
+127.0.0.1	journal-complete.sa.com
+127.0.0.1	ledger.pitman123wid.coupons
+127.0.0.1	m9r3p.pitman123wid.coupons
+127.0.0.1	3aofxgg5.orbit44kind.digital
+127.0.0.1	h698pw1r.orbit44kind.digital
+127.0.0.1	kh10p0-rnate.khlopotun6turn.coupons
 127.0.0.1	ruruurururururu.ru
 127.0.0.1	workshop.khlopotun6turn.coupons
 127.0.0.1	t6k2n.khlopotun6turn.coupons
@@ -56635,7 +56647,4 @@
 127.0.0.1	crimey1337-43127.portmap.host
 127.0.0.1	carljas.duckdns.org
 127.0.0.1	an-schema.gl.at.ply.gg
-127.0.0.1	qiuy.org
-127.0.0.1	windows-updates.nice-data.top
-127.0.0.1	9ra2xnnm8v62x.cfc-execute.bj.baidubce.com
-# Number of entries: 56632
+# Number of entries: 56641

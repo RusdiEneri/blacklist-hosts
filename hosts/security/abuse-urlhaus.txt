@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-16 09:58:16 (UTC)                      #
+# Last updated: 2026-02-16 11:39:09 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -23,7 +23,6 @@
 127.0.0.1	admin.byte.in.ua
 127.0.0.1	admin.gestroom.it
 127.0.0.1	adver.com.br
-127.0.0.1	agence-immobiliere-lyon.com
 127.0.0.1	alarmline.com.br
 127.0.0.1	alineeleuterio.com.br
 127.0.0.1	aliyundunupdate.xyz
@@ -229,6 +228,7 @@
 127.0.0.1	id3basketball.com
 127.0.0.1	igra123.com
 127.0.0.1	image-thaihometown.com
+127.0.0.1	infinitaki.com
 127.0.0.1	injectroblox.ru
 127.0.0.1	innaflux.com
 127.0.0.1	innlive.in
@@ -252,6 +252,7 @@
 127.0.0.1	karoonpc.com
 127.0.0.1	kavacanada.ca
 127.0.0.1	keepass-xc.com
+127.0.0.1	kh10p0-rnate.khlopotun6turn.coupons
 127.0.0.1	khavar.com
 127.0.0.1	khoancatbetong89.vn
 127.0.0.1	kimyen.net
@@ -265,6 +266,7 @@
 127.0.0.1	lantern.plea36slavneck.coupons
 127.0.0.1	lantern.rocket7flora.coupons
 127.0.0.1	launcher1.muonliness6.com
+127.0.0.1	ledger.pitman123wid.coupons
 127.0.0.1	lindenappliances.co.za
 127.0.0.1	lindnerelektroanlagen.de
 127.0.0.1	linktoxic34.com
@@ -276,9 +278,11 @@
 127.0.0.1	m-global.hksty.net
 127.0.0.1	m-link.bonus3basket.coupons
 127.0.0.1	m.jkoa.co.kr
+127.0.0.1	m.meta-dm.com
 127.0.0.1	m0d-rnflux.blu45modern.coupons
 127.0.0.1	m6r8p.prisk7tarvo.coupons
 127.0.0.1	m9r3p.jungle9orbit.coupons
+127.0.0.1	m9r3p.pitman123wid.coupons
 127.0.0.1	maidforyou1985.com
 127.0.0.1	mail.ssacenter.top
 127.0.0.1	main.dsn.ovh
@@ -337,6 +341,7 @@
 127.0.0.1	outpost.prisk7tarvo.coupons
 127.0.0.1	owlcity.ru
 127.0.0.1	p1ea-rnask.plea36slavneck.coupons
+127.0.0.1	p1trnan-vvex.pitman123wid.coupons
 127.0.0.1	p3.zbjimg.com
 127.0.0.1	p8x1m.homo483geneous.coupons
 127.0.0.1	p8x1m.shadow6nectar.coupons
@@ -430,6 +435,7 @@
 127.0.0.1	steam66.cn
 127.0.0.1	stern-fahrt.stolzmond.coupons
 127.0.0.1	studiogioeli.it
+127.0.0.1	superbet388.one
 127.0.0.1	supercleanspb.ru
 127.0.0.1	support.clz.kr
 127.0.0.1	svirtual.sanviatorperu.edu.pe
@@ -573,9 +579,10 @@
 127.0.0.1	youtransfer.net
 127.0.0.1	z3n7a.matrix8piano.coupons
 127.0.0.1	z3n7a.nabokov30slam.coupons
+127.0.0.1	z3n7a.reporter9speck.coupons
 127.0.0.1	zamilgroups.com
 127.0.0.1	zapchast-gazkotel.ru
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 572
+# Number of entries: 579
