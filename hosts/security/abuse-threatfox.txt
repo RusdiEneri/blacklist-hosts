@@ -1,11 +1,18 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 01:06:25 UTC                        #
+# Last updated: 2026-02-16 04:46:48 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	api.orbit6crate.coupons
+127.0.0.1	cdn-b12.nifty4locker.coupons
+127.0.0.1	secure-access-point.nifty4locker.coupons
+127.0.0.1	ws.nifty4locker.coupons
+127.0.0.1	mumrj4z.didns.ru
+127.0.0.1	skamottl3.duckdns.org
+127.0.0.1	node-v99.amber9stash.coupons
 127.0.0.1	data-flow-central.amber9stash.coupons
 127.0.0.1	s3.amber9stash.coupons
 127.0.0.1	ftp.henfruit.ro
@@ -56512,7 +56519,4 @@
 127.0.0.1	cwcstudios.com
 127.0.0.1	laceyanns.com
 127.0.0.1	ratty.mywire.org
-127.0.0.1	ec2-3-146-105-91.us-east-2.compute.amazonaws.com
-127.0.0.1	ec2-16-170-232-86.eu-north-1.compute.amazonaws.com
-127.0.0.1	gitcompay.com
-# Number of entries: 56509
+# Number of entries: 56513
