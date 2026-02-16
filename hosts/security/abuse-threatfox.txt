@@ -1,11 +1,21 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 04:46:48 UTC                        #
+# Last updated: 2026-02-16 07:01:21 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	cloud-m3.plum5parcel.coupons
+127.0.0.1	indianrecipes.ru.com
+127.0.0.1	pramodtoursandtravel.in.net
+127.0.0.1	www.s666vn.fit
+127.0.0.1	internal-web-proxy.plum5parcel.coupons
+127.0.0.1	dl.plum5parcel.coupons
+127.0.0.1	zebuceta.ddns.net
+127.0.0.1	weddingrings.com.ph
+127.0.0.1	gate-07.orbit6crate.coupons
+127.0.0.1	global-sync-srv.orbit6crate.coupons
 127.0.0.1	api.orbit6crate.coupons
 127.0.0.1	cdn-b12.nifty4locker.coupons
 127.0.0.1	secure-access-point.nifty4locker.coupons
@@ -56518,5 +56528,4 @@
 127.0.0.1	stefanchik.com
 127.0.0.1	cwcstudios.com
 127.0.0.1	laceyanns.com
-127.0.0.1	ratty.mywire.org
-# Number of entries: 56513
+# Number of entries: 56522
