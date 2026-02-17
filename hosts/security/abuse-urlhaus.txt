@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-17 07:29:44 (UTC)                      #
+# Last updated: 2026-02-17 08:40:21 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -102,7 +102,6 @@
 127.0.0.1	checkinetverifk.com
 127.0.0.1	chinaapper.com
 127.0.0.1	chiptune.com
-127.0.0.1	chuguadventures.co.tz
 127.0.0.1	classroomseven.com
 127.0.0.1	clearfocus.boldvision.coupons
 127.0.0.1	clipaid.app
@@ -139,7 +138,6 @@
 127.0.0.1	dcrun.co.uk
 127.0.0.1	dcwblida.dz
 127.0.0.1	de-partner-node.mondlicht.coupons
-127.0.0.1	deepblue.silentpeak.coupons
 127.0.0.1	delp-heizungsbau.de
 127.0.0.1	derekludlow.com
 127.0.0.1	dev.flash5saver.coupons
@@ -234,7 +232,6 @@
 127.0.0.1	harvest.nebula4tango.coupons
 127.0.0.1	hasalltalent.com
 127.0.0.1	hideplo.com
-127.0.0.1	highstone.silentpeak.coupons
 127.0.0.1	hitman-pro.ru
 127.0.0.1	hitstation.nl
 127.0.0.1	hobobot.net
@@ -246,9 +243,11 @@
 127.0.0.1	humodin.lol
 127.0.0.1	hyp0-vvrite.capitul98hypo.coupons
 127.0.0.1	i.404.pm
+127.0.0.1	iceshore.frozengrove.coupons
 127.0.0.1	icoffeecloud.com
 127.0.0.1	id3basketball.com
 127.0.0.1	igra123.com
+127.0.0.1	imustgetlogsooo.site
 127.0.0.1	infinitaki.com
 127.0.0.1	injectroblox.ru
 127.0.0.1	innaflux.com
@@ -294,9 +293,10 @@
 127.0.0.1	log33.syslog-remote-buffer.coupons
 127.0.0.1	lomejordesalamanca.es
 127.0.0.1	lon-01.dlo4d.com
+127.0.0.1	longway.hiddenpath.coupons
+127.0.0.1	lostforest.hiddenpath.coupons
 127.0.0.1	luizmatoso.com.br
 127.0.0.1	lun.technok.sbs
-127.0.0.1	lunr.technok.sbs
 127.0.0.1	luq.technol.sbs
 127.0.0.1	m-91.stackdump-collector.coupons
 127.0.0.1	m-global.hksty.net
@@ -314,7 +314,6 @@
 127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	messageforms.com
 127.0.0.1	metrics.gocloudmaps.com
-127.0.0.1	missileperformance.hu
 127.0.0.1	mitreart.com
 127.0.0.1	mn.34509.su
 127.0.0.1	mobshah.com
@@ -335,6 +334,7 @@
 127.0.0.1	node44.starkwind.coupons
 127.0.0.1	noithaticon.vn
 127.0.0.1	ns1.bonus3basket.coupons
+127.0.0.1	nusatoyota.co.id
 127.0.0.1	ny.lshdw.cc
 127.0.0.1	o24o.ru
 127.0.0.1	ojang.pe.kr
@@ -373,6 +373,7 @@
 127.0.0.1	palharesinformatica.com.br
 127.0.0.1	panychurasc0.com
 127.0.0.1	parmisbuilding.com
+127.0.0.1	pastaco-ca.com
 127.0.0.1	pastee.dev
 127.0.0.1	pay.aqiu6.com
 127.0.0.1	pcupd.com
@@ -385,7 +386,6 @@
 127.0.0.1	posts-luxs.com
 127.0.0.1	proc-9-auth.browser-crash-report.coupons
 127.0.0.1	proship.ae
-127.0.0.1	protherapycenter.com
 127.0.0.1	public.demo.securecloudsandbox.com
 127.0.0.1	puresnow.frozengrove.coupons
 127.0.0.1	pvsa.gxfugy.cn
@@ -416,6 +416,7 @@
 127.0.0.1	rep0rt-rnix.reporter9speck.coupons
 127.0.0.1	report-stream-55.dev-trace-analyzer.coupons
 127.0.0.1	resourceedge.org
+127.0.0.1	reusable-flex.com
 127.0.0.1	rfk.crossfitmissionbay.com
 127.0.0.1	rheddh.com
 127.0.0.1	riderspin.com
@@ -433,6 +434,7 @@
 127.0.0.1	scorpcasinos.com
 127.0.0.1	sdvgpro.ru
 127.0.0.1	sec.xiaoshabi.nl
+127.0.0.1	secretdoor.hiddenpath.coupons
 127.0.0.1	secure-access-point.nifty4locker.coupons
 127.0.0.1	secure-cloud-link.bleuforet.coupons
 127.0.0.1	secure-gateway-app.mintvoucher.coupons
@@ -455,6 +457,7 @@
 127.0.0.1	smartstep.boldvision.coupons
 127.0.0.1	soft.110route.com
 127.0.0.1	softcatalog.ru
+127.0.0.1	softswapp.com
 127.0.0.1	solutelco.com
 127.0.0.1	spoar.org.in
 127.0.0.1	srv-90.dealharbor.coupons
@@ -466,12 +469,14 @@
 127.0.0.1	static.youdm.cn
 127.0.0.1	stdown.dinju.com
 127.0.0.1	steam66.cn
+127.0.0.1	stonecradle.com
 127.0.0.1	studiogioeli.it
 127.0.0.1	sunwukongs.com
 127.0.0.1	superbet388.one
 127.0.0.1	supercleanspb.ru
 127.0.0.1	support.clz.kr
 127.0.0.1	svirtual.sanviatorperu.edu.pe
+127.0.0.1	swiftfusion.tech
 127.0.0.1	sync-v-8.extension-health-sync.coupons
 127.0.0.1	t-9.dev-trace-analyzer.coupons
 127.0.0.1	t6k2n.amber2vivid.coupons
@@ -481,6 +486,7 @@
 127.0.0.1	talentrecruitments.com
 127.0.0.1	tanscarattorneys.co.tz
 127.0.0.1	tapestryoftruth.com
+127.0.0.1	taxandmoreinc.net
 127.0.0.1	techauto.net
 127.0.0.1	tecunonline.com
 127.0.0.1	tehnomag.rs
@@ -509,6 +515,7 @@
 127.0.0.1	uniform-factory.ae
 127.0.0.1	unique-set-02.zeitgeist.coupons
 127.0.0.1	unique-trace-id.stackdump-collector.coupons
+127.0.0.1	uniworldrivercruises-co.uk
 127.0.0.1	upaicdn.xinmei365.com
 127.0.0.1	upchemicals.co.in
 127.0.0.1	update-system-srv.flash5saver.coupons
@@ -573,6 +580,7 @@
 127.0.0.1	www.longfeng188.com
 127.0.0.1	www.luuk-lifestyle.eu
 127.0.0.1	www.medises.co.kr
+127.0.0.1	www.mevetlab.cl
 127.0.0.1	www.mixturro.com
 127.0.0.1	www.mobimpex.ro
 127.0.0.1	www.myvcart.com
@@ -632,4 +640,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 626
+# Number of entries: 634
