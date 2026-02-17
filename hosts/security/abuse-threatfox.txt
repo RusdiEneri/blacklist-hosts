@@ -1,11 +1,20 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 09:51:14 UTC                        #
+# Last updated: 2026-02-17 10:37:23 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	warmshore.gentlewave.coupons
+127.0.0.1	summerbreeze.gentlewave.coupons
+127.0.0.1	kenaifj.live
+127.0.0.1	captaid.cyou
+127.0.0.1	diplomi.live
+127.0.0.1	schoole.top
+127.0.0.1	leafyrm.cyou
+127.0.0.1	automaf.top
+127.0.0.1	littlep.top
 127.0.0.1	calmwater.gentlewave.coupons
 127.0.0.1	strongmetal.ironpulse.coupons
 127.0.0.1	smoothride.velvetroad.coupons
@@ -56703,4 +56712,4 @@
 127.0.0.1	static.140.144.161.5.clients.your-server.de
 127.0.0.1	camerwamper-64923.portmap.host
 127.0.0.1	few-mines.gl.at.ply.gg
-# Number of entries: 56697
+# Number of entries: 56706

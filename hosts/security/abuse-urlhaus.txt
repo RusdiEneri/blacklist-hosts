@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-17 09:52:07 (UTC)                      #
+# Last updated: 2026-02-17 10:54:13 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -232,6 +232,7 @@
 127.0.0.1	harvest.nebula4tango.coupons
 127.0.0.1	hasalltalent.com
 127.0.0.1	hideplo.com
+127.0.0.1	hild.shop
 127.0.0.1	hitman-pro.ru
 127.0.0.1	hitstation.nl
 127.0.0.1	hobobot.net
@@ -476,6 +477,7 @@
 127.0.0.1	stonecradle.com
 127.0.0.1	strongmetal.ironpulse.coupons
 127.0.0.1	studiogioeli.it
+127.0.0.1	summerbreeze.gentlewave.coupons
 127.0.0.1	sunwukongs.com
 127.0.0.1	superbet388.one
 127.0.0.1	supercleanspb.ru
@@ -550,6 +552,7 @@
 127.0.0.1	vulkanvegas1000.sajautohaus.com
 127.0.0.1	w-4.syslog-remote-buffer.coupons
 127.0.0.1	warkopshopfb138.cc
+127.0.0.1	warmshore.gentlewave.coupons
 127.0.0.1	waypoint.four486stop.coupons
 127.0.0.1	webcstore.pw
 127.0.0.1	website.mypetapp.co.za
@@ -645,4 +648,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 639
+# Number of entries: 642
