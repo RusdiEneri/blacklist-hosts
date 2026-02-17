@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-17 04:34:28 (UTC)                      #
+# Last updated: 2026-02-17 05:52:11 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -227,6 +227,7 @@
 127.0.0.1	globaltechbilling.com
 127.0.0.1	go.perkparcel.coupons
 127.0.0.1	go.stillesee.coupons
+127.0.0.1	gobiotechpestcontrol.com
 127.0.0.1	gordon-and-son.com
 127.0.0.1	greenforest.runtime-error-handler.coupons
 127.0.0.1	greenpark.urbanharvest.coupons
@@ -340,8 +341,8 @@
 127.0.0.1	o24o.ru
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
-127.0.0.1	oknoplastik.sk
 127.0.0.1	onfiltre.com.tr
+127.0.0.1	onlineappdownload.507.net.cn
 127.0.0.1	onyxarmorcrypt.de
 127.0.0.1	onyxcryptorix.de
 127.0.0.1	onyxcyberapex.de
@@ -628,4 +629,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 622
+# Number of entries: 623

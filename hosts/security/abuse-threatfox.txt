@@ -1,11 +1,12 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 03:00:41 UTC                        #
+# Last updated: 2026-02-17 05:54:05 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	oldbridge.urbanharvest.coupons
 127.0.0.1	premium303202101-62037.portmap.host
 127.0.0.1	service.viewdns.net
 127.0.0.1	greenpark.urbanharvest.coupons
@@ -56674,8 +56675,4 @@
 127.0.0.1	l86.wpherc.dev
 127.0.0.1	global-weekends.net
 127.0.0.1	public-radios.gl.at.ply.gg
-127.0.0.1	stubbb.airdns.org
-127.0.0.1	technical-harder.gl.at.ply.gg
-127.0.0.1	s3ov838.ddns.net
-127.0.0.1	itredirect.merseine.com
-# Number of entries: 56672
+# Number of entries: 56669
