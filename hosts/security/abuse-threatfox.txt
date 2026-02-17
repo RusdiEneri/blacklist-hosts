@@ -1,11 +1,32 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 05:54:05 UTC                        #
+# Last updated: 2026-02-17 07:43:53 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	pnl.gadgetwalabd.com
+127.0.0.1	pnl.alpinematters.com
+127.0.0.1	iceshore.frozengrove.coupons
+127.0.0.1	puresnow.frozengrove.coupons
+127.0.0.1	obiproject2026.com
+127.0.0.1	coscoshippingjp.duckdns.org
+127.0.0.1	winterland.frozengrove.coupons
+127.0.0.1	clearfocus.boldvision.coupons
+127.0.0.1	smartstep.boldvision.coupons
+127.0.0.1	insectwoman.space
+127.0.0.1	quartershoes.xyz
+127.0.0.1	lakecars.info
+127.0.0.1	newidea.boldvision.coupons
+127.0.0.1	deepblue.silentpeak.coupons
+127.0.0.1	33vy2hv2v7hoy4q.sbs
+127.0.0.1	hayesmed.com
+127.0.0.1	regancontrols.com
+127.0.0.1	sfkjsdhfsdfsdhsken.cfd
+127.0.0.1	highstone.silentpeak.coupons
+127.0.0.1	recently-dsc.gl.at.ply.gg
+127.0.0.1	coldwind.silentpeak.coupons
 127.0.0.1	oldbridge.urbanharvest.coupons
 127.0.0.1	premium303202101-62037.portmap.host
 127.0.0.1	service.viewdns.net
@@ -56672,7 +56693,4 @@
 127.0.0.1	static.140.144.161.5.clients.your-server.de
 127.0.0.1	camerwamper-64923.portmap.host
 127.0.0.1	few-mines.gl.at.ply.gg
-127.0.0.1	l86.wpherc.dev
-127.0.0.1	global-weekends.net
-127.0.0.1	public-radios.gl.at.ply.gg
-# Number of entries: 56669
+# Number of entries: 56687
