@@ -11,7 +11,7 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/custom/d3host.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/d3host.txt) | 132 |
 | [`hosts/custom/zionist.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/zionist.txt) | 1 |
 | [`hosts/hagezi/anti-piracy.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/anti-piracy.txt) | 11701 |
-| [`hosts/hagezi/dga30.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/dga30.txt) | 1974625 |
+| [`hosts/hagezi/dga30.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/dga30.txt) | 1962573 |
 | [`hosts/hagezi/doh-vpn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/doh-vpn.txt) | 14232 |
 | [`hosts/hagezi/dyndns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/dyndns.txt) | 1481 |
 | [`hosts/hagezi/gambling.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/gambling.txt) | 195441 |
@@ -27,6 +27,6 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/stevenblack/porn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/porn.txt) | 76509 |
 | [`hosts/stevenblack/unified.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/unified.txt) | 79081 |
 
-**Total Domains (Sum of Lists):** 4078487
+**Total Domains (Sum of Lists):** 4066435
 
-Last Updated: 2026-02-17 21:53 WIB
+Last Updated: 2026-02-17 22:58 WIB
