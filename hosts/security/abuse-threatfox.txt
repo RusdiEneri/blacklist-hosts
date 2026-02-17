@@ -1,11 +1,16 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 08:27:01 UTC                        #
+# Last updated: 2026-02-17 09:51:14 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	calmwater.gentlewave.coupons
+127.0.0.1	strongmetal.ironpulse.coupons
+127.0.0.1	smoothride.velvetroad.coupons
+127.0.0.1	redcarpet.velvetroad.coupons
+127.0.0.1	softtouch.velvetroad.coupons
 127.0.0.1	m9jn8b8q.ostroy56sagacious.digital
 127.0.0.1	3uwms13u.ostroy56sagacious.digital
 127.0.0.1	longway.hiddenpath.coupons
@@ -56698,4 +56703,4 @@
 127.0.0.1	static.140.144.161.5.clients.your-server.de
 127.0.0.1	camerwamper-64923.portmap.host
 127.0.0.1	few-mines.gl.at.ply.gg
-# Number of entries: 56692
+# Number of entries: 56697

@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-17 08:40:21 (UTC)                      #
+# Last updated: 2026-02-17 09:52:07 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -85,6 +85,7 @@
 127.0.0.1	bvaco.com
 127.0.0.1	c9t5q.breeze1falcon.coupons
 127.0.0.1	c9t5q.paw85silhouette.coupons
+127.0.0.1	calmwater.gentlewave.coupons
 127.0.0.1	cambodiatouristservice.com
 127.0.0.1	cascade.amber2vivid.coupons
 127.0.0.1	cat.xiaoshabi.nl
@@ -116,7 +117,6 @@
 127.0.0.1	compuserviceonline.com.br
 127.0.0.1	computersupportexperts.com
 127.0.0.1	connects-magiceden.io
-127.0.0.1	contentmentfairnesspesky.com
 127.0.0.1	continentalgroup.net.in
 127.0.0.1	contour.paw85silhouette.coupons
 127.0.0.1	corporacioncrf.com
@@ -385,6 +385,7 @@
 127.0.0.1	polonyauniversiteleri.com.tr
 127.0.0.1	posts-luxs.com
 127.0.0.1	proc-9-auth.browser-crash-report.coupons
+127.0.0.1	project360.hr
 127.0.0.1	proship.ae
 127.0.0.1	public.demo.securecloudsandbox.com
 127.0.0.1	puresnow.frozengrove.coupons
@@ -408,6 +409,7 @@
 127.0.0.1	rdm.91yunma.cn
 127.0.0.1	reauthenticator.com
 127.0.0.1	records.dennisign.se
+127.0.0.1	redcarpet.velvetroad.coupons
 127.0.0.1	redlk.com
 127.0.0.1	refaccionesalma.com.mx
 127.0.0.1	refrigeracion.delmondexpress.com
@@ -455,9 +457,11 @@
 127.0.0.1	skillnorequired.cc
 127.0.0.1	smartermail.host
 127.0.0.1	smartstep.boldvision.coupons
+127.0.0.1	smoothride.velvetroad.coupons
 127.0.0.1	soft.110route.com
 127.0.0.1	softcatalog.ru
 127.0.0.1	softswapp.com
+127.0.0.1	softtouch.velvetroad.coupons
 127.0.0.1	solutelco.com
 127.0.0.1	spoar.org.in
 127.0.0.1	srv-90.dealharbor.coupons
@@ -470,6 +474,7 @@
 127.0.0.1	stdown.dinju.com
 127.0.0.1	steam66.cn
 127.0.0.1	stonecradle.com
+127.0.0.1	strongmetal.ironpulse.coupons
 127.0.0.1	studiogioeli.it
 127.0.0.1	sunwukongs.com
 127.0.0.1	superbet388.one
@@ -640,4 +645,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 634
+# Number of entries: 639
