@@ -1,11 +1,13 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 02:10:15 UTC                        #
+# Last updated: 2026-02-17 03:00:41 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	premium303202101-62037.portmap.host
+127.0.0.1	service.viewdns.net
 127.0.0.1	greenpark.urbanharvest.coupons
 127.0.0.1	citylight.urbanharvest.coupons
 127.0.0.1	openfield.swiftmotion.coupons
@@ -56676,4 +56678,4 @@
 127.0.0.1	technical-harder.gl.at.ply.gg
 127.0.0.1	s3ov838.ddns.net
 127.0.0.1	itredirect.merseine.com
-# Number of entries: 56670
+# Number of entries: 56672
