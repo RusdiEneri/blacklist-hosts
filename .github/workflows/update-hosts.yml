@@ -34,6 +34,7 @@ jobs:
 
             ["custom/zionist"]="https://raw.githubusercontent.com/cabrata/blacklist-hosts/main/hosts/other/zionist.txt"
             ["custom/d3host"]="https://raw.githubusercontent.com/Turtlecute33/toolz/refs/heads/master/src/d3host.adblock"
+            ["custom/DandelionSprout]="https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt"
 
             ["adguard/dns"]="https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
 
