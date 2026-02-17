@@ -51,6 +51,7 @@ jobs:
             ["hagezi/dyndns"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt"
             ["hagezi/spam-tlds"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt"
             ["hagezi/dga30"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga30.txt"
+            ["hagezi/safesearch"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt"
           )
 
           rm -rf hosts
