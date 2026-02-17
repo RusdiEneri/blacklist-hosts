@@ -25,39 +25,31 @@ jobs:
           set -Eeuo pipefail
 
           declare -A SOURCES=(
+            ["adguard/popup"]="https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt"
 
-            ["ads-track/adguard"]="https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
-            ["ads-track/oisd-big"]="https://big.oisd.nl"
-            ["ads-track/oisd-small"]="https://small.oisd.nl"
+            ["stevenblack/unified"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+            ["stevenblack/fakenews"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts"
+            ["stevenblack/gambling"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts"
+            ["stevenblack/porn"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
 
-            ["ads-track/1hosts-lite"]="https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
-            ["ads-track/1hosts-xtra"]="https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
+            ["custom/zionist"]="https://raw.githubusercontent.com/cabrata/blacklist-hosts/main/hosts/other/zionist.txt"
+            ["custom/d3host"]="https://raw.githubusercontent.com/Turtlecute33/toolz/refs/heads/master/src/d3host.adblock"
 
-            ["unified/stevenblack"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+            ["adguard/dns"]="https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
 
-            ["hagezi/ultimate"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt"
-            ["hagezi/dga"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dga30.txt"
-            ["hagezi/doh"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
-            ["hagezi/tif"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt"
+            ["oisd/big"]="https://big.oisd.nl"
+            ["oisd/nsfw"]="https://nsfw.oisd.nl"
 
-            ["security/urlhaus"]="https://urlhaus.abuse.ch/downloads/hostfile/"
-            ["security/phishing-army"]="https://phishing.army/download/phishing_army_blocklist_extended.txt"
-            ["security/nocoin"]="https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
-            ["security/abuse-urlhaus"]="https://urlhaus.abuse.ch/downloads/hostfile/"
-            ["security/abuse-threatfox"]="https://threatfox.abuse.ch/downloads/hostfile/"
-            ["security/botvrij"]="https://www.botvrij.eu/data/ioclist.hostname"
-            ["security/blocklistproject-malware"]="https://blocklistproject.github.io/Lists/abuse.txt"
-            ["security/blocklistproject-phishing"]="https://blocklistproject.github.io/Lists/phishing.txt"
-            ["security/blocklistproject-ransomware"]="https://blocklistproject.github.io/Lists/ransomware.txt"
-            ["security/blocklistproject-scam"]="https://blocklistproject.github.io/Lists/scam.txt"
-            ["security/dynamic-dns"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
-            ["security/proxy-list"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
-            ["security/tor-exit"]="https://check.torproject.org/torbulkexitlist"
-            ["policy/gambling"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
-            ["policy/porn"]="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
-            ["policy/social"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/social.txt"
-            ["policy/piracy"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/anti.piracy.txt"
-            ["security/spam-tlds"]="https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt"
+            ["hagezi/ultimate"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt"
+            ["hagezi/tif"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
+            ["hagezi/hoster"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt"
+            ["hagezi/gambling"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
+            ["hagezi/nsfw"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt"
+            ["hagezi/anti-piracy"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt"
+            ["hagezi/doh-vpn"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt"
+            ["hagezi/dyndns"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt"
+            ["hagezi/spam-tlds"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt"
+            ["hagezi/dga30"]="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga30.txt"
           )
 
           rm -rf hosts
