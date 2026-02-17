@@ -1,11 +1,19 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 11:25:54 UTC                        #
+# Last updated: 2026-02-17 13:13:30 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	q4m8v.peach3package.coupons
+127.0.0.1	rnint-vvave.mint7delivery.coupons
+127.0.0.1	courier.mint7delivery.coupons
+127.0.0.1	christinehoffman.com
+127.0.0.1	x7p9a.mint7delivery.coupons
+127.0.0.1	agitate6vagina.digital
+127.0.0.1	gi9d0czb.serve5woodman.digital
+127.0.0.1	3k71xodj.serve5woodman.digital
 127.0.0.1	futureplan.brightminds.coupons
 127.0.0.1	wiseword.brightminds.coupons
 127.0.0.1	aircraftinteriorandpaint.com
@@ -56705,16 +56713,4 @@
 127.0.0.1	waitdriverupdating.sytes.net
 127.0.0.1	rzr.plex.name
 127.0.0.1	csgeneration-win.com
-127.0.0.1	we.sorvr.com
-127.0.0.1	we.helpasist.com
-127.0.0.1	po.rcwade.com
-127.0.0.1	cartatrantap.com
-127.0.0.1	joi-b.top
-127.0.0.1	glutebikes.top
-127.0.0.1	secx.avsecpnl.top
-127.0.0.1	bpwk.xyz
-127.0.0.1	u9b.top
-127.0.0.1	static.140.144.161.5.clients.your-server.de
-127.0.0.1	camerwamper-64923.portmap.host
-127.0.0.1	few-mines.gl.at.ply.gg
-# Number of entries: 56711
+# Number of entries: 56707

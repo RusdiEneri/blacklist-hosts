@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-17 11:39:10 (UTC)                      #
+# Last updated: 2026-02-17 13:14:06 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -18,6 +18,7 @@
 127.0.0.1	6yd.ru
 127.0.0.1	a5v9n.capitul98hypo.coupons
 127.0.0.1	abissnet.net
+127.0.0.1	acaviationsupplies.com
 127.0.0.1	acc.jiangsujiaxue.com
 127.0.0.1	access.skaparade.com
 127.0.0.1	ace-project.org
@@ -103,6 +104,7 @@
 127.0.0.1	checkinetverifk.com
 127.0.0.1	chinaapper.com
 127.0.0.1	chiptune.com
+127.0.0.1	chuguadventures.co.tz
 127.0.0.1	classroomseven.com
 127.0.0.1	clearfocus.boldvision.coupons
 127.0.0.1	clipaid.app
@@ -120,6 +122,7 @@
 127.0.0.1	continentalgroup.net.in
 127.0.0.1	contour.paw85silhouette.coupons
 127.0.0.1	corporacioncrf.com
+127.0.0.1	courier.mint7delivery.coupons
 127.0.0.1	crimefreesoftware.com
 127.0.0.1	crystalpvp.ru
 127.0.0.1	cs.go.kg
@@ -148,6 +151,7 @@
 127.0.0.1	dezcom.com
 127.0.0.1	dhnconstrucciones.com.ar
 127.0.0.1	dialkwik.in
+127.0.0.1	digitalcode.sa
 127.0.0.1	direct-access-point.vertjardin.coupons
 127.0.0.1	direct-gateway-77.vifespoir.coupons
 127.0.0.1	direct-web-client.perk9parcel.coupons
@@ -165,6 +169,7 @@
 127.0.0.1	down.54nb.com
 127.0.0.1	down.fwqlt.com
 127.0.0.1	down.pcclear.com
+127.0.0.1	down.qqfarmer.com.cn
 127.0.0.1	download.caihong.com
 127.0.0.1	download.doumaibiji.cn
 127.0.0.1	download.haozip.com
@@ -210,7 +215,6 @@
 127.0.0.1	ftp.ywxww.net
 127.0.0.1	fullstacknir.com
 127.0.0.1	fus10n-vvex.fusion2harbor.coupons
-127.0.0.1	futureplan.brightminds.coupons
 127.0.0.1	fz.tiansys.cn
 127.0.0.1	gabyagozetim.com
 127.0.0.1	galaxis.pw
@@ -241,15 +245,12 @@
 127.0.0.1	horizon.believein41fant.coupons
 127.0.0.1	hotellacastellana.com.uy
 127.0.0.1	hqweb.id.vn
-127.0.0.1	hseda.com
 127.0.0.1	humodin.lol
 127.0.0.1	hyp0-vvrite.capitul98hypo.coupons
 127.0.0.1	i.404.pm
-127.0.0.1	iceshore.frozengrove.coupons
 127.0.0.1	icoffeecloud.com
 127.0.0.1	id3basketball.com
 127.0.0.1	igra123.com
-127.0.0.1	imustgetlogsooo.site
 127.0.0.1	infinitaki.com
 127.0.0.1	injectroblox.ru
 127.0.0.1	innaflux.com
@@ -313,7 +314,6 @@
 127.0.0.1	main.dsn.ovh
 127.0.0.1	mandarin.net.au
 127.0.0.1	meetvideogoogle.com
-127.0.0.1	merctransfers.gradycares.com
 127.0.0.1	messageforms.com
 127.0.0.1	metrics.gocloudmaps.com
 127.0.0.1	mitreart.com
@@ -331,7 +331,6 @@
 127.0.0.1	ndown2.ra2ol.com
 127.0.0.1	nebula-vv1ng.nebula4tango.coupons
 127.0.0.1	nelees.com
-127.0.0.1	newidea.boldvision.coupons
 127.0.0.1	node-v99.amber9stash.coupons
 127.0.0.1	node44.starkwind.coupons
 127.0.0.1	noithaticon.vn
@@ -341,6 +340,7 @@
 127.0.0.1	o24o.ru
 127.0.0.1	ojang.pe.kr
 127.0.0.1	okhan.net
+127.0.0.1	oknoplastik.sk
 127.0.0.1	onfiltre.com.tr
 127.0.0.1	onlineappdownload.507.net.cn
 127.0.0.1	onyxarmorcrypt.de
@@ -390,10 +390,10 @@
 127.0.0.1	project360.hr
 127.0.0.1	proship.ae
 127.0.0.1	public.demo.securecloudsandbox.com
-127.0.0.1	puresnow.frozengrove.coupons
 127.0.0.1	pvsa.gxfugy.cn
 127.0.0.1	q-set.extension-health-sync.coupons
 127.0.0.1	q4m8v.believein41fant.coupons
+127.0.0.1	q4m8v.peach3package.coupons
 127.0.0.1	q4m8v.rocket7flora.coupons
 127.0.0.1	qa7sawuw.wildframe41.digital
 127.0.0.1	qiniuyunxz.yxflzs.com
@@ -425,6 +425,7 @@
 127.0.0.1	rheddh.com
 127.0.0.1	riderspin.com
 127.0.0.1	rnatr1x-vvay.matrix8piano.coupons
+127.0.0.1	rnint-vvave.mint7delivery.coupons
 127.0.0.1	robertrowe.com
 127.0.0.1	royalindiancurryclub.com
 127.0.0.1	rrhh.intelsolut.com
@@ -434,11 +435,9 @@
 127.0.0.1	sancaktepekombiservis.com
 127.0.0.1	save.jnrsmcu.com
 127.0.0.1	scainseto.com.br
-127.0.0.1	schenckel.com.br
 127.0.0.1	scorpcasinos.com
 127.0.0.1	sdvgpro.ru
 127.0.0.1	sec.xiaoshabi.nl
-127.0.0.1	secretdoor.hiddenpath.coupons
 127.0.0.1	secure-access-point.nifty4locker.coupons
 127.0.0.1	secure-cloud-link.bleuforet.coupons
 127.0.0.1	secure-gateway-app.mintvoucher.coupons
@@ -447,7 +446,6 @@
 127.0.0.1	session-id-a9.mainsage.coupons
 127.0.0.1	sg123.net
 127.0.0.1	shad0vv-rnix.shadow6nectar.coupons
-127.0.0.1	shaderm.com
 127.0.0.1	sharecodepro.com
 127.0.0.1	shop.mediasova.ru
 127.0.0.1	shqdown.ggzuhao.com
@@ -459,7 +457,6 @@
 127.0.0.1	skillnorequired.cc
 127.0.0.1	smartermail.host
 127.0.0.1	smartstep.boldvision.coupons
-127.0.0.1	smoothride.velvetroad.coupons
 127.0.0.1	soft.110route.com
 127.0.0.1	softcatalog.ru
 127.0.0.1	softswapp.com
@@ -506,12 +503,12 @@
 127.0.0.1	tfortytimes.com
 127.0.0.1	thebrandmantra.in
 127.0.0.1	theholidayroads.com
+127.0.0.1	theipcommunity.com
 127.0.0.1	theoremaoliveoil.com
 127.0.0.1	thtp2.volamngayxua.net
 127.0.0.1	toolshare.com.tr
 127.0.0.1	tr0ff3.cn
 127.0.0.1	tracking.vifespoir.coupons
-127.0.0.1	traderhype.com
 127.0.0.1	transparenciacanaa.com.br
 127.0.0.1	trck.zeitgeist.coupons
 127.0.0.1	treatise.capitul98hypo.coupons
@@ -559,8 +556,6 @@
 127.0.0.1	website.mypetapp.co.za
 127.0.0.1	widexenmexico.com.mx
 127.0.0.1	windomstatetheater.com
-127.0.0.1	winterland.frozengrove.coupons
-127.0.0.1	wiseword.brightminds.coupons
 127.0.0.1	wittenhorst.eu
 127.0.0.1	workshop.khlopotun6turn.coupons
 127.0.0.1	ws.deal4harbor.coupons
@@ -571,6 +566,7 @@
 127.0.0.1	www.astenterprises.com.pk
 127.0.0.1	www.automobile-bk.de
 127.0.0.1	www.backupallfresh2030.com
+127.0.0.1	www.benshamcentre.co.uk
 127.0.0.1	www.blackhattoolz.com
 127.0.0.1	www.bratusferramentas.grupomoltz.com.br
 127.0.0.1	www.cippe.com.cn
@@ -625,12 +621,12 @@
 127.0.0.1	www.zamilgroups.com
 127.0.0.1	www.zhikey.com
 127.0.0.1	x7p9a.blu45modern.coupons
+127.0.0.1	x7p9a.mint7delivery.coupons
 127.0.0.1	x7p9a.nebula4tango.coupons
 127.0.0.1	x8.browser-crash-report.coupons
 127.0.0.1	xai830k.com
 127.0.0.1	xanax.enzostress.st
 127.0.0.1	xdcq3.com
-127.0.0.1	xemhang.vn
 127.0.0.1	xenon.studio
 127.0.0.1	xn--90abegbttpjb3bzb2j.xn--p1ai
 127.0.0.1	xn--b1afiqif6c.xn--p1ai
@@ -650,4 +646,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 644
+# Number of entries: 640
