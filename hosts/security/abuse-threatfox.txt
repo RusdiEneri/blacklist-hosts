@@ -1,11 +1,24 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-16 23:27:40 UTC                        #
+# Last updated: 2026-02-17 02:10:15 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	greenpark.urbanharvest.coupons
+127.0.0.1	citylight.urbanharvest.coupons
+127.0.0.1	openfield.swiftmotion.coupons
+127.0.0.1	fastsky.swiftmotion.coupons
+127.0.0.1	darkriver.swiftmotion.coupons
+127.0.0.1	freshbreeze.sandbox-proxy-diagnostic.coupons
+127.0.0.1	redstone.sandbox-proxy-diagnostic.coupons
+127.0.0.1	smartcloud.sandbox-proxy-diagnostic.coupons
+127.0.0.1	wildriver.runtime-error-handler.coupons
+127.0.0.1	goldenapple.runtime-error-handler.coupons
+127.0.0.1	greenforest.runtime-error-handler.coupons
+127.0.0.1	brightstar.endpoint-metrics-internal.coupons
+127.0.0.1	silverleaf.endpoint-metrics-internal.coupons
 127.0.0.1	0bz6vz64.blue128cinder.digital
 127.0.0.1	w53zv1lx.blue128cinder.digital
 127.0.0.1	blueocean.endpoint-metrics-internal.coupons
@@ -56663,4 +56676,4 @@
 127.0.0.1	technical-harder.gl.at.ply.gg
 127.0.0.1	s3ov838.ddns.net
 127.0.0.1	itredirect.merseine.com
-# Number of entries: 56657
+# Number of entries: 56670
