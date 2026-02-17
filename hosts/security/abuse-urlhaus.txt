@@ -1,6 +1,6 @@
 ################################################################
 # abuse.ch URLhaus Host file                                   #
-# Last updated: 2026-02-17 10:54:13 (UTC)                      #
+# Last updated: 2026-02-17 11:39:10 (UTC)                      #
 #                                                              #
 # Terms Of Use: https://urlhaus.abuse.ch/api/                  #
 # For questions please contact urlhaus [at] abuse.ch           #
@@ -210,6 +210,7 @@
 127.0.0.1	ftp.ywxww.net
 127.0.0.1	fullstacknir.com
 127.0.0.1	fus10n-vvex.fusion2harbor.coupons
+127.0.0.1	futureplan.brightminds.coupons
 127.0.0.1	fz.tiansys.cn
 127.0.0.1	gabyagozetim.com
 127.0.0.1	galaxis.pw
@@ -559,6 +560,7 @@
 127.0.0.1	widexenmexico.com.mx
 127.0.0.1	windomstatetheater.com
 127.0.0.1	winterland.frozengrove.coupons
+127.0.0.1	wiseword.brightminds.coupons
 127.0.0.1	wittenhorst.eu
 127.0.0.1	workshop.khlopotun6turn.coupons
 127.0.0.1	ws.deal4harbor.coupons
@@ -648,4 +650,4 @@
 127.0.0.1	zenglobalenerji.com
 127.0.0.1	zhigao5191.com
 127.0.0.1	zptjv.com
-# Number of entries: 642
+# Number of entries: 644

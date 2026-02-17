@@ -1,11 +1,16 @@
 ################################################################
 # ThreatFox IOCs: host file                                    #
-# Last updated: 2026-02-17 10:37:23 UTC                        #
+# Last updated: 2026-02-17 11:25:54 UTC                        #
 #                                                              #
 # Terms Of Use: https://threatfox.abuse.ch/faq/#tos            #
 # For questions please contact threatfox [at] abuse.ch         #
 ################################################################
 #
+127.0.0.1	futureplan.brightminds.coupons
+127.0.0.1	wiseword.brightminds.coupons
+127.0.0.1	aircraftinteriorandpaint.com
+127.0.0.1	phoenixfilmproductions.com
+127.0.0.1	force-007-bk.ydns.eu
 127.0.0.1	warmshore.gentlewave.coupons
 127.0.0.1	summerbreeze.gentlewave.coupons
 127.0.0.1	kenaifj.live
@@ -56712,4 +56717,4 @@
 127.0.0.1	static.140.144.161.5.clients.your-server.de
 127.0.0.1	camerwamper-64923.portmap.host
 127.0.0.1	few-mines.gl.at.ply.gg
-# Number of entries: 56706
+# Number of entries: 56711
