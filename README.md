@@ -6,7 +6,7 @@ Curated multi-source domain block registry (RAW).
 
 | File | Domains |
 |------|--------|
-| [`hosts/adguard/dns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/dns.txt) | 147587 |
+| [`hosts/adguard/dns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/dns.txt) | 147647 |
 | [`hosts/adguard/popup.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/popup.txt) | 1261 |
 | [`hosts/custom/d3host.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/d3host.txt) | 132 |
 | [`hosts/custom/zionist.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/zionist.txt) | 1 |
@@ -21,12 +21,12 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/hagezi/tif.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/tif.txt) | 605893 |
 | [`hosts/hagezi/ultimate.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/ultimate.txt) | 282074 |
 | [`hosts/oisd/big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/big.txt) | 263545 |
-| [`hosts/oisd/nsfw.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/nsfw.txt) | 347764 |
+| [`hosts/oisd/nsfw.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/nsfw.txt) | 349995 |
 | [`hosts/stevenblack/fakenews.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/fakenews.txt) | 2188 |
 | [`hosts/stevenblack/gambling.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/gambling.txt) | 5895 |
 | [`hosts/stevenblack/porn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/porn.txt) | 76509 |
 | [`hosts/stevenblack/unified.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/unified.txt) | 79081 |
 
-**Total Domains (Sum of Lists):** 4066435
+**Total Domains (Sum of Lists):** 4068726
 
-Last Updated: 2026-02-17 22:58 WIB
+Last Updated: 2026-02-18 00:08 WIB
