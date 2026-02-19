@@ -6,7 +6,7 @@ Curated multi-source domain block registry (RAW).
 
 | File | Domains |
 |------|--------|
-| [`hosts/adguard/dns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/dns.txt) | 148052 |
+| [`hosts/adguard/dns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/dns.txt) | 148067 |
 | [`hosts/adguard/popup.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/popup.txt) | 1261 |
 | [`hosts/custom/DandelionSprout.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/DandelionSprout.txt) | 15404 |
 | [`hosts/custom/d3host.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/d3host.txt) | 132 |
@@ -22,13 +22,13 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/hagezi/spam-tlds.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/spam-tlds.txt) | 435 |
 | [`hosts/hagezi/tif.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/tif.txt) | 602098 |
 | [`hosts/hagezi/ultimate.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/ultimate.txt) | 277262 |
-| [`hosts/oisd/big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/big.txt) | 288928 |
-| [`hosts/oisd/nsfw.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/nsfw.txt) | 352998 |
+| [`hosts/oisd/big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/big.txt) | 284911 |
+| [`hosts/oisd/nsfw.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/nsfw.txt) | 355026 |
 | [`hosts/stevenblack/fakenews.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/fakenews.txt) | 2188 |
 | [`hosts/stevenblack/gambling.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/gambling.txt) | 5895 |
 | [`hosts/stevenblack/porn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/porn.txt) | 76509 |
 | [`hosts/stevenblack/unified.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/unified.txt) | 80047 |
 
-**Total Domains (Sum of Lists):** 4151924
+**Total Domains (Sum of Lists):** 4149950
 
-Last Updated: 2026-02-19 18:42 WIB
+Last Updated: 2026-02-19 20:19 WIB
