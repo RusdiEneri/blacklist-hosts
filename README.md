@@ -22,13 +22,13 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/hagezi/spam-tlds.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/spam-tlds.txt) | 435 |
 | [`hosts/hagezi/tif.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/tif.txt) | 602410 |
 | [`hosts/hagezi/ultimate.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/hagezi/ultimate.txt) | 271593 |
-| [`hosts/oisd/big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/big.txt) | 254597 |
+| [`hosts/oisd/big.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/big.txt) | 243082 |
 | [`hosts/oisd/nsfw.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/oisd/nsfw.txt) | 335764 |
 | [`hosts/stevenblack/fakenews.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/fakenews.txt) | 2188 |
 | [`hosts/stevenblack/gambling.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/gambling.txt) | 5895 |
 | [`hosts/stevenblack/porn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/porn.txt) | 76509 |
 | [`hosts/stevenblack/unified.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/unified.txt) | 80917 |
 
-**Total Domains (Sum of Lists):** 4097710
+**Total Domains (Sum of Lists):** 4086195
 
-Last Updated: 2026-02-20 04:38 WIB
+Last Updated: 2026-02-20 05:38 WIB
