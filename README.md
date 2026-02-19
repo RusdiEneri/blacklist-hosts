@@ -31,4 +31,4 @@ Curated multi-source domain block registry (RAW).
 
 **Total Domains (Sum of Lists):** 4097710
 
-Last Updated: 2026-02-20 03:38 WIB
+Last Updated: 2026-02-20 04:38 WIB
