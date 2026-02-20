@@ -6,7 +6,7 @@ Curated multi-source domain block registry (RAW).
 
 | File | Domains |
 |------|--------|
-| [`hosts/adguard/dns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/dns.txt) | 148339 |
+| [`hosts/adguard/dns.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/dns.txt) | 148359 |
 | [`hosts/adguard/popup.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/adguard/popup.txt) | 1261 |
 | [`hosts/custom/DandelionSprout.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/DandelionSprout.txt) | 15404 |
 | [`hosts/custom/d3host.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/custom/d3host.txt) | 132 |
@@ -29,6 +29,6 @@ Curated multi-source domain block registry (RAW).
 | [`hosts/stevenblack/porn.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/porn.txt) | 76509 |
 | [`hosts/stevenblack/unified.txt`](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/stevenblack/unified.txt) | 80917 |
 
-**Total Domains (Sum of Lists):** 4120787
+**Total Domains (Sum of Lists):** 4120807
 
-Last Updated: 2026-02-20 22:42 WIB
+Last Updated: 2026-02-20 23:50 WIB
