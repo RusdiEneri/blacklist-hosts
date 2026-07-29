@@ -1,0 +1,119 @@
+name: Update Hosts Registry
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-hosts
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check Sources
+        run: |
+          set -Eeuo pipefail
+          
+          # Bersihkan folder hosts lama agar 100% fokus pada sources.list saat ini
+          rm -rf hosts
+          mkdir -p hosts
+          
+          if [ ! -f sources.list ]; then
+            echo "ERROR: sources.list not found"
+            exit 1
+          fi
+          echo "Using sources.list from repository"
+
+      - name: Fetch Sources
+        run: |
+          set -Eeuo pipefail
+
+          # Ditambahkan '|| [[ -n "$path" ]]' agar baris terakhir tanpa newline tetap terbaca
+          while read -r path url || [[ -n "$path" ]]; do
+            # Bersihkan potensi karakter carriage return (CRLF) dari sources.list
+            path="${path%$'\r'}"
+            url="${url%$'\r'}"
+
+            [[ -z "$path" ]] && continue
+            [[ "$path" =~ ^# ]] && continue
+
+            dest="hosts/${path}.txt"
+            mkdir -p "$(dirname "$dest")"
+
+            echo "Downloading $path dari $url"
+
+            # Download langsung tanpa pengecekan ETag / Cache
+            if curl -fsSL \
+              --retry 3 \
+              --retry-delay 5 \
+              --connect-timeout 20 \
+              --max-time 300 \
+              -A "Mozilla/5.0" \
+              -o "$dest.tmp" \
+              "$url"; then
+              mv "$dest.tmp" "$dest"
+            else
+              echo "Download failed: $url"
+              rm -f "$dest.tmp"
+            fi
+
+          done < sources.list
+
+      - name: Generate README
+        run: |
+          set -Eeuo pipefail
+
+          BASE="https://raw.githubusercontent.com/${{ github.repository }}/main"
+
+          echo "# Blacklist Hosts" > README.md
+          echo "" >> README.md
+          echo "Curated multi-source domain block registry." >> README.md
+          echo "" >> README.md
+          echo "## Statistics" >> README.md
+          echo "" >> README.md
+          echo "| File | Domains | Last Updated |" >> README.md
+          echo "|------|---------|--------------|" >> README.md
+
+          total=0
+          current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
+
+          while IFS= read -r file; do
+            count=$(grep -vE '^\s*($|!|#)' "$file" | wc -l || true)
+            total=$((total + count))
+            file_time=$(TZ=Asia/Jakarta date -r "$file" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
+            echo "| [$file]($BASE/$file) | $count | $file_time |" >> README.md
+          done < <(find hosts -type f -name "*.txt" | sort)
+
+          echo "" >> README.md
+          echo "**Total Domains:** $total" >> README.md
+          echo "" >> README.md
+          echo "Last Updated: $current_time" >> README.md
+
+      - name: Commit Changes
+        run: |
+          set -Eeuo pipefail
+
+          git config user.name "RusdiEneri"
+          git config user.email "nuruddinrusydiilham@gmail.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "auto: update hosts $(date +%Y%m%d-%H%M)"
+          git push
