@@ -7,10 +7,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 31 Jul 2026 08:11 UTC
-! Version: 2026.0731.0811.59
+! Last modified: 31 Jul 2026 11:01 UTC
+! Version: 2026.0731.1101.16
 ! Syntax: AdBlock
-! Number of entries: 17547
+! Number of entries: 17549
 !
 ||ss.0001.xyz^
 ||ilovethiswebsite.001-lab.space^
@@ -11987,6 +11987,7 @@
 ||joinfufeitizi.com^
 ||joinguoneijichang.com^
 ||joinhaita.com^
+||joinmassive.com^
 ||joinyongjiumianfeijichang.com^
 ||joldoojv.com^
 ||jolmira.ru^
@@ -13952,6 +13953,7 @@
 ||peadg.com^
 ||peekproxy.com^
 ||peekvpn.online^
+||peer2profit.com^
 ||peer2profit.in^
 ||peets.pro^
 ||peiqianjc.com^
