@@ -7,10 +7,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 30 Jul 2026 08:04 UTC
-! Version: 2026.0730.0804.51
+! Last modified: 31 Jul 2026 08:11 UTC
+! Version: 2026.0731.0811.59
 ! Syntax: AdBlock
-! Number of entries: 17542
+! Number of entries: 17547
 !
 ||ss.0001.xyz^
 ||ilovethiswebsite.001-lab.space^
@@ -2499,6 +2499,7 @@
 ||tromp.creographix.at^
 ||vcsa.creographix.at^
 ||adguard.crestfallen.de^
+||dns.criena.net^
 ||dns.itsec.crolla.net^
 ||fern.crosbreaker.dev^
 ||bx3.cdn.gh-pages.cryodome.com^
@@ -7994,6 +7995,7 @@
 ||astrovpn.co^
 ||at5w361xq.online^
 ||atejiasu.com^
+||atlast9hdp.info^
 ||atlasvpn.com^
 ||atlasvpn.net^
 ||atomapi.com^
@@ -10506,7 +10508,9 @@
 ||flornic.ru^
 ||flowvpn.com^
 ||flrnneprlkqiz.online^
+||flux3ni5o.info^
 ||fluxenta.click^
+||fluxmxd18.info^
 ||flxzeiow.com^
 ||flyall.me^
 ||flycatvipaff.cc^
@@ -13013,6 +13017,7 @@
 ||miku.lat^
 ||milanavpn.com^
 ||milanopuma.ir^
+||milo1fmyz.info^
 ||milou.cc^
 ||miltran.ru^
 ||minilla.store^
