@@ -7,13 +7,12 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 31 Jul 2026 11:01 UTC
-! Version: 2026.0731.1101.16
+! Last modified: 01 Aug 2026 08:13 UTC
+! Version: 2026.0801.0813.49
 ! Syntax: AdBlock
-! Number of entries: 17549
+! Number of entries: 17538
 !
 ||ss.0001.xyz^
-||ilovethiswebsite.001-lab.space^
 ||ns.00dani.me^
 ||dns.010812.xyz^
 ||666.020202.best^
@@ -27,15 +26,9 @@
 ||danisstuff.0x.no^
 ||kjyourthegoat.0x.no^
 ||midsyland.0x.no^
-||www.securly.com.0x35a4e4f5.cc^
 ||adguardhome.0x4min.xyz^
 ||dns.0x55.net^
 ||dns-revers.1-au.net^
-||cjklakljfsdfdfe.cxvjlkewdfw.1000pizzas.com^
-||icvklerwdf.jklvrdsfsf.1000pizzas.com^
-||jrlksmfgurdijgldfg.lxjcvlkewfds.1000pizzas.com^
-||poikjklewjrkdsssdsfew.sfjklewhcivsd.1000pizzas.com^
-||ejlkjsdfks.xklvjdsf.1000pizzas.com^
 ||hk.100992.xyz^
 ||seoul.101818.xyz^
 ||sg.101818.xyz^
@@ -61,7 +54,6 @@
 ||doh.18bit.cn^
 ||adguard.19151120.xyz^
 ||vps.19790307.xyz^
-||weloverobert.1ax.us^
 ||county.news.1copa.com^
 ||donutdevcodingeducation.1copa.com^
 ||vpn.1xtrm.com^
@@ -2499,7 +2491,6 @@
 ||tromp.creographix.at^
 ||vcsa.creographix.at^
 ||adguard.crestfallen.de^
-||dns.criena.net^
 ||dns.itsec.crolla.net^
 ||fern.crosbreaker.dev^
 ||bx3.cdn.gh-pages.cryodome.com^
@@ -7152,7 +7143,6 @@
 ||123book.org^
 ||123down.org^
 ||123fr.info^
-||123free.info^
 ||123goproxy.com^
 ||123hideip.com^
 ||123inside.net^
@@ -7208,7 +7198,6 @@
 ||1svpn.biz^
 ||1svpn.com^
 ||1svpn.mom^
-||1tv8q2k.online^
 ||1utins.xyz^
 ||1v2nmoln.com^
 ||1vpn.app^
