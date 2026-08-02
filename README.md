@@ -6,12 +6,12 @@ Curated multi-source domain block registry.
 
 | File | Domains | Last Updated |
 |------|---------|--------------|
-| [hosts/HaGeZi/doh-vpn-proxy-bypass.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/doh-vpn-proxy-bypass.txt) | 17532 | 2026-08-02 12:16 WIB |
-| [hosts/HaGeZi/gambling.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/gambling.txt) | 376354 | 2026-08-02 12:16 WIB |
-| [hosts/HaGeZi/nsfw.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | 107334 | 2026-08-02 12:16 WIB |
-| [hosts/HaGeZi/pro-plus.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro-plus.txt) | 239128 | 2026-08-02 12:16 WIB |
-| [hosts/HaGeZi/tif-mini.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/tif-mini.txt) | 170992 | 2026-08-02 12:16 WIB |
+| [hosts/HaGeZi/doh-vpn-proxy-bypass.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/doh-vpn-proxy-bypass.txt) | 17532 | 2026-08-02 14:57 WIB |
+| [hosts/HaGeZi/gambling.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/gambling.txt) | 376354 | 2026-08-02 14:57 WIB |
+| [hosts/HaGeZi/nsfw.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | 107334 | 2026-08-02 14:57 WIB |
+| [hosts/HaGeZi/pro-plus.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro-plus.txt) | 239128 | 2026-08-02 14:57 WIB |
+| [hosts/HaGeZi/tif-mini.txt](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/tif-mini.txt) | 170992 | 2026-08-02 14:57 WIB |
 
 **Total Domains:** 911340
 
-Last Updated: 2026-08-02 12:16 WIB
+Last Updated: 2026-08-02 14:57 WIB
