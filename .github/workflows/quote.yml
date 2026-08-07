@@ -1,5 +1,4 @@
 name: Update Anime Quote
-
 on:
   schedule:
     - cron: "*/5 * * * *"
@@ -7,7 +6,6 @@ on:
   push:
     paths:
       - ".github/workflows/quote.yml"
-
 
 permissions:
   contents: write
@@ -19,7 +17,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
       - name: Fetch Random Anime Quote
         run: |
@@ -46,7 +43,7 @@ jobs:
             <br/>
             <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
             <br/><br/>
-            <i>❝ $QUOTE </i>
+            <i>❝ $QUOTE ❞</i>
             <br/>
             <sub>— <b>$CHAR</b> · <i>$ANIME</i></sub>
             <br/><br/>
@@ -68,8 +65,3 @@ jobs:
           git add README.md
           git diff --cached --quiet || git commit -m "update: anime quote ($(TZ='Asia/Jakarta' date '+%Y-%m-%d %H:%M:%S WIB'))"
           git push
-
-      - name: Mirror ke GitLab
-        run: |
-          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/RusdiEneri/RusdiEneri.git
-          git push -f gitlab HEAD:main
