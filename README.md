@@ -15,3 +15,16 @@ Curated multi-source domain block registry.
 **Total Domains:** 940187
 
 Last Updated: 2026-08-08 15:06 WIB
+<!-- QUOTE START -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
+  <br/>
+  <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
+  <br/><br/>
+  <i>❝ Apa mereka tidak tahu, harga diri seorang pria itu lebih berharga dari nyawanya. ❞</i>
+  <br/>
+  <sub>— <b>Motoharu</b> · <i>Danshi Koukousei no Nichijou</i></sub>
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
+</div>
+<!-- QUOTE END -->
