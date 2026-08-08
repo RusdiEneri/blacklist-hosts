@@ -15,3 +15,16 @@ Curated multi-source domain block registry.
 **Total Domains:** 940187
 
 Last Updated: 2026-08-08 12:09 WIB
+<!-- QUOTE START -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
+  <br/>
+  <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
+  <br/><br/>
+  <i>❝ Aku merasa ibu sangat hebat. Meskipun ibu guru masih muda, (tapi) sudah punya pekerjaan tetap dan menjadi guru yang baik. Aku sangat menghormatinya. ❞</i>
+  <br/>
+  <sub>— <b>Arata Kaizaki</b> · <i>ReLIFE</i></sub>
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
+</div>
+<!-- QUOTE END -->
