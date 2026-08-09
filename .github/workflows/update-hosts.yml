@@ -2,7 +2,7 @@ name: Update Hosts Registry
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     paths:
@@ -78,16 +78,20 @@ jobs:
         run: |
           set -Eeuo pipefail
 
-          BASE="https://raw.githubusercontent.com/${{ github.repository }}/main"
+          # Definisikan Base URL untuk 3 Mirror/CDN
+          REPO="${{ github.repository }}"
+          RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
+          JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
+          GITLAB="https://gitlab.com/${REPO}/-/raw/main"
 
           echo "# Blacklist Hosts" > README.md
           echo "" >> README.md
           echo "Curated multi-source domain block registry." >> README.md
           echo "" >> README.md
-          echo "## Statistics" >> README.md
+          echo "## Statistics & Download Links" >> README.md
           echo "" >> README.md
-          echo "| File | Domains | Last Updated |" >> README.md
-          echo "|------|---------|--------------|" >> README.md
+          echo "| File | jsDelivr | GitHub Raw | GitLab | Domains | Last Updated |" >> README.md
+          echo "|------|----------|------------|--------|---------|--------------|" >> README.md
 
           total=0
           current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
@@ -96,7 +100,14 @@ jobs:
             count=$(grep -vE '^\s*($|!|#)' "$file" | wc -l || true)
             total=$((total + count))
             file_time=$(TZ=Asia/Jakarta date -r "$file" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
-            echo "| [$file]($BASE/$file) | $count | $file_time |" >> README.md
+            
+            # Format Link Markdown
+            link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
+            link_raw_github="[GitHub]($RAW_GITHUB/$file)"
+            link_gitlab="[GitLab]($GITLAB/$file)"
+            
+            # Masukkan ke dalam tabel
+            echo "| \`$file\` | $link_jsdelivr | $link_raw_github | $link_gitlab | $count | $file_time |" >> README.md
           done < <(find hosts -type f -name "*.txt" | sort)
 
           echo "" >> README.md
