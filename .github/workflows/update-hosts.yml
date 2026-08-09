@@ -82,7 +82,7 @@ jobs:
           REPO="${{ github.repository }}"
           RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
           JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          STATICALLY="https://cdn.statically.io/gh/${REPO}@main"
+          GCORE="https://raw.gcore.com/gh/${REPO}@main"
 
           echo "# Blacklist Hosts" > README.md
           echo "" >> README.md
@@ -90,8 +90,8 @@ jobs:
           echo "" >> README.md
           echo "## Statistics & Download Links" >> README.md
           echo "" >> README.md
-          echo "| File | jsDelivr | GitHub Raw | Statically | Domains | Last Updated |" >> README.md
-          echo "|------|----------|------------|------------|---------|--------------|" >> README.md
+          echo "| File | Gcore (Fast) | jsDelivr | GitHub Raw | Domains | Last Updated |" >> README.md
+          echo "|------|--------------|----------|------------|---------|--------------|" >> README.md
 
           total=0
           current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
@@ -102,12 +102,12 @@ jobs:
             file_time=$(TZ=Asia/Jakarta date -r "$file" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
             
             # Format Link Markdown
+            link_gcore="[Gcore]($GCORE/$file)"
             link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
             link_raw_github="[GitHub]($RAW_GITHUB/$file)"
-            link_statically="[Statically]($STATICALLY/$file)"
             
             # Masukkan ke dalam tabel
-            echo "| \`$file\` | $link_jsdelivr | $link_raw_github | $link_statically | $count | $file_time |" >> README.md
+            echo "| \`$file\` | $link_gcore | $link_jsdelivr | $link_raw_github | $count | $file_time |" >> README.md
           done < <(find hosts -type f -name "*.txt" | sort)
 
           echo "" >> README.md
