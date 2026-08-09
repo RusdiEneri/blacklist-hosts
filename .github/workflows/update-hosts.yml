@@ -78,11 +78,11 @@ jobs:
         run: |
           set -Eeuo pipefail
 
-          # Definisikan Base URL untuk 3 Mirror/CDN
+          # Definisikan Base URL untuk 3 CDN / Sumber
           REPO="${{ github.repository }}"
           RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
           JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          GITLAB="https://gitlab.com/${REPO}/-/raw/main"
+          STATICALLY="https://cdn.statically.io/gh/${REPO}@main"
 
           echo "# Blacklist Hosts" > README.md
           echo "" >> README.md
@@ -90,8 +90,8 @@ jobs:
           echo "" >> README.md
           echo "## Statistics & Download Links" >> README.md
           echo "" >> README.md
-          echo "| File | jsDelivr | GitHub Raw | GitLab | Domains | Last Updated |" >> README.md
-          echo "|------|----------|------------|--------|---------|--------------|" >> README.md
+          echo "| File | jsDelivr | GitHub Raw | Statically | Domains | Last Updated |" >> README.md
+          echo "|------|----------|------------|------------|---------|--------------|" >> README.md
 
           total=0
           current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
@@ -104,10 +104,10 @@ jobs:
             # Format Link Markdown
             link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
             link_raw_github="[GitHub]($RAW_GITHUB/$file)"
-            link_gitlab="[GitLab]($GITLAB/$file)"
+            link_statically="[Statically]($STATICALLY/$file)"
             
             # Masukkan ke dalam tabel
-            echo "| \`$file\` | $link_jsdelivr | $link_raw_github | $link_gitlab | $count | $file_time |" >> README.md
+            echo "| \`$file\` | $link_jsdelivr | $link_raw_github | $link_statically | $count | $file_time |" >> README.md
           done < <(find hosts -type f -name "*.txt" | sort)
 
           echo "" >> README.md
