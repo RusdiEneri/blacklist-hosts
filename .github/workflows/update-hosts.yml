@@ -82,7 +82,7 @@ jobs:
           REPO="${{ github.repository }}"
           RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
           JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          GCORE="https://raw.gcore.com/gh/${REPO}@main"
+          GHPROXY="https://ghproxy.net/https://raw.githubusercontent.com/${REPO}/main"
 
           echo "# Blacklist Hosts" > README.md
           echo "" >> README.md
@@ -90,7 +90,7 @@ jobs:
           echo "" >> README.md
           echo "## Statistics & Download Links" >> README.md
           echo "" >> README.md
-          echo "| File | Gcore (Fast) | jsDelivr | GitHub Raw | Domains | Last Updated |" >> README.md
+          echo "| File | GHProxy (Fast) | jsDelivr | GitHub Raw | Domains | Last Updated |" >> README.md
           echo "|------|--------------|----------|------------|---------|--------------|" >> README.md
 
           total=0
@@ -102,7 +102,7 @@ jobs:
             file_time=$(TZ=Asia/Jakarta date -r "$file" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
             
             # Format Link Markdown
-            link_gcore="[Gcore]($GCORE/$file)"
+            link_gcore="[GHProxy]($GHPROXY/$file)"
             link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
             link_raw_github="[GitHub]($RAW_GITHUB/$file)"
             
