@@ -7,10 +7,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 11 Aug 2026 08:20 UTC
-! Version: 2026.0811.0820.30
+! Last modified: 11 Aug 2026 15:30 UTC
+! Version: 2026.0811.1530.03
 ! Syntax: AdBlock
-! Number of entries: 16768
+! Number of entries: 16737
 !
 ||ss.0001.xyz^
 ||ilovethiswebsite.001-lab.space^
@@ -5540,7 +5540,6 @@
 ||adguard.stealbit.com^
 ||adguard2.stealbit.com^
 ||nas.stefanoperna.it^
-||mathd.stegi-chorus.gr^
 ||ag.stepnew.ru^
 ||pupil.learn.stevedewald.com^
 ||cfd.cdn.cloudflare.net.stevekoch.ca^
@@ -5551,11 +5550,7 @@
 ||dns.stormycloud.org^
 ||adguard.strafer.dk^
 ||alice.armani.strangled.net^
-||endis.org.discord.strangled.net^
-||ajh.his.strangled.net^
-||1234589turtlepotato.strangled.net^
 ||67818-bro.strangled.net^
-||creativemathfun.strangled.net^
 ||imgonnaticklefrank.strangled.net^
 ||risdpublicdomain.strangled.net^
 ||robertthefrost.strangled.net^
@@ -5571,19 +5566,12 @@
 ||educationalmath.studyingsciencethemes.one^
 ||la-doh.stuptech.com^
 ||doh.sublime9.xyz^
-||epsteinfuckhermalinda.subsoniclabs.com^
-||epsteinkilltwinksefn.subsoniclabs.com^
-||hermalindalopezisstinkyandblack.subsoniclabs.com^
-||hermalindavsjoebidentwerkoff.subsoniclabs.com^
-||onehermalindaonejar.subsoniclabs.com^
 ||piano.think.substruction.net^
 ||velocity.succeed.cl^
 ||doh.suche.org^
 ||dns.suhaila.dev^
 ||algebrahelp.sulevkivastik.ee^
-||over.sulevkivastik.ee^
 ||resolver.sunet.se^
-||huzzah.sunny-screw.com^
 ||doh.sunoaki.net^
 ||agha.sunryu.site^
 ||ehs.suondaxi.xyz^
@@ -5600,7 +5588,6 @@
 ||dns.superstefan.win^
 ||myapps.classlink.suredoc.net^
 ||ams01-n.surf-p.com^
-||hexagon000.surfnet.ca^
 ||dns.surfsharkdns.com^
 ||bashful-stretch.surge.sh^
 ||best-dock.surge.sh^
@@ -5634,7 +5621,6 @@
 ||dns-cache2.switch.ch^
 ||dns.sy.st^
 ||dns.syaifullah.com^
-||support.synapseitech.com^
 ||server-list.synclusiveinno.com^
 ||server-list1.synclusiveinno.com^
 ||bucheli.synology.me^
@@ -5656,7 +5642,6 @@
 ||large-dark-576.sz.games^
 ||wild-moon-986.sz.games^
 ||doh.sz-dns.com^
-||cabin.szendebrassai.com^
 ||math.tests.szk-obihiro.com^
 ||dns.szpadel.ovh^
 ||frog.szvy.win^
@@ -5666,11 +5651,6 @@
 ||dn5.talesam.org^
 ||www.iloveto.talk4fun.net^
 ||adguard.tammi.cc^
-||travel.taniadomena.eu^
-||galaxy.tantrum.org^
-||glint.tantrum.org^
-||pizzaisfood.tantrum.org^
-||slinitie.tantrum.org^
 ||dns.taoday.top^
 ||dns.tapawan.ca^
 ||vpns.taplink.ws^
@@ -5702,16 +5682,12 @@
 ||de51.tcpdoor.net^
 ||adguard.tcpu.io^
 ||teach.state.teachmetofish.net^
-||learning.teamgaming.pw^
 ||dns.teaminfo.fr^
 ||arab.is.goated.teamradicus.com^
 ||dns-br.leonardo.tec.br^
 ||dns.techcpu.net^
 ||dns1.techeasy.org^
-||adguard.techlike.in^
-||grammar.techmaxasia.com^
 ||llc.techmaxasia.com^
-||sainttech.techmaxasia.com^
 ||vpn.technicule.info^
 ||dns1.techniverse.net^
 ||vapor.techno.pics^
@@ -14524,7 +14500,6 @@
 ||starwayvpn.com^
 ||statemindpath.com^
 ||staticnetcontent.com^
-||staticrush.com^
 ||staticstream.org^
 ||staticvaultcdn.org^
 ||staticvaultcdn.xyz^
@@ -14562,7 +14537,6 @@
 ||storefront.ink^
 ||stormnighter.com^
 ||stormproxies.com^
-||strangerandomdomain1.space^
 ||strangewheat.org^
 ||strassmair.org^
 ||straveno.ru^
@@ -14603,7 +14577,6 @@
 ||sunsett.icu^
 ||sunvpn.net^
 ||super-vpn.info^
-||super123.org^
 ||superapi.cz^
 ||superbproxy.com^
 ||superconnect.dev^
@@ -14687,7 +14660,6 @@
 ||suyunti.info^
 ||svg33.eu^
 ||svip666888.com^
-||svtfwqhb.com^
 ||swapip.com^
 ||swcloud.io^
 ||sweetline.info^
@@ -14702,9 +14674,7 @@
 ||swoshsvpn.com^
 ||swwsmqk.com^
 ||sxkuailian.cfd^
-||sxrlzrmj.cc^
 ||sy168.site^
-||sybgdyha.cc^
 ||syin.cc^
 ||syiscool.cool^
 ||symlexvpn.com^
@@ -14761,7 +14731,6 @@
 ||teacat999.com^
 ||teacher4biology.fit^
 ||tecdrive.site^
-||techdatacdn.com^
 ||techhuman.cn^
 ||technofix.ir^
 ||technosoftsmartapps.com^
