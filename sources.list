@@ -1,6 +1,6 @@
-HaGeZi/pro-plus https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
-HaGeZi/doh-vpn-proxy-bypass https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt
-HaGeZi/gambling https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
-HaGeZi/nsfw https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt
-HaGeZi/tif-mini https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt
-HaGeZi/ultimate https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt
+HaGeZi/pro-plus https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.plus.txt?ref_type=heads
+HaGeZi/doh-vpn-proxy-bypass https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt?ref_type=heads
+HaGeZi/gambling https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/gambling.txt?ref_type=heads
+HaGeZi/nsfw https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/nsfw.txt?ref_type=heads
+HaGeZi/tif-mini https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.mini.txt?ref_type=heads
+HaGeZi/ultimate https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.txt?ref_type=heads
