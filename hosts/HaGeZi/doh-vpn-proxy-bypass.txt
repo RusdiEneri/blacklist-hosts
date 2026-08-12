@@ -7,10 +7,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 11 Aug 2026 15:30 UTC
-! Version: 2026.0811.1530.03
+! Last modified: 12 Aug 2026 08:30 UTC
+! Version: 2026.0812.0830.38
 ! Syntax: AdBlock
-! Number of entries: 16737
+! Number of entries: 16661
 !
 ||ss.0001.xyz^
 ||ilovethiswebsite.001-lab.space^
@@ -5705,14 +5705,7 @@
 ||thakkali.teej.xyz^
 ||books.quiz.teeman.org^
 ||dns.tefuir0829.cn^
-||9-5job.tejidosdedignidad.org^
-||education.tejidosdedignidad.org^
-||englishdashboard.tejidosdedignidad.org^
-||learnnewthings4life.tejidosdedignidad.org^
-||mathlearning.tejidosdedignidad.org^
-||socialstudieshistory.tejidosdedignidad.org^
 ||family.dns.teknoholistik.com^
-||dns.teknologiku.com^
 ||homenet.telecomitalia.it^
 ||dns.telekom.de^
 ||d51538618.access.telenet.be^
@@ -5725,9 +5718,7 @@
 ||dns.tesem.dog^
 ||supported.testing4fun.xyz^
 ||adguard.tetnet.net^
-||trade.my.texmotive.com^
 ||cloud.tezoi.com^
-||voidnettty.thanatos.com^
 ||www.3.theartieschaffer.com^
 ||www.94.theartieschaffer.com^
 ||www.p.theartieschaffer.com^
@@ -5755,14 +5746,10 @@
 ||v.theartieschaffer.com^
 ||highschoolsarecrazy.thebookllc.com^
 ||dns.thebuckners.org^
-||yoyoyaya.thecastcaddy.com^
 ||dns.thedayg0ne.ru^
 ||guard.thefather.cloud^
 ||dns.thegoodsource.net^
 ||arts.sage.thehitechhouse.com^
-||clever.thehomeserver.net^
-||jalenhurtsthegoat.thehomeserver.net^
-||kylespringiseeyou.thehomeserver.net^
 ||adguard.theil.dev^
 ||ela.smart.thelecks.com^
 ||important.thelmadejager.info^
@@ -5777,7 +5764,6 @@
 ||dns.therifleman.name^
 ||ads.therman.eu^
 ||minds.plant.theseks.net^
-||vice.thesqueakandoilformula.com^
 ||blocker.thethorsens.org^
 ||1.thetravelingtourguide.com^
 ||2.thetravelingtourguide.com^
@@ -5797,7 +5783,6 @@
 ||dns.thore.cloud^
 ||topic.know.ticpu.net^
 ||fdfhgbv.ticsur.cl^
-||femboys.tierlistsforspotify.party^
 ||dns.timboeh.me^
 ||ad.timefine.org^
 ||httpsingsnode.timegear.site^
@@ -5807,8 +5792,6 @@
 ||dns.tipsy.coffee^
 ||adguard.titov.es^
 ||dns.titov.cz^
-||aphistorytutoring.tjarba.com^
-||imsovainthatinamelinksaftermyself.tjarba.com^
 ||dns.tkhome.nl^
 ||sdkconfig.tlivedns.com^
 ||dns.tls-data.de^
@@ -5819,11 +5802,8 @@
 ||edgar.tobkar.net^
 ||int.toltec.info^
 ||interstellar.toltec.info^
-||engine.tomaszu.com^
-||tremendously.tomaszu.com^
 ||kr.tomgirl.top^
 ||dns.tomitomix.net^
-||www.securly.com.tongbaoyule999.com^
 ||dns.tooizi.eu^
 ||dot.tooli.ca^
 ||how.prep.topmoto.pl^
@@ -5831,16 +5811,10 @@
 ||nsc.torgues.net^
 ||center.k12.mo.us.tornotluk.in^
 ||doh.totoro.pub^
-||cease.touchofpink.ca^
 ||khanacadamyregistry67.tovamiasto.com^
-||site.tovamiasto.com^
-||stellarwriting.tovamiasto.com^
-||truechem.tovamiasto.com^
-||vcsa.tovamiasto.com^
 ||home.sso.toythieves.com^
 ||chronicle14.tplinkdns.com^
 ||ebpmc.tplinkdns.com^
-||ngk81hc.tplinkdns.com^
 ||homes.tr25.cn^
 ||jump.tr25.cn^
 ||dns.tracker.ink^
@@ -5922,7 +5896,6 @@
 ||adg.tshost.no^
 ||net.tt6.net^
 ||doh.ibr.cs.tu-bs.de^
-||sainttech.tu-dresden.net^
 ||dns.tuankhaiit.com^
 ||learn.how.tupuola.com^
 ||justdoit.tuquy.com^
@@ -5936,31 +5909,13 @@
 ||friedchimkensaurus.tvjumbleanswers.com^
 ||itscauseiamblack.tvjumbleanswers.com^
 ||littlepiggies571s.tvjumbleanswers.com^
-||biggerneverknown.com.twilightparadox.com^
 ||ilovelearninggames.com.twilightparadox.com^
 ||lightspeedisahh.edu.gov.education.twilightparadox.com^
-||classroom.google.twilightparadox.com^
-||support.sghub.co.za.twilightparadox.com^
-||230704953-learn-maths-starters.twilightparadox.com^
-||alearluvsruby.twilightparadox.com^
-||dagsonbanana.twilightparadox.com^
-||djsnsnsnsnn.twilightparadox.com^
-||ifyournotfirstyourlast.twilightparadox.com^
-||iliasbetweaking.twilightparadox.com^
-||ismaelsstinkytimmytufknuckles.twilightparadox.com^
-||ismellywiththebigbelly.twilightparadox.com^
-||mathgeometryalgebralearning.twilightparadox.com^
-||mathstudyhub.twilightparadox.com^
-||mathstudysplunger.twilightparadox.com^
-||meowkittehmeew.twilightparadox.com^
-||noahiscool.twilightparadox.com^
 ||samual.twilightparadox.com^
-||yummybananas.twilightparadox.com^
 ||dns.twnic.tw^
 ||adguard.twotigers.xyz^
 ||dns.txq.life^
 ||ad.tzockt.beer^
-||edu.ucecom-craiova.ro^
 ||v1.ufamax.eu^
 ||study.howto.ugo.si^
 ||blokuj.ujwie.co^
@@ -5969,7 +5924,6 @@
 ||adguard.ulbricht.cloud^
 ||rb750gr3.ulfhednar.ru^
 ||debate.major.ulrik.net^
-||adguard-ironhide.ultima-thule.ru^
 ||doh.ultradns.com^
 ||webdevice.ultrapanel.us^
 ||dns.umbrella.com^
@@ -5980,10 +5934,7 @@
 ||cheesepizza.undo.it^
 ||dns.unerror.network^
 ||ines.zfn.uni-bremen.de^
-||galaxy.unibutton.com^
 ||instant.unibutton.com^
-||instantly.unibutton.com^
-||learnvcsa.unibutton.com^
 ||google.unicoridor.ru^
 ||major.know.unielectronics.ca^
 ||galileo.math.unipd.it^
@@ -6008,7 +5959,6 @@
 ||adguard.vape.ong^
 ||tor.vasi.li^
 ||dns.vault81.de^
-||dontgoonyoufuckingdegenerates.vaultnoir.com^
 ||ibribeillegals.vaultnoir.com^
 ||server01.vboekel.nl^
 ||dns.vectorsigma.ru^
@@ -6018,9 +5968,6 @@
 ||dns.venclous.org^
 ||securedns.vendorvista.xyz^
 ||bookings.verandahotels.com^
-||fer.verandahotels.com^
-||playernation.verandahotels.com^
-||subscribevcsa.verandahotels.com^
 ||www-web.veranon.io^
 ||784ertysdfghjklvnm-l-8dk-4rydfghvbn.vercel.app^
 ||algebra-help-and-lessons.vercel.app^
@@ -14797,14 +14744,12 @@
 ||theproxya.org^
 ||theproxyer.com^
 ||theproxyguide.com^
-||theproxyultra.com^
 ||therabbitvpn.com^
 ||thesafety.us^
 ||thesaltinfo.net^
 ||theskyapn.com^
 ||thesleepineed.xyz^
 ||thetatoken.org^
-||theunblock.net^
 ||thevpncompany.net^
 ||thewalruss.net^
 ||thexite.net^
@@ -14838,7 +14783,6 @@
 ||tiktokmusicaly.com^
 ||tikvpn.com^
 ||tikvpn.in^
-||timedns.net^
 ||timeout8.uk^
 ||timetohide.me^
 ||timevpns.com^
@@ -14882,7 +14826,6 @@
 ||tmsrets.top^
 ||tmsretv.top^
 ||tnglvvd6.com^
-||tnoiaaro.cc^
 ||tnquyfpp.com^
 ||tns5gcwfy.online^
 ||tntv2.com^
@@ -14912,7 +14855,6 @@
 ||topvpn.cc^
 ||topvpn.cn^
 ||topvpnguides.com^
-||topvpntype.com^
 ||tor2web.fi^
 ||tor2web.io^
 ||tor2web.it^
@@ -14931,7 +14873,6 @@
 ||torproject.org^
 ||torrentprivacy.com^
 ||torrentproxy.co^
-||torrentproxy.net^
 ||torry.io^
 ||torservers.net^
 ||torsona.com^
@@ -15037,7 +14978,6 @@
 ||tunnel4.com^
 ||tunnelbear.com^
 ||tunnelbearvpn.mom^
-||tunxray.site^
 ||turbo-vpn.live^
 ||turboaccel.website^
 ||turbohide.org^
@@ -15067,7 +15007,6 @@
 ||twhd.site^
 ||twingate.com^
 ||twoproxy.net^
-||twtevsyz.com^
 ||txqq.pro^
 ||tylervpn.help^
 ||typaza.com^
@@ -15102,11 +15041,9 @@
 ||ubtv.space^
 ||ubyis.top^
 ||udetaca.tattoo^
-||udgrazx4nun.online^
 ||udpcustom.online^
 ||udpgw.com^
 ||udpitfou.com^
-||udptun.site^
 ||udussmiw.com^
 ||ueeftvvc.cc^
 ||ues-letsvpn.com^
@@ -15115,7 +15052,6 @@
 ||ughhhhcuminmedaddypleaseimsofuckingwetaughhh.cfd^
 ||uhzuran.win^
 ||uisujhks.com^
-||ujrmdtrq.cc^
 ||ujsrxts.com^
 ||uku.im^
 ||ukvvbso.cn^
@@ -15157,9 +15093,6 @@
 ||unblock2.site^
 ||unblock2.space^
 ||unblock2.xyz^
-||unblock2d.com^
-||unblock3d.biz^
-||unblock4you.com^
 ||unblockaccess.com^
 ||unblockanything.com^
 ||unblockblocked.net^
@@ -15171,7 +15104,6 @@
 ||unblocked.buzz^
 ||unblocked.cloud^
 ||unblocked.foo^
-||unblocked.how^
 ||unblocked.id^
 ||unblocked.me^
 ||unblocked.name^
@@ -15180,7 +15112,6 @@
 ||unblocked.surf^
 ||unblocked2.biz^
 ||unblocked2.cc^
-||unblocked2.dev^
 ||unblocked2.download^
 ||unblocked2.icu^
 ||unblocked2.info^
@@ -15213,7 +15144,6 @@
 ||unblockedsites.org^
 ||unblockedstreaming.net^
 ||unblockedstreaming.org^
-||unblockedv4.com^
 ||unblockedwarez.com^
 ||unblocker.cc^
 ||unblocker.net^
@@ -15251,7 +15181,6 @@
 ||unblockweb.biz^
 ||unblockweb.co^
 ||unblockweb.one^
-||unblockweb.org^
 ||unblockwebsites.com^
 ||unblockyouku.com^
 ||unblockyouku.org^
@@ -15344,10 +15273,8 @@
 ||usvpn.cf^
 ||uswebproxy.com^
 ||utopianpal.com^
-||utthaninternational.com^
 ||utube.cc^
 ||utunnel.io^
-||uu32ygcyfhr.online^
 ||uubb.website^
 ||uuuu.loan^
 ||uuuuuuuuu.uk^
@@ -15456,11 +15383,9 @@
 ||varkotim.study^
 ||vashvpn.help^
 ||vasiliysoldatkin.ru^
-||vasilykumaev.ru^
 ||vastelo.ru^
 ||vastino.ru^
 ||vaultmint.cfd^
-||vbbkkyxj.com^
 ||vcdqlwt.xyz^
 ||vcohcrme.com^
 ||vdoqlrzb.com^
@@ -15530,7 +15455,6 @@
 ||vikingvpn.com^
 ||villalazza.stream^
 ||vilor.site^
-||vimstera.xyz^
 ||vinny-stinks-like-dudu.com^
 ||vipanol.app^
 ||vipdownloadmena.xyz^
