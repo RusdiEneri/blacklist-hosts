@@ -6,11 +6,11 @@
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-! Expires: 1 day
-! Last modified: 30 Aug 2026 23:39 UTC
-! Version: 2026.0830.2339.32
+! Expires: 8 hours
+! Last modified: 31 Aug 2026 08:44 UTC
+! Version: 2026.0831.0844.49
 ! Syntax: AdBlock
-! Number of entries: 16697
+! Number of entries: 16696
 !
 ||ss.0001.xyz^
 ||ns.00dani.me^
@@ -3249,7 +3249,6 @@
 ||dns.freemyemail.com^
 ||walhalla.freemyip.com^
 ||zuk.freemyip.com^
-||www-server.freewebsproxy.com^
 ||dns.freopc.fr^
 ||vvv.freya.moe^
 ||dns.freyja.pw^
@@ -4155,7 +4154,6 @@
 ||hamster67.loseyourip.com^
 ||iwillnot.loseyourip.com^
 ||ddd.loukky.com^
-||www-proxy.lovekeli.uk^
 ||relay.lsaccess.cf^
 ||n5.lsasss.com^
 ||dns.lsho.top^
@@ -14077,6 +14075,7 @@
 ||schoology123.org^
 ||schoolooks.com^
 ||schoolsprepared.org^
+||schoolverification.me^
 ||schoolwebproxy.com^
 ||schulhelfer-mathe-deutsch.de^
 ||sciencenews.cc^
