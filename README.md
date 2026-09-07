@@ -6,9 +6,9 @@ Curated multi-source domain block registry.
 
 | File | Fastly | jsDelivr | GitHub Raw | Domains | Last Updated |
 |------|--------------|----------|------------|---------|--------------|
-| `hosts/HaGeZi/nsfw.txt` | [Fastly](https://fastly.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/nsfw.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/nsfw.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | 127092 | 2026-09-07 12:49 WIB |
-| `hosts/HaGeZi/pro.plus.txt` | [Fastly](https://fastly.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/pro.plus.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/pro.plus.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro.plus.txt) | 248779 | 2026-09-07 12:49 WIB |
+| `hosts/HaGeZi/nsfw.txt` | [Fastly](https://fastly.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/nsfw.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/nsfw.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | 127898 | 2026-09-07 18:56 WIB |
+| `hosts/HaGeZi/pro.plus.txt` | [Fastly](https://fastly.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/pro.plus.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/pro.plus.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro.plus.txt) | 247842 | 2026-09-07 18:56 WIB |
 
-**Total Domains:** 375871
+**Total Domains:** 375740
 
-Last Updated: 2026-09-07 12:49 WIB
+Last Updated: 2026-09-07 18:56 WIB
