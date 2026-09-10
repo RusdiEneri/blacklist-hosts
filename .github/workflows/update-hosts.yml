@@ -8,7 +8,6 @@ on:
     paths:
       - '.github/workflows/update-hosts.yml'
 
-
 permissions:
   contents: write
 
@@ -78,11 +77,15 @@ jobs:
         run: |
           set -Eeuo pipefail
 
-          # Definisikan Base URL untuk 3 CDN / Sumber
+          # Definisikan Base URL untuk Sumber CDN
           REPO="${{ github.repository }}"
           RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
           JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          FASTLY="https://fastly.jsdelivr.net/gh/${REPO}@main"
+          
+          # Alternatif CDN: 
+          # 1. RawGitHack (Cloudflare CDN) - Direkomendasikan
+          # 2. Statically (Jaringan Independen/Cloudflare) -> https://cdn.statically.io/gh/${REPO}/main
+          RAWGITHACK="https://raw.githack.com/${REPO}/main"
 
           echo "# Blacklist Hosts" > README.md
           echo "" >> README.md
@@ -90,8 +93,8 @@ jobs:
           echo "" >> README.md
           echo "## Statistics & Download Links" >> README.md
           echo "" >> README.md
-          echo "| File | Fastly | jsDelivr | GitHub Raw | Domains | Last Updated |" >> README.md
-          echo "|------|--------------|----------|------------|---------|--------------|" >> README.md
+          echo "| File | RawGitHack | jsDelivr | GitHub Raw | Domains | Last Updated |" >> README.md
+          echo "|------|------------|----------|------------|---------|--------------|" >> README.md
 
           total=0
           current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
@@ -102,12 +105,12 @@ jobs:
             file_time=$(TZ=Asia/Jakarta date -r "$file" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
             
             # Format Link Markdown
-            link_fastly="[Fastly]($FASTLY/$file)"
+            link_rawgithack="[RawGitHack]($RAWGITHACK/$file)"
             link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
             link_raw_github="[GitHub]($RAW_GITHUB/$file)"
             
             # Masukkan ke dalam tabel
-            echo "| \`$file\` | $link_fastly | $link_jsdelivr | $link_raw_github | $count | $file_time |" >> README.md
+            echo "| \`$file\` | $link_rawgithack | $link_jsdelivr | $link_raw_github | $count | $file_time |" >> README.md
           done < <(find hosts -type f -name "*.txt" | sort)
 
           echo "" >> README.md
