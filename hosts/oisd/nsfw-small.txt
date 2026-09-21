@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609211607
+! Version: 202609212040
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21887
-! Last modified: 2026-09-21T16:07:20+0000
+! Entries: 21885
+! Last modified: 2026-09-21T20:40:58+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -9132,6 +9132,7 @@
 ||island-of-pleasure.site^
 ||islive.nl^
 ||israel-lady.co.il^
+||issearching.com^
 ||ist34ajans3.com^
 ||istanbulescortbengu.com^
 ||istanbulescortshub.com^
@@ -9811,6 +9812,7 @@
 ||jp07.com^
 ||jpavcom.com^
 ||jpboy1069.net^
+||jptt.tv^
 ||jpvoyeur.cc^
 ||jpvoyeur.com^
 ||jpvy.org^
@@ -9884,6 +9886,8 @@
 ||jvid.com^
 ||jvpfans.com^
 ||jvrlibrary.com^
+||jvtrust.net^
+||jvzoopotd.com^
 ||jyukujyomanko.com^
 ||jyukujyowareme.com^
 ||jyukusiri.net^
@@ -9898,7 +9902,6 @@
 ||ka4nem.ru^
 ||kaamdesi.com^
 ||kaamuu.cfd^
-||kabachok.xyz^
 ||kabinedasnovinhas.com^
 ||kadinguzelligi.com^
 ||kainpepe.net^
@@ -9981,7 +9984,6 @@
 ||kaskosy.com^
 ||kasurbokep.com^
 ||kasut.org^
-||katara.net^
 ||katestube.com^
 ||katestube.mobi^
 ||katitube.com^
@@ -10087,10 +10089,10 @@
 ||kinkytom.com^
 ||kinokong.es^
 ||kinokong.li^
-||kinoradiomagia.tv^
 ||kinostate.me^
 ||kir.jp^
 ||kir2kos.net^
+||kirmalk.com^
 ||kirtuclub.com^
 ||kiska.tv^
 ||kiski.vip^
@@ -10139,6 +10141,7 @@
 ||koleksibokep.site^
 ||koleksijav.com^
 ||koloporno.com^
+||kombuchabiotics.com^
 ||komica1.org^
 ||komikdewasa.art^
 ||komikdewasa.mom^
@@ -10177,7 +10180,6 @@
 ||koreaye.com^
 ||korolev.today^
 ||korporn.net^
-||korsanfilmizle3.cc^
 ||kosaha.com^
 ||kosalarab.com^
 ||kosargyi.com^
@@ -10235,10 +10237,8 @@
 ||laboutique.vip^
 ||labporn.cc^
 ||labporn.org^
-||lacasatepurulodge.com^
 ||lacenocturne.com^
 ||lacomics.net^
-||lactalis.com^
 ||ladiesbaba.com^
 ||ladraodepacks.com^
 ||ladybanana.co.uk^
@@ -10254,7 +10254,6 @@
 ||ladyxena.com^
 ||lafranceapoil.com^
 ||laidhub.com^
-||laihua.com^
 ||laiporn.com^
 ||lakehd.com^
 ||lakehere.com^
@@ -10272,7 +10271,6 @@
 ||lanwang5.com^
 ||laogewen.vip^
 ||laowang.buzz^
-||laowang.co^
 ||laowang.vip^
 ||laowang859iut.xyz^
 ||laowangso.top^
