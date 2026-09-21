@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/workflows/update-hosts.yml'
+      - 'sources.list' # Otomatis trigger jika sources.list diedit
 
 permissions:
   contents: write
@@ -18,6 +19,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20 # Cegah job menggantung selamanya jika server sumber down
 
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +30,6 @@ jobs:
         run: |
           set -Eeuo pipefail
           
-          # Bersihkan folder hosts lama agar 100% fokus pada sources.list saat ini
           rm -rf hosts
           mkdir -p hosts
           
@@ -42,9 +43,7 @@ jobs:
         run: |
           set -Eeuo pipefail
 
-          # Ditambahkan '|| [[ -n "$path" ]]' agar baris terakhir tanpa newline tetap terbaca
           while read -r path url || [[ -n "$path" ]]; do
-            # Bersihkan potensi karakter carriage return (CRLF) dari sources.list
             path="${path%$'\r'}"
             url="${url%$'\r'}"
 
@@ -56,13 +55,15 @@ jobs:
 
             echo "Downloading $path dari $url"
 
-            # Download langsung tanpa pengecekan ETag / Cache
+            # --compressed: Mempercepat download file teks besar (OISD/StevenBlack) via gzip
+            # max-time 600: Memberi waktu 10 menit untuk file berukuran puluhan MB
             if curl -fsSL \
+              --compressed \
               --retry 3 \
               --retry-delay 5 \
               --connect-timeout 20 \
-              --max-time 300 \
-              -A "Mozilla/5.0" \
+              --max-time 600 \
+              -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
               -o "$dest.tmp" \
               "$url"; then
               mv "$dest.tmp" "$dest"
@@ -84,41 +85,41 @@ jobs:
 
           cat << 'EOF' > README.md
           # 🛡️ DNS Blocklist Registry
-
-          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari HaGeZi yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
-
+          
+          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
+          
           ## 📖 Panduan Memilih Blocklist (Untuk Pemula)
-
+          
           Bingung harus pakai yang mana? Ikuti panduan singkat berikut agar tidak salah pilih:
-
+          
           ### 1. Pilih **SATU** Level Utama (Sebagai Dasar)
           Pilih salah satu dari daftar ini sesuai dengan spesifikasi router/perangkat Anda. Jangan gunakan semuanya sekaligus!
-          - **Light:** Sangat ringan. Hanya memblokir iklan dan pelacak dasar. Cocok untuk router tua atau HP spesifikasi rendah.
-          - **Multi:** **(Rekomendasi)** Kombinasi berbagai sumber. Pemblokiran seimbang, sangat cocok untuk penggunaan internet harian di rumah.
+          - **Light / OISD Small:** Sangat ringan. Hanya memblokir iklan dan pelacak dasar. Cocok untuk router tua atau HP spesifikasi rendah.
+          - **Multi / OISD Big:** **(Rekomendasi)** Kombinasi berbagai sumber. Pemblokiran seimbang, sangat cocok untuk penggunaan internet harian di rumah.
           - **Pro / Pro Plus:** Lebih agresif dari Multi. Memblokir iklan, pelacak, dan malware secara lebih mendalam.
           - **Ultimate:** Tingkat pemblokiran tertinggi (sangat ketat). Memblokir hampir semua yang mencurigakan. *Catatan: Terkadang bisa memblokir situs resmi, butuh whitelist manual.*
-
+          
           ### 2. Tambahkan Kategori Khusus (Opsional)
           Gabungkan dengan level utama di atas jika Anda butuh filter spesifik:
-          - **NSFW:** Memblokir situs dewasa/pornografi. (Sangat disarankan untuk jaringan keluarga/anak-anak).
+          - **NSFW / OISD NSFW:** Memblokir situs dewasa/pornografi. (Sangat disarankan untuk jaringan keluarga/anak-anak).
           - **Gambling:** Memblokir situs judi online.
           - **Social:** Memblokir akses ke media sosial (Facebook, TikTok, Instagram, dll).
           - **Popupads / Fake:** Memblokir iklan pop-up yang mengganggu dan situs penipuan.
-
+          
           ### 3. Blokir Pelacakan Bawaan HP (Native)
           Ingin HP tidak boros baterai karena diam-diam mengirim data ke pabrikan? Gunakan list ini sesuai merk HP/OS Anda:
           - `native.xiaomi`, `native.samsung`, `native.oppo-realme`, `native.vivo`, `native.huawei`, `native.apple`, `native.winoffice`.
-
+          
           ### 4. Keamanan & Anti-Bypass (Tingkat Lanjut)
           - **TIF (Threat Intelligence):** Memblokir situs berbahaya, malware, dan phishing terbaru.
           - **DoH / VPN-Proxy-Bypass:** Mencegah pengguna di jaringan Anda mengakali blokir DNS menggunakan VPN atau DNS-over-HTTPS.
-
+          
           ---
-
+          
           ## 📊 Statistik & Link Unduh
-
+          
           > 💡 **Tips:** Gunakan kolom **RawGitHack** atau **jsDelivr** untuk ditempel ke aplikasi pemblokir DNS Anda. Hindari kolom `GitHub Raw` untuk penggunaan jangka panjang karena memiliki batas *rate-limit* yang sering menyebabkan update gagal.
-
+          
           | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
           |------|------------|----------|------------|---------------|-------------------|
           EOF
@@ -128,21 +129,11 @@ jobs:
 
           while IFS= read -r file; do
             # =============================================
-            #  HITUNG DOMAIN — ULTIMATE (Support Semua Format)
+            #  HITUNG DOMAIN — SUPER CEPAT (Single Pass Regex)
             # =============================================
-            # Logika: Buang baris kosong, komentar (!/#), dan header ([...])
-            # Lalu hitung semua baris yang masih memiliki teks (\S).
-            #
-            # Otomatis support:
-            # 1. ||domain^           (AdBlock)
-            # 2. @@||domain^         (Exception)
-            # 3. 127.0.0.1 / 0.0.0.0 (Hosts)
-            # 4. ! komentar          (Dibuang)
-            # 5. # komentar          (Dibuang)
-            # 6. /REGEX/             (Regex / AdGuard Network)
-            # 7. domain.com          (Plain domain Pi-hole)
-            # =============================================
-            count=$(grep -vE '^\s*($|!|#|\[)' "$file" | grep -cE '\S' || true)
+            # Menghitung baris yang BUKAN komentar, BUKAN header, dan BUKAN baris kosong.
+            # Dioptimalkan untuk file raksasa (puluhan MB) seperti OISD Big & Steven Black.
+            count=$(grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$file" || true)
 
             count=${count:-0}
             [[ "$count" =~ ^[0-9]+$ ]] || count=0
@@ -151,19 +142,28 @@ jobs:
 
             epoch_time=$(stat -c %Y "$file")
             file_time=$(TZ=Asia/Jakarta date -d "@$epoch_time" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
+            
+            # Format angka dengan pemisah ribuan (misal: 1,234,567) agar mudah dibaca
+            count_fmt=$(printf "%'d" "$count")
 
             link_rawgithack="[RawGitHack]($RAWGITHACK/$file)"
             link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
             link_raw_github="[GitHub]($RAW_GITHUB/$file)"
+            
+            # Hapus prefix 'hosts/' agar nama file di tabel lebih rapi
+            display_name="${file#hosts/}"
 
-            echo "| \`$file\` | $link_rawgithack | $link_jsdelivr | $link_raw_github | $count | $file_time |" >> README.md
+            echo "| \`$display_name\` | $link_rawgithack | $link_jsdelivr | $link_raw_github | $count_fmt | $file_time |" >> README.md
           done < <(find hosts -type f -name "*.txt" | sort)
 
+          total_fmt=$(printf "%'d" "$total")
+
           echo "" >> README.md
-          echo "**Total Domain Terblokir:** $total" >> README.md
+          echo "**Total Domain Terblokir:** $total_fmt" >> README.md
           echo "" >> README.md
           echo "---" >> README.md
           echo "*Terakhir sinkronisasi: $current_time*" >> README.md
+
       - name: Commit Changes
         run: |
           set -Eeuo pipefail
