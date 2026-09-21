@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609212040
+! Version: 202609212334
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
 ! Entries: 21885
-! Last modified: 2026-09-21T20:40:58+0000
+! Last modified: 2026-09-21T23:34:25+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -10120,6 +10120,7 @@
 ||klica33.com^
 ||klikbokep.com^
 ||klpbbs.com^
+||klubnichka.live^
 ||klwllt.com^
 ||kmacg20.com^
 ||knackvideos.com^
@@ -10377,10 +10378,11 @@
 ||lemonuo.top^
 ||lenawethole.com^
 ||lendirqu.com^
+||lendirqu.guru^
 ||lendirqu.wtf^
-||lendirqu.xyz^
 ||lendovideos.com^
 ||lengkuge.com^
+||lenglengshu.com^
 ||lengwenge.com^
 ||lenkino.adult^
 ||lenporno.bet^
@@ -10496,7 +10498,6 @@
 ||limeporn.com^
 ||lindachat.ru^
 ||lineaerotica24.net^
-||linfengglove.com^
 ||lingbokep.com^
 ||linkbokep.in^
 ||linkbokep.site^
@@ -10514,7 +10515,6 @@
 ||linovel.net^
 ||linovelib.com^
 ||linsemao.com^
-||lioncitybetmovie.com^
 ||lipcams.com^
 ||lipovonche.com^
 ||liquisexxx.com^
@@ -10602,6 +10602,7 @@
 ||ljubavni-oglasnik.net^
 ||lkprd.site^
 ||llcam.com^
+||llgjy60.com^
 ||llsp.me^
 ||lmlib.com^
 ||loadporn.shop^
@@ -10613,7 +10614,6 @@
 ||localflirt.com^
 ||localflirtalert.com^
 ||localhussies.com^
-||locallink.com.br^
 ||localtranshookups.com^
 ||localvibesconnection.com^
 ||localxlist.org^
