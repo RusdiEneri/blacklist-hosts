@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609211236
+! Version: 202609211607
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21886
-! Last modified: 2026-09-21T12:36:15+0000
+! Entries: 21887
+! Last modified: 2026-09-21T16:07:20+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -9140,7 +9140,6 @@
 ||istripper.com^
 ||italianoxxx.com^
 ||italianpornvideos.com^
-||italyanfilmler9.cc^
 ||itamilchat.com^
 ||itchyforum.com^
 ||iteens.tv^
@@ -9193,6 +9192,7 @@
 ||iyotflix.com^
 ||iyottube.org^
 ||iyottube.ph^
+||izban.com.tr^
 ||izdeniz.com.tr^
 ||izlegec.com^
 ||izmitmetro.com^
@@ -9402,6 +9402,7 @@
 ||jav24.com^
 ||jav24hd.info^
 ||jav24hda.com^
+||jav24hda.net^
 ||jav25hd.com^
 ||jav321.com^
 ||jav380.com^
@@ -9411,7 +9412,6 @@
 ||jav8.pro^
 ||jav8.vip^
 ||jav969.xyz^
-||javan-music.ir^
 ||javarchive.com^
 ||javass.love^
 ||javbangers.com^
@@ -9521,6 +9521,7 @@
 ||javjunkies.org^
 ||javkai.com^
 ||javkink.com^
+||javkok.com^
 ||javlast.com^
 ||javleak.com^
 ||javlemon.com^
@@ -9590,6 +9591,7 @@
 ||javsex.vip^
 ||javshort.com^
 ||javshujin.com^
+||javsiam.net^
 ||javsimilar.com^
 ||javsiri.cc^
 ||javsky.tv^
@@ -9685,7 +9687,6 @@
 ||jenporno.cz^
 ||jenpornuj.cz^
 ||jepangkawai.com^
-||jereservemonbillard.com^
 ||jerk-hub.com^
 ||jerk-porn.com^
 ||jerk24.com^
@@ -9722,6 +9723,7 @@
 ||jimperial.top^
 ||jinglecams.com^
 ||jinricp.net^
+||jinrihuodong.com^
 ||jiomaal.cc^
 ||jipcam.com^
 ||jiujiu.live^
@@ -9786,7 +9788,6 @@
 ||joporn.name^
 ||joporn.space^
 ||josex.name^
-||josexhd.top^
 ||josporn.club^
 ||josporn.com^
 ||josporn.net^
