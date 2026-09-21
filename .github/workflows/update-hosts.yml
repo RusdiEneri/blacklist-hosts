@@ -77,52 +77,48 @@ jobs:
         run: |
           set -Eeuo pipefail
 
-          # Definisikan Base URL untuk Sumber CDN
           REPO="${{ github.repository }}"
           RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
           JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          
-          # RawGitHack menggunakan Cloudflare CDN (Sangat Cepat & Stabil)
           RAWGITHACK="https://raw.githack.com/${REPO}/main"
 
-          # Gunakan Heredoc (EOF) untuk menulis panduan Markdown yang rapi
           cat << 'EOF' > README.md
           # 🛡️ DNS Blocklist Registry
-          
+
           Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari HaGeZi yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
-          
+
           ## 📖 Panduan Memilih Blocklist (Untuk Pemula)
-          
+
           Bingung harus pakai yang mana? Ikuti panduan singkat berikut agar tidak salah pilih:
-          
+
           ### 1. Pilih **SATU** Level Utama (Sebagai Dasar)
           Pilih salah satu dari daftar ini sesuai dengan spesifikasi router/perangkat Anda. Jangan gunakan semuanya sekaligus!
           - **Light:** Sangat ringan. Hanya memblokir iklan dan pelacak dasar. Cocok untuk router tua atau HP spesifikasi rendah.
           - **Multi:** **(Rekomendasi)** Kombinasi berbagai sumber. Pemblokiran seimbang, sangat cocok untuk penggunaan internet harian di rumah.
           - **Pro / Pro Plus:** Lebih agresif dari Multi. Memblokir iklan, pelacak, dan malware secara lebih mendalam.
           - **Ultimate:** Tingkat pemblokiran tertinggi (sangat ketat). Memblokir hampir semua yang mencurigakan. *Catatan: Terkadang bisa memblokir situs resmi, butuh whitelist manual.*
-          
+
           ### 2. Tambahkan Kategori Khusus (Opsional)
           Gabungkan dengan level utama di atas jika Anda butuh filter spesifik:
           - **NSFW:** Memblokir situs dewasa/pornografi. (Sangat disarankan untuk jaringan keluarga/anak-anak).
           - **Gambling:** Memblokir situs judi online.
           - **Social:** Memblokir akses ke media sosial (Facebook, TikTok, Instagram, dll).
           - **Popupads / Fake:** Memblokir iklan pop-up yang mengganggu dan situs penipuan.
-          
+
           ### 3. Blokir Pelacakan Bawaan HP (Native)
           Ingin HP tidak boros baterai karena diam-diam mengirim data ke pabrikan? Gunakan list ini sesuai merk HP/OS Anda:
           - `native.xiaomi`, `native.samsung`, `native.oppo-realme`, `native.vivo`, `native.huawei`, `native.apple`, `native.winoffice`.
-          
+
           ### 4. Keamanan & Anti-Bypass (Tingkat Lanjut)
           - **TIF (Threat Intelligence):** Memblokir situs berbahaya, malware, dan phishing terbaru.
           - **DoH / VPN-Proxy-Bypass:** Mencegah pengguna di jaringan Anda mengakali blokir DNS menggunakan VPN atau DNS-over-HTTPS.
-          
+
           ---
-          
+
           ## 📊 Statistik & Link Unduh
-          
+
           > 💡 **Tips:** Gunakan kolom **RawGitHack** atau **jsDelivr** untuk ditempel ke aplikasi pemblokir DNS Anda. Hindari kolom `GitHub Raw` untuk penggunaan jangka panjang karena memiliki batas *rate-limit* yang sering menyebabkan update gagal.
-          
+
           | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
           |------|------------|----------|------------|---------------|-------------------|
           EOF
@@ -131,20 +127,38 @@ jobs:
           current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
 
           while IFS= read -r file; do
-            # Hitung domain (abaikan baris kosong, komentar #, dan ! )
-            count=$(grep -vE '^\s*($|!|#)' "$file" | wc -l || true)
+            # =============================================
+            #  HITUNG DOMAIN — Format AdBlock/uBlock/Hosts
+            # =============================================
+            # Hanya hitung baris yang merupakan RULE AKTIF:
+            #   ||domain^        → AdBlock/uBlock rule
+            #   127.0.0.1 dom    → hosts format
+            #   0.0.0.0 dom      → hosts format
+            #
+            # TIDAK dihitung:
+            #   ! komentar       → sudah di-exclude
+            #   # komentar       → sudah di-exclude
+            #   @@||domain^      → exception (unblock)
+            #   /REGEX/          → regex, bukan 1 domain
+            #   baris kosong     → sudah di-exclude
+            # =============================================
+            count=$(grep -vE '^\s*($|!|#|@@)' "$file" \
+                    | grep -cE '^\s*(\|\||127\.0\.0\.1[[:space:]]|0\.0\.0\.0[[:space:]])' \
+                    || true)
+
+            # Pastikan count berupa angka (fallback ke 0)
+            count=${count:-0}
+            [[ "$count" =~ ^[0-9]+$ ]] || count=0
+
             total=$((total + count))
-            
-            # Mengambil waktu modifikasi file menggunakan stat (lebih aman & konsisten di Ubuntu)
+
             epoch_time=$(stat -c %Y "$file")
             file_time=$(TZ=Asia/Jakarta date -d "@$epoch_time" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
-            
-            # Format Link Markdown
+
             link_rawgithack="[RawGitHack]($RAWGITHACK/$file)"
             link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
             link_raw_github="[GitHub]($RAW_GITHUB/$file)"
-            
-            # Masukkan ke dalam tabel
+
             echo "| \`$file\` | $link_rawgithack | $link_jsdelivr | $link_raw_github | $count | $file_time |" >> README.md
           done < <(find hosts -type f -name "*.txt" | sort)
 
@@ -153,7 +167,6 @@ jobs:
           echo "" >> README.md
           echo "---" >> README.md
           echo "*Terakhir sinkronisasi: $current_time*" >> README.md
-
       - name: Commit Changes
         run: |
           set -Eeuo pipefail
