@@ -52,15 +52,15 @@ HaGeZi/whitelist-urlshortener https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@
 
 
 # OISD Blocklists (AdBlock Format)
-oisd/big https://big.oisd.nl
-oisd/small https://small.oisd.nl
-oisd/nsfw https://nsfw.oisd.nl
-oisd/nsfw-small https://nsfw-small.oisd.nl
+oisd/big https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_big.txt
+oisd/small https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_small.txt
+oisd/nsfw https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_nsfw.txt
+oisd/nsfw-small https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/oisd_nsfw_small.txt
 
 
 # Steven Black Unified Hosts (Hosts Format)
-StevenBlack/unified https://sbc.io/hosts/hosts
-StevenBlack/fakenews https://sbc.io/hosts/alternates/fakenews-only/hosts
-StevenBlack/gambling https://sbc.io/hosts/alternates/gambling-only/hosts
-StevenBlack/porn https://sbc.io/hosts/alternates/porn-only/hosts
-StevenBlack/social https://sbc.io/hosts/alternates/social-only/hosts
+StevenBlack/unified https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+StevenBlack/fakenews https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts
+StevenBlack/gambling https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts
+StevenBlack/porn https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts
+StevenBlack/social https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-only/hosts
