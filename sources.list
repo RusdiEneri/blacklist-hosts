@@ -1,3 +1,4 @@
+# HaGeZi Blocklists
 HaGeZi/anti.piracy https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt
 HaGeZi/blocklist-referral-native https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/blocklist-referral-native.txt
 HaGeZi/doh-ips https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-ips.txt
@@ -48,3 +49,18 @@ HaGeZi/urlshortener https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adb
 HaGeZi/whitelist-referral-native https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral-native.txt
 HaGeZi/whitelist-referral https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-referral.txt
 HaGeZi/whitelist-urlshortener https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/whitelist-urlshortener.txt
+
+
+# OISD Blocklists (AdBlock Format)
+oisd/big https://big.oisd.nl
+oisd/small https://small.oisd.nl
+oisd/nsfw https://nsfw.oisd.nl
+oisd/nsfw-small https://nsfw-small.oisd.nl
+
+
+# Steven Black Unified Hosts (Hosts Format)
+StevenBlack/unified https://sbc.io/hosts/hosts
+StevenBlack/fakenews https://sbc.io/hosts/alternates/fakenews-only/hosts
+StevenBlack/gambling https://sbc.io/hosts/alternates/gambling-only/hosts
+StevenBlack/porn https://sbc.io/hosts/alternates/porn-only/hosts
+StevenBlack/social https://sbc.io/hosts/alternates/social-only/hosts
