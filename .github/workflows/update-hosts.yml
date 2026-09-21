@@ -128,25 +128,22 @@ jobs:
 
           while IFS= read -r file; do
             # =============================================
-            #  HITUNG DOMAIN — Format AdBlock/uBlock/Hosts
+            #  HITUNG DOMAIN — ULTIMATE (Support Semua Format)
             # =============================================
-            # Hanya hitung baris yang merupakan RULE AKTIF:
-            #   ||domain^        → AdBlock/uBlock rule
-            #   127.0.0.1 dom    → hosts format
-            #   0.0.0.0 dom      → hosts format
+            # Logika: Buang baris kosong, komentar (!/#), dan header ([...])
+            # Lalu hitung semua baris yang masih memiliki teks (\S).
             #
-            # TIDAK dihitung:
-            #   ! komentar       → sudah di-exclude
-            #   # komentar       → sudah di-exclude
-            #   @@||domain^      → exception (unblock)
-            #   /REGEX/          → regex, bukan 1 domain
-            #   baris kosong     → sudah di-exclude
+            # Otomatis support:
+            # 1. ||domain^           (AdBlock)
+            # 2. @@||domain^         (Exception)
+            # 3. 127.0.0.1 / 0.0.0.0 (Hosts)
+            # 4. ! komentar          (Dibuang)
+            # 5. # komentar          (Dibuang)
+            # 6. /REGEX/             (Regex / AdGuard Network)
+            # 7. domain.com          (Plain domain Pi-hole)
             # =============================================
-            count=$(grep -vE '^\s*($|!|#|@@)' "$file" \
-                    | grep -cE '^\s*(\|\||127\.0\.0\.1[[:space:]]|0\.0\.0\.0[[:space:]])' \
-                    || true)
+            count=$(grep -vE '^\s*($|!|#|\[)' "$file" | grep -cE '\S' || true)
 
-            # Pastikan count berupa angka (fallback ke 0)
             count=${count:-0}
             [[ "$count" =~ ^[0-9]+$ ]] || count=0
 
