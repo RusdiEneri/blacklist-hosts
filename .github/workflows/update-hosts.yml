@@ -13,8 +13,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-hosts
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: fals
 
 jobs:
   update:
