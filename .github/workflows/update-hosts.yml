@@ -2,181 +2,411 @@ name: Update Hosts Registry
 
 on:
   schedule:
+    # Jalankan setiap jam pada menit 00
     - cron: "0 * * * *"
+      timezone: "Asia/Jakarta"
+
+  # Jalankan manual dari tab Actions
   workflow_dispatch:
+
+  # Jalankan jika workflow atau sources.list berubah
   push:
+    branches:
+      - main
     paths:
-      - '.github/workflows/update-hosts.yml'
-      - 'sources.list' # Otomatis trigger jika sources.list diedit
+      - ".github/workflows/update-hosts.yml"
+      - "sources.list"
 
 permissions:
   contents: write
 
+# Mencegah beberapa instance workflow berjalan bersamaan
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: fals
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20 # Cegah job menggantung selamanya jika server sumber down
+    timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v4
+      # ========================================
+      # Checkout
+      # ========================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check Sources
-        run: |
-          set -Eeuo pipefail
-          
-          rm -rf hosts
-          mkdir -p hosts
-          
-          if [ ! -f sources.list ]; then
-            echo "ERROR: sources.list not found"
-            exit 1
-          fi
-          echo "Using sources.list from repository"
-
-      - name: Fetch Sources
-        run: |
-          set -Eeuo pipefail
-
-          while read -r path url || [[ -n "$path" ]]; do
-            path="${path%$'\r'}"
-            url="${url%$'\r'}"
-
-            [[ -z "$path" ]] && continue
-            [[ "$path" =~ ^# ]] && continue
-
-            dest="hosts/${path}.txt"
-            mkdir -p "$(dirname "$dest")"
-
-            echo "Downloading $path dari $url"
-
-            # --compressed: Mempercepat download file teks besar (OISD/StevenBlack) via gzip
-            # max-time 600: Memberi waktu 10 menit untuk file berukuran puluhan MB
-            if curl -fsSL \
-              --compressed \
-              --retry 3 \
-              --retry-delay 5 \
-              --connect-timeout 20 \
-              --max-time 600 \
-              -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-              -o "$dest.tmp" \
-              "$url"; then
-              mv "$dest.tmp" "$dest"
-            else
-              echo "Download failed: $url"
-              rm -f "$dest.tmp"
-            fi
-
-          done < sources.list
-
-      - name: Generate README
-        run: |
-          set -Eeuo pipefail
-
-          REPO="${{ github.repository }}"
-          RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
-          JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          RAWGITHACK="https://raw.githack.com/${REPO}/main"
-
-          cat << 'EOF' > README.md
-          # 🛡️ DNS Blocklist Registry
-          
-          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
-          
-          ## 📖 Panduan Memilih Blocklist (Untuk Pemula)
-          
-          Bingung harus pakai yang mana? Ikuti panduan singkat berikut agar tidak salah pilih:
-          
-          ### 1. Pilih **SATU** Level Utama (Sebagai Dasar)
-          Pilih salah satu dari daftar ini sesuai dengan spesifikasi router/perangkat Anda. Jangan gunakan semuanya sekaligus!
-          - **Light / OISD Small:** Sangat ringan. Hanya memblokir iklan dan pelacak dasar. Cocok untuk router tua atau HP spesifikasi rendah.
-          - **Multi / OISD Big:** **(Rekomendasi)** Kombinasi berbagai sumber. Pemblokiran seimbang, sangat cocok untuk penggunaan internet harian di rumah.
-          - **Pro / Pro Plus:** Lebih agresif dari Multi. Memblokir iklan, pelacak, dan malware secara lebih mendalam.
-          - **Ultimate:** Tingkat pemblokiran tertinggi (sangat ketat). Memblokir hampir semua yang mencurigakan. *Catatan: Terkadang bisa memblokir situs resmi, butuh whitelist manual.*
-          
-          ### 2. Tambahkan Kategori Khusus (Opsional)
-          Gabungkan dengan level utama di atas jika Anda butuh filter spesifik:
-          - **NSFW / OISD NSFW:** Memblokir situs dewasa/pornografi. (Sangat disarankan untuk jaringan keluarga/anak-anak).
-          - **Gambling:** Memblokir situs judi online.
-          - **Social:** Memblokir akses ke media sosial (Facebook, TikTok, Instagram, dll).
-          - **Popupads / Fake:** Memblokir iklan pop-up yang mengganggu dan situs penipuan.
-          
-          ### 3. Blokir Pelacakan Bawaan HP (Native)
-          Ingin HP tidak boros baterai karena diam-diam mengirim data ke pabrikan? Gunakan list ini sesuai merk HP/OS Anda:
-          - `native.xiaomi`, `native.samsung`, `native.oppo-realme`, `native.vivo`, `native.huawei`, `native.apple`, `native.winoffice`.
-          
-          ### 4. Keamanan & Anti-Bypass (Tingkat Lanjut)
-          - **TIF (Threat Intelligence):** Memblokir situs berbahaya, malware, dan phishing terbaru.
-          - **DoH / VPN-Proxy-Bypass:** Mencegah pengguna di jaringan Anda mengakali blokir DNS menggunakan VPN atau DNS-over-HTTPS.
-          
-          ---
-          
-          ## 📊 Statistik & Link Unduh
-          
-          > 💡 **Tips:** Gunakan kolom **RawGitHack** atau **jsDelivr** untuk ditempel ke aplikasi pemblokir DNS Anda. Hindari kolom `GitHub Raw` untuk penggunaan jangka panjang karena memiliki batas *rate-limit* yang sering menyebabkan update gagal.
-          
-          | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
-          |------|------------|----------|------------|---------------|-------------------|
-          EOF
-
-          total=0
-          current_time=$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')
-
-          while IFS= read -r file; do
-            # =============================================
-            #  HITUNG DOMAIN — SUPER CEPAT (Single Pass Regex)
-            # =============================================
-            # Menghitung baris yang BUKAN komentar, BUKAN header, dan BUKAN baris kosong.
-            # Dioptimalkan untuk file raksasa (puluhan MB) seperti OISD Big & Steven Black.
-            count=$(grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$file" || true)
-
-            count=${count:-0}
-            [[ "$count" =~ ^[0-9]+$ ]] || count=0
-
-            total=$((total + count))
-
-            epoch_time=$(stat -c %Y "$file")
-            file_time=$(TZ=Asia/Jakarta date -d "@$epoch_time" '+%Y-%m-%d %H:%M WIB' 2>/dev/null || echo "$current_time")
-            
-            # Format angka dengan pemisah ribuan (misal: 1,234,567) agar mudah dibaca
-            count_fmt=$(printf "%'d" "$count")
-
-            link_rawgithack="[RawGitHack]($RAWGITHACK/$file)"
-            link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
-            link_raw_github="[GitHub]($RAW_GITHUB/$file)"
-            
-            # Hapus prefix 'hosts/' agar nama file di tabel lebih rapi
-            display_name="${file#hosts/}"
-
-            echo "| \`$display_name\` | $link_rawgithack | $link_jsdelivr | $link_raw_github | $count_fmt | $file_time |" >> README.md
-          done < <(find hosts -type f -name "*.txt" | sort)
-
-          total_fmt=$(printf "%'d" "$total")
-
-          echo "" >> README.md
-          echo "**Total Domain Terblokir:** $total_fmt" >> README.md
-          echo "" >> README.md
-          echo "---" >> README.md
-          echo "*Terakhir sinkronisasi: $current_time*" >> README.md
-
-      - name: Commit Changes
+      # ========================================
+      # Setup Git
+      # ========================================
+      - name: Setup Git
         run: |
           set -Eeuo pipefail
 
           git config user.name "RusdiEneri"
           git config user.email "nuruddinrusydiilham@gmail.com"
+          git config pull.rebase true
+
+          git remote set-url origin \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      # ========================================
+      # Check sources.list
+      # ========================================
+      - name: Check Sources
+        run: |
+          set -Eeuo pipefail
+
+          if [ ! -f sources.list ]; then
+            echo "❌ ERROR: sources.list tidak ditemukan."
+            exit 1
+          fi
+
+          echo "✅ sources.list ditemukan."
+          echo
+          echo "Daftar sumber:"
+          cat sources.list
+
+      # ========================================
+      # Download ke staging
+      # Jangan langsung menghapus hosts lama
+      # ========================================
+      - name: Fetch Sources
+        run: |
+          set -Eeuo pipefail
+
+          STAGING=".hosts-staging"
+
+          rm -rf "$STAGING"
+          mkdir -p "$STAGING"
+
+          : > "$STAGING/manifest.txt"
+
+          while IFS= read -r line || [[ -n "$line" ]]; do
+            # Hilangkan CR dari Windows line ending
+            line="${line%$'\r'}"
+
+            # Skip kosong / komentar
+            [[ -z "${line//[[:space:]]/}" ]] && continue
+            [[ "$line" =~ ^[[:space:]]*# ]] && continue
+
+            # Ambil path dan URL
+            read -r path url extra <<< "$line"
+
+            if [[ -z "${path:-}" || -z "${url:-}" || -n "${extra:-}" ]]; then
+              echo "❌ Format sources.list tidak valid:"
+              echo "   $line"
+              exit 1
+            fi
+
+            # Mencegah path traversal
+            if [[ "$path" == /* || "$path" == *".."* ]]; then
+              echo "❌ Path tidak aman: $path"
+              exit 1
+            fi
+
+            dest="$STAGING/hosts/${path}.txt"
+            mkdir -p "$(dirname "$dest")"
+
+            echo "========================================"
+            echo "Downloading: $path"
+            echo "URL:         $url"
+            echo "========================================"
+
+            # Catat file yang seharusnya ada
+            printf 'hosts/%s.txt\n' "$path" >> "$STAGING/manifest.txt"
+
+            if curl \
+              --fail \
+              --silent \
+              --show-error \
+              --location \
+              --compressed \
+              --retry 3 \
+              --retry-delay 5 \
+              --connect-timeout 20 \
+              --max-time 600 \
+              --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36" \
+              --output "$dest.tmp" \
+              "$url"; then
+
+              mv "$dest.tmp" "$dest"
+              echo "✅ Download berhasil."
+
+            else
+              echo "❌ Download gagal: $url"
+              rm -f "$dest.tmp"
+
+              # Jangan lanjut dengan data parsial.
+              # Data hosts lama tetap aman karena belum disentuh.
+              rm -rf "$STAGING"
+              exit 1
+            fi
+
+          done < sources.list
+
+          echo
+          echo "✅ Semua source berhasil di-download."
+
+      # ========================================
+      # Update hosts hanya jika isi berubah
+      # ========================================
+      - name: Update Hosts Registry
+        id: hosts
+        run: |
+          set -Eeuo pipefail
+
+          STAGING=".hosts-staging"
+          CHANGED=0
+
+          mkdir -p hosts
+
+          # ----------------------------------------
+          # Tambah / update file
+          # ----------------------------------------
+          while IFS= read -r staged_file || [[ -n "$staged_file" ]]; do
+            [ -z "$staged_file" ] && continue
+
+            source_file="$STAGING/$staged_file"
+            target_file="$staged_file"
+
+            mkdir -p "$(dirname "$target_file")"
+
+            if [ -f "$target_file" ] && cmp -s "$source_file" "$target_file"; then
+              echo "UNCHANGED: $target_file"
+              rm -f "$source_file"
+            else
+              echo "UPDATED:   $target_file"
+              mv "$source_file" "$target_file"
+              CHANGED=1
+            fi
+
+          done < "$STAGING/manifest.txt"
+
+          # ----------------------------------------
+          # Hapus file lama yang sudah dihapus
+          # dari sources.list
+          # ----------------------------------------
+          while IFS= read -r -d '' existing_file; do
+
+            if ! grep -Fqx -- "$existing_file" "$STAGING/manifest.txt"; then
+              echo "REMOVED:   $existing_file"
+              rm -f "$existing_file"
+              CHANGED=1
+            fi
+
+          done < <(find hosts -type f -name "*.txt" -print0)
+
+          # Hapus folder kosong
+          find hosts -type d -empty -delete || true
+
+          rm -rf "$STAGING"
+
+          echo
+          if [ "$CHANGED" -eq 1 ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Hosts registry berubah."
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "✅ Tidak ada perubahan pada hosts."
+          fi
+
+      # ========================================
+      # Generate README hanya dari data final
+      # ========================================
+      - name: Generate README
+        if: steps.hosts.outputs.changed == 'true'
+        run: |
+          set -Eeuo pipefail
+
+          REPO="${{ github.repository }}"
+
+          RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
+          JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
+          RAWGITHACK="https://raw.githack.com/${REPO}/main"
+
+          CURRENT_TIME="$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')"
+
+          cat > README.md <<EOF
+          # 🛡️ DNS Blocklist Registry
+
+          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
+
+          ## 📖 Panduan Memilih Blocklist
+
+          ### 1. Pilih SATU Level Utama
+
+          - **Light / OISD Small:** Sangat ringan untuk penggunaan dasar.
+          - **Multi / OISD Big:** Kombinasi berbagai sumber untuk penggunaan umum.
+          - **Pro / Pro Plus:** Pemblokiran lebih agresif.
+          - **Ultimate:** Pemblokiran paling ketat dan mungkin membutuhkan whitelist manual.
+
+          ### 2. Kategori Khusus
+
+          - **NSFW / OISD NSFW:** Memblokir situs dewasa.
+          - **Gambling:** Memblokir situs judi online.
+          - **Social:** Memblokir media sosial.
+          - **Popupads / Fake:** Memblokir iklan pop-up dan situs penipuan.
+
+          ### 3. Native / Vendor Tracking
+
+          Daftar khusus perangkat atau platform:
+
+          - \`native.xiaomi\`
+          - \`native.samsung\`
+          - \`native.oppo-realme\`
+          - \`native.vivo\`
+          - \`native.huawei\`
+          - \`native.apple\`
+          - \`native.winoffice\`
+
+          ### 4. Keamanan & Anti-Bypass
+
+          - **TIF:** Threat intelligence, malware, dan phishing.
+          - **DoH / VPN-Proxy-Bypass:** Daftar untuk membantu mengidentifikasi endpoint bypass DNS.
+
+          ---
+
+          ## 📊 Statistik & Link Unduh
+
+          > 💡 Gunakan **RawGitHack** atau **jsDelivr** untuk penggunaan pada aplikasi pemblokir DNS.
+
+          | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
+          |------|------------|----------|------------|---------------|-------------------|
+          EOF
+
+          total=0
+
+          while IFS= read -r file; do
+            # Hitung baris yang kemungkinan merupakan entry domain.
+            count="$(
+              grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$file" || true
+            )"
+
+            count="${count:-0}"
+
+            [[ "$count" =~ ^[0-9]+$ ]] || count=0
+
+            total=$((total + count))
+
+            # Mtime hanya berubah ketika file hosts benar-benar
+            # berubah, karena file yang sama tidak ditulis ulang.
+            epoch_time="$(stat -c %Y "$file")"
+
+            file_time="$(
+              TZ=Asia/Jakarta date \
+                -d "@$epoch_time" \
+                '+%Y-%m-%d %H:%M WIB' \
+                2>/dev/null || echo "$CURRENT_TIME"
+            )"
+
+            count_fmt="$(printf "%'d" "$count")"
+
+            display_name="${file#hosts/}"
+
+            link_rawgithack="[RawGitHack]($RAWGITHACK/$file)"
+            link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
+            link_raw_github="[GitHub]($RAW_GITHUB/$file)"
+
+            printf \
+              '| `%s` | %s | %s | %s | %s | %s |\n' \
+              "$display_name" \
+              "$link_rawgithack" \
+              "$link_jsdelivr" \
+              "$link_raw_github" \
+              "$count_fmt" \
+              "$file_time" \
+              >> README.md
+
+          done < <(
+            find hosts -type f -name "*.txt" | sort
+          )
+
+          total_fmt="$(printf "%'d" "$total")"
+
+          {
+            echo
+            echo "**Total Domain Terblokir:** $total_fmt"
+            echo
+            echo "---"
+            echo "*Terakhir sinkronisasi: $CURRENT_TIME*"
+          } >> README.md
+
+      # ========================================
+      # Check apakah benar ada perubahan
+      # ========================================
+      - name: Check Git Changes
+        id: git_changes
+        run: |
+          set -Eeuo pipefail
 
           git add -A
 
           if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "✅ Tidak ada perubahan Git."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "📝 Ada perubahan yang akan di-commit."
+
+            git diff --cached --stat
           fi
 
-          git commit -m "auto: update hosts $(date +%Y%m%d-%H%M)"
-          git push
+      # ========================================
+      # Commit & Push
+      # ========================================
+      - name: Commit and Push
+        if: steps.git_changes.outputs.changed == 'true'
+        run: |
+          set -Eeuo pipefail
+
+          git commit \
+            -m "auto: update hosts $(TZ=Asia/Jakarta date '+%Y%m%d-%H%M')"
+
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt $attempt..."
+
+            # Ambil commit terbaru dari remote
+            if git fetch origin main; then
+
+              if git rebase origin/main; then
+
+                if git push origin HEAD:main; then
+                  echo "✅ Push berhasil."
+                  exit 0
+                fi
+
+              else
+                echo "⚠️ Rebase conflict."
+                git rebase --abort || true
+              fi
+
+            else
+              echo "⚠️ Gagal fetch origin/main."
+            fi
+
+            if [ "$attempt" -lt 5 ]; then
+              echo "Menunggu 10 detik..."
+              sleep 10
+            fi
+          done
+
+          echo "❌ Push gagal setelah 5 percobaan."
+          exit 1
+
+      # ========================================
+      # Tidak ada perubahan
+      # ========================================
+      - name: No Changes
+        if: steps.git_changes.outputs.changed == 'false'
+        run: |
+          echo "✅ Semua blocklist masih sama."
+          echo "Tidak membuat commit baru."
