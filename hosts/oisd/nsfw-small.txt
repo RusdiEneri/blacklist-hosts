@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609222116
+! Version: 202609222335
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21770
-! Last modified: 2026-09-22T21:16:22+0000
+! Entries: 21764
+! Last modified: 2026-09-22T23:35:06+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -1126,6 +1126,7 @@
 ||angelgals.com^
 ||angelogodshackxxx.com^
 ||angelpsite.com^
+||angoxi.com^
 ||angryasianman.com^
 ||anhanime4k.com^
 ||anhsex.asia^
@@ -2759,6 +2760,7 @@
 ||bokepxxi.app^
 ||bolaav.com^
 ||bolatino.com^
+||boldph.com^
 ||bolly-tube.com^
 ||bollywoodmaal.com^
 ||bollywoodporn.pro^
@@ -11528,6 +11530,7 @@
 ||mmm100.com^
 ||mmporn.org^
 ||mmporns.com^
+||mmsbaba2.com^
 ||mmsbazzar.ink^
 ||mmsbazzar.org^
 ||mmsbee27.com^
@@ -12971,7 +12974,6 @@
 ||painfullanal.com^
 ||painporn.club^
 ||paipancon.com^
-||paisanospizza.org^
 ||pajatube.com^
 ||pakistaniporn.me^
 ||pakistanipornmovie.com^
@@ -12989,7 +12991,6 @@
 ||pandamovies.com^
 ||pandamovies.org^
 ||pandamovies.pw^
-||pandazulin.com^
 ||pandesiaworld.com^
 ||pantiesless.com^
 ||pantscraper.com^
@@ -13026,6 +13027,7 @@
 ||partnersinprivate.com^
 ||party-cams.com^
 ||partycelebs.com^
+||pasangamp.info^
 ||pasarbokep.co^
 ||pasarbokep.com^
 ||pasarbokep.in^
@@ -13051,7 +13053,6 @@
 ||pawg.porn^
 ||pawgsonly.com^
 ||pawmanga.com^
-||pay.taipei^
 ||payones.com^
 ||pb-netw.com^
 ||pb-track.com^
@@ -13074,6 +13075,7 @@
 ||peepingvideo.net^
 ||peepshow.com^
 ||pegasproductions.com^
+||pei.jp^
 ||peitsche.de^
 ||pejnya.me^
 ||pejnya.ru^
@@ -13084,7 +13086,6 @@
 ||pelisplus.today^
 ||pelisxporno.net^
 ||pelotok.net^
-||pelovish.com^
 ||peludases.com^
 ||pemersatu.fun^
 ||pemersatu.org^
@@ -13161,16 +13162,14 @@
 ||phe69.lol^
 ||phe69.my^
 ||phe69.site^
-||pheclip.fit^
 ||phenomena-experience.com^
-||phevl.top^
 ||phforum.com^
 ||phhua.com^
 ||phil-flash.com^
 ||philippinebargirl.com^
 ||phim-sex.cc^
-||phim-sex.icu^
 ||phim18hd.blog^
+||phim18hd.site^
 ||phim18k.blog^
 ||phim18moi.xyz^
 ||phimc3.net^
@@ -13214,16 +13213,11 @@
 ||phimsexthailan.vip^
 ||phimsextrungquoc.vip^
 ||phimsexviet.co.uk^
-||phimsexvietduma.com^
-||phimsexvietmedu.com^
-||phimsexvietmoa.com^
 ||phimsexvietsub.blog^
-||phimsexvietume.com^
 ||phimsexvip.net^
 ||phimsexvn.blog^
 ||phimsexvn1.co.uk^
 ||phimsexxx.blog^
-||phimsexy.blog^
 ||phimsexyz.bet^
 ||phimtopvn.com^
 ||phimvuspot.com^
