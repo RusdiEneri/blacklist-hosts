@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609212306
+! Version: 202609220206
 ! Title: oisd big
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 246607
-! Last modified: 2026-09-21T23:06:15+0000
+! Entries: 246629
+! Last modified: 2026-09-22T02:06:20+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -18187,6 +18187,7 @@
 ||allegro-task.shop^
 ||allegro-ups.e-kei.pl^
 ||allegro.00099uuu.cam^
+||allegro.000g77893.skin^
 ||allegro.00123192s.casa^
 ||allegro.00239g8g8g8.pl^
 ||allegro.01230129ggusd.study^
@@ -18199,6 +18200,7 @@
 ||allegro.024947.rest^
 ||allegro.045941.rest^
 ||allegro.0908456495868888.click^
+||allegro.1000h88hh5kknmbv.skin^
 ||allegro.10230129y4hhh.study^
 ||allegro.102391hj655.buzz^
 ||allegro.1026u5h5343.casa^
@@ -18274,6 +18276,7 @@
 ||allegro.9392130120.casa^
 ||allegro.9812831204.qpon^
 ||allegro.9h84523d23.beer^
+||allegro.aukcj37289129v.beer^
 ||allegro.cam^
 ||allegro.clinicaactmedica.ro^
 ||allegro.g349fg3u4f23.beer^
@@ -18287,6 +18290,7 @@
 ||allegro.msrat9387199.cam^
 ||allegro.my5829119f.study^
 ||allegro.mypg043812.qpon^
+||allegro.of4918294.skin^
 ||allegro.ofer09128875.buzz^
 ||allegro.ofer93201.club^
 ||allegro.ofert49382120-g4.study^
@@ -18295,9 +18299,11 @@
 ||allegro.oferta828331pl.click^
 ||allegro.ororo29955.pl^
 ||allegro.petnwa2181929.study^
+||allegro.pl-53198975.shop^
 ||allegro.pl-oferta6027980.click^
 ||allegro.pl-oferta6482538.click^
 ||allegro.pl.showitems.it^
+||allegro.pl029coi2.cyou^
 ||allegro.platnosc-blik.pl^
 ||allegro.popka29129hh5.beer^
 ||allegro.prftanwm238129.cfd^
@@ -18668,9 +18674,9 @@
 ||allegrolokalnie.pl-ogloszenie9713810897.top^
 ||allegrolokalnie.pl-smart24.pl^
 ||allegrolokalnie.pl-smart891981898122712919201.sbs^
-||allegrolokalnie.pl-testowadomena631.cfd^
 ||allegrolokalnie.pl-wfde.shop^
 ||allegrolokalnie.pl-zamow-oferta-4059212.sbs^
+||allegrolokalnie.pl029coi2.cyou^
 ||allegrolokalnie.pl29139.top^
 ||allegrolokalnie.pl30233.top^
 ||allegrolokalnie.pl344381639.click^
@@ -72466,6 +72472,7 @@
 ||ecuadorminingnews.com^
 ||ecuadorweb.webcindario.com^
 ||ecuanimefundanza.com^
+||ecuantixai-digital.pages.dev^
 ||ecuantixai.com^
 ||ecuantixai.digital^
 ||ecuantixai.net^
@@ -73924,6 +73931,7 @@
 ||elite-gravel-tachometer.glitch.me^
 ||elite-hacks.ru^
 ||elite-level.com^
+||elite-marketai.org^
 ||elite-utility-app.com^
 ||eliteaitrading-nl.live^
 ||eliteaitrading.live^
@@ -149321,6 +149329,7 @@
 ||oferta-1566781-pl.click^
 ||oferta-16872156-pl.click^
 ||oferta-21938-pl.click^
+||oferta-248751.cfd^
 ||oferta-2748.click^
 ||oferta-27492749.cfd^
 ||oferta-2788211-pl.click^
@@ -150637,6 +150646,7 @@
 ||olx.lokalna-ofeta713.sbs^
 ||olx.lokalne-ofeta67325793.shop^
 ||olx.nqinvoice-poland.biz^
+||olx.oferta349.cfd^
 ||olx.oferta4882.sbs^
 ||olx.oferta5080146pl.click^
 ||olx.oferta828331pl.click^
@@ -150654,6 +150664,7 @@
 ||olx.pl-oferta56734sdy5s7.shop^
 ||olx.pl-paycor.club^
 ||olx.pl-skrpay.world^
+||olx.pl029coi2.cyou^
 ||olx.plpay-protranz.click^
 ||olx.przelew-paycore.sbs^
 ||olx.sprzedane-521852.click^
@@ -159666,6 +159677,7 @@
 ||pitbull-pl.club^
 ||pitbull-sklep.shop^
 ||pitbull-sport.com^
+||pitbull.dealsnl.shop^
 ||pitbull.discountpl.shop^
 ||pitbull.ek1.pl^
 ||pitbullcloths.club^
@@ -160257,6 +160269,7 @@
 ||pl-oferta52724.click^
 ||pl-oferta5291202.shop^
 ||pl-oferta53214.click^
+||pl-oferta538175.sbs^
 ||pl-oferta54343.cfd^
 ||pl-oferta543543543.cfd^
 ||pl-oferta54376.shop^
@@ -160356,6 +160369,7 @@
 ||pl-order871263.top^
 ||pl-p45cr.sbs^
 ||pl-perfume.shop^
+||pl-platnosci53853.cyou^
 ||pl-platnosci708947213.lol^
 ||pl-poctzasd.weebly.com^
 ||pl-potw-184920.eu.cc^
@@ -160383,6 +160397,7 @@
 ||pl-ssid38673.click^
 ||pl-ssid56342.click^
 ||pl-system-aiapp.com^
+||pl-testowadomena631.cfd^
 ||pl-ticektnumber712932193912.com^
 ||pl-ticketnumber89687612.biz^
 ||pl-u.shop^
@@ -169347,6 +169362,7 @@
 ||pungentdepartment.pro^
 ||pungenttonight.com^
 ||pungovernorindustry.com^
+||puniceous-bolero.shop^
 ||punicinbumelia.com^
 ||punishgreater.com^
 ||punishmentaudibly.com^
@@ -170959,6 +170975,7 @@
 ||ql-qishui.com.cn^
 ||ql.cvciz8ityuz4g99ybionlol.cyou^
 ||ql.uzuzuz.com^
+||ql12x629.cyou^
 ||qlaoosjx.click^
 ||qlaoxjwq.click^
 ||qlaston.net^
@@ -173882,6 +173899,7 @@
 ||rastivex.click^
 ||rastivex.com^
 ||rastivex.live^
+||rastivexplatform.com^
 ||rastivo.shop^
 ||rastkultur.de^
 ||rastleemesa.com^
@@ -177684,6 +177702,7 @@
 ||rhploidy.com^
 ||rhrrf.cn^
 ||rhsigorta.com^
+||rhtmybdv.shop^
 ||rhttfdlhkv.com^
 ||rhubarb-velvet-bag.shop^
 ||rhubarbambassadorweep.com^
@@ -191326,6 +191345,7 @@
 ||skveldtrapp.pro^
 ||skvhsufj.yolasite.com^
 ||skvirenokla-ai.com^
+||skvirt37.eu.cc^
 ||skvpwecqrbovi.online^
 ||skvurthalen-de.live^
 ||skvurthalen.live^
@@ -192566,6 +192586,7 @@
 ||smykshop-pl.com^
 ||smyksiec.club^
 ||smykstore.com^
+||smykvip.shop^
 ||smypark.shop^
 ||smzpb.com^
 ||smzpy.com^
@@ -222999,6 +223020,7 @@
 ||valeurgaintra.pro^
 ||valeurscitoyennes.tg^
 ||valevaultshire.com^
+||valevia.shop^
 ||valewoodgoods.eu^
 ||valex.live^
 ||valexiro.pro^
