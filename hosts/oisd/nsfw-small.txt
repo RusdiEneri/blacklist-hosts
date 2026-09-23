@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609231337
+! Version: 202609231834
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21641
-! Last modified: 2026-09-23T13:37:54+0000
+! Entries: 21658
+! Last modified: 2026-09-23T18:34:39+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -2595,6 +2595,7 @@
 ||bobosco.com^
 ||bobr.tv^
 ||bochuang99.com^
+||bocil.ink^
 ||bocil.live^
 ||bocilcrot.fit^
 ||bocilsmp.online^
@@ -4771,6 +4772,7 @@
 ||dropmms.fun^
 ||dropmms.net^
 ||dropmms.us^
+||dropmms.wtf^
 ||drpornofilme.com^
 ||drsexfilme.com^
 ||drtuber.com^
@@ -5071,6 +5073,7 @@
 ||eromanga-jp.org^
 ||eromanga-kai.com^
 ||eromanga-show.com^
+||eromanga.biz^
 ||eromannga.net^
 ||eromazofu.com^
 ||erome.com^
@@ -9789,6 +9792,7 @@
 ||justpornflix.com^
 ||justpornleak.com^
 ||justporno.pro^
+||justrealboobs.com^
 ||justsexclips.com^
 ||justsextube.com^
 ||justsexvideo.com^
@@ -14009,6 +14013,7 @@
 ||porno365s.page^
 ||porno365x.art^
 ||porno365x.band^
+||porno365x.blog^
 ||porno365x.co^
 ||porno365x.store^
 ||porno365x.trade^
@@ -15040,6 +15045,7 @@
 ||raparigaslocais.com^
 ||rapbeh.cc^
 ||rapbeh.cx^
+||rapbeh.vip^
 ||rapeathome.com^
 ||rapeboard.net^
 ||raped.ws^
@@ -15147,6 +15153,7 @@
 ||red-xxx.video^
 ||red24x7.com^
 ||redamateurtube.com^
+||redberrycams.com^
 ||redbled.com^
 ||redbogo10.com^
 ||redbogo12.com^
@@ -15264,6 +15271,7 @@
 ||retroxxxstars.com^
 ||revealme.com^
 ||revistasequadrinhos.com^
+||rexporn.io^
 ||rexporn.sex^
 ||rexporn.st^
 ||rexpornmovz.com^
@@ -15952,6 +15960,7 @@
 ||sexdiem.com^
 ||sexdit3x.vip^
 ||sexditnhau.pro^
+||sexdog.me^
 ||sexdollqueen.com^
 ||sexdolls.cz^
 ||sexdollsoff.com^
@@ -16021,6 +16030,7 @@
 ||sexhay2k.net^
 ||sexhayam.com^
 ||sexhays2.blog^
+||sexhayvl.co.uk^
 ||sexhd.mobi^
 ||sexhd.pics^
 ||sexhdfull.com^
@@ -16029,8 +16039,10 @@
 ||sexhdtuber.com^
 ||sexhdxxx.com^
 ||sexhihi3x.net^
+||sexhikayeleri4.site^
 ||sexhindi.click^
 ||sexhindisex.com^
+||sexhotvl.pro^
 ||sexhoundlinks.com^
 ||sexhq.tv^
 ||sexhqvideo.com^
@@ -16134,6 +16146,7 @@
 ||sexmoviesvalue.com^
 ||sexmovr.com^
 ||sexmsri.com^
+||sexmtp.net^
 ||sexmup.blog^
 ||sexmup3x.cam^
 ||sexmup69.pro^
@@ -16231,6 +16244,7 @@
 ||sexrolls.com^
 ||sexru.website^
 ||sexrura.pl^
+||sexsaati.com^
 ||sexsagar.com^
 ||sexsaoy.com^
 ||sexsatix.com^
@@ -16238,6 +16252,7 @@
 ||sexsceny.com^
 ||sexselector.com^
 ||sexsex.hu^
+||sexsexviet.com^
 ||sexsfoto.homes^
 ||sexshawaz.com^
 ||sexsliv.com^
@@ -16255,6 +16270,7 @@
 ||sexsub.shop^
 ||sexsub.tech^
 ||sexsub.today^
+||sexsw.cc^
 ||sextamil.xyz^
 ||sextb.net^
 ||sextbots.com^
@@ -16270,8 +16286,8 @@
 ||sextingfinder.com^
 ||sexto.mobi^
 ||sextop1-tv.blog^
+||sextop1-vlxx.com^
 ||sextop1.cv^
-||sextop1.fo^
 ||sextop18.blog^
 ||sextopz.blog^
 ||sextor.org^
@@ -16389,7 +16405,9 @@
 ||sexviet35.com^
 ||sexviet37.com^
 ||sexviet45.com^
+||sexviet67.com^
 ||sexviet69x.com^
+||sexviet72.com^
 ||sexviet88.nl^
 ||sexviet88.org.uk^
 ||sexviet88z.co^
@@ -16410,7 +16428,6 @@
 ||sexvlxx.blog^
 ||sexvn789.net^
 ||sexvnhd.vip^
-||sexvnvip.com^
 ||sexvolg.cc^
 ||sexvr.com^
 ||sexvtv.net^
@@ -16425,6 +16442,7 @@
 ||sexxxhd.com^
 ||sexxxmurmansk.life^
 ||sexxxnsk.run^
+||sexxxsurgt.life^
 ||sexxxtape.net^
 ||sexxxtube.net^
 ||sexxxvideo.xyz^
@@ -16556,7 +16574,6 @@
 ||share-image.com^
 ||share-nude.com^
 ||shareanynudes.com^
-||shareflare.net^
 ||sharepornhd.shop^
 ||sharesome.com^
 ||sharpxxxmovies.com^
@@ -16677,6 +16694,7 @@
 ||shoplyfter.com^
 ||shoplyfter1.com^
 ||shortcaption.blog^
+||shortfilms.info^
 ||shorts.xxx^
 ||show-sex.com^
 ||showa-era.info^
@@ -16725,7 +16743,6 @@
 ||silkafter.com^
 ||silkengirl.com^
 ||silkengirl.net^
-||silo-caster.com^
 ||silvercartoon.com^
 ||silverdaddies-videos.com^
 ||silverdaddies.com^
