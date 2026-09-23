@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609222335
+! Version: 202609230235
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21764
-! Last modified: 2026-09-22T23:35:06+0000
+! Entries: 21765
+! Last modified: 2026-09-23T02:35:49+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -6353,6 +6353,7 @@
 ||fry99.com^
 ||fs1.app^
 ||fs58.com^
+||fs708.com^
 ||fsi-blog.in^
 ||fsiblog.cc^
 ||fsiblog.fyi^
@@ -12344,6 +12345,7 @@
 ||nimila.net^
 ||ninaporn.net^
 ||ninjakol.xyz^
+||nintendoenthusiast.net^
 ||nippon.best^
 ||nisiporn.com^
 ||niswanjy.com^
@@ -13341,6 +13343,7 @@
 ||pinkworld.com^
 ||pinporn.asia^
 ||pinupfiles.com^
+||pipocamoderna.com.br^
 ||piran-nha.site^
 ||pirnhub.icu^
 ||pirnhub.xyz^
@@ -13376,7 +13379,6 @@
 ||play-pornvideos.com^
 ||play-xxxvideos.com^
 ||play.md^
-||playafterdark.com^
 ||playblog.ws^
 ||playblue.ie^
 ||playbokep.app^
@@ -13403,7 +13405,6 @@
 ||playvids.com^
 ||playxxx.cc^
 ||pleasuregirl.net^
-||plesvi.com^
 ||plexstorm.com^
 ||plexvideos.com^
 ||plhentai.co^
@@ -14081,6 +14082,7 @@
 ||porno80si.site^
 ||porno80sk.site^
 ||porno80sl.site^
+||porno80sm.site^
 ||porno80sn.org^
 ||porno80so.site^
 ||porno80ss.site^
@@ -14354,6 +14356,7 @@
 ||pornoutube.com^
 ||pornova.org^
 ||pornovelhas.com^
+||pornovidea.sk^
 ||pornovidejka.sk^
 ||pornovideo.site^
 ||pornovideodojki.top^
@@ -14440,7 +14443,6 @@
 ||pornreap.com^
 ||pornreap.online^
 ||pornreap.org^
-||pornreap.space^
 ||pornrecs.com^
 ||pornretroclips.com^
 ||pornrewind.com^
@@ -14718,7 +14720,6 @@
 ||poshfreeporn.com^
 ||poshgay.com^
 ||positiveporn.com^
-||positivoon.com.br^
 ||possssno.sbs^
 ||postyourflasher.com^
 ||povd.com^
