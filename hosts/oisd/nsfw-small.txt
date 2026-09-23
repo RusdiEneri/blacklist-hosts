@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609230235
+! Version: 202609230837
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21765
-! Last modified: 2026-09-23T02:35:49+0000
+! Entries: 21767
+! Last modified: 2026-09-23T08:37:02+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -9859,6 +9859,7 @@
 ||kaktuz.com^
 ||kalamngychat.com^
 ||kaldagan.com^
+||kaldagan.tv^
 ||kalite18.net^
 ||kalosex.com^
 ||kaltokan.cc^
@@ -11682,6 +11683,7 @@
 ||moodx.tv^
 ||moonbrick.com^
 ||moonporntube.com^
+||moonvelin-content.com^
 ||moonvelin.com^
 ||mopoga.com^
 ||morangovip.com.br^
@@ -12415,6 +12417,7 @@
 ||notfans.com^
 ||notfans.net^
 ||notfans.org^
+||notfans.to^
 ||nothingtoxic.com^
 ||notiblog.net^
 ||notmik.com^
@@ -14057,6 +14060,7 @@
 ||porno365x.band^
 ||porno365x.co^
 ||porno365x.store^
+||porno365x.trade^
 ||porno365x.vip^
 ||porno365x.wiki^
 ||porno4.club^
@@ -14730,6 +14734,7 @@
 ||povstate.com^
 ||povxl.com^
 ||powered-by-revidy.com^
+||powerxequipment.co.uk^
 ||powfans.com^
 ||poyopara.com^
 ||poza.az^
@@ -14740,13 +14745,13 @@
 ||ppc030.com^
 ||ppornn.com^
 ||ppp.porn^
-||pptv.com^
 ||ppvdatabank.com^
 ||pr12366.com^
 ||pr1cks.com^
 ||preferred411.com^
 ||pregchan.com^
 ||prehistorictube.com^
+||prema.com^
 ||premeetingmaterials.com^
 ||premium-beauty.com^
 ||premium.chat^
@@ -14841,7 +14846,9 @@
 ||prostitutki-moskvy.eu^
 ||prostitutki-msk.com^
 ||prostitutki-na-vyezd.com^
+||prostitutki.help^
 ||prostitutki.today^
+||prostitutki24.fit^
 ||prostitutkicasa.com^
 ||prostitutkimsk.xyz^
 ||prostitutoknet.top^
@@ -14861,7 +14868,6 @@
 ||pryxxxvideos.com^
 ||ps-videos.vip^
 ||ps0z.com^
-||ps12362.com^
 ||pshunv.com^
 ||psychics.com^
 ||ptorrents.com^
@@ -14955,6 +14961,7 @@
 ||putasvipmexico.com^
 ||putasvipmexico.net^
 ||putinho.net^
+||puyumov.cc^
 ||pvideo.cz^
 ||pvideos.org^
 ||pvip.se^
@@ -14977,7 +14984,7 @@
 ||pxp.pics^
 ||pxp.pink^
 ||pxp.porn^
-||pz12398.com^
+||pyamal.com^
 ||qayporn.com^
 ||qazashka.cc^
 ||qaztube.com^
@@ -14988,7 +14995,6 @@
 ||qeraera.com^
 ||qfilm.tv^
 ||qgleak.com^
-||qianjkj.com^
 ||qiaoxiaojun.vip^
 ||qimao.com^
 ||qimps.com^
@@ -14998,15 +15004,19 @@
 ||qinglanhua2026.com^
 ||qingse.one^
 ||qingtengwang.com^
+||qiputv.cc^
+||qiubiaoqing.com^
 ||qizam.az^
 ||qmhsexz.com^
 ||qmw56.com^
+||qnspapp.com^
 ||qombol.com^
 ||qorno.com^
 ||qosvideos.com^
 ||qporn.mobi^
 ||qporno.xxx^
 ||qqqporn.com^
+||qqw3.com^
 ||qqwxs.cc^
 ||qssqtv.cyou^
 ||quadrinhosdesexo.com^
@@ -15024,7 +15034,6 @@
 ||queermenow.net^
 ||queerpig.com^
 ||queissonovinha.com^
-||quelrealty.com^
 ||quim4me.com^
 ||quimaz.com^
 ||quimhd.com^
@@ -15059,7 +15068,6 @@
 ||rahaporn.com^
 ||rahatube.com^
 ||rahatupu.net^
-||railjourneyswest.com^
 ||rainblow.xxx^
 ||rainboweleven.com^
 ||rajabocil.com^
@@ -15123,10 +15131,8 @@
 ||rawfuckclub.com^
 ||rawindianporn.mobi^
 ||rawporn.org^
-||razmoax.com^
 ||rbreezy.xyz^
 ||rcomicx.com^
-||rcouples.eu^
 ||rdooll.com^
 ||rdwmcr.com^
 ||reach-japanporn.com^
@@ -15135,10 +15141,10 @@
 ||reachpornmovies.com^
 ||reachxxx.com^
 ||readbeast.blog^
+||readlele.com^
 ||readmanga18.com^
 ||readnovel.com^
 ||readonlymind.com^
-||real-estate-costa-blanca.com^
 ||real-pornmovies.com^
 ||real-sexcontacts.co.uk^
 ||real-sexcontacts.com^
@@ -15186,7 +15192,6 @@
 ||recorded.online^
 ||recordedcams.com^
 ||recordedchat.com^
-||recountbiz.com^
 ||recu.me^
 ||recycle-ms.com^
 ||red-freeporn.com^
@@ -15210,7 +15215,6 @@
 ||reddtastic.com^
 ||reddvideo.tube^
 ||reddxxx.com^
-||reddybook.ing^
 ||redfans.cam^
 ||redfans.org^
 ||redgay.pro^
@@ -15230,7 +15234,6 @@
 ||rednanas.com^
 ||redneckjohn.com^
 ||redpics.pro^
-||redpoint-consulting.com^
 ||redporn.me^
 ||redporn.one^
 ||redporn.porn^
@@ -15261,7 +15264,6 @@
 ||redvelvet.co.za^
 ||redvi82.com^
 ||redvi84.com^
-||redvibesgay.online^
 ||redwap-xxx.com^
 ||redwap.cc^
 ||redwap.me^
@@ -15298,7 +15300,6 @@
 ||relaxxxtime.com^
 ||relayblog.com^
 ||remaxhd.int.in^
-||rencontres-transexuels.com^
 ||renderotica.com^
 ||rent.men^
 ||rentmasseur.com^
@@ -15331,6 +15332,7 @@
 ||rickysroom.com^
 ||ricoysuave.com^
 ||rightbdsm.com^
+||rikang.com^
 ||rimsgay.com^
 ||rintor.net^
 ||rintor.org^
