@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609232333
+! Version: 202609240848
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21658
-! Last modified: 2026-09-23T23:33:51+0000
+! Entries: 21666
+! Last modified: 2026-09-24T08:48:51+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -7034,6 +7034,7 @@
 ||giganana.com^
 ||gigantits.com^
 ||gigixo.com^
+||gigporno.best^
 ||gigporno.com^
 ||gilfaf.com^
 ||gilfok.com^
@@ -17436,6 +17437,7 @@
 ||tamilyogi.cx^
 ||tamodel.com^
 ||tamsohbet.com^
+||tamuseum.org.il^
 ||tanahub.fr^
 ||tangas3d.com^
 ||tangdou.com^
@@ -17457,7 +17459,7 @@
 ||tastyblacks.com^
 ||tastymovie.com^
 ||tatarada.com.br^
-||taxcreditsforworkersandfamilies.org^
+||tatlidede.com.tr^
 ||taxi69.com^
 ||taxidrivermovie.com^
 ||tbib.org^
@@ -17471,6 +17473,7 @@
 ||tdxflix.fyi^
 ||tdxflix.io^
 ||tdxflix.wiki^
+||tdxflix.work^
 ||te-en.net^
 ||teacherfucksteens.com^
 ||teamskeet.com^
@@ -17479,7 +17482,9 @@
 ||teaner.com^
 ||teatrodelporno.com^
 ||teatroporno.com^
+||teaz.ai^
 ||tebcams.com^
+||teddyboard.vc^
 ||teen-erotica.net^
 ||teen-gay.cfd^
 ||teen-porno.cc^
@@ -17568,7 +17573,6 @@
 ||tekjam.com^
 ||tel-sex.cc^
 ||telechapero.com^
-||teleduce.in^
 ||telefon-6.xxx^
 ||telegram-porn.com^
 ||telegramgroup.net^
@@ -17614,9 +17618,7 @@
 ||terk.nl^
 ||term.ooo^
 ||terradoriente.com^
-||teruishuo.net^
 ||tescort.com^
-||teste.com^
 ||testedefudelidade.com^
 ||testosterona.blog.br^
 ||tetatita.com^
@@ -17790,6 +17792,9 @@
 ||thickassporn.com^
 ||thickcash.com^
 ||thicktube.com^
+||thienthaitruyen11.com^
+||thienthaitruyen12.com^
+||thienthaitruyen13.com^
 ||thighsporn.com^
 ||thisav2.com^
 ||thisjav.tv^
@@ -17836,6 +17841,7 @@
 ||thumbs.pro^
 ||thumbzilla.com^
 ||thumbzilla.monster^
+||thuongmaitructiep.com^
 ||thxhub.com^
 ||thxx69.com^
 ||thxxx69.com^
@@ -17915,12 +17921,14 @@
 ||tizam.video^
 ||tjssd56.com^
 ||tklivechat.com^
+||tkporn.cc^
+||tktub.cc^
 ||tktube.com^
+||tktube.win^
 ||tktubexxx.com^
 ||tladies.com^
 ||tlagaylive.com^
 ||tlavideo.com^
-||tlovertonet.com^
 ||tma.tw^
 ||tmforum.bz^
 ||tmohentai.com^
@@ -18021,6 +18029,7 @@
 ||topyoungporn.com^
 ||torbe.es^
 ||torchemada.net^
+||torjackan.net^
 ||tormovies.com^
 ||toroporno.com^
 ||torrent-pirat.com^
@@ -18142,9 +18151,8 @@
 ||troiemamme.com^
 ||tronvanityaddress.io^
 ||tronvanityaddress.org^
-||troop910.com^
-||tropela.eus^
 ||troubledmilfs.com^
+||trtavaz.com.tr^
 ||trueamateurporn.org^
 ||trueamateurs.com^
 ||trueanal.com^
@@ -18172,6 +18180,7 @@
 ||ts4play.com^
 ||tsarmoms.com^
 ||tscams.live^
+||tscamz.com^
 ||tscult.com^
 ||tsdates.com^
 ||tsdm39.com^
@@ -18359,6 +18368,7 @@
 ||tufos.com.br^
 ||tugpass.com^
 ||tuhentaionline.com^
+||tuhu.cn^
 ||tuj8.cc^
 ||tukif.club^
 ||tukif.com^
@@ -18369,6 +18379,7 @@
 ||tuktukpatrol.com^
 ||tuku.cc^
 ||tulipasexshop.com.br^
+||tulospalvelu.fi^
 ||tum-summer.com^
 ||tumbest.com^
 ||tumbex.com^
@@ -18378,14 +18389,12 @@
 ||tumblrviewer.com^
 ||tuoi69x.blog^
 ||tupianmima.com^
-||turgaytufan.com^
+||tupotv.cc^
+||turchanki.link^
 ||turkifsa.blog^
 ||turkifsaalemi.com^
 ||turkifsabul.com^
 ||turkleak1.live^
-||turkporno28.lat^
-||turkporno30.lat^
-||turkporno35.lat^
 ||turnpornvideos.com^
 ||tuscl.net^
 ||tushy.com^
@@ -18416,6 +18425,7 @@
 ||twistmyrubberarm.com^
 ||twistys.com^
 ||twistysnetwork.com^
+||twivids.com^
 ||two-cum.com^
 ||twomance.com^
 ||twpornstars.com^
@@ -18448,9 +18458,11 @@
 ||u18chan.com^
 ||u3c3.com^
 ||u7u9.com^
+||u8888one.baby^
 ||u9a9.com^
 ||uaa.com^
 ||uacg.moe^
+||uanal.com^
 ||uanpxy.com^
 ||uaporn.net^
 ||uaprostitute.com^
@@ -18468,6 +18480,7 @@
 ||ufoooo.com^
 ||ufym.info^
 ||ufym.pro^
+||ugandanhub.com^
 ||ugandanporn.com^
 ||ugandapornvideos.com^
 ||uhairy.com^
@@ -18508,7 +18521,6 @@
 ||ulluviral.com^
 ||ulluxxx.net^
 ||ulmf.org^
-||ultima-ascension.com^
 ||ultra4kporn.com^
 ||ultrafile.org^
 ||ultrafilms.com^
@@ -18559,14 +18571,12 @@
 ||undressherapp.org^
 ||uni-hankyu.com.tw^
 ||uniformpornxxx.com^
-||union-power.org^
 ||uniquebondage.com^
 ||uniquepornvideos.com^
 ||uniquexxxvideos.com^
 ||unitecmakina.com^
 ||uniteddolls.com^
 ||unitedmarineacademy.com^
-||univ-setif2.dz^
 ||universblack.com^
 ||universohentai.com^
 ||unlok.me^
@@ -18593,7 +18603,6 @@
 ||upskirt.tv^
 ||upskirtflix.com^
 ||upslut.com^
-||upslutb958.shop^
 ||upslutz753.shop^
 ||upsorber.com^
 ||upu.cc^
@@ -18639,7 +18648,9 @@
 ||uvod.tv^
 ||uvrazh.ru^
 ||uwstart.nl^
+||uxseries.co^
 ||uxseries.com^
+||uykumasallari.com^
 ||uzaymanga.com^
 ||uzbak.ru^
 ||uzbechka.link^
@@ -18650,7 +18661,6 @@
 ||uzbpizda.ru^
 ||uzbseks.su^
 ||uzbxikoya.ru^
-||uzerotik.site^
 ||uzparno.site^
 ||uzpopka.com^
 ||uzporn.top^
@@ -18687,7 +18697,6 @@
 ||vava8.com^
 ||vazadosporno.com^
 ||vazounudes.com^
-||vbmode.com^
 ||vchats.ru^
 ||vcx.com^
 ||vdategames.com^
@@ -18722,15 +18731,12 @@
 ||verynude.net^
 ||verytwink.com^
 ||veuxtube.com^
-||vevo.ly^
 ||vezap.com^
 ||veziporno.com^
 ||vezon.club^
 ||vfreecams.com^
 ||vgcats.com^
 ||vguys.com^
-||vh12357.com^
-||vh12362.com^
 ||via-sl.com^
 ||viadinho.net^
 ||vibemate.com^
@@ -18888,19 +18894,24 @@
 ||viejitas.top^
 ||viet69.be^
 ||viet69a.blog^
+||viet69b.com^
 ||viet69tube.com^
 ||viet69vn.at^
+||viet69z.to^
+||vietnhabienhoa.com^
 ||viewgals.com^
 ||viexx.com^
+||viexx.net^
 ||vikachat.ru^
 ||vikiporn.com^
 ||villagedesi.fun^
 ||villagesexmms.com^
 ||villagesexvideos3.com^
-||villaortiz.com^
 ||villapetsitter.it^
 ||viluu.de^
 ||vinahentai.club^
+||vinahentai.lat^
+||vinahentai.wiki^
 ||vindianporn.com^
 ||vinslave.com^
 ||vintage-erotica-forum.com^
@@ -18918,9 +18929,11 @@
 ||violetmovies.com^
 ||vip-kitty.com^
 ||vip4k.com^
+||vipdosug.biz^
 ||viper.to^
 ||vipergirls.to^
 ||viperproxy.org^
+||vipescort-istanbul.com^
 ||viphentai.org^
 ||vipissy.com^
 ||vipmassage.net^
@@ -19006,9 +19019,6 @@
 ||vkusnyaha.com^
 ||vl-girl.ru^
 ||vl69.sbs^
-||vlsexhihi.com^
-||vlsexhihi.net^
-||vlsexhihi.pro^
 ||vlxvn.baby^
 ||vlxvn.click^
 ||vlxvn.info^
@@ -19024,7 +19034,7 @@
 ||vlxxde.com^
 ||vlxxsexvietsub.com^
 ||vmq743.com^
-||vmuzey.com^
+||vn-jav.com^
 ||vnexpo.net^
 ||vnpocket.com^
 ||vnsexhay.pro^
@@ -19110,7 +19120,6 @@
 ||vscdns.com^
 ||vsdoll.net^
 ||vsex.in^
-||vsexhihi.com^
 ||vsexhihi.net^
 ||vsjav.com^
 ||vsporntube.com^
@@ -19128,7 +19137,6 @@
 ||vulvaok.com^
 ||vulvapornpics.com^
 ||vulvayes.com^
-||vx12357.com^
 ||vxhentai.com^
 ||vxxx.com^
 ||vxxx.tv^
