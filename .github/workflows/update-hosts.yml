@@ -3,7 +3,7 @@ name: Update Hosts Registry
 on:
   schedule:
     # Jalankan setiap jam pada menit 00
-    - cron: "0 * * * *"
+    - cron: "0 */12 * * *"
       timezone: "Asia/Jakarta"
 
   # Jalankan manual dari tab Actions
