@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609251432
+! Version: 202609251907
 ! Title: oisd nsfw
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 469325
-! Last modified: 2026-09-25T14:32:10+0000
+! Entries: 469356
+! Last modified: 2026-09-25T19:07:17+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -2791,6 +2791,7 @@
 ||129728.com^
 ||129av.app^
 ||129av.cc^
+||129hj.cn^
 ||129st.com^
 ||129trojanter.com^
 ||129uu.cc^
@@ -5717,6 +5718,7 @@
 ||205xfulisuo.xyz^
 ||205zz.com^
 ||2060m.com^
+||2060s.cn^
 ||2061267.com^
 ||206bb.com^
 ||206dd.com^
@@ -7843,6 +7845,7 @@
 ||2zky14.garden^
 ||2zqq.com^
 ||2zxx.blogspot.com^
+||3-bu.cn^
 ||3-china.com^
 ||3-d-porn.com^
 ||3-dgirls.com^
@@ -16193,6 +16196,7 @@
 ||7h88b0o.garden^
 ||7h91.top^
 ||7h9u.com^
+||7hbz.cn^
 ||7hc.cc^
 ||7hd8bg16.cyou^
 ||7he.top^
@@ -22115,6 +22119,7 @@
 ||abghotsex.blogspot.com^
 ||abgindo.live^
 ||abgindohot.blogspot.com^
+||abgindoterbaru.com^
 ||abgj.cc^
 ||abglt.org.br^
 ||abgmaniak.blogspot.com^
@@ -51283,6 +51288,7 @@
 ||aww129.sbs^
 ||awxxsvb.xyz^
 ||awxxsvort.forum^
+||awykk.cn^
 ||awyshmga.cc^
 ||awzy02.buzz^
 ||ax123456.com^
@@ -53321,9 +53327,11 @@
 ||baiducasoft.com^
 ||baidufo.com^
 ||baiduhiba.com^
+||baidujs.com.cn^
 ||baidukuangjiahu.com^
 ||baidusj.com^
 ||baidusoft.blogspot.com^
+||baiduvi.cn^
 ||baiduxxx.com^
 ||baidyabatimunicipality.org^
 ||baiebeauty.cn^
@@ -62046,7 +62054,6 @@
 ||bestsexcamslist.com^
 ||bestsexcamwebsites.com^
 ||bestsexchair.com^
-||bestsexchannel.com^
 ||bestsexchat.com^
 ||bestsexchat.net^
 ||bestsexclips.com^
@@ -63158,6 +63165,7 @@
 ||bhxh.life^
 ||bhxh6.life^
 ||bhxkj.com^
+||bhxqyxsm.cn^
 ||bhy2usa.com^
 ||bhynxx.com^
 ||bhz045.sbs^
@@ -64797,6 +64805,7 @@
 ||bigstarlust.blogspot.com^
 ||bigstitsfucked.blogspot.com^
 ||bigstr.com^
+||bigstu.cn^
 ||bigstud.com^
 ||bigstuds.com^
 ||bigsvv.blogspot.com^
@@ -67049,6 +67058,7 @@
 ||bkwhentai.top^
 ||bkyiv.cn^
 ||bkzmbii.cn^
+||bl-house.cn^
 ||bl-lacertae.blogspot.com^
 ||bl-sy.com^
 ||bl-y.com^
@@ -78728,6 +78738,7 @@
 ||bwzz.com^
 ||bx-logistics.com^
 ||bx-sjdq.com^
+||bx-study.cn^
 ||bx0543.com^
 ||bx11.vip^
 ||bx173.com^
@@ -88098,6 +88109,7 @@
 ||cgx-dave.blogspot.com^
 ||cgxdave.blogspot.com^
 ||cgxiaojun.com^
+||cgxir.cn^
 ||cgxpr.com^
 ||cgyony.com^
 ||cgzdw.net.cn^
@@ -109833,7 +109845,6 @@
 ||ddefi.com.cn^
 ||ddesirecam.com^
 ||ddesisonly.blogspot.com^
-||ddeva.ru^
 ||ddf-busty.com^
 ||ddf-network.com^
 ||ddf-prod.blogspot.com^
@@ -121742,6 +121753,7 @@
 ||dxxx1.cc^
 ||dxxxcw.cc^
 ||dxxxd.cc^
+||dxykaf.cn^
 ||dxyyxx.com^
 ||dxzgh.org^
 ||dxzlf.com^
@@ -122218,6 +122230,7 @@
 ||e2p1.cc^
 ||e2takf.cn^
 ||e2vbs-faz.garden^
+||e2z5.cn^
 ||e3055.com^
 ||e3514.com^
 ||e36uo.top^
@@ -136071,6 +136084,7 @@
 ||eyecandyfor-male.blogspot.com^
 ||eyecandyguys.blogspot.com^
 ||eyecandyvids.com^
+||eyedooh.com.cn^
 ||eyefuck.blogspot.com^
 ||eyegasm.org^
 ||eyehits.com^
@@ -170627,6 +170641,7 @@
 ||giggig.xyz^
 ||giggleberries.co.uk^
 ||gigglegalsboutique.com^
+||gigglemoment.cn^
 ||giggles.tv^
 ||gigglesworld.com^
 ||giggsol.com^
@@ -200369,6 +200384,7 @@
 ||hxqjpj.cn^
 ||hxqq.com.cn^
 ||hxrhy.com^
+||hxrjkj.cn^
 ||hxrl18666.com^
 ||hxrx.com.cn^
 ||hxsq78.com^
@@ -201106,6 +201122,7 @@
 ||i.filesor.com^
 ||i.shoosh.co^
 ||i051.com^
+||i0vtou.cn^
 ||i100.xyz^
 ||i104richardq140.free.fr^
 ||i105.info^
@@ -217790,6 +217807,7 @@
 ||jnxwz.com^
 ||jnyaorong.com^
 ||jnycqd.com^
+||jnydwl.cn^
 ||jnyiluxing.com^
 ||jnyimu.com.cn^
 ||jnyimu.org.cn^
@@ -220914,6 +220932,7 @@
 ||jxyqsp.com^
 ||jxyww.sbs^
 ||jxyww1.sbs^
+||jxyxcq.cn^
 ||jxyzfg.com^
 ||jxyztz.com^
 ||jxzdgl.com^
@@ -221043,6 +221062,7 @@
 ||jyukusiri.net^
 ||jyvtcsoft.com^
 ||jywav.com^
+||jywhfeif.cn^
 ||jywljj.cn^
 ||jyx375.sbs^
 ||jyx770.com^
@@ -229255,6 +229275,7 @@
 ||kslexiang.com^
 ||kslianhua.com^
 ||ksm446.sbs^
+||ksmintais.cn^
 ||ksmov4.com^
 ||ksmzsa47.cn^
 ||ksoital.cn^
@@ -236963,6 +236984,7 @@
 ||lianqi8888.com^
 ||lianqixinxi.com^
 ||lianqunkeji.com.cn^
+||lianshangfang.cn^
 ||lianshengtang123.com^
 ||lianshengyl.cn^
 ||lianshenporn.cc^
@@ -242089,6 +242111,7 @@
 ||lmua.com.cn^
 ||lmv.ywynxx.buzz^
 ||lmw515.sbs^
+||lmxzj.cn^
 ||lmyabkl.cn^
 ||lmysb.com^
 ||lmz123.buzz^
@@ -262581,7 +262604,6 @@
 ||mixporn.fit^
 ||mixporn.monster^
 ||mixporn.net^
-||mixporn.ru^
 ||mixporn.space^
 ||mixporn.today^
 ||mixporn.vip^
@@ -278103,7 +278125,6 @@
 ||nfchain.com.cn^
 ||nfcr1632.cyou^
 ||nfcsouth.net^
-||nfctnx.com.cn^
 ||nfefxz.cn^
 ||nff340.sbs^
 ||nff977.sbs^
@@ -285041,6 +285062,7 @@
 ||oaercoatpak.blogspot.com^
 ||oaf901.sbs^
 ||oag277.com^
+||oagqes.cn^
 ||oahgr.com^
 ||oak491.sbs^
 ||oakdalerec.net^
@@ -331860,7 +331882,6 @@
 ||psuwrestler.blogspot.com^
 ||psuydn.com^
 ||psv535.sbs^
-||psvlh43677tpxsg.belugacdn.link^
 ||psvrporn.com^
 ||psvrporno.com^
 ||psw4f-wyaaa-aaaal-qjeyq-cai.icp0.io^
@@ -334909,6 +334930,7 @@
 ||qingshucidian.com^
 ||qingsongguan.com^
 ||qingsuchina.com^
+||qingtan888.cn^
 ||qingtaovod.com^
 ||qingtaovod.net^
 ||qingtengwang.com^
@@ -342290,6 +342312,7 @@
 ||ricwfpwo.cc^
 ||ricwusa.com^
 ||ridanam.blogspot.com^
+||ridayt.cn^
 ||rideblackdick.com^
 ||ridedabone.com^
 ||rideevilla.com^
@@ -375584,6 +375607,7 @@
 ||sgx902.sbs^
 ||sgxhjzzl.com^
 ||sgxz.org^
+||sgydxxjs.cn^
 ||sgyuepao.com^
 ||sgyxlhg.com^
 ||sgzb168.com^
@@ -388806,6 +388830,7 @@
 ||ssbbwsexhookup.com^
 ||ssbbwsexsingles.com.au^
 ||ssbd-edu.com^
+||ssbhd.cn^
 ||ssbnebraska.com^
 ||ssbox.blogspot.com^
 ||ssc24888.com^
@@ -389045,7 +389070,6 @@
 ||ssy87.com^
 ||ssyaodh.com^
 ||ssyq.buzz^
-||ssyukd.com.cn^
 ||sszx-china.com^
 ||st-av-china.com^
 ||st-futaba.jp^
@@ -396651,6 +396675,7 @@
 ||szs2006.lol^
 ||szsamtek.com^
 ||szsandisk.com^
+||szsbjh.com.cn^
 ||szsdh.top^
 ||szsdh8.top^
 ||szsdxt.com^
@@ -419761,6 +419786,7 @@
 ||udg705.sbs^
 ||udhxjenp.cc^
 ||udi-school.com^
+||udmaf.cn^
 ||udmcph.com.cn^
 ||udmis-ndm.ru^
 ||udn845.sbs^
@@ -424012,6 +424038,7 @@
 ||vbo844.sbs^
 ||vbokep.com^
 ||vbongacam.ru^
+||vboxs.cn^
 ||vbsf2.gq^
 ||vbsgj.com^
 ||vbsjgla.cc^
@@ -435199,7 +435226,6 @@
 ||websexcam.net^
 ||websexcam.nl^
 ||websexcam.org^
-||websexcam.ru^
 ||websexcams.com^
 ||websexcamtube.com^
 ||websexfilms.com^
@@ -438062,6 +438088,7 @@
 ||wippen.be^
 ||wiptopping.com^
 ||wiq272.sbs^
+||wiqojpy.cn^
 ||wir020.sbs^
 ||wir594.sbs^
 ||wirdvtd.cn^
@@ -438356,6 +438383,7 @@
 ||wlastudio.com^
 ||wlbpp.com^
 ||wlbsite.com^
+||wlcvgnz.cn^
 ||wldlxyzfh.cn^
 ||wleduu.com^
 ||wlep.com.cn^
@@ -439577,6 +439605,7 @@
 ||wppredirect.com^
 ||wpq493.sbs^
 ||wpqpyo.cn^
+||wprqh.cn^
 ||wps-wpps.com^
 ||wps617.com^
 ||wps769.sbs^
@@ -439760,6 +439789,7 @@
 ||wshp7986.com^
 ||wsibi.biz^
 ||wsinchina.com^
+||wsir.cn^
 ||wsjietu.com^
 ||wsjxbxg.cn^
 ||wslearning.com^
@@ -443267,7 +443297,6 @@
 ||xgirlscams.com^
 ||xgirlstube.blogspot.com^
 ||xgirlx.free.fr^
-||xgjsk29184bvhjs.belugacdn.link^
 ||xgjszj.com^
 ||xgjyik.blogspot.com^
 ||xgkb.net^
@@ -443510,7 +443539,6 @@
 ||xhamster41.desi^
 ||xhamster42.desi^
 ||xhamster43.desi^
-||xhamster44.com^
 ||xhamster44.desi^
 ||xhamster45.desi^
 ||xhamster46.desi^
@@ -450096,6 +450124,7 @@
 ||xunhuaxiang.com^
 ||xunlei-share.blogspot.com^
 ||xunlianba.com.cn^
+||xunliandaili.cn^
 ||xunqinglou.com^
 ||xunsex.link^
 ||xunsuba.com.cn^
@@ -463131,6 +463160,7 @@
 ||ypf456.sbs^
 ||ypf473.com^
 ||ypgaylive.com^
+||ypgcckn.cn^
 ||ypgkg.cn^
 ||yph768.sbs^
 ||yph770.com^
@@ -466011,6 +466041,7 @@
 ||zhangzhengkun.cn^
 ||zhangzhichao.com^
 ||zhangzhongan.com^
+||zhangzhongbao.com.cn^
 ||zhangzhongkang.com.cn^
 ||zhangzihan.top^
 ||zhanhongsulian.cn^
