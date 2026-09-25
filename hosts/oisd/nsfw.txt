@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609251907
+! Version: 202609252306
 ! Title: oisd nsfw
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 469356
-! Last modified: 2026-09-25T19:07:17+0000
+! Entries: 469377
+! Last modified: 2026-09-25T23:06:28+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -29754,6 +29754,7 @@
 ||adz414.com^
 ||adzav.sexduckj02.cc^
 ||adzdollar.gq^
+||adzhitou.cn^
 ||ae-amazingchallenge.blogspot.com^
 ||ae-tj.com^
 ||ae1237244.blogspot.com^
@@ -30663,6 +30664,7 @@
 ||ahdhled.com^
 ||ahdwedu.com^
 ||ahe-oho.com^
+||ahe7b.cn^
 ||ahead.garden^
 ||aheat.net^
 ||ahegames.itch.io^
@@ -40720,6 +40722,7 @@
 ||animal-drawings.com^
 ||animal-hentai.com^
 ||animal-lovers.net^
+||animal-parasite.cn^
 ||animal-porn-channel.xyz^
 ||animal-porn-male.pages.dev^
 ||animal-porn-men.pages.dev^
@@ -56850,6 +56853,7 @@
 ||bdl3.com^
 ||bdlhyl.com^
 ||bdljunxun.com^
+||bdlstp.cn^
 ||bdlx3iz.garden^
 ||bdlzy.com^
 ||bdm612.sbs^
@@ -106448,6 +106452,7 @@
 ||czl289.com^
 ||czlangwei.com^
 ||czlmgzs.com^
+||czlmzsj.cn^
 ||czlove.xyz^
 ||czltgg.cn^
 ||czlushuo.com^
@@ -141538,6 +141543,7 @@
 ||fenghexin.com^
 ||fenghniao.cc^
 ||fenghua0752.com^
+||fenghuajn.cn^
 ||fenghuaju.com^
 ||fenghuanlu.com^
 ||fenghuavoice.ca^
@@ -146015,6 +146021,7 @@
 ||fk-onepiecehentai.blogspot.com^
 ||fk0.xyz^
 ||fk2s.com^
+||fk337.cn^
 ||fk798j.cfd^
 ||fk9.top^
 ||fk99.cc^
@@ -155209,6 +155216,7 @@
 ||ftc964.sbs^
 ||ftcaster.com^
 ||ftceilings.com^
+||ftcprzj.cn^
 ||ftd146.sbs^
 ||ftdianti.com^
 ||ftdz7.com^
@@ -177611,6 +177619,7 @@
 ||gungorennakliyatfirmasi.com.tr^
 ||gungorenvipevdenevenakliyat.com.tr^
 ||gunitv.cc^
+||gunke.com.cn^
 ||gunkedupgirls.com^
 ||gunlukhavadurumu.com.tr^
 ||gunn-education.com^
@@ -177781,6 +177790,7 @@
 ||guoqinf.com^
 ||guoqinwang.com^
 ||guorenchugui.com^
+||guosejiaren.cn^
 ||guoshengprinting.com^
 ||guosins.com^
 ||guote.cc^
@@ -198916,6 +198926,7 @@
 ||huangmeiki.com^
 ||huangpian.cfd^
 ||huangrendh.com^
+||huangruiying.cn^
 ||huangse-app.com^
 ||huangse-daohang.com^
 ||huangse-wangzhi.com^
@@ -221193,6 +221204,7 @@
 ||jzxzjd.com^
 ||jzy66.com^
 ||jzy777.com^
+||jzy9.cn^
 ||jzydoors.com^
 ||jzygs.com^
 ||jzyhl.com^
@@ -279783,6 +279795,7 @@
 ||njyccy.com^
 ||njyinyueren.com^
 ||njykl.com^
+||njylkf.cn^
 ||njyongxing.com^
 ||njywhb.com^
 ||njz535.sbs^
@@ -284410,6 +284423,7 @@
 ||nx2.biz^
 ||nx4567.com^
 ||nx93.sbs^
+||nxaala.cn^
 ||nxb631.sbs^
 ||nxchinalife.com^
 ||nxdomax.com^
@@ -285674,6 +285688,7 @@
 ||ogrenciyurdu.org^
 ||ogreogrefarmfree.blogspot.com^
 ||ogres-world.com^
+||ogrgojv.cn^
 ||ogrish.tv^
 ||ogromnih.net^
 ||ogromnyie-bolshie-siski-2013.blogspot.com^
@@ -301275,6 +301290,7 @@
 ||pntrideau.blogspot.com^
 ||pnu860.sbs^
 ||pnwdelight.com^
+||pnwdlpq.cn^
 ||pnzsw.com^
 ||pnzweb.ru^
 ||po-kaki-to.com^
@@ -385039,6 +385055,7 @@
 ||sodagf.com^
 ||sodahours.com^
 ||sodaprofiles.com^
+||sodasuyar.cn^
 ||sodatokens.com^
 ||sodede.com^
 ||sodiumsoft.com^
@@ -392930,6 +392947,7 @@
 ||sunkoshionline.com^
 ||sunlinedu.com^
 ||sunluweld.cn^
+||sunlysofa.cn^
 ||sunmaturepornmovies.click^
 ||sunmaturepornvideos.click^
 ||sunmaturesex.click^
@@ -423363,6 +423381,7 @@
 ||v-f.com.cn^
 ||v-i-p.ca^
 ||v-idol.net^
+||v-image.cn^
 ||v-keep.com^
 ||v-lang.eu^
 ||v-m-p.blogspot.com^
@@ -441216,6 +441235,7 @@
 ||wzdnyy.com.cn^
 ||wzdst.com^
 ||wzdtqf.com^
+||wzdtv.cn^
 ||wzdxaf.com^
 ||wze442.sbs^
 ||wzfang.com^
@@ -463654,6 +463674,7 @@
 ||yuelao5.com^
 ||yuelao520.com^
 ||yuelaokeji.com^
+||yueliaowang.cn^
 ||yuelingdz.com^
 ||yuely.com.cn^
 ||yuemashuzi.com^
