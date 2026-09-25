@@ -2,14 +2,8 @@ name: Update Hosts Registry
 
 on:
   schedule:
-    # Jalankan setiap jam pada menit 00
-    - cron: "0 */12 * * *"
-      timezone: "Asia/Jakarta"
-
-  # Jalankan manual dari tab Actions
+    - cron: "0 * * * *"
   workflow_dispatch:
-
-  # Jalankan jika workflow atau sources.list berubah
   push:
     paths:
       - ".github/workflows/update-hosts.yml"
@@ -18,7 +12,6 @@ on:
 permissions:
   contents: write
 
-# Mencegah beberapa instance workflow berjalan bersamaan
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
@@ -29,18 +22,12 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # ========================================
-      # Checkout
-      # ========================================
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ========================================
-      # Setup Git
-      # ========================================
       - name: Setup Git
         run: |
           set -Eeuo pipefail
@@ -56,9 +43,6 @@ jobs:
           git checkout main
           git reset --hard origin/main
 
-      # ========================================
-      # Check sources.list
-      # ========================================
       - name: Check Sources
         run: |
           set -Eeuo pipefail
@@ -73,10 +57,6 @@ jobs:
           echo "Daftar sumber:"
           cat sources.list
 
-      # ========================================
-      # Download ke staging
-      # Jangan langsung menghapus hosts lama
-      # ========================================
       - name: Fetch Sources
         run: |
           set -Eeuo pipefail
@@ -154,9 +134,6 @@ jobs:
           echo
           echo "✅ Semua source berhasil di-download."
 
-      # ========================================
-      # Update hosts hanya jika isi berubah
-      # ========================================
       - name: Update Hosts Registry
         id: hosts
         run: |
@@ -217,9 +194,6 @@ jobs:
             echo "✅ Tidak ada perubahan pada hosts."
           fi
 
-      # ========================================
-      # Generate README hanya dari data final
-      # ========================================
       - name: Generate README
         if: steps.hosts.outputs.changed == 'true'
         run: |
@@ -338,9 +312,6 @@ jobs:
             echo "*Terakhir sinkronisasi: $CURRENT_TIME*"
           } >> README.md
 
-      # ========================================
-      # Check apakah benar ada perubahan
-      # ========================================
       - name: Check Git Changes
         id: git_changes
         run: |
@@ -358,9 +329,6 @@ jobs:
             git diff --cached --stat
           fi
 
-      # ========================================
-      # Commit & Push
-      # ========================================
       - name: Commit and Push
         if: steps.git_changes.outputs.changed == 'true'
         run: |
@@ -400,9 +368,6 @@ jobs:
           echo "❌ Push gagal setelah 5 percobaan."
           exit 1
 
-      # ========================================
-      # Tidak ada perubahan
-      # ========================================
       - name: No Changes
         if: steps.git_changes.outputs.changed == 'false'
         run: |
