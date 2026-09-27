@@ -6,8 +6,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 26 Sep 2026 07:59 UTC
-! Version: 2026.0926.0759.39
+! Last modified: 27 Sep 2026 07:38 UTC
+! Version: 2026.0927.0738.53
 ! Syntax: AdBlock
 ! Number of entries: 17367
 !
@@ -721,7 +721,7 @@
 ||ger.zoibakii.com^
 ||01crypto.com^
 ||0el-preiswert-kaufen.de^
-||1-rx-shop.com^
+||101apotheek.com^
 ||101vectorcenter.sbs^
 ||10xdealership.com^
 ||11trikots.com^
@@ -810,7 +810,6 @@
 ||a-markt.de^
 ||a1-anlagen.com^
 ||a1businessnet.live^
-||aaaclothing.ru^
 ||aachentag.com^
 ||aacreek-ranch.de^
 ||aakip.com^
@@ -2364,7 +2363,6 @@
 ||bestpagjkl.com^
 ||bestpharm-eu.com^
 ||bestpillpharmacy.com^
-||bestpillsnetwork.com^
 ||bestpricetreatments.com^
 ||bestproductsonlinestore.com^
 ||bestprogift.com^
@@ -2980,6 +2978,7 @@
 ||buckbasil.com^
 ||buckbirch.com^
 ||buckleybelts.de^
+||buddhapowerstore.com^
 ||buddingscholarsonline.com^
 ||budgetburstdeals.com^
 ||budgetmagic.eu^
@@ -3347,7 +3346,6 @@
 ||chauffage-energie.com^
 ||chaussuressimple.com^
 ||chcierekci.cc^
-||che.com^
 ||cheapcharly.de^
 ||cheapestcosmetic.com^
 ||cheapmondo.com^
@@ -7568,7 +7566,6 @@
 ||hgtyfd.shop^
 ||hi-goeedoo.com^
 ||hibote.de^
-||hicity.de^
 ||hico-shop.de^
 ||hiddenbarandgrill.com^
 ||hiddenhertz.com^
@@ -7669,7 +7666,6 @@
 ||hokarunnershungary.com^
 ||hokasale.de^
 ||hokastyle.com^
-||holapick.com^
 ||holda-konigsallee.de^
 ||holdinggb.com^
 ||holdirwerkzeug.de^
@@ -7831,6 +7827,7 @@
 ||hotels-colombo.com^
 ||hotels-colorado.net^
 ||hotelsinperm.ru^
+||hotelsinvienna.org^
 ||hotelsofmenorca.com^
 ||hotelwareus.com^
 ||hotelwhales.com^
@@ -10450,6 +10447,7 @@
 ||mfomatratzenmarkt.de^
 ||mfsebike.com^
 ||mg-management.de^
+||mgaffaires.com^
 ||mgmglobal.com^
 ||mhamzasaleem.com^
 ||mhoptions.com^
@@ -11413,6 +11411,7 @@
 ||norya.de^
 ||not-bad.shop^
 ||notationi.com^
+||notebookakku.at^
 ||notebooknetzteileshop.de^
 ||notenweltde.com^
 ||notfall-installateur.at^
@@ -11621,7 +11620,6 @@
 ||officialrenewritualsupplement.shop^
 ||officialyeti.com^
 ||offizieller-iq-test.com^
-||offshorecheapmeds.com^
 ||offsidegiugliano.shop^
 ||ofildeleau.fr^
 ||ogai-store.com^
@@ -11767,6 +11765,7 @@
 ||onlinegoodshub.com^
 ||onlinehealthworldtrust.com^
 ||onlineindiespiele.de^
+||onlinekamagra.com^
 ||onlinekamagrastore.org^
 ||onlinekohler.com^
 ||onlinelearningquality.org^
@@ -12004,6 +12003,7 @@
 ||outletjoma.com^
 ||outletlivingstore.com^
 ||outletnewin.com^
+||outletpc.de^
 ||outletpickleball.com^
 ||outletrevel.com^
 ||outletsadv.com^
@@ -12324,7 +12324,6 @@
 ||pharmaplax.com^
 ||pharmaracapital.com^
 ||pharmaright.vu^
-||pharmaris.net^
 ||pharmaserve.com^
 ||pharmatheke-europe.com^
 ||pharmrx-1.com^
@@ -16419,6 +16418,7 @@
 ||vivagopro.com^
 ||vivaharmoni.com^
 ||vivaia-schuhe.de^
+||vivaiacollection.com^
 ||vivaiaschuhe.at^
 ||vivaiaschuhe.com^
 ||vivaiaschuhe.de^

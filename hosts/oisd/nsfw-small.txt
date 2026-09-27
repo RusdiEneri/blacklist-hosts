@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609270607
+! Version: 202609271208
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21788
-! Last modified: 2026-09-27T06:07:24+0000
+! Entries: 21789
+! Last modified: 2026-09-27T12:08:12+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -379,6 +379,7 @@
 ||52av.one^
 ||52sofa.tv^
 ||52soutong.com^
+||52tvdy.com^
 ||555porno.online^
 ||55comic.com^
 ||56.com^
@@ -4746,6 +4747,7 @@
 ||doujin89.com^
 ||doujinblog.org^
 ||doujindesu.tv^
+||doujinfast.com^
 ||doujinnomori.com^
 ||doujinrepublic.com^
 ||doujins.com^
@@ -6524,6 +6526,7 @@
 ||fun8.us^
 ||funandnearby.com^
 ||funbags.com^
+||funcam.vc^
 ||funcrot.net^
 ||fundicks.com^
 ||fundorado.com^
@@ -6596,7 +6599,6 @@
 ||gamecore.com^
 ||gamelink.com^
 ||gamelinklive.com^
-||gamengirls.com^
 ||games-178.com^
 ||gamesfuckgirls.com^
 ||gamesofdesire.com^
@@ -6619,7 +6621,6 @@
 ||gasm.ninja^
 ||gatagold.com^
 ||gatasdacapital.com^
-||gatasdovale.com^
 ||gataslindas.com^
 ||gatavirtual.com^
 ||gate.cc^
@@ -6661,7 +6662,6 @@
 ||gay.de^
 ||gay.us^
 ||gay0day.com^
-||gay104.com^
 ||gay3x.com^
 ||gay4.net^
 ||gay411.com^
@@ -6691,6 +6691,7 @@
 ||gayck.com^
 ||gaycn.top^
 ||gaycock4u.com^
+||gayconnect.com^
 ||gaydaddy.com^
 ||gaydemon.com^
 ||gaydesirexhub.com^
@@ -6888,6 +6889,7 @@
 ||gaysexxxclip.com^
 ||gaysir.no^
 ||gaysnakedtube.com^
+||gaysocialites.com^
 ||gayspiralstories.com^
 ||gaysporno.yachts^
 ||gaystory.xyz^
@@ -7191,7 +7193,6 @@
 ||gomatureporn.com^
 ||gomomsex.com^
 ||gonaughty.com^
-||gondola.be^
 ||gonet.cc^
 ||gonewildday.com^
 ||gonottinghamdating.co.uk^
@@ -8769,6 +8770,7 @@
 ||idealmature.com^
 ||idealmilf.com^
 ||idealwifes.com^
+||idejian.com^
 ||idolerotic.net^
 ||idolfake.org^
 ||idolfap.com^
@@ -9781,6 +9783,7 @@
 ||jsoftj.com^
 ||jsutandy.com^
 ||judaporn.com^
+||judou.tv^
 ||juegosporno.us^
 ||juggshunter.com^
 ||juicexxx.com^
@@ -10241,7 +10244,6 @@
 ||lambotube.mobi^
 ||lamclips.com^
 ||lamoglieofferta.com^
-||lamsn.com^
 ||lanasbigboobs.com^
 ||landsmb.ru^
 ||laogewen.vip^
@@ -10299,6 +10301,7 @@
 ||lc123.net^
 ||lcy62.com^
 ||lds52mm.com^
+||le.com^
 ||leahee.com^
 ||leak-sex-tape.com^
 ||leak.xxx^
@@ -10437,6 +10440,7 @@
 ||lianqiankun.com^
 ||lianzu.uk^
 ||liaocao8.com^
+||libaclub.com^
 ||liberalforum.net^
 ||liberator.com^
 ||libertines.me^
@@ -12964,6 +12968,7 @@
 ||oskarstalberg.com^
 ||ososedki.com^
 ||osovideos.com^
+||otakaravideo.com^
 ||otomekoe.moe^
 ||otomi-games.com^
 ||otonajp.com^
@@ -14770,7 +14775,6 @@
 ||ppvdatabank.com^
 ||pr12366.com^
 ||pr1cks.com^
-||praha6.cz^
 ||preferred411.com^
 ||pregchan.com^
 ||prehistorictube.com^
@@ -14895,7 +14899,6 @@
 ||ptt.sex^
 ||pttcomics.com^
 ||pttgamer.com^
-||pu4.net^
 ||puatraining.com^
 ||puba.com^
 ||pubbangs.com^
@@ -15020,6 +15023,7 @@
 ||qgleak.com^
 ||qianjkj.com^
 ||qiaoxiaojun.vip^
+||qidian.com^
 ||qimao.com^
 ||qimps.com^
 ||qinav.com^
@@ -15239,7 +15243,6 @@
 ||reddtastic.com^
 ||reddvideo.tube^
 ||reddxxx.com^
-||reddybook.guru^
 ||reddybook.ing^
 ||redfans.org^
 ||redgay.pro^
@@ -18514,6 +18517,7 @@
 ||two-cum.com^
 ||twomance.com^
 ||twpornstars.com^
+||twsing.com^
 ||twyoma.com^
 ||txnhh.com^
 ||txxx-porn.yachts^
@@ -18818,6 +18822,7 @@
 ||veryfreeporn.net^
 ||verygayboys.com^
 ||veryhot.porn^
+||veryim.com^
 ||verynude.net^
 ||verytwink.com^
 ||veuxtube.com^
@@ -18827,7 +18832,6 @@
 ||vezon.club^
 ||vfreecams.com^
 ||vgcats.com^
-||vglist.top^
 ||vguys.com^
 ||vh12357.com^
 ||vh12362.com^
@@ -21415,6 +21419,7 @@
 ||yayatube.net^
 ||yazhouse8.com^
 ||yazhouseba.com^
+||ycoo.net^
 ||ycspreview.com^
 ||ydparty04.tv^
 ||ydsplay.com^
@@ -21700,14 +21705,10 @@
 ||zoobonus.club^
 ||zoofiction.com^
 ||zoofilia.info^
-||zoofilia.pro^
 ||zoofilia.us^
-||zoofiliahentai.com^
 ||zoofiliak9.com^
 ||zoofilialovers.com^
 ||zoofiliaporn.net^
-||zoofiliaporno.blog^
-||zoofiliaporno.com^
 ||zoofiliaxxx.blog^
 ||zoofreeporn.com^
 ||zoohun.com^
