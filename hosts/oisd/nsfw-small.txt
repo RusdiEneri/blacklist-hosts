@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609271735
+! Version: 202609272109
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21690
-! Last modified: 2026-09-27T17:35:54+0000
+! Entries: 21678
+! Last modified: 2026-09-27T21:09:17+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -964,7 +964,6 @@
 ||alltrannypics.com^
 ||allxporno.com^
 ||allxxx.tv^
-||allxxxcreators.com^
 ||allyourdolls.com^
 ||almeriax.com^
 ||alohaprofile.com^
@@ -1026,7 +1025,6 @@
 ||amateureuro.com^
 ||amateurfans.com^
 ||amateurfetishist.com^
-||amateurfish.com^
 ||amateurfrancais.com^
 ||amateurfrancais.fr^
 ||amateurgalore.net^
@@ -1056,7 +1054,6 @@
 ||americanflirting.com^
 ||americanwota.com^
 ||ametart.com^
-||amigoapp.com.br^
 ||amigos.com^
 ||amigosamores.com^
 ||amopornobr.com^
@@ -1398,6 +1395,7 @@
 ||arousr.com^
 ||arsmate.com^
 ||artfile.ru^
+||artofzoo.fun^
 ||artofzoo.online^
 ||artuntamed.com^
 ||arxnxxhd.co.uk^
@@ -3994,7 +3992,6 @@
 ||crispgaysex.com^
 ||crispindiansex.com^
 ||crjpgate.com^
-||crntt.com^
 ||crocogays.com^
 ||crocoporn.com^
 ||crocotube.com^
@@ -4775,7 +4772,6 @@
 ||drtuber.mobi^
 ||drtuberlive.com^
 ||drunkenstepfather.com^
-||druzenje.rs^
 ||ds-girls.nl^
 ||dscgirls.live^
 ||dtflirt.com^
@@ -4816,8 +4812,6 @@
 ||dys18.com^
 ||dyxs8.cc^
 ||dzenvideos.com^
-||e-act.nl^
-||e-cegjegyzek.hu^
 ||e-hentai.org^
 ||e-hentaiplay.com^
 ||e-livezone.com^
@@ -4851,11 +4845,9 @@
 ||easyxporn.com^
 ||eatrightpro.org^
 ||ebalka.cc^
-||ebalka.fun^
 ||ebalka.mobi^
 ||ebalka.tv^
 ||ebalkino.org^
-||ebalko.net^
 ||ebalovo.porn^
 ||ebasos.club^
 ||ebenporno.com^
@@ -5225,7 +5217,6 @@
 ||est-tatsujin.jp^
 ||estoturf.com^
 ||eternaldesire.com^
-||ethiofarmers.com^
 ||etlikcivciv.com^
 ||etubeporn.com^
 ||etuber.com^
@@ -10411,7 +10402,6 @@
 ||likegay.net^
 ||likera.com^
 ||likeshd.com^
-||lillebabyturkiye.com^
 ||limbouruguay.com^
 ||limeporn.com^
 ||limis.lt^
@@ -10543,6 +10533,7 @@
 ||lokiporn.com^
 ||lolasex.co.il^
 ||lolhentai.net^
+||lolikon.link^
 ||lolla.ch^
 ||lollipopsquiltshop.com^
 ||lolowu.net^
@@ -10559,11 +10550,9 @@
 ||long-xxxmovies.com^
 ||long-xxxvideos.com^
 ||longclassictube.com^
-||longeron46.ru^
 ||longporn.com^
 ||longxxx.net^
 ||longzhouems.com^
-||lonnon.xyz^
 ||lookatvintage.com^
 ||lootedpinay.com^
 ||looti.net^
@@ -10595,6 +10584,7 @@
 ||loveherfilms.com^
 ||lovehomeporn.com^
 ||lovehoney.com^
+||lovehoneyforum.com^
 ||lovehote.com^
 ||lovehub.com^
 ||lovelist.com.gr^
@@ -10605,8 +10595,8 @@
 ||lovemaal.ac^
 ||lovemaal.io^
 ||loveme.com^
-||lovense.club^
 ||lovense.com^
+||lovepanky.com^
 ||loverfans.com^
 ||loverslab.com^
 ||loverslane.com^
@@ -10624,6 +10614,7 @@
 ||lpsg.com^
 ||lrtextension.com^
 ||lsl.com^
+||lsm.al^
 ||lu-community.com^
 ||luannswebb.com^
 ||lubed.com^
@@ -10637,10 +10628,8 @@
 ||lucioushentai.com^
 ||lucky-asianporn.com^
 ||lucky-japanporn.com^
-||lucky7.net^
 ||luckycrush.com^
 ||luckycrush.live^
-||luckycums.com^
 ||luckyfreeporn.com^
 ||luckygayporn.com^
 ||luckypornotube.com^
@@ -16183,6 +16172,7 @@
 ||sexoic.com^
 ||sexolatinovideos.com^
 ||sexomaduras.net^
+||sexomalta.com^
 ||sexomasculinoreal.com^
 ||sexoporno.blog^
 ||sexoprivado.com^
@@ -16230,8 +16220,6 @@
 ||sexquim.com^
 ||sexrasta.com^
 ||sexreels.net^
-||sexrolics.com^
-||sexrolicshd.com^
 ||sexrolls.com^
 ||sexru.website^
 ||sexrura.pl^
