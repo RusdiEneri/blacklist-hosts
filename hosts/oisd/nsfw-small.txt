@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609272109
+! Version: 202609280008
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21678
-! Last modified: 2026-09-27T21:09:17+0000
+! Entries: 21673
+! Last modified: 2026-09-28T00:08:13+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -635,6 +635,7 @@
 ||abwcandyshop.com^
 ||abxxx.com^
 ||abxxx.tube^
+||academiaskepsis.org^
 ||acasadasbrasileirinhas.com.br^
 ||acceed.jp^
 ||accesvip.com^
@@ -1321,7 +1322,6 @@
 ||arabicescorts.com^
 ||arabicpornmovies.com^
 ||arabicslots.com^
-||arabidopsis.org^
 ||arabmales.tv^
 ||arabmovies.pro^
 ||arabnude.net^
@@ -3918,7 +3918,6 @@
 ||coomeet.me^
 ||coomer.party^
 ||coomer.st^
-||coomer1.com^
 ||coomerok.com^
 ||copro.pw^
 ||copsdelsur.com^
@@ -4934,7 +4933,6 @@
 ||elitemate.com^
 ||eliterelatos.com^
 ||elitesexvideos.com^
-||elitewebsnetwork.com^
 ||eljooker.com^
 ||elktube.com^
 ||ellaparadis.com^
@@ -5222,7 +5220,6 @@
 ||etuber.com^
 ||etyyy.com^
 ||eumamae.com^
-||euro-journal.press^
 ||eurobabeindex.com^
 ||eurocamgirls.com^
 ||eurogirlescort.it^
@@ -9788,6 +9785,7 @@
 ||jyukujyomanko.com^
 ||jyukujyowareme.com^
 ||jyukusiri.net^
+||jzcdw.com^
 ||k-mib.com^
 ||k2s.club^
 ||k2sporn.net^
@@ -9813,7 +9811,6 @@
 ||kaldagan.com^
 ||kaldagan.tv^
 ||kalite18.net^
-||kalon.ai^
 ||kalosex.com^
 ||kaltokan.cc^
 ||kaltokan.com^
@@ -10662,13 +10659,11 @@
 ||lustcrab.com^
 ||lustdb.com^
 ||lustery.com^
-||lustfish.com^
 ||lustflesh.com^
 ||lustfocus.net^
 ||lustfulclips.com^
 ||lustfulcomics.com^
 ||lustgayporn.com^
-||lustgirlsplay.com^
 ||lustgoddess.com^
 ||lusthat.com^
 ||lusthaus.cc^
@@ -10820,6 +10815,7 @@
 ||mama.cn^
 ||mamachki.info^
 ||mamacitaz.com^
+||mamba-games.com^
 ||mamefutute.com^
 ||maminatube.com^
 ||mamuski.de^
@@ -12920,7 +12916,6 @@
 ||ownsexvideos.com^
 ||owoav3.cc^
 ||oxax.tv^
-||oxid.it^
 ||oxotube.com^
 ||oxtubexxx1.top^
 ||oxy-shop.com^
@@ -13128,7 +13123,6 @@
 ||petsexvideos.net^
 ||petxxxtube.com^
 ||pezporn.com^
-||phaixemsex.me^
 ||phallusaur.com^
 ||phatasspics.com^
 ||phe69.asia^
@@ -13203,7 +13197,6 @@
 ||phimsexy.blog^
 ||phimsexyz.bet^
 ||phimtopvn.com^
-||phimvnxx.xyz^
 ||phimvuspot.com^
 ||phimxlxx.info^
 ||phimxxx.casa^
@@ -14982,6 +14975,7 @@
 ||qwssww.com^
 ||qy0.ru^
 ||r-34.xyz^
+||r18.best^
 ||r18.com^
 ||r18.dev^
 ||r18hub.com^
@@ -15736,6 +15730,7 @@
 ||sex-comics.net^
 ||sex-comixxx.com^
 ||sex-cottbus.eu^
+||sex-czech.cz^
 ||sex-egy.com^
 ||sex-egypt.com^
 ||sex-empere.org^
@@ -16419,7 +16414,6 @@
 ||sexxxmurmansk.life^
 ||sexxxnsk.run^
 ||sexxxnxx.com^
-||sexxxporno.lol^
 ||sexxxsurgt.life^
 ||sexxxtape.net^
 ||sexxxtube.net^
@@ -17206,7 +17200,6 @@
 ||submilf.com^
 ||subscribestar.adult^
 ||subscribestar.art^
-||subsonicradio.com^
 ||subsubfolder.com^
 ||subtaboo.com^
 ||subthai-av.com^
@@ -17459,6 +17452,7 @@
 ||taxcreditsforworkersandfamilies.org^
 ||taxi69.com^
 ||taxidrivermovie.com^
+||tayming.com^
 ||tayu1.com^
 ||tbib.org^
 ||tbicare.eu^
@@ -17845,6 +17839,7 @@
 ||thxxx69.com^
 ||tiahqporno.com^
 ||tiamanhwa.com^
+||tiancaisq.com^
 ||tianyuejewelry.com^
 ||tiava.com^
 ||ticketshow.cam^
@@ -18373,7 +18368,6 @@
 ||tumblrviewer.co^
 ||tumblrviewer.com^
 ||tuoi69x.blog^
-||tuoinung.cfd^
 ||tupianmima.com^
 ||turchanki.link^
 ||turgaytufan.com^
@@ -19443,6 +19437,7 @@
 ||wmcdpt.com^
 ||wmcrrd.com^
 ||wmctjd.com^
+||wmlia.com^
 ||wmpslic.com^
 ||wmptcd.com^
 ||wmrtvst.com^
