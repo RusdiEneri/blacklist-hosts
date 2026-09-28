@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 25 Sep 2026 22:00 UTC
-! Version: 2026.0925.2200.33
+! Last modified: 27 Sep 2026 20:27 UTC
+! Version: 2026.0927.2027.13
 ! Syntax: AdBlock
-! Number of entries: 371
+! Number of entries: 372
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -52,6 +52,7 @@
 ||aax-fe.amazon-adsystem.com^
 ||aax-gamma-us-east.axp.amazon-adsystem.com^
 ||aax-ott-c2s.amazon-adsystem.com^
+||aax-ott-sdk.amazon-adsystem.amazon.com^
 ||aax-ott-sdk.amazon-adsystem.com^
 ||aax-ott.amazon-adsystem.amazon.com^
 ||aax-ott.amazon-adsystem.com^
@@ -194,7 +195,7 @@
 ||fls-na.amazon.com.mx^
 ||fls-na.amazon.com^
 ||forester.a2z.com^
-||h4g3z1-native.amazon.web.app^
+||h4g3z1-native-amazon.web.app^
 ||identity.browserapps.amazon.de^
 ||imdb.amazon-adsystem.com^
 ||insights.video.a2z.com^

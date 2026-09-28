@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 25 Sep 2026 22:04 UTC
-! Version: 2026.0925.2204.49
+! Last modified: 27 Sep 2026 20:33 UTC
+! Version: 2026.0927.2033.25
 ! Syntax: AdBlock
-! Number of entries: 229
+! Number of entries: 230
 !
 ||ae-ad-lgsmartad-com.aws-prd.net^
 ||ae-rdx2-lgtvsdp-com.aws-prd.net^
@@ -81,6 +81,7 @@
 ||eg-ad-lgsmartad-com.aws-prd.net^
 ||eg-info-lgsmartad-com.aws-prd.net^
 ||es-ad-lgsmartad-com.aws-prd.net^
+||es-info-lgsmartad-com.aws-prd.net^
 ||et-ad-lgsmartad-com.aws-prd.net^
 ||eu7-info-lgsmartad-com.aws-prd.net^
 ||fi-ad-lgsmartad-com.aws-prd.net^
@@ -236,7 +237,7 @@
 ||wiseconfig.lgtvcommon.com^
 ||rdx2.lgtvsdp.com^
 ||rdx2.nextlgsdp.com^
-||h4g3z1-native.lgwebos.web.app^
+||h4g3z1-native-lgwebos.web.app^
 ||alphonso.tv^
 ||lgads.tv^
 ||lgsmartad.com^

@@ -6,8 +6,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 24 Sep 2026 08:00 UTC
-! Version: 2026.0924.0800.55
+! Last modified: 27 Sep 2026 20:34 UTC
+! Version: 2026.0927.2034.34
 ! Syntax: AdBlock
 ! Number of entries: 73
 !
@@ -82,5 +82,5 @@
 ||logs.roku.com^
 ||wwwimg.roku.com^
 ||ads.rokuapi.net^
-||h4g3z1-native.roku.web.app^
+||h4g3z1-native-roku.web.app^
 ||ravm.tv^

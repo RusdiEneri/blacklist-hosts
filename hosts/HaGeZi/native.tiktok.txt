@@ -6,8 +6,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 25 Sep 2026 22:03 UTC
-! Version: 2026.0925.2203.16
+! Last modified: 27 Sep 2026 20:30 UTC
+! Version: 2026.0927.2030.46
 ! Syntax: AdBlock
 ! Number of entries: 437
 !
@@ -447,4 +447,4 @@
 ||analytics-ie.tiktokw.eu.ttdns3.com^
 ||analytics-ttp2.tiktokw.eu.ttdns3.com^
 ||ad-instantpage.tiktokv.us.ttdns4.com^
-||h4g3z1-native.tiktok.web.app^
+||h4g3z1-native-tiktok.web.app^

@@ -7,10 +7,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 27 Sep 2026 09:20 UTC
-! Version: 2026.0927.0920.23
+! Last modified: 28 Sep 2026 09:25 UTC
+! Version: 2026.0928.0925.16
 ! Syntax: AdBlock
-! Number of entries: 324
+! Number of entries: 328
 !
 ||httpdns.music.163.com^
 ||doh.360.cn^
@@ -64,6 +64,7 @@
 ||ns1.fdn.fr^
 ||doh.ffmuc.net^
 ||dns.gamban.com^
+||doh.ptqy.gitv.tv^
 ||moph.go.th^
 ||dns.google.com^
 ||google-public-dns-a.google.com^
@@ -127,16 +128,19 @@
 ||doh-01.spectrum.com^
 ||doh-02.spectrum.com^
 ||dns.surfsharkdns.com^
+||dns.switch.ch^
 ||ibksturm.synology.me^
 ||dns.t-ipnet.de^
+||httpdns.danuoyi.tbcache.com^
 ||homenet.telecomitalia.it^
+||doh.tiar.app^
 ||sdkconfig.tlivedns.com^
 ||dns.twnic.tw^
 ||dns.umbrella.com^
 ||doh.umbrella.com^
 ||adsl.viettel.vn^
 ||httpdns.volcengineapi.com^
-||h4g3z1-doh.top.web.app^
+||h4g3z1-doh-top.web.app^
 ||dns.wechat.com^
 ||paydns.wechatpay.cn^
 ||doh2.gslb2.xfinity.com^
@@ -249,7 +253,6 @@
 ||jkdns.me^
 ||kaiwu.xyz^
 ||kavkaz.monster^
-||kilabit.info^
 ||ko-18948-tr.xyz^
 ||kx-97795-tr.xyz^
 ||lastentarvike.fi^
@@ -278,6 +281,7 @@
 ||ntwrkh.pro^
 ||nwps.fi^
 ||o1.lt^
+||obscuro.top^
 ||openbld.net^
 ||paradise-human.shop^
 ||pashagame456.com^

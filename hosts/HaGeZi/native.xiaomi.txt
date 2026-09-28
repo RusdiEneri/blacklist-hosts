@@ -6,8 +6,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 11 Sep 2026 22:04 UTC
-! Version: 2026.0911.2204.39
+! Last modified: 27 Sep 2026 20:37 UTC
+! Version: 2026.0927.2037.15
 ! Syntax: AdBlock
 ! Number of entries: 345
 !
@@ -154,7 +154,7 @@
 ||stat.miui.com^
 ||testit.miui.com^
 ||tracking.miui.com^
-||h4g3z1-native.xiaomi.web.app^
+||h4g3z1-native-xiaomi.web.app^
 ||api.ads.xiaomi.com^
 ||tracker.ai.xiaomi.com^
 ||tracker-preview.ai.xiaomi.com^
