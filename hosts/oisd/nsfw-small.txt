@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609290133
+! Version: 202609290807
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21261
-! Last modified: 2026-09-29T01:33:12+0000
+! Entries: 21255
+! Last modified: 2026-09-29T08:07:08+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -316,7 +316,6 @@
 ||493d.com^
 ||4based.com^
 ||4bokepterbaru.top^
-||4ccarl.com^
 ||4ertik.cloud^
 ||4gay.com^
 ||4gay.fans^
@@ -352,13 +351,11 @@
 ||51aw.com^
 ||51baoliao01.com^
 ||51cg1.com^
-||51glamp.com^
 ||51jp1.com^
 ||51md.me^
 ||51qingliang.com^
 ||51shucheng.net^
 ||51sptv.com^
-||51yxxg.com^
 ||520cc.cc^
 ||520mojing.com^
 ||521m.com^
@@ -394,7 +391,6 @@
 ||60oldporn.com^
 ||60plusmilfs.com^
 ||619064.com^
-||630046.com^
 ||630kan.org^
 ||630read.cc^
 ||630zw.cc^
@@ -468,6 +464,7 @@
 ||7xporn.com^
 ||7xxxsexmovies.com^
 ||7xxxvideos.com^
+||7y7.com^
 ||8-muses.xyz^
 ||813betn.com^
 ||838888.net^
@@ -568,7 +565,6 @@
 ||aabook.net^
 ||aabook.xyz^
 ||aaccoo.com^
-||aadk-edu.kz^
 ||aagmaal.bz^
 ||aagmaal.club^
 ||aagmaal.com^
@@ -590,7 +586,6 @@
 ||abadeez.com^
 ||abashtube.com^
 ||abbdsm.com^
-||abbyindex.com^
 ||abbywinters.com^
 ||abbywintersmodels.com^
 ||abcbangs.com^
@@ -666,7 +661,6 @@
 ||adresmedikal.net^
 ||adseek.site^
 ||adstub.net^
-||adsy100.com^
 ||adult^
 ||adult-empire.com^
 ||adult-fanfiction.org^
