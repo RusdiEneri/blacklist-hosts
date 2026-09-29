@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609290807
+! Version: 202609291534
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21255
-! Last modified: 2026-09-29T08:07:08+0000
+! Entries: 21247
+! Last modified: 2026-09-29T15:34:17+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -536,6 +536,7 @@
 ||978.life^
 ||999xyev.com^
 ||99hs.org^
+||99massagem.com.br^
 ||99mature.com^
 ||99pornvideos.com^
 ||99re.com^
@@ -794,7 +795,6 @@
 ||agresori.com^
 ||agu3000.com^
 ||ah-me.com^
-||ahaang.com^
 ||ahaaporn.com^
 ||ahegao.online^
 ||ahen.me^
@@ -893,7 +893,6 @@
 ||allchinaporn.shop^
 ||allclassic.porn^
 ||allcumshotpics.com^
-||alldirtyfans.com^
 ||allebonygals.com^
 ||allepaginas.nl^
 ||allfatpics.com^
@@ -905,7 +904,6 @@
 ||allhentai.fun^
 ||allherluv.com^
 ||allhorsesex.com^
-||alligathor.com^
 ||allindonews.com^
 ||allinternal.com^
 ||alljapanesepass.com^
@@ -1038,7 +1036,6 @@
 ||amourfactory.com^
 ||amourfeel.com^
 ||ampland.com^
-||amsvirtual.com^
 ||amurz.com^
 ||an4lporn.com^
 ||anacams.com^
@@ -1200,7 +1197,6 @@
 ||antarvasnahd.com^
 ||antarvasnakahani.net^
 ||antbyw.com^
-||anteastudio.com^
 ||anteel.xyz^
 ||antepescortbayan.com^
 ||antfaps.com^
@@ -1243,7 +1239,6 @@
 ||apcomics.org^
 ||apetube.click^
 ||apetube.com^
-||aplicaciones-de-android.com^
 ||apornfactory.com^
 ||apornotube.net^
 ||aporntube.com^
@@ -1788,7 +1783,6 @@
 ||azporncomix.com^
 ||azpornhd.com^
 ||azpornpics.com^
-||azraelblog.com^
 ||azxnxx.com^
 ||b-hentai.com^
 ||b-pep.com^
@@ -1878,7 +1872,6 @@
 ||bahiaescorts.com^
 ||baihewenku.com^
 ||baihubi.com^
-||bainltd.com^
 ||baitbuddies.com^
 ||baixarhentais.com^
 ||bakai.org^
@@ -1935,7 +1928,6 @@
 ||bangxxxtube.com^
 ||bangyoulater.net^
 ||bannedsextapes.com^
-||banquetunarmedgrater.com^
 ||baodatviet.vn^
 ||baozimh.org^
 ||baraag.net^

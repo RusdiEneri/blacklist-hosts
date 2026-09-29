@@ -7,10 +7,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 28 Sep 2026 09:25 UTC
-! Version: 2026.0928.0925.24
+! Last modified: 29 Sep 2026 09:20 UTC
+! Version: 2026.0929.0920.48
 ! Syntax: AdBlock
-! Number of entries: 16319
+! Number of entries: 16333
 !
 ||ss.0001.xyz^
 ||ns.00dani.me^
@@ -435,7 +435,6 @@
 ||dot1.appliedprivacy.net^
 ||iron-dot-cobalt-antenna-219709.appspot.com^
 ||vpn.appsverse.com^
-||91.234.147.11.aprawood.ir^
 ||91.234.147.13.aprawood.ir^
 ||91.234.147.15.aprawood.ir^
 ||91.234.147.5.aprawood.ir^
@@ -451,7 +450,6 @@
 ||dns.ares-taiwan.com^
 ||emisjoking.argentinavision2020.com^
 ||ir.ariely.info^
-||ad1.arixo.shop^
 ||dns.arkbotech.com^
 ||doh.armadillodns.net^
 ||nsec.arnor.org^
@@ -730,6 +728,8 @@
 ||classroom.broomleigh.org^
 ||goguardian.broomleigh.org^
 ||schoolwork.broomleigh.org^
+||pintrest-cool.browncolor.info^
+||range-sal.browncolor.info^
 ||home.bruckmoser.it^
 ||81.brudnowski.eu^
 ||81xyz.brudnowski.eu^
@@ -1938,7 +1938,6 @@
 ||from.goooalir.co.uk^
 ||joje.goooalir.co.uk^
 ||leomessi.goooalir.co.uk^
-||mottasel.goooalir.co.uk^
 ||nab.goooalir.co.uk^
 ||nigan.goooalir.co.uk^
 ||paydar.goooalir.co.uk^
@@ -1968,16 +1967,27 @@
 ||guard.lumusimc.co.uk^
 ||ir.makkers.co.uk^
 ||craft.malavanann.co.uk^
+||media.mangoseason2.co.uk^
+||static.mangoseason3.co.uk^
+||cdn.mangoseason4.co.uk^
+||api.mangoseason5.co.uk^
+||img.mangoseason6.co.uk^
+||web.mangoseason7.co.uk^
 ||ssh.meow0.co.uk^
 ||bastani.mikhay.co.uk^
-||kabab.mikhay.co.uk^
+||lavashak.mikhay.co.uk^
 ||nooshabe.mikhay.co.uk^
+||pashmak.mikhay.co.uk^
 ||pofak.mikhay.co.uk^
+||shampoo.mikhay.co.uk^
+||mio.mozitop.co.uk^
 ||puot.mozitop.co.uk^
+||ving.mozitop.co.uk^
 ||lashboy.muzanesghy.co.uk^
 ||bimeh.my-moon.co.uk^
 ||dokhtar.nanaz.co.uk^
 ||pesar.nanaz.co.uk^
+||new.nchnch.co.uk^
 ||dns.neilzone.co.uk^
 ||ns02.nerdytechgeeks.co.za^
 ||e.networkmodeai.co.uk^
@@ -1992,7 +2002,7 @@
 ||dns.nzxti5.co.uk^
 ||dns.oliviertv.co.za^
 ||adam.poolaki.co.uk^
-||mahi.poolaki.co.uk^
+||bache.poolaki.co.uk^
 ||chrismylove.qr-code.co.za^
 ||lightspeed.qr-code.co.za^
 ||mathnotes.qr-code.co.za^
@@ -2023,7 +2033,6 @@
 ||agh.workfordemo.co.in^
 ||qadim.zhigool.co.uk^
 ||10bestvpn.co.uk^
-||3etare.co.uk^
 ||accessvpn.co.uk^
 ||ahvaz.co.uk^
 ||akashiro.co.id^
@@ -2040,13 +2049,14 @@
 ||din5gli2.co.uk^
 ||dingi3.co.uk^
 ||diskcrmvpn.co.cc^
-||exiscos.co.uk^
 ||hax.co.id^
 ||insteadvpn.co.cc^
 ||jhndoes.co.uk^
 ||lamnia.co.uk^
 ||mamadali.co.uk^
 ||mamadgoli.co.uk^
+||mangoseason1.co.uk^
+||mangoseason8.co.uk^
 ||my-private-network.co.uk^
 ||ninjaproxy.co.uk^
 ||noblocc.co.uk^
@@ -2054,7 +2064,6 @@
 ||nordvpn.co.il^
 ||nordvpn.co.uk^
 ||nordvpn.co.za^
-||onlineforless.co.uk^
 ||onlineproxy.co.uk^
 ||pooblet.co.za^
 ||porsorate.co.uk^
@@ -2231,6 +2240,7 @@
 ||dns.consoro.eu^
 ||dns.containerpi.com^
 ||mathnotes.contem.bz^
+||doh.contentkeeper.net^
 ||dns.controld.com^
 ||doh.controld.com^
 ||freedns.controld.com^
@@ -2275,6 +2285,9 @@
 ||dns.itsec.crolla.net^
 ||bx3.cdn.gh-pages.cryodome.com^
 ||cryoutdome.cryodome.com^
+||bo.cryptocurency.wiki^
+||nl.cryptocurency.wiki^
+||px.cryptocurency.wiki^
 ||dns.cryptomize.com^
 ||ae-agh1.dns.cryptroute.net^
 ||dns.crystalyx.net^
@@ -3410,7 +3423,6 @@
 ||s.hd440.de^
 ||query.hdns.io^
 ||ordns.he.net^
-||1.masi.ir.he6fhd.ru^
 ||17.masi.ir.he6fhd.ru^
 ||17fh.masi.ir.he6fhd.ru^
 ||731.masi.ir.he6fhd.ru^
@@ -4414,6 +4426,8 @@
 ||adguard.neelyha.tk^
 ||darklight.neo-space.space^
 ||s01.neo-trading.org^
+||s02.neo-trading.org^
+||s03.neo-trading.org^
 ||dns.aa.net.uk^
 ||positif4.cross.net.id^
 ||guard-jkt-225.glosindo.net.id^
@@ -5973,7 +5987,7 @@
 ||antispam.vpsvpn.com^
 ||center.k12.mo.us.vr.lt^
 ||go.vrpyourself.online^
-||day.vtoroe-dyhanie.space^
+||night.vtoroe-dyhanie.space^
 ||45.32.17.58.vultrusercontent.com^
 ||solution.w10.life^
 ||dns.w3ctag.org^
@@ -6454,7 +6468,6 @@
 ||502cloud.top^
 ||502jsq.cc^
 ||502jsq.com^
-||505-808-404-202.ir^
 ||51576162.ru^
 ||517wszy.com^
 ||51caiyun.com^
@@ -11685,6 +11698,8 @@
 ||lightspeed.lat^
 ||lightspeedisass.shop^
 ||lightspeedisgay.cfd^
+||lightspeedsystems.app^
+||lightspeedsystems.com^
 ||likeproxy.com^
 ||liktronapp.com^
 ||lilt-pupu.cc^
@@ -11788,8 +11803,10 @@
 ||lqz30c6o.com^
 ||lr834jgr.com^
 ||lrga.space^
+||lsfilter.com^
 ||lslnyjq.uk^
 ||lsmdm.cf^
+||lsmdm.com^
 ||lsmdm.gq^
 ||lsmdm.tk^
 ||lstydcrm.com^
@@ -11816,7 +11833,6 @@
 ||luqkhccn.com^
 ||lurk.info^
 ||luxerno.xyz^
-||luxuryman.sbs^
 ||luzubu.com^
 ||lvchavpn.click^
 ||ly-1.net^
@@ -11892,7 +11908,6 @@
 ||mathwonders.xyz^
 ||matorian.pro^
 ||matrixvpn.net^
-||matrixxx.top^
 ||mavotek.xyz^
 ||mavrex.ru^
 ||maxfong.cc^
@@ -13590,6 +13605,7 @@
 ||refvpntype.com^
 ||regiopolis.cloud^
 ||relatenose.com^
+||relay.school^
 ||relayon.org^
 ||relokant.net^
 ||relviro.ru^
@@ -14561,7 +14577,6 @@
 ||topman8848.com^
 ||toppal.tech^
 ||toppeopleverse.top^
-||topproxt.asia^
 ||topsecure.info^
 ||topspeedvpn.homes^
 ||topstudio.one^
@@ -15542,7 +15557,6 @@
 ||vxhify2u.com^
 ||vyprvpn.com^
 ||vzrsy.com^
-||w-w-w-w.ir^
 ||w2fe9j5f.com^
 ||wabs8nuc.com^
 ||wadsworthyouthbasketball.org^
