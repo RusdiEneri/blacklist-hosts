@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609292035
+! Version: 202609292308
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21207
-! Last modified: 2026-09-29T20:35:52+0000
+! Entries: 21205
+! Last modified: 2026-09-29T23:08:33+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -2946,7 +2946,6 @@
 ||braiiz.com^
 ||braindancevr.com^
 ||bramasacscadi.com^
-||bramblesreview.com^
 ||brashass.com^
 ||brasheye.com^
 ||brashfan.com^
@@ -3022,6 +3021,7 @@
 ||bt4.cc^
 ||btbtla.com^
 ||btbtlb.com^
+||btcbd.com^
 ||bu12366.com^
 ||bubblebutt.tv^
 ||bubblebuttpics.com^
@@ -3093,7 +3093,6 @@
 ||bustyworld.com^
 ||butchermovies.com^
 ||buumal.com^
-||buywatch.org^
 ||buzzav.com^
 ||buzzchinaxxxmovies.shop^
 ||buzzhdporn.shop^
@@ -3115,7 +3114,6 @@
 ||cacaporno.com^
 ||cadhere.com^
 ||cadinot.fr^
-||cadocrea.ma^
 ||cafedesire.com^
 ||caitatd.com^
 ||caitlin.top^
