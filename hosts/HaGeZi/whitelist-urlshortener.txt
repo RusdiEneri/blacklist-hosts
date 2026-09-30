@@ -4,8 +4,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 23 Sep 2026 07:40 UTC
-! Version: 2026.0923.0740.54
+! Last modified: 30 Sep 2026 07:42 UTC
+! Version: 2026.0930.0742.16
 ! Syntax: AdBlock
 !
 @@||a.189.cn^
@@ -667,6 +667,7 @@
 @@||go.sony.tw^
 @@||go.sparkerlink.com^
 @@||link.spirofly.com^
+@@||zmfcxr.srnky.com^
 @@||y.stadtfabrikanten.org^
 @@||io.steelcutaudio.com^
 @@||link.stluzi.ch^

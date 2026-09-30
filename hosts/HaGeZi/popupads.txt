@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 8 hours
-! Last modified: 29 Sep 2026 07:36 UTC
-! Version: 2026.0929.0736.48
+! Last modified: 30 Sep 2026 14:13 UTC
+! Version: 2026.0930.1413.57
 ! Syntax: AdBlock
-! Number of entries: 50725
+! Number of entries: 50729
 !
 ||fd01ce9a02.0012e30263.com^
 ||0db65504c2.012dadaa06.com^
@@ -14347,6 +14347,7 @@
 ||bunglersignoff.com^
 ||bungosmantis.com^
 ||bunintruder.com^
+||bunionprognosisscone.com^
 ||bunkingoff-theshortfilm.com^
 ||bunksniff.com^
 ||bunningscapple.com^
@@ -16440,6 +16441,7 @@
 ||commentreedsawhile.com^
 ||commerce.ua^
 ||commercialcapricehey.com^
+||commercialhalftime.com^
 ||commercialmortgages.london^
 ||commercialpharmacy.com^
 ||commercialregretful.com^
@@ -25107,6 +25109,7 @@
 ||hasebaty.com^
 ||hashcat.app^
 ||hashisa.com^
+||hasoadwaznqps.com^
 ||hasteninto.com^
 ||hastytumblecounterfeit.com^
 ||hatagashira.com^
@@ -25731,6 +25734,7 @@
 ||hmopyfifzomcc.online^
 ||hmqphmhktywbq.space^
 ||hmrjcocqi.com^
+||hmshanyin.com^
 ||hmtacaizmmzpxv.com^
 ||hmtgang.top^
 ||hmxg5mhyx.com^
@@ -27730,6 +27734,7 @@
 ||jadcenter.com^
 ||jaded-voice.pro^
 ||jadedguidance.pro^
+||jadedtwist.com^
 ||jadelink-hotel.com^
 ||jadhusapz.com^
 ||jads.cc^
@@ -32385,7 +32390,6 @@
 ||moistword.com^
 ||mojoaffiliates.com^
 ||mojtabanavade.ir^
-||moksoxos.com^
 ||molassyschout.com^
 ||moleconcern.com^
 ||molimengrocery.top^
@@ -33402,6 +33406,7 @@
 ||nervous-tax.pro^
 ||nervousbelievable.com^
 ||nervousnormgaze.com^
+||nervousstroke.com^
 ||nervoussuit.pro^
 ||nessainy.net^
 ||nestledmph.com^
@@ -50543,7 +50548,6 @@
 ||zoaphogree.net^
 ||zoapsouwhoaw.net^
 ||zoashegloowais.net^
-||zoawufoy.net^
 ||zoazagaistap.net^
 ||zocouphatsoazo.com^
 ||zodertracker.com^
