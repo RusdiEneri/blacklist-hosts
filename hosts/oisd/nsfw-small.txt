@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202609292308
+! Version: 202609300607
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 21205
-! Last modified: 2026-09-29T23:08:33+0000
+! Entries: 21201
+! Last modified: 2026-09-30T06:07:52+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -2940,6 +2940,7 @@
 ||boysxclusive.com^
 ||boyzshop.com^
 ||boyztube.com^
+||bqg007.cc^
 ||bqsex.com^
 ||bradmontana.com^
 ||bragx.com^
@@ -3290,6 +3291,7 @@
 ||canhuashe.net^
 ||canhuashe.vip^
 ||cankayalar.com^
+||canlisex.org^
 ||canlisex74.site^
 ||canovel.com^
 ||cap3.lat^
@@ -3430,6 +3432,7 @@
 ||cgfxw.com^
 ||cgiporn.shop^
 ||cgw666.com^
+||changdunovel.com^
 ||chanotube.com^
 ||chanovideos.com^
 ||chaopescao.cl^
@@ -3519,7 +3522,6 @@
 ||china-vnsr.com^
 ||china-wynn.com^
 ||chinaav.club^
-||chinachenyang.com^
 ||chinahrxny.com^
 ||chinamatureporn.shop^
 ||chinamaturesex.shop^
@@ -3536,7 +3538,6 @@
 ||chinaporntube.shop^
 ||chinapussy.click^
 ||chinaquanzi.com^
-||chinashuaikang.com^
 ||chinatownporn.com^
 ||chinav.sex^
 ||chinawebhub.shop^
@@ -3633,7 +3634,6 @@
 ||citytourgirls.com^
 ||ciweimao.com^
 ||cizemov.cc^
-||cjpuppets.com^
 ||clapdat.com^
 ||clariontoday.com^
 ||classfetm.com^
@@ -3719,7 +3719,6 @@
 ||cluset.com^
 ||clzw.net^
 ||cn-zg-hth.com^
-||cnc3g.com^
 ||cnhub.xyz^
 ||cnnamador.com^
 ||cnporn.org^
@@ -3859,7 +3858,6 @@
 ||cquxwxyzp2022.com^
 ||crabhd.com^
 ||crabok.com^
-||crack-locator.com^
 ||crane.pk^
 ||craveu.ai^
 ||crazies.com^
@@ -3884,7 +3882,6 @@
 ||createaishemale.com^
 ||createhentai.com^
 ||createporn.com^
-||creazalceramic.com^
 ||cremz.com^
 ||criollasx.com^
 ||crispgaysex.com^
@@ -3921,7 +3918,6 @@
 ||ctcdwm.com^
 ||ctjdmar.com^
 ||ctoy.com.cn^
-||ctv.co.jp^
 ||ctwmsg.com^
 ||cua18.pro^
 ||cuckold.net^
