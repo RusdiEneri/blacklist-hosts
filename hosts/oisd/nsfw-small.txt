@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610010507
+! Version: 202610011219
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 20654
-! Last modified: 2026-10-01T05:07:16+0000
+! Entries: 20663
+! Last modified: 2026-10-01T12:19:41+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -7330,6 +7330,7 @@
 ||hdzog.tube^
 ||headscissorclub.com^
 ||headway168.com^
+||healthsouthharmarville.com^
 ||healthyandactive.com^
 ||heartical.net^
 ||heatedaffairs.com^
@@ -7753,6 +7754,7 @@
 ||hnalady.com^
 ||hnext.jp^
 ||hnjichao.com^
+||hnlydsp.com^
 ||hnt.co.jp^
 ||ho5ho.com^
 ||hobby.porn^
@@ -7865,6 +7867,7 @@
 ||horsezoofiliatube.space^
 ||host4fap.com^
 ||host4videos.com^
+||hostnac.com^
 ||hot-asianporn.com^
 ||hot-asiansex.com^
 ||hot-bdsmporn.com^
@@ -8161,6 +8164,7 @@
 ||hqxxxmovies.com^
 ||hsck.la^
 ||hsck123.com^
+||hsclsv.com^
 ||hsex.icu^
 ||hsex.tv^
 ||hstream.moe^
@@ -8200,6 +8204,7 @@
 ||huippukiva.fi^
 ||huippupornoa.com^
 ||huivpizde.com^
+||huiyuanpay.com^
 ||hukukmedeniyeti.org^
 ||humoron.com^
 ||humpaki.com^
@@ -8332,6 +8337,7 @@
 ||iluvtoons.com^
 ||imagefap.com^
 ||imagepost.com^
+||imagesbase.ru^
 ||imeetzu.com^
 ||imgchr.com^
 ||imgfy.net^
@@ -8665,6 +8671,7 @@
 ||iyotflix.com^
 ||iyottube.org^
 ||iyottube.ph^
+||iyusee.com^
 ||izban.com.tr^
 ||izdeniz.com.tr^
 ||izlegec.com^
@@ -8855,6 +8862,7 @@
 ||jav1150.com^
 ||jav24.com^
 ||jav24hd.info^
+||jav24hd1.com^
 ||jav24hda.com^
 ||jav24hda.net^
 ||jav25hd.com^
@@ -9141,6 +9149,7 @@
 ||jenporno.cz^
 ||jenpornuj.cz^
 ||jepangkawai.com^
+||jereservemonbillard.com^
 ||jerk-hub.com^
 ||jerk24.com^
 ||jerk2me.com^
