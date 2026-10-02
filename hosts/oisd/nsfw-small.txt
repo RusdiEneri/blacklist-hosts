@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610011950
+! Version: 202610020237
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 20579
-! Last modified: 2026-10-01T19:50:07+0000
+! Entries: 20583
+! Last modified: 2026-10-02T02:37:49+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -6694,6 +6694,7 @@
 ||glavmatures.com^
 ||glavxxx.com^
 ||global-matureporn.com^
+||globalviral.shop^
 ||globalwaterintel.com^
 ||gloporn.com^
 ||gloryholesecrets.com^
@@ -10141,6 +10142,7 @@
 ||luticlip.com^
 ||luvcelebs.com^
 ||luvi.fans^
+||luxe.bio^
 ||luxegrante.com^
 ||luxelive.net^
 ||luxevorahub.com^
@@ -10231,6 +10233,7 @@
 ||maincewe.com^
 ||mainhub.com^
 ||maisexo.com^
+||majutv.cc^
 ||make-japanporn.com^
 ||makeitfree.com^
 ||makelovenotporn.tv^
@@ -10272,6 +10275,7 @@
 ||manga18.me^
 ||manga18free.com^
 ||manga18fx.com^
+||manga22.com^
 ||mangabz.com^
 ||mangacopy.com^
 ||mangadass.com^
