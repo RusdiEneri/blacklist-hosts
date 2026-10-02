@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610020237
+! Version: 202610021207
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 20583
-! Last modified: 2026-10-02T02:37:49+0000
+! Entries: 20587
+! Last modified: 2026-10-02T12:07:47+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -4930,6 +4930,7 @@
 ||escort-ireland.com^
 ||escort-orientale.com^
 ||escort.it^
+||escortbabylon.com^
 ||escortbabylon.net^
 ||escortdirectory.com^
 ||escortface.com^
@@ -10313,6 +10314,7 @@
 ||mankist.com^
 ||manko.fun^
 ||manmanapp.com^
+||manmanbuy.com^
 ||manmilk.com^
 ||manojob.com^
 ||manplace.com^
@@ -10879,6 +10881,7 @@
 ||mixdaputaria.com^
 ||mixedwrestling.video^
 ||mixfemdomcc.com^
+||mixh.jp^
 ||mixi-xxx.cc^
 ||mixporn.cam^
 ||mixporn.monster^
@@ -11550,6 +11553,7 @@
 ||netfapx.net^
 ||netflav.com^
 ||netflav5.com^
+||netflixgc.com^
 ||nethcdn.com^
 ||netki.club^
 ||netki.org^
