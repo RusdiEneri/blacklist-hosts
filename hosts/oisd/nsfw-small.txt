@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610030107
+! Version: 202610030544
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 20469
-! Last modified: 2026-10-03T01:07:59+0000
+! Entries: 20473
+! Last modified: 2026-10-03T05:44:47+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -1307,6 +1307,7 @@
 ||archivebate.com^
 ||arcurafansub.com^
 ||ardaporno.live^
+||ardaporno3.live^
 ||ardentfetishporn.com^
 ||area51.porn^
 ||area51.to^
@@ -9029,6 +9030,7 @@
 ||jbox.com^
 ||jbtube.co^
 ||jbw.vc^
+||jbzzss.vc^
 ||jcomic.net^
 ||jdforum.net^
 ||jeansavys.com^
@@ -14094,6 +14096,7 @@
 ||pxp.porn^
 ||pyamal.com^
 ||qayporn.com^
+||qaz-wsx.net^
 ||qazashka.cc^
 ||qaztube.com^
 ||qbsex.ru^
@@ -15894,6 +15897,7 @@
 ||sixun8.com^
 ||siza.tv^
 ||sj33.cn^
+||sjmanhua.com^
 ||sjs66.com^
 ||sjs66.net^
 ||sjs96.com^
