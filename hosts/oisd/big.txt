@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610031706
+! Version: 202610032006
 ! Title: oisd big
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 244125
-! Last modified: 2026-10-03T17:06:59+0000
+! Entries: 244159
+! Last modified: 2026-10-03T20:06:50+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -235,6 +235,7 @@
 ||0591101.com^
 ||05916.com^
 ||0592.mobi^
+||059321.sbs^
 ||05b9daf35c.com^
 ||05e76a16b8.5e3d5f480f.com^
 ||05gdfi007-dpm2gawaoxpl.edgeone.dev^
@@ -6516,6 +6517,7 @@
 ||88vnd.com^
 ||88xxzx8888888xz125654check.weebly.com^
 ||89.12b2xh3i9culz5v8xbj5vkgknr.cyou^
+||89003.weebly.com^
 ||890092.drizzledrape.co^
 ||89037.weebly.com^
 ||890fromzen.net^
@@ -18043,6 +18045,7 @@
 ||alldomain56836858.s3.us-east-2.amazonaws.com^
 ||alldomainilogsviwes.weebly.com^
 ||alle-here.web.app^
+||alle-knot.com^
 ||allegationbody.com^
 ||allegationmonks.com^
 ||allegationobtain.com^
@@ -18167,6 +18170,7 @@
 ||allegro.9291201ss.mom^
 ||allegro.93288hhi.mom^
 ||allegro.9392130120.casa^
+||allegro.958212.sbs^
 ||allegro.9812831204.qpon^
 ||allegro.98237gioo28.buzz^
 ||allegro.99983200.beer^
@@ -18188,6 +18192,7 @@
 ||allegro.my5829119f.study^
 ||allegro.mypg043812.qpon^
 ||allegro.o3459539423h.courses^
+||allegro.ofe90392.pics^
 ||allegro.ofer93201.club^
 ||allegro.ofert49382120-g4.study^
 ||allegro.oferta-84884848pl.click^
@@ -18222,6 +18227,7 @@
 ||allegro.prywan39100.pl^
 ||allegro.prywane7381299.cyou^
 ||allegro.prywane893200.casa^
+||allegro.prywanm40099.skin^
 ||allegro.prywanm4328239.rest^
 ||allegro.prywant8391020.study^
 ||allegro.prywantm4892928.cyou^
@@ -26760,6 +26766,7 @@
 ||aurix-ai.live^
 ||aurix.click^
 ||aurixatrade.com^
+||aurixiontrust-pro.pages.dev^
 ||aurixiontrust.pro^
 ||aurixplatform.com^
 ||aurixplatform.live^
@@ -43871,6 +43878,7 @@
 ||capnovae.info^
 ||capoeiraventrelivre.com^
 ||caponnotop.store^
+||cappellettaai.info^
 ||capping.sirius.press^
 ||cappingstarets.shop^
 ||cappnvassingdapsone.info^
@@ -49362,6 +49370,7 @@
 ||cirsowhaubsi.com^
 ||cirtapykpdm.com^
 ||cirxs.com^
+||cis.fundfathom.com^
 ||cis.schibsted.com^
 ||cis.sohu.com^
 ||cisco-italy.com^
@@ -73790,6 +73799,7 @@
 ||emphasisdistance.com^
 ||empiindia.com^
 ||empik-eu.shop^
+||empik-official.tophot.site^
 ||empik-pl.shop^
 ||empiktravel.pl^
 ||empiotwxidzgh.space^
@@ -74024,6 +74034,7 @@
 ||encasehighlight.com^
 ||encasement.de^
 ||enccdiqprxj.com^
+||encephalogttrams.info^
 ||encephalovvgraphies.info^
 ||encevik.com^
 ||enchanted-darlings-194810.framer.app^
@@ -80591,6 +80602,7 @@
 ||feuageepitoke.com^
 ||feubgzfx.icu^
 ||feudalbetrayalcast.com^
+||feudalisssts.info^
 ||feudalrival.com^
 ||feuershow-nuernberg.de^
 ||feuerwehr-sport.de^
@@ -95717,6 +95729,7 @@
 ||gwexnexmiygfk.website^
 ||gwgisftc.com^
 ||gwgso.com^
+||gwgyndqb.shop^
 ||gwi-webmail.weeblysite.com^
 ||gwiazdy-news.eu^
 ||gwihirqnvof.xyz^
@@ -120885,6 +120898,7 @@
 ||legitimatepoint.pro^
 ||legitimatepowers.com^
 ||legitpaydayloan.com^
+||legivvtimistsentropy.info^
 ||legizaclothing.fr^
 ||leglettuceoccasion.com^
 ||legma.net^
@@ -136729,6 +136743,7 @@
 ||moravaprofitavik.net^
 ||moravexylio.digital^
 ||moravianjournal.upol.cz^
+||mordaku.shop^
 ||mordenized-technology.github.io^
 ||mordoops.com^
 ||more-2-flirt.com^
@@ -138707,6 +138722,7 @@
 ||myagkotela.link^
 ||myaicast.com^
 ||myairestaurant.com^
+||myallegroshop.cc^
 ||myaloevera.com^
 ||myalphaweb.godaddysites.com^
 ||myamarilomobileonline.weebly.com^
@@ -147860,6 +147876,7 @@
 ||oferta237451.cfd^
 ||oferta2435114.sbs^
 ||oferta26583.live^
+||oferta2994.sbs^
 ||oferta3-five.vercel.app^
 ||oferta30592749592747.shop^
 ||oferta3847bs8a10.live^
@@ -147885,6 +147902,7 @@
 ||oferta731692.click^
 ||oferta7371959829.cfd^
 ||oferta7392659829.cfd^
+||oferta755.sbs^
 ||oferta7801145pl.click^
 ||oferta780183pl.click^
 ||oferta7801943pl.click^
@@ -148613,7 +148631,6 @@
 ||oilylimit.com^
 ||oilzero.nl^
 ||oilzero.org^
-||oim.doganltd.com.tr^
 ||oimg.nbcuni.com^
 ||oimsgad.qq.com^
 ||oimynaxai.net^
@@ -151792,6 +151809,7 @@
 ||ossgogoaton.com^
 ||ossmightyenar.net^
 ||ossn3ova3.eu.cc^
+||ossn8ovaii.eu.cc^
 ||osspinsira.com^
 ||ost.joreynolds.com^
 ||ostal-services.fr^
@@ -152621,6 +152639,7 @@
 ||owa049340034.web.app^
 ||owablu84349439434.web.app^
 ||owalabottlefrance.fr^
+||owalabutelka.com^
 ||owalafr.fr^
 ||owalafrancefr.fr^
 ||owalafranceshop.fr^
@@ -157427,10 +157446,12 @@
 ||pi-oferta012719282192.sbs^
 ||pi-oferta745112.sbs^
 ||pi-oferta984564.lol^
+||pi-oferta98654.lol^
 ||pi-ofeta.sbs^
 ||pi-ofeta0231.sbs^
 ||pi-ofeta0286.sbs^
 ||pi-ofeta05312.sbs^
+||pi-ofeta201737.shop^
 ||pi-ofeta7281.sbs^
 ||pi-ofeta7393926.cyou^
 ||pi-ofeta77492926.cyou^
@@ -157441,10 +157462,12 @@
 ||pi-ogioszenie3287467121.shop^
 ||pi-ogioszenie832478716749673982.shop^
 ||pi.pdfjs.express^
+||pi01zxq972.cyou^
 ||pi1982z927.cyou^
 ||pi22nz523.cyou^
 ||pi733zmw617.cyou^
 ||pi823az13q.cyou^
+||pi85185812.lat^
 ||piaculaagrote.com^
 ||piaggiogroup.fr^
 ||pianistdusted.com^
@@ -158711,6 +158734,7 @@
 ||pl-ns9produkty6818358509.lol^
 ||pl-ochydnyhuj.biz^
 ||pl-oferata63995205.shop^
+||pl-ofert372973share.lol^
 ||pl-oferta-521691.sbs^
 ||pl-oferta-6930432.click^
 ||pl-oferta-88291.click^
@@ -173145,6 +173169,7 @@
 ||recondite-storm-playroom.glitch.me^
 ||reconditeprison.com^
 ||reconditerespect.com^
+||reconnectsession.sslserunamesweb.sbs^
 ||reconsideroverweight.com^
 ||reconsiderquestions.com^
 ||reconstructambition.com^
@@ -175133,7 +175158,6 @@
 ||resourcesdapp.pages.dev^
 ||resourcesrcpsess6029845679008.w3spaces.com^
 ||respainc.duckdns.org^
-||respaldo2.duckdns.org^
 ||respaldobase.com^
 ||respawn.ca^
 ||respecials.com^
@@ -199020,6 +199044,7 @@
 ||stx-eu.shop^
 ||stxpristinelawncare.com^
 ||stxxealthier.business^
+||stxxreetscapes.info^
 ||styclo.com^
 ||stydpueb.club^
 ||stylanilo.com^
@@ -204521,10 +204546,12 @@
 ||tele2nl.112.2o7.net^
 ||teleadupro.click^
 ||teleajcc.co^
+||telealaxyo.click^
 ||telealaxyo.shop^
 ||teleam.com^
 ||teleamicxx.click^
 ||teleanalup.cyou^
+||teleanalup.shop^
 ||teleanazev.help^
 ||teleanazev.love^
 ||teleanazev.shop^
@@ -204607,6 +204634,7 @@
 ||teleexoxxs.click^
 ||teleexoxxs.help^
 ||teleexxsco.club^
+||teleeyprox.cyou^
 ||teleeyprox.help^
 ||teleezcc.com^
 ||telefaxsfm.help^
@@ -205008,6 +205036,7 @@
 ||telewproxx.cyou^
 ||telewproxx.help^
 ||telewproxx.icu^
+||telewsxedc.shop^
 ||telexbxcr.help^
 ||telexbxcr.wiki^
 ||telexcsund.help^
@@ -205048,6 +205077,7 @@
 ||teleyprosm.shop^
 ||teleyproxl.club^
 ||teleyproxl.icu^
+||teleyproxl.shop^
 ||teleyxfbxo.work^
 ||teleyxoixc.click^
 ||telezepide.help^
@@ -219125,6 +219155,7 @@
 ||urban-fabric.shop^
 ||urban-surplus.shop^
 ||urbanalertgrid.com^
+||urbanapparel-eu.shop^
 ||urbanarc.shop^
 ||urbanbase.org^
 ||urbanbasis.com^
@@ -224224,6 +224255,7 @@
 ||vinted.76991.help^
 ||vinted.918420.help^
 ||vinted.9423432.com^
+||vinted.958212.sbs^
 ||vinted.9853192.biz^
 ||vinted.accountverif-finalstep.click^
 ||vinted.auth-check.click^
@@ -227925,6 +227957,7 @@
 ||waterfilterspro.com^
 ||waterfit.org^
 ||waterfrontmedia.112.2o7.net^
+||wateriiflood.info^
 ||waterlesspetshampoo.com^
 ||waterlogged-boy.com^
 ||waterloggedkind.com^
@@ -241291,6 +241324,7 @@
 ||zelmoro.cfd^
 ||zelmorynek.com^
 ||zelmoxatriqen.com^
+||zelmuki.shop^
 ||zelmuko.shop^
 ||zelmukoq.shop^
 ||zelmuoraki.info^
