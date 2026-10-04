@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610040507
+! Version: 202610041109
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 20379
-! Last modified: 2026-10-04T05:07:24+0000
+! Entries: 20386
+! Last modified: 2026-10-04T11:09:11+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -1052,6 +1052,7 @@
 ||ancetube.com^
 ||anchorhd.com^
 ||and6.com^
+||andhraports.com^
 ||andro4all.com^
 ||androidadult.com^
 ||androidmo.im^
@@ -4534,6 +4535,7 @@
 ||e926.net^
 ||eagirls.com^
 ||eahentai.com^
+||earsonme.com^
 ||earthloveandmagic.com^
 ||east-plus.net^
 ||eastbabes.com^
@@ -9202,6 +9204,7 @@
 ||kanliao16.one^
 ||kanliao20.net^
 ||kanliao26.com^
+||kanman.com^
 ||kannadapornvideos.com^
 ||kannadasexkathegalu.com^
 ||kannadasexstories.one^
@@ -9839,6 +9842,7 @@
 ||lokiporn.com^
 ||lolasex.co.il^
 ||lolhentai.net^
+||loli.beer^
 ||lolla.ch^
 ||lolowu.net^
 ||lolpol.com^
@@ -11542,6 +11546,7 @@
 ||niteflirt.com^
 ||niwerat.com^
 ||niyaniya.moe^
+||nj534.sbs^
 ||nja1.com^
 ||njav.com^
 ||njav.org^
@@ -15750,6 +15755,7 @@
 ||sick-r.com^
 ||sickipedia.net^
 ||sickjunk.com^
+||sierrascalientes.com^
 ||sieudam.asia^
 ||sieudamtvia.com^
 ||sihteeriopisto.com^
@@ -17774,6 +17780,7 @@
 ||vidizzy.com^
 ||vidmax.com^
 ||vidmo.org^
+||vidmo.pro^
 ||vidnest.live^
 ||vidox.net^
 ||vids.rip^
