@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610041607
+! Version: 202610042039
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 20396
-! Last modified: 2026-10-04T16:07:21+0000
+! Entries: 20410
+! Last modified: 2026-10-04T20:39:19+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -2419,6 +2419,7 @@
 ||boafoda.porn^
 ||boaotv.cc^
 ||boatos.org^
+||bobita-bhavi.com^
 ||bobmovs.com^
 ||bobolike.com^
 ||bobosco.com^
@@ -3259,6 +3260,7 @@
 ||cbwq.cn^
 ||cbxyz.com^
 ||cc18.tv^
+||cchere.com^
 ||ccnwebcams.com^
 ||cczu.edu.cn^
 ||cdcconinc.com^
@@ -4328,6 +4330,7 @@
 ||dlfrd.com^
 ||dlgal.com^
 ||dlouha-videa.cz^
+||dlshimai.com^
 ||dlsjs.com^
 ||dm5.com^
 ||dmkumh.com^
@@ -4431,6 +4434,7 @@
 ||doujinfast.com^
 ||doujinland.info^
 ||doujinnomori.com^
+||doujinnote.com^
 ||doujinrepublic.com^
 ||doujins.com^
 ||doujinxdoujin.com^
@@ -4763,6 +4767,7 @@
 ||eromanga-show.com^
 ||eromanga-sora.com^
 ||eromanga.biz^
+||eromani777.com^
 ||eromannga.net^
 ||eromazofu.com^
 ||erome.com^
@@ -6836,6 +6841,7 @@
 ||guputv.cc^
 ||guro.cx^
 ||guru.porn^
+||gushiwen.org^
 ||gustoporntube.com^
 ||gutesexfilme.com^
 ||guyatv.cc^
@@ -6906,6 +6912,7 @@
 ||hairywomen.tv^
 ||hairywomenpics.com^
 ||hairyxpictures.com^
+||haitbook.com^
 ||hal.ne.jp^
 ||halamat.com^
 ||halloporno.net^
@@ -7074,6 +7081,7 @@
 ||hdones.com^
 ||hdouga.com^
 ||hdoujin.org^
+||hdpian.com^
 ||hdporn.gg^
 ||hdporn.hu^
 ||hdporn.love^
@@ -7594,6 +7602,7 @@
 ||hnext.jp^
 ||hnjichao.com^
 ||hnlydsp.com^
+||hnshcsm.com^
 ||hnt.co.jp^
 ||ho5ho.com^
 ||hobby.porn^
@@ -9151,6 +9160,7 @@
 ||jyukujyowareme.com^
 ||jyukusiri.net^
 ||jzcdw.com^
+||jzs88.com^
 ||k-mib.com^
 ||k2s.club^
 ||k2sporn.net^
@@ -10549,6 +10559,7 @@
 ||metarthunter.com^
 ||metartnetwork.com^
 ||metartx.com^
+||meteo-parapente.com^
 ||meteo.lv^
 ||meteonovosti.ru^
 ||methodhd.com^
@@ -10837,6 +10848,7 @@
 ||moipourtoi.com^
 ||moistsex.com^
 ||mojamilfka.sk^
+||mojoin.com^
 ||mollalocan.com^
 ||molutv.cc^
 ||mom09.com^
@@ -16426,6 +16438,7 @@
 ||tao-arquitectura.com^
 ||taolusm.com^
 ||taotu.org^
+||tapallmylinks.com^
 ||tapeaz.com^
 ||tapehd.com^
 ||tapread.com^
@@ -20053,6 +20066,7 @@
 ||yaoimangaonline.com^
 ||yapatube.com^
 ||yasbest.com^
+||yasemin.com^
 ||yasetube.com^
 ||yasex.lol^
 ||yasex.net^
