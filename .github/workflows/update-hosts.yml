@@ -1,9 +1,11 @@
-name: Update Hosts Registry
+name: "Update Hosts Registry"
 
 on:
   schedule:
     - cron: "0 * * * *"
+
   workflow_dispatch:
+
   push:
     paths:
       - ".github/workflows/update-hosts.yml"
@@ -22,19 +24,20 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Checkout repository
+      - name: "Checkout repository"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Git
+      - name: "Setup Git"
+        shell: bash
         run: |
           set -Eeuo pipefail
 
-          git config user.name "RusdiEneri"
-          git config user.email "nuruddinrusydiilham@gmail.com"
-          git config pull.rebase true
+          git config --local user.name "RusdiEneri"
+          git config --local user.email "nuruddinrusydiilham@gmail.com"
+          git config --local pull.rebase true
 
           git remote set-url origin \
             "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
@@ -43,12 +46,13 @@ jobs:
           git checkout main
           git reset --hard origin/main
 
-      - name: Check Sources
+      - name: "Check Sources"
+        shell: bash
         run: |
           set -Eeuo pipefail
 
-          if [ ! -f sources.list ]; then
-            echo "❌ ERROR: sources.list tidak ditemukan."
+          if [[ ! -f "sources.list" ]]; then
+            echo "::error::sources.list tidak ditemukan."
             exit 1
           fi
 
@@ -57,14 +61,15 @@ jobs:
           echo "Daftar sumber:"
           cat sources.list
 
-      - name: Fetch Sources
+      - name: "Fetch Sources"
+        shell: bash
         run: |
           set -Eeuo pipefail
 
           STAGING=".hosts-staging"
 
           rm -rf "$STAGING"
-          mkdir -p "$STAGING"
+          mkdir -p "$STAGING/hosts"
 
           : > "$STAGING/manifest.txt"
 
@@ -80,14 +85,16 @@ jobs:
             read -r path url extra <<< "$line"
 
             if [[ -z "${path:-}" || -z "${url:-}" || -n "${extra:-}" ]]; then
-              echo "❌ Format sources.list tidak valid:"
+              echo "::error::Format sources.list tidak valid:"
               echo "   $line"
+              rm -rf "$STAGING"
               exit 1
             fi
 
             # Mencegah path traversal
             if [[ "$path" == /* || "$path" == *".."* ]]; then
-              echo "❌ Path tidak aman: $path"
+              echo "::error::Path tidak aman: $path"
+              rm -rf "$STAGING"
               exit 1
             fi
 
@@ -99,7 +106,6 @@ jobs:
             echo "URL:         $url"
             echo "========================================"
 
-            # Catat file yang seharusnya ada
             printf 'hosts/%s.txt\n' "$path" >> "$STAGING/manifest.txt"
 
             if curl \
@@ -120,11 +126,8 @@ jobs:
               echo "✅ Download berhasil."
 
             else
-              echo "❌ Download gagal: $url"
+              echo "::error::Download gagal: $url"
               rm -f "$dest.tmp"
-
-              # Jangan lanjut dengan data parsial.
-              # Data hosts lama tetap aman karena belum disentuh.
               rm -rf "$STAGING"
               exit 1
             fi
@@ -134,8 +137,9 @@ jobs:
           echo
           echo "✅ Semua source berhasil di-download."
 
-      - name: Update Hosts Registry
+      - name: "Update Hosts Registry"
         id: hosts
+        shell: bash
         run: |
           set -Eeuo pipefail
 
@@ -148,14 +152,14 @@ jobs:
           # Tambah / update file
           # ----------------------------------------
           while IFS= read -r staged_file || [[ -n "$staged_file" ]]; do
-            [ -z "$staged_file" ] && continue
+            [[ -z "$staged_file" ]] && continue
 
             source_file="$STAGING/$staged_file"
             target_file="$staged_file"
 
             mkdir -p "$(dirname "$target_file")"
 
-            if [ -f "$target_file" ] && cmp -s "$source_file" "$target_file"; then
+            if [[ -f "$target_file" ]] && cmp -s "$source_file" "$target_file"; then
               echo "UNCHANGED: $target_file"
               rm -f "$source_file"
             else
@@ -171,13 +175,11 @@ jobs:
           # dari sources.list
           # ----------------------------------------
           while IFS= read -r -d '' existing_file; do
-
             if ! grep -Fqx -- "$existing_file" "$STAGING/manifest.txt"; then
               echo "REMOVED:   $existing_file"
               rm -f "$existing_file"
               CHANGED=1
             fi
-
           done < <(find hosts -type f -name "*.txt" -print0)
 
           # Hapus folder kosong
@@ -186,7 +188,8 @@ jobs:
           rm -rf "$STAGING"
 
           echo
-          if [ "$CHANGED" -eq 1 ]; then
+
+          if [[ "$CHANGED" -eq 1 ]]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "✅ Hosts registry berubah."
           else
@@ -194,8 +197,9 @@ jobs:
             echo "✅ Tidak ada perubahan pada hosts."
           fi
 
-      - name: Generate README
+      - name: "Generate README"
         if: steps.hosts.outputs.changed == 'true'
+        shell: bash
         run: |
           set -Eeuo pipefail
 
@@ -208,57 +212,56 @@ jobs:
           CURRENT_TIME="$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')"
 
           cat > README.md <<EOF
-          # 🛡️ DNS Blocklist Registry
-
-          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
-
-          ## 📖 Panduan Memilih Blocklist
-
-          ### 1. Pilih SATU Level Utama
-
-          - **Light / OISD Small:** Sangat ringan untuk penggunaan dasar.
-          - **Multi / OISD Big:** Kombinasi berbagai sumber untuk penggunaan umum.
-          - **Pro / Pro Plus:** Pemblokiran lebih agresif.
-          - **Ultimate:** Pemblokiran paling ketat dan mungkin membutuhkan whitelist manual.
-
-          ### 2. Kategori Khusus
-
-          - **NSFW / OISD NSFW:** Memblokir situs dewasa.
-          - **Gambling:** Memblokir situs judi online.
-          - **Social:** Memblokir media sosial.
-          - **Popupads / Fake:** Memblokir iklan pop-up dan situs penipuan.
-
-          ### 3. Native / Vendor Tracking
-
-          Daftar khusus perangkat atau platform:
-
-          - \`native.xiaomi\`
-          - \`native.samsung\`
-          - \`native.oppo-realme\`
-          - \`native.vivo\`
-          - \`native.huawei\`
-          - \`native.apple\`
-          - \`native.winoffice\`
-
-          ### 4. Keamanan & Anti-Bypass
-
-          - **TIF:** Threat intelligence, malware, dan phishing.
-          - **DoH / VPN-Proxy-Bypass:** Daftar untuk membantu mengidentifikasi endpoint bypass DNS.
-
-          ---
-
-          ## 📊 Statistik & Link Unduh
-
-          > 💡 Gunakan **RawGitHack** atau **jsDelivr** untuk penggunaan pada aplikasi pemblokir DNS.
-
-          | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
-          |------|------------|----------|------------|---------------|-------------------|
-          EOF
+      # 🛡️ DNS Blocklist Registry
+      
+      Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
+      
+      ## 📖 Panduan Memilih Blocklist
+      
+      ### 1. Pilih SATU Level Utama
+      
+      - **Light / OISD Small:** Sangat ringan untuk penggunaan dasar.
+      - **Multi / OISD Big:** Kombinasi berbagai sumber untuk penggunaan umum.
+      - **Pro / Pro Plus:** Pemblokiran lebih agresif.
+      - **Ultimate:** Pemblokiran paling ketat dan mungkin membutuhkan whitelist manual.
+      
+      ### 2. Kategori Khusus
+      
+      - **NSFW / OISD NSFW:** Memblokir situs dewasa.
+      - **Gambling:** Memblokir situs judi online.
+      - **Social:** Memblokir media sosial.
+      - **Popupads / Fake:** Memblokir iklan pop-up dan situs penipuan.
+      
+      ### 3. Native / Vendor Tracking
+      
+      Daftar khusus perangkat atau platform:
+      
+      - \`native.xiaomi\`
+      - \`native.samsung\`
+      - \`native.oppo-realme\`
+      - \`native.vivo\`
+      - \`native.huawei\`
+      - \`native.apple\`
+      - \`native.winoffice\`
+      
+      ### 4. Keamanan & Anti-Bypass
+      
+      - **TIF:** Threat intelligence, malware, dan phishing.
+      - **DoH / VPN-Proxy-Bypass:** Daftar untuk membantu mengidentifikasi endpoint bypass DNS.
+      
+      ---
+      
+      ## 📊 Statistik & Link Unduh
+      
+      > 💡 Gunakan **RawGitHack** atau **jsDelivr** untuk penggunaan pada aplikasi pemblokir DNS.
+      
+      | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
+      |------|------------|----------|------------|---------------|-------------------|
+      EOF
 
           total=0
 
           while IFS= read -r file; do
-            # Hitung baris yang kemungkinan merupakan entry domain.
             count="$(
               grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$file" || true
             )"
@@ -269,8 +272,6 @@ jobs:
 
             total=$((total + count))
 
-            # Mtime hanya berubah ketika file hosts benar-benar
-            # berubah, karena file yang sama tidak ditulis ulang.
             epoch_time="$(stat -c %Y "$file")"
 
             file_time="$(
@@ -312,8 +313,9 @@ jobs:
             echo "*Terakhir sinkronisasi: $CURRENT_TIME*"
           } >> README.md
 
-      - name: Check Git Changes
+      - name: "Check Git Changes"
         id: git_changes
+        shell: bash
         run: |
           set -Eeuo pipefail
 
@@ -325,51 +327,159 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "📝 Ada perubahan yang akan di-commit."
-
+            echo
             git diff --cached --stat
           fi
 
-      - name: Commit and Push
+      - name: "Configure SSH Signing and Commit"
         if: steps.git_changes.outputs.changed == 'true'
+        env:
+          SIGNING_KEY: ${{ secrets.COMMIT_SIGNING_KEY }}
+        shell: bash
         run: |
           set -Eeuo pipefail
 
-          git commit \
+          # ==========================================
+          # 1. Validasi secret
+          # ==========================================
+          if [[ -z "${SIGNING_KEY:-}" ]]; then
+            echo "::error::Secret COMMIT_SIGNING_KEY tidak ditemukan atau kosong."
+            exit 1
+          fi
+
+          # ==========================================
+          # 2. Siapkan direktori key
+          # ==========================================
+          KEY_DIR="${RUNNER_TEMP}/git-signing"
+          PRIVATE_KEY="${KEY_DIR}/signing_key"
+          PUBLIC_KEY="${KEY_DIR}/signing_key.pub"
+          ALLOWED_SIGNERS="${KEY_DIR}/allowed_signers"
+
+          mkdir -p "$KEY_DIR"
+          chmod 700 "$KEY_DIR"
+
+          # ==========================================
+          # 3. Simpan private key
+          # ==========================================
+          printf '%s\n' "$SIGNING_KEY" > "$PRIVATE_KEY"
+          chmod 600 "$PRIVATE_KEY"
+
+          # ==========================================
+          # 4. Generate public key
+          # ==========================================
+          ssh-keygen -y \
+            -f "$PRIVATE_KEY" \
+            > "$PUBLIC_KEY"
+
+          chmod 644 "$PUBLIC_KEY"
+
+          if [[ ! -s "$PUBLIC_KEY" ]]; then
+            echo "::error::Public key gagal dibuat."
+            exit 1
+          fi
+
+          # ==========================================
+          # 5. Start SSH agent
+          # ==========================================
+          eval "$(ssh-agent -s)"
+
+          ssh-add "$PRIVATE_KEY"
+
+          # ==========================================
+          # 6. Git identity
+          # ==========================================
+          git config --local user.name "RusdiEneri"
+          git config --local user.email "nuruddinrusydiilham@gmail.com"
+
+          # ==========================================
+          # 7. SSH commit signing
+          # ==========================================
+          git config --local gpg.format ssh
+          git config --local gpg.ssh.program ssh-keygen
+          git config --local user.signingkey "$PUBLIC_KEY"
+          git config --local commit.gpgsign true
+
+          # ==========================================
+          # 8. Allowed signers untuk local verification
+          # ==========================================
+          printf '%s %s\n' \
+            "nuruddinrusydiilham@gmail.com" \
+            "$(cat "$PUBLIC_KEY")" \
+            > "$ALLOWED_SIGNERS"
+
+          chmod 644 "$ALLOWED_SIGNERS"
+
+          git config --local \
+            gpg.ssh.allowedSignersFile "$ALLOWED_SIGNERS"
+
+          echo "✅ SSH signing key berhasil disiapkan."
+
+          # ==========================================
+          # 9. Buat signed commit
+          # ==========================================
+          git commit -S \
             -m "auto: update hosts $(TZ=Asia/Jakarta date '+%Y%m%d-%H%M')"
 
+          echo
+          echo "✅ Commit signed berhasil dibuat."
+
+          # ==========================================
+          # 10. Verifikasi signature secara lokal
+          # ==========================================
+          echo
+          echo "🔏 Verifying commit signature..."
+
+          git verify-commit HEAD
+
+          echo
+          echo "✅ Signature valid."
+
+      - name: "Push Changes"
+        if: steps.git_changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+
           for attempt in 1 2 3 4 5; do
-            echo "Push attempt $attempt..."
+            echo "========================================"
+            echo "🚀 Push attempt $attempt/5"
+            echo "========================================"
 
-            # Ambil commit terbaru dari remote
-            if git fetch origin main; then
-
-              if git rebase origin/main; then
-
-                if git push origin HEAD:main; then
-                  echo "✅ Push berhasil."
-                  exit 0
-                fi
-
-              else
-                echo "⚠️ Rebase conflict."
-                git rebase --abort || true
-              fi
-
-            else
-              echo "⚠️ Gagal fetch origin/main."
+            # Coba push langsung terlebih dahulu.
+            if git push origin HEAD:main; then
+              echo "✅ Push berhasil."
+              exit 0
             fi
 
-            if [ "$attempt" -lt 5 ]; then
-              echo "Menunggu 10 detik..."
-              sleep 10
+            echo "⚠️ Push ditolak. Remote mungkin berubah."
+
+            if [[ "$attempt" -eq 5 ]]; then
+              break
             fi
+
+            echo "🔄 Fetch origin/main..."
+            git fetch origin main
+
+            echo "🔄 Rebase dengan SSH signature..."
+            git rebase --gpg-sign origin/main
+
+            echo "✅ Rebase selesai dan commit ditandatangani ulang."
+
+            echo
+            echo "🔏 Verifikasi signature setelah rebase..."
+            git verify-commit HEAD
+
+            echo
+            echo "⏳ Menunggu 5 detik sebelum mencoba lagi..."
+            sleep 5
           done
 
-          echo "❌ Push gagal setelah 5 percobaan."
+          echo "::error::Push gagal setelah 5 percobaan."
           exit 1
 
-      - name: No Changes
+      - name: "No Changes"
         if: steps.git_changes.outputs.changed == 'false'
+        shell: bash
         run: |
           echo "✅ Semua blocklist masih sama."
           echo "Tidak membuat commit baru."
