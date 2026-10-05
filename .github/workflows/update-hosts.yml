@@ -212,52 +212,52 @@ jobs:
           CURRENT_TIME="$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')"
 
           cat > README.md <<EOF
-      # 🛡️ DNS Blocklist Registry
-      
-      Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
-      
-      ## 📖 Panduan Memilih Blocklist
-      
-      ### 1. Pilih SATU Level Utama
-      
-      - **Light / OISD Small:** Sangat ringan untuk penggunaan dasar.
-      - **Multi / OISD Big:** Kombinasi berbagai sumber untuk penggunaan umum.
-      - **Pro / Pro Plus:** Pemblokiran lebih agresif.
-      - **Ultimate:** Pemblokiran paling ketat dan mungkin membutuhkan whitelist manual.
-      
-      ### 2. Kategori Khusus
-      
-      - **NSFW / OISD NSFW:** Memblokir situs dewasa.
-      - **Gambling:** Memblokir situs judi online.
-      - **Social:** Memblokir media sosial.
-      - **Popupads / Fake:** Memblokir iklan pop-up dan situs penipuan.
-      
-      ### 3. Native / Vendor Tracking
-      
-      Daftar khusus perangkat atau platform:
-      
-      - \`native.xiaomi\`
-      - \`native.samsung\`
-      - \`native.oppo-realme\`
-      - \`native.vivo\`
-      - \`native.huawei\`
-      - \`native.apple\`
-      - \`native.winoffice\`
-      
-      ### 4. Keamanan & Anti-Bypass
-      
-      - **TIF:** Threat intelligence, malware, dan phishing.
-      - **DoH / VPN-Proxy-Bypass:** Daftar untuk membantu mengidentifikasi endpoint bypass DNS.
-      
-      ---
-      
-      ## 📊 Statistik & Link Unduh
-      
-      > 💡 Gunakan **RawGitHack** atau **jsDelivr** untuk penggunaan pada aplikasi pemblokir DNS.
-      
-      | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
-      |------|------------|----------|------------|---------------|-------------------|
-      EOF
+          # 🛡️ DNS Blocklist Registry
+          
+          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
+          
+          ## 📖 Panduan Memilih Blocklist
+          
+          ### 1. Pilih SATU Level Utama
+          
+          - **Light / OISD Small:** Sangat ringan untuk penggunaan dasar.
+          - **Multi / OISD Big:** Kombinasi berbagai sumber untuk penggunaan umum.
+          - **Pro / Pro Plus:** Pemblokiran lebih agresif.
+          - **Ultimate:** Pemblokiran paling ketat dan mungkin membutuhkan whitelist manual.
+          
+          ### 2. Kategori Khusus
+          
+          - **NSFW / OISD NSFW:** Memblokir situs dewasa.
+          - **Gambling:** Memblokir situs judi online.
+          - **Social:** Memblokir media sosial.
+          - **Popupads / Fake:** Memblokir iklan pop-up dan situs penipuan.
+          
+          ### 3. Native / Vendor Tracking
+          
+          Daftar khusus perangkat atau platform:
+          
+          - \`native.xiaomi\`
+          - \`native.samsung\`
+          - \`native.oppo-realme\`
+          - \`native.vivo\`
+          - \`native.huawei\`
+          - \`native.apple\`
+          - \`native.winoffice\`
+          
+          ### 4. Keamanan & Anti-Bypass
+          
+          - **TIF:** Threat intelligence, malware, dan phishing.
+          - **DoH / VPN-Proxy-Bypass:** Daftar untuk membantu mengidentifikasi endpoint bypass DNS.
+          
+          ---
+          
+          ## 📊 Statistik & Link Unduh
+          
+          > 💡 Gunakan **RawGitHack** atau **jsDelivr** untuk penggunaan pada aplikasi pemblokir DNS.
+          
+          | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
+          |------|------------|----------|------------|---------------|-------------------|
+          EOF
 
           total=0
 
@@ -312,7 +312,7 @@ jobs:
             echo "---"
             echo "*Terakhir sinkronisasi: $CURRENT_TIME*"
           } >> README.md
-
+          
       - name: "Check Git Changes"
         id: git_changes
         shell: bash
