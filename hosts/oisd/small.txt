@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610070606
+! Version: 202610071208
 ! Title: oisd small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 57482
-! Last modified: 2026-10-07T06:06:09+0000
+! Entries: 57488
+! Last modified: 2026-10-07T12:08:56+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -5733,6 +5733,7 @@
 ||alpharockone.com^
 ||alphaupsell.s3.ap-northeast-2.amazonaws.com^
 ||alphonso.tv^
+||alphylskyat.qpon^
 ||alpyvupjggczt.space^
 ||alqzmnvaxvzcu.website^
 ||alrbjepwtjxsk.website^
@@ -19363,6 +19364,7 @@
 ||eztfcipknmgpk.online^
 ||eztjpigieaokv.site^
 ||eztomplopxvqp.site^
+||ezuimgzhduuxe.space^
 ||ezula.com^
 ||ezvijslewvvhu.store^
 ||ezvlssrdqevtm.site^
@@ -26129,6 +26131,7 @@
 ||ivimjfjoifusn.space^
 ||ivioukpnweuhr.space^
 ||iviovqxlpvptw.space^
+||iviqwmtgja.com^
 ||ivizbbqma.com^
 ||ivoxkuybivbme.space^
 ||ivpnxhqsbbuabi.com^
@@ -26955,6 +26958,7 @@
 ||jpackipmxsufz.online^
 ||jpadxrydoiorz.online^
 ||jpavgtzkbjpwi.site^
+||jpbphraoemadf.online^
 ||jpbsggqehlopl.online^
 ||jpcjzcrkrugie.online^
 ||jpfjltsmlrimq.site^
@@ -34189,6 +34193,7 @@
 ||nwbuhr.icu^
 ||nwemnd.com^
 ||nwfkhvqxjxpll.online^
+||nwfuevalvjnar.space^
 ||nwhdrmll9l.com^
 ||nwhentheautumn.com^
 ||nwholf.icu^
@@ -37427,7 +37432,6 @@
 ||pooliakonge.cyou^
 ||poolpeephole.com^
 ||poolplentifulefficient.com^
-||poomeecebe.net^
 ||poonahimpers.com^
 ||poopedhowel.cfd^
 ||poorcommiserateexists.com^
@@ -44442,6 +44446,7 @@
 ||speakclash.com^
 ||speakmalthe.com^
 ||speansginzo.cfd^
+||spearersauted.cfd^
 ||special-offers.online^
 ||special-promotions.online^
 ||specialberth.com^
@@ -50007,6 +50012,7 @@
 ||umtudo.com^
 ||umuraaajkrkxl.space^
 ||umwzmbhdifptd.online^
+||umxqlmhdlbvfw.online^
 ||umzkjponcxpvn.online^
 ||umzzknnizcbnd.online^
 ||un.kumparan.com^
