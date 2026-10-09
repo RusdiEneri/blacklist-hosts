@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610090547
+! Version: 202610091508
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 19492
-! Last modified: 2026-10-09T05:47:57+0000
+! Entries: 19503
+! Last modified: 2026-10-09T15:08:22+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -321,6 +321,7 @@
 ||4tube.casa^
 ||4tube.com^
 ||4tunaporn.com^
+||4vid.xyz^
 ||4wank.com^
 ||4yt.net^
 ||505xxx.net^
@@ -960,6 +961,7 @@
 ||amazingsexvideos.net^
 ||amazonesystem.com^
 ||ambercutie.com^
+||amdar.xyz^
 ||amenic.xyz^
 ||americanflirting.com^
 ||americanwota.com^
@@ -1521,6 +1523,7 @@
 ||av28.com^
 ||av369.net^
 ||av4me.cc^
+||av4us0.cyou^
 ||av4usporn.win^
 ||av6k.com^
 ||av6k.org^
@@ -6335,6 +6338,7 @@
 ||gmerago.com^
 ||gmgard.com^
 ||gmil.com^
+||gnoccaforum.com^
 ||go-animeporn.com^
 ||go-gayporn.com^
 ||go-gaytube.com^
@@ -10425,6 +10429,8 @@
 ||moonbrick.com^
 ||moonporntube.com^
 ||moonvelin.com^
+||moonvelins-contents.com^
+||moooihomepk.com^
 ||mopoga.com^
 ||morangovip.com.br^
 ||morazzia.com^
@@ -11088,7 +11094,6 @@
 ||noreply.cafe^
 ||norwex.com^
 ||nosexo.com^
-||nosta.gov.cn^
 ||nostringsattached.com^
 ||not.fans^
 ||notawoman.com^
@@ -12580,6 +12585,7 @@
 ||porno365x.band^
 ||porno365x.blog^
 ||porno365x.trade^
+||porno365x.video^
 ||porno38.homes^
 ||porno4.club^
 ||porno51.lol^
@@ -12944,6 +12950,7 @@
 ||pornreap.com^
 ||pornreap.online^
 ||pornreap.org^
+||pornreap.space^
 ||pornrecs.com^
 ||pornrewind.com^
 ||pornrip.cc^
@@ -13231,6 +13238,7 @@
 ||privateshow.cam^
 ||privatesociety.com^
 ||privatportal.sk^
+||privatsedition.com^
 ||privegays.com^
 ||prmovies.com^
 ||prncams.com^
@@ -13243,6 +13251,7 @@
 ||proceedflow.info^
 ||prodigits.co.uk^
 ||productfeed.org^
+||productivr.com^
 ||profissionaisdosexo.com^
 ||profotofun.com^
 ||progtech-yug.ru^
@@ -16299,6 +16308,7 @@
 ||transflix.net^
 ||transhero.com^
 ||transhub.to^
+||transip.me^
 ||transjizz.com^
 ||transladyboy.com^
 ||translive.xxx^
@@ -16776,6 +16786,7 @@
 ||uzaymanga.com^
 ||uzbak.ru^
 ||uzbechka.link^
+||uzbechka.xyz^
 ||uzbek-sexy1.top^
 ||uzbek.one^
 ||uzbekistanporno.link^
