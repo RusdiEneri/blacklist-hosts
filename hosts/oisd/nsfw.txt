@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610111433
+! Version: 202610111634
 ! Title: oisd nsfw
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 469698
-! Last modified: 2026-10-11T14:33:15+0000
+! Entries: 469706
+! Last modified: 2026-10-11T16:34:23+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -12988,6 +12988,7 @@
 ||57u7ny.garden^
 ||57xxw.com^
 ||58070x.cn^
+||580daohang.cn^
 ||580doc.com^
 ||580fang.com^
 ||580tea.com^
@@ -54860,6 +54861,7 @@
 ||banglachotirjogot.blogspot.com^
 ||banglachotisex.net^
 ||banglachotisexgolpo.blogspot.com^
+||banglachotisite.blogspot.com^
 ||banglachotisomver.blogspot.com^
 ||banglachotix.com^
 ||banglachotixxx.me^
@@ -100854,6 +100856,7 @@
 ||cougarkingdom.com^
 ||cougarkontakte.com^
 ||cougarleak.com^
+||cougarlife-dating.com^
 ||cougarmilf.it^
 ||cougarmilfporn.com^
 ||cougarmilfs.blogspot.com^
@@ -198172,6 +198175,7 @@
 ||huangchaokt.com^
 ||huangche116.cn^
 ||huangck.cc^
+||huangdaonvfanren.org.cn^
 ||huangdoudj.cc^
 ||huangdoudj.com^
 ||huangdoudj.me^
@@ -223140,6 +223144,7 @@
 ||kayekenzy.com^
 ||kayidm.com^
 ||kayisbakimi.club^
+||kayisdagiescort.xyz^
 ||kaylababyx-porn.pages.dev^
 ||kaylabumss.com^
 ||kaylacarreraxxx.com^
@@ -263343,6 +263348,7 @@
 ||mjkd329.com^
 ||mjklnyipokiuh.blogspot.com^
 ||mjksm.cn^
+||mjkydi.cn^
 ||mjlsh.org^
 ||mjlwan.itch.io^
 ||mjmanx.cn^
@@ -432458,6 +432464,7 @@
 ||watchbrazzers.blogspot.com^
 ||watchbrett.com^
 ||watchcams.com^
+||watchcams.tv^
 ||watchcamsex.com^
 ||watchcelebxvideos.blogspot.com^
 ||watchdefloration.com^
@@ -460509,6 +460516,7 @@
 ||yinhentai.com^
 ||yinhufuli.lol^
 ||yinhuiav1.com^
+||yinhuilib.cn^
 ||yinichina.com^
 ||yinjunsh.com^
 ||yinkangdao.com^
