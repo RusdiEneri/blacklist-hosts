@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610102134
+! Version: 202610110137
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 19457
-! Last modified: 2026-10-10T21:34:21+0000
+! Entries: 19483
+! Last modified: 2026-10-11T01:37:15+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -552,6 +552,7 @@
 ||abgay.tube^
 ||abgcrot.stream^
 ||abgindo.live^
+||abgviral.best^
 ||abifilmizle5.cc^
 ||abjav.com^
 ||abjav.tube^
@@ -1245,6 +1246,7 @@
 ||areajav.com^
 ||areakomik.com^
 ||arequiparelax.com^
+||argxp.com^
 ||arhivporno.love^
 ||arhivporno.watch^
 ||arionmovies.com^
@@ -1495,9 +1497,13 @@
 ||auntmia.com^
 ||auntyjaan.com^
 ||auntymaza.bar^
+||auntymaza.beauty^
+||auntymaza.cafe^
 ||auntymaza.com.co^
+||auntymaza.im^
 ||auntymaza.pw^
 ||auntymaza.wiki^
+||auntymaza.work^
 ||auntymazaporn.net^
 ||auntynights.com^
 ||aussieflingfinder.com^
@@ -1788,6 +1794,7 @@
 ||bangpussy.com^
 ||bangstars.com^
 ||bangtubevideos.com^
+||bangunviral.baby^
 ||bangxxxtube.com^
 ||bangyoulater.net^
 ||bannedbook.org^
@@ -2670,6 +2677,7 @@
 ||botmaal.io^
 ||boundhub.com^
 ||bourdela.com^
+||boviral.site^
 ||bowalaq.az^
 ||boxbonks.com^
 ||boxfrigs.com^
@@ -4287,6 +4295,7 @@
 ||drollxxxtube.com^
 ||drollxxxvideos.com^
 ||dropmasti.com^
+||dropmasti.org^
 ||dropmms.co^
 ||dropmms.com^
 ||dropmms.fun^
@@ -4323,6 +4332,7 @@
 ||duozhuayu.com^
 ||dushewang.com^
 ||dushuh.com^
+||duskhive.com^
 ||duzceescortcu.xyz^
 ||dvdempire.com^
 ||dvderotik.com^
@@ -7448,6 +7458,7 @@
 ||hotmaal.xxx^
 ||hotmatch.com^
 ||hotmaturetricks.com^
+||hotmaza.net^
 ||hotmilfass.com^
 ||hotmilfdate.com^
 ||hotmilfphotos.com^
@@ -9081,6 +9092,7 @@
 ||lanasbigboobs.com^
 ||landsmb.ru^
 ||laogewen.vip^
+||laoshuwo.net^
 ||laowang.vip^
 ||lapkjogos.com^
 ||lapkzone.com^
@@ -9943,6 +9955,7 @@
 ||maynoe.com^
 ||mayzaent.com^
 ||maza18.co^
+||mazatv.com^
 ||mazolporn.com^
 ||mbbg.cam^
 ||mbbg.mom^
@@ -10950,6 +10963,7 @@
 ||nextdoorstudios.com^
 ||nezyda.com^
 ||nfbusty.com^
+||ngakakpol.store^
 ||nganga.site^
 ||ngejav.blog^
 ||ngentub.cc^
@@ -13948,6 +13962,7 @@
 ||sayhentai.bar^
 ||sayhentai.cam^
 ||sayhentai.chat^
+||sayhentai.cx^
 ||sayhentai.team^
 ||sayloai.com^
 ||sayuncle.com^
@@ -15353,6 +15368,7 @@
 ||storyofthepast.xyz^
 ||storysite.org^
 ||storywala.net^
+||stpubs.com^
 ||str8upgaychat.com^
 ||str8upgayporn.com^
 ||strangercam.com^
@@ -15801,6 +15817,7 @@
 ||telugusexvids3.com^
 ||temagay.org.es^
 ||tempatbokep.com^
+||tempikviral2026.store^
 ||templescanesp.net^
 ||tempocams.com^
 ||temptingangels.org^
@@ -15973,6 +15990,7 @@
 ||theturfnetwork.com^
 ||thetwinks.net^
 ||theworldwatch.com^
+||thexh.live^
 ||thexxx.tv^
 ||thexxxadult.ru^
 ||theyarehuge.com^
@@ -16015,6 +16033,7 @@
 ||threesomerz.com^
 ||threesomexl.com^
 ||throatpietube.com^
+||thronesclub.club^
 ||thrupnies.com^
 ||thudam.tube^
 ||thuis.nl^
@@ -16501,6 +16520,7 @@
 ||tumblrgallery.xyz^
 ||tumblrviewer.co^
 ||tumblrviewer.com^
+||tunggusagne.baby^
 ||tuoi69x.blog^
 ||tupianmima.com^
 ||turchanki.link^
@@ -17037,6 +17057,7 @@
 ||viraltiktok.site^
 ||viralvideo.forum^
 ||viralvideoshub.xyz^
+||viralvidoe.online^
 ||viralxporno.com^
 ||viralxxxporn.com^
 ||virdate.net^
@@ -17416,6 +17437,8 @@
 ||wifeysworld.com^
 ||wikifeetx.com^
 ||wikiporno.org^
+||wikwik.life^
+||wikwik.shop^
 ||wildchinaporn.shop^
 ||wildcum.com^
 ||wildestporn.com^
@@ -17703,6 +17726,7 @@
 ||xhamster.yachts^
 ||xhamster1.desi^
 ||xhamster19.com^
+||xhamster19.tv^
 ||xhamster2.com^
 ||xhamster3.com^
 ||xhamster40.desi^
@@ -19160,6 +19184,7 @@
 ||yeptube.net^
 ||yesbackpage.com^
 ||yescams.com^
+||yescams.vip^
 ||yesdesi.com^
 ||yeshex.com^
 ||yesmomporn.com^
@@ -19446,6 +19471,7 @@
 ||zrelki.online^
 ||zrelki.org^
 ||zreloeporno.love^
+||zsy6688.com^
 ||zteenporn.com^
 ||ztube.org^
 ||ztxxx.com^
