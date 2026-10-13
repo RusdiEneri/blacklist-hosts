@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610130620
+! Version: 202610131437
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 19414
-! Last modified: 2026-10-13T06:20:05+0000
+! Entries: 19416
+! Last modified: 2026-10-13T14:37:03+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -2310,6 +2310,7 @@
 ||blushafter.com^
 ||blushvibe.com^
 ||blw.moe^
+||blw66.com^
 ||bmaal.io^
 ||bmk88.com^
 ||bmwigs.com^
@@ -17707,6 +17708,7 @@
 ||xhbranch5.com^
 ||xhchannel.com^
 ||xhclub.life^
+||xhclub.live^
 ||xhcopy.life^
 ||xhdesign.blog^
 ||xhdesign.life^
