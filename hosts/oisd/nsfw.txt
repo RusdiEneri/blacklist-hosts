@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610131532
+! Version: 202610131833
 ! Title: oisd nsfw
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 472938
-! Last modified: 2026-10-13T15:32:54+0000
+! Entries: 472954
+! Last modified: 2026-10-13T18:33:48+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -35404,6 +35404,7 @@
 ||altyazilifilmizle12.cc^
 ||altyazilifilmler.shop^
 ||altyazilihardcore.cfd^
+||altyazilihardcorehd.cfd^
 ||altyazilihardtube.cfd^
 ||altyazilihd.cyou^
 ||altyazilihubam.cyou^
@@ -35473,6 +35474,7 @@
 ||altyaziliseksfilmi.shop^
 ||altyazilisekshd.cfd^
 ||altyazilisekssahne.shop^
+||altyazilisekstube.cfd^
 ||altyazilisertporno.cfd^
 ||altyazilisertporno.shop^
 ||altyazilisertseks.shop^
@@ -35486,6 +35488,7 @@
 ||altyazilixxx.shop^
 ||altyazilixxxhd.cfd^
 ||altyazilixxxtube.cfd^
+||altyaziliyetiskinfilm.shop^
 ||altyazipornoturk.online^
 ||altyazipornoxxx.online^
 ||altyazlgruppornolar.pages.dev^
@@ -38180,6 +38183,7 @@
 ||amatorpornolarizlee.blogspot.com^
 ||amatorpornom.blogspot.com^
 ||amatorporr.com^
+||amatorseksizle.cyou^
 ||amatorsex.hu^
 ||amatorsex.sbs^
 ||amatorsexetag.pages.dev^
@@ -48933,7 +48937,9 @@
 ||atepro.cn^
 ||atere234.blogspot.com^
 ||ateskereste.com^
+||ateslialtyazilifilm.shop^
 ||ateslialtyaziliporno.shop^
+||ateslialtyaziliseks.shop^
 ||ateslibebekler.blogspot.com^
 ||ateslidusler.blogspot.com^
 ||ateslihikayee.blogspot.com^
@@ -304224,7 +304230,6 @@
 ||porevooo.blogspot.com^
 ||porevovkontakte.ru^
 ||porevoxxx.best^
-||porevoxxx.ru^
 ||porevoxxxonline.ru^
 ||porfilm.blogspot.com^
 ||porhdtv.com^
@@ -355660,6 +355665,7 @@
 ||serrviporno.com^
 ||serrwsus.com^
 ||sersupremose.blogspot.com^
+||sertaltyazi.cyou^
 ||sertaltyaziliporno.shop^
 ||sertaltyaziliseks.shop^
 ||serthikaye.blogspot.com^
@@ -361460,6 +361466,7 @@
 ||sexchat-livecams.info^
 ||sexchat-luder.com^
 ||sexchat-mit-cam.net^
+||sexchat-mit-cam.top^
 ||sexchat-ohne-anmelden.com^
 ||sexchat-ohne-registrierung.com^
 ||sexchat-online.net^
@@ -419406,6 +419413,7 @@
 ||turkcealtyazisexporno.online^
 ||turkcealtyazisikispornolari.online^
 ||turkcedublajporno.com^
+||turkceerotikporno.shop^
 ||turkceerotikseks.shop^
 ||turkcehardcore.cfd^
 ||turkcehardcorehd.cfd^
@@ -419425,6 +419433,8 @@
 ||turkcepornoaltyazi.online^
 ||turkcepornoarsiv.cyou^
 ||turkcepornohd.cfd^
+||turkcepornohd.cyou^
+||turkcepornoizle.cfd^
 ||turkcepornoizle.cyou^
 ||turkcepornoizle.shop^
 ||turkcepornoizlee.blogspot.com^
@@ -419436,11 +419446,13 @@
 ||turkcepornotube.cfd^
 ||turkcepornotube.cyou^
 ||turkcepornowatch.cfd^
+||turkcepornoxxx.cfd^
 ||turkcepornzd.shop^
 ||turkceseksarsiv.shop^
 ||turkcesekshd.cfd^
 ||turkcesekshikayesi.blogspot.com^
 ||turkceseksizle.cfd^
+||turkceseksizle.shop^
 ||turkceseksporno.cfd^
 ||turkcesekssahne.shop^
 ||turkceseksstream.cfd^
@@ -419449,7 +419461,9 @@
 ||turkceseksvideo.shop^
 ||turkcesertporno.shop^
 ||turkcesertseks.shop^
+||turkcevideohd.cfd^
 ||turkcevideotube.cfd^
+||turkcexxx.cyou^
 ||turkcexxxhd.cfd^
 ||turkcexxxizle.cfd^
 ||turkcexxxstream.cfd^
@@ -421653,6 +421667,7 @@
 ||ucpv.blogspot.com^
 ||ucqaxoh.cn^
 ||ucr202.sbs^
+||ucretsizaltyazi.cyou^
 ||ucretsizpornoizle.cyou^
 ||ucretsizsekssohbeti.com^
 ||ucsatinal.net^
@@ -463004,6 +463019,7 @@
 ||yetiskinhikaye.com^
 ||yetiskinhikaye1.blogspot.com^
 ||yetiskinhikaye34.blogspot.com^
+||yetiskinpornoizle.cyou^
 ||yetiskinpornolar.com^
 ||yetiskinsohbet.info^
 ||yetiskinturkceporno.shop^
