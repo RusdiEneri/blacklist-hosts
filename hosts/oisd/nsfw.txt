@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610142107
+! Version: 202610150018
 ! Title: oisd nsfw
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 473198
-! Last modified: 2026-10-14T21:07:38+0000
+! Entries: 473220
+! Last modified: 2026-10-15T00:18:56+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -94823,6 +94823,7 @@
 ||chubvideos.com^
 ||chubypornphotos.com^
 ||chuchahoujiziaishanghoumazenmechuli.net.cn^
+||chuchaijiaziainanghoushenglijiaban.cn^
 ||chuchi9.com^
 ||chuchoujiyz.com^
 ||chuchowq.blogspot.com^
@@ -188068,6 +188069,7 @@
 ||heziyou.com^
 ||heziyuan.com^
 ||hezkesousedky.com^
+||hezudenvhai.cn^
 ||hezynrm.cn^
 ||hf-autodoor.com^
 ||hf-bs.net.cn^
@@ -217470,6 +217472,8 @@
 ||jiakaobiji.com.cn^
 ||jiakemeijia.com^
 ||jialanvisual.com^
+||jialebihaidao5nvhdaidao.cn^
+||jialebinvhaidao2zaixianwanzhengmeiju.cn^
 ||jialewan.com^
 ||jialichengmw.com^
 ||jializyw.com^
@@ -217542,6 +217546,7 @@
 ||jianpian15.com^
 ||jianqiuart.com^
 ||jianshenfangdeyugajiaolian.org.cn^
+||jianshenfangyujiaanmo.cn^
 ||jianshenyujiaermianfei.org.cn^
 ||jianshenyun.com.cn^
 ||jiantongkj.com^
@@ -217988,6 +217993,7 @@
 ||jingdh.buzz^
 ||jingdianmovie.com^
 ||jingdianyingshi.com^
+||jingdianzishiduobiandehaochu.cn^
 ||jingdonghd.top^
 ||jingdongmedia.top^
 ||jingdongvideo.com^
@@ -270798,7 +270804,9 @@
 ||mupxinh.net^
 ||mupxx.net^
 ||mupxxx.blog^
+||muqinchuguilewodeshushuzemmechuli.cn^
 ||muqinchuguilewodeshushuzenmechuli.net.cn^
+||muqintongxuejuhui.cn^
 ||mur-dd.com^
 ||mur-ij.info^
 ||mur-mur.kz^
@@ -276569,6 +276577,7 @@
 ||nantousy.com^
 ||nantwzw.cc^
 ||nanvliangrenshijiediyibaiji.org.cn^
+||nanwangwenquanlvxingrijuzhuyan.cn^
 ||nanxingxinggongnengnianling.cn^
 ||nanxivc.com.cn^
 ||nanya-texterotique.blogspot.com^
@@ -286467,6 +286476,7 @@
 ||nvpyy.shop^
 ||nvrenbierenshuiwanhuihunyin.cn^
 ||nvrenpenba.top^
+||nvrenxingyindabiaoxian.cn^
 ||nvrenxingyinzhengzhuang.net.cn^
 ||nvrenyoujikaibei.cn^
 ||nvse99.com^
@@ -300795,6 +300805,7 @@
 ||piaohuavideo.net^
 ||piaojidea.shop^
 ||piaolaipiaoqu.com^
+||piaoliangnvfangdongaishangqiongxiaozi.cn^
 ||piaotian.org^
 ||piaoxuecinema.com^
 ||piaoxuecinema.net^
@@ -337699,6 +337710,7 @@
 ||qingloutoutiao.com^
 ||qinglvid.com^
 ||qinglvporn.cc^
+||qinglvwanshangshihekandianyinghanjuma.cn^
 ||qinglvwanshangshihekandianyinghanjuma.net.cn^
 ||qinglvxa.cc^
 ||qingmangjk.com^
@@ -345511,6 +345523,7 @@
 ||rihanchengrendianyingzaixianguankan.org.cn^
 ||rihanguochanjiuyizonghejingpin.org.cn^
 ||rihanjingdianwuyefulifabu.org.cn^
+||rihanjuoumeidianshijudiyiji.cn^
 ||rihanjuzaixianshihefuqikandedianshi.cn^
 ||rihanluanmazhongwenzimushipin.org.cn^
 ||rihanmeinvsegaoqingzaixiankan.org.cn^
@@ -380501,6 +380514,7 @@
 ||shentai.cn^
 ||shentai.org^
 ||shentaiesp.asia^
+||shentanzhihenjiangaqingban.cn^
 ||shenudes.com^
 ||shenworkquan.cn^
 ||shenxd.com.cn^
@@ -435094,6 +435108,7 @@
 ||wanluxin.com^
 ||wanme4.net.cn^
 ||wanmeideyihunnvren.cn^
+||wanmeilinjuquanji.cn^
 ||wanmeinvxu.cn^
 ||wanmeiqizizaixianguankanquanjihanju.org.cn^
 ||wanmeiw.com^
@@ -438501,6 +438516,7 @@
 ||wenwanstory.com^
 ||wenxcos.com^
 ||wenxiangli.com.cn^
+||wenxirijudadu.cn^
 ||wenxiuyimei.com^
 ||wenxue360.com^
 ||wenxue613.com.cn^
@@ -441432,6 +441448,7 @@
 ||wodcc.com^
 ||wodee.buzz^
 ||wodehaomamawanzhengbangeci.org.cn^
+||wodejiejieshiyouwu.cn^
 ||wodejiejieshiyouwu.net.cn^
 ||wodejuemeilaobanniang.net.cn^
 ||wodelaoshizaixianguankandianshijuhanju1.org.cn^
@@ -442256,6 +442273,7 @@
 ||woyo365.com^
 ||woyou1.net.cn^
 ||woyovr.com^
+||woyukongjietongjuderizi.cn^
 ||woyuofuqindezhenshihuiyijilu.cn^
 ||wozaikan.com.cn^
 ||woze7.com.cn^
@@ -447389,6 +447407,7 @@
 ||xiaomaoedu.com^
 ||xiaomapan.com^
 ||xiaomapan.xyz^
+||xiaomeirentansuanningmeng.cn^
 ||xiaomengai.com^
 ||xiaomikr.com^
 ||xiaoming.xxx^
@@ -447714,6 +447733,7 @@
 ||xinggan1.com^
 ||xingguangdj.com^
 ||xingguduo.com^
+||xinghancandrandianshijus.cn^
 ||xinghaoya.net^
 ||xinghongtl.com^
 ||xinghuihaoche.com^
@@ -463690,6 +463710,7 @@
 ||yige.ren^
 ||yigeconsulting.com^
 ||yigemeng.com.cn^
+||yigenvrenlianggenanren.cn^
 ||yigeqizidezhenshizishubiji.cn^
 ||yigeqizidizhenshizishubiji.net.cn^
 ||yigewangzhi.cc^
@@ -464720,6 +464741,7 @@
 ||yongbatz.com^
 ||yongchengge.cn^
 ||yongcizhonghe.com^
+||yongcuigaishaoshaonianchangshixiaoshuo.cn^
 ||yongdachuiju.com^
 ||yongfajiayuan.com^
 ||yongfujigong.com^
