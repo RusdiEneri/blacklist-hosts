@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610191023
+! Version: 202610192309
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 18953
-! Last modified: 2026-10-19T10:23:46+0000
+! Entries: 18966
+! Last modified: 2026-10-19T23:09:17+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -1785,6 +1785,7 @@
 ||bbsex.org^
 ||bbsgayru35.com^
 ||bbsgayru36.com^
+||bbw-chan.link^
 ||bbwadultvideos.com^
 ||bbwanalsex.com^
 ||bbwbaker.com^
@@ -4158,6 +4159,8 @@
 ||doujin69.com^
 ||doujin89.com^
 ||doujindesu.tv^
+||doujinland.info^
+||doujinnomori.com^
 ||doujinrepublic.com^
 ||doujins.com^
 ||doujinxdoujin.com^
@@ -4427,6 +4430,7 @@
 ||ero-one.jp^
 ||ero-sceny.com^
 ||ero-sceny.site^
+||ero-storitop.com^
 ||ero-tits.club^
 ||ero-tits.com^
 ||ero-top.name^
@@ -4442,6 +4446,8 @@
 ||eroasmr.com^
 ||erobella.com^
 ||erobokep.com^
+||eroboom.net^
+||eroboom.org^
 ||eroboom.pw^
 ||erobuns.com^
 ||erocomic.net^
@@ -6028,6 +6034,7 @@
 ||gelinler.biz^
 ||gemidos.tv^
 ||gemidos69.com^
+||gemidostv.com^
 ||genaporn.com^
 ||genderbenders.com^
 ||genderxfilms.com^
@@ -7521,6 +7528,7 @@
 ||i-know-that-girls.com^
 ||i-like-seen.com^
 ||i-sux.com^
+||i-v.jp^
 ||i-videos.jp^
 ||i-xxxvideos.xyz^
 ||i69xx.me^
@@ -9428,6 +9436,7 @@
 ||manhua.uk^
 ||manhuagui.com^
 ||manhuaren.com^
+||manhuntdaily.com^
 ||manhwa-latino.com^
 ||manhwa-raw.com^
 ||manhwa18.cc^
@@ -13392,6 +13401,7 @@
 ||royalcamslive.com^
 ||rpcoffeeco.com^
 ||rpgallery.net^
+||rptb.cn^
 ||rpwmct.com^
 ||rr888.baby^
 ||rrobserver.com^
@@ -15911,6 +15921,7 @@
 ||triptoporn.com^
 ||trixhentai.com^
 ||trixxx.hu^
+||trmanga.com^
 ||troiemamme.com^
 ||tropsha.com^
 ||troubledmilfs.com^
@@ -16121,6 +16132,7 @@
 ||tvoe.porn^
 ||tvsexe.com^
 ||tvtsdating.com^
+||tvzn.com^
 ||twerkqueens.com^
 ||twidouga.net^
 ||twikoko.com^
@@ -16471,6 +16483,7 @@
 ||videohdzog.com^
 ||videohotmovs.com^
 ||videohubworld.shop^
+||videoindirxa.net^
 ||videojav.com^
 ||videolucah.biz^
 ||videomanysex.com^
