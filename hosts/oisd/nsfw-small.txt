@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610232336
+! Version: 202610240236
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 18789
-! Last modified: 2026-10-23T23:36:51+0000
+! Entries: 18800
+! Last modified: 2026-10-24T02:36:10+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -350,6 +350,7 @@
 ||5ch.fun^
 ||5escorts.com^
 ||5gays.com^
+||5kings.ru^
 ||5kporn.com^
 ||5lxtv.com^
 ||5nd.com^
@@ -3416,6 +3417,7 @@
 ||contoseroticos.blog^
 ||contoseroticos.com^
 ||contoseroticos.com.br^
+||contoseroticos69.com^
 ||contoseroticosonline.com^
 ||cooch.tv^
 ||coochporn.com^
@@ -8351,6 +8353,7 @@
 ||jouwpagina.nl^
 ||jovencitas.gratis^
 ||jovencitasmaduras.com^
+||joyclub.com^
 ||joylovedolls.com^
 ||joyourself.com^
 ||joyreactor.com^
@@ -8358,6 +8361,7 @@
 ||joysporn.com^
 ||joysporn.io^
 ||joystick.tv^
+||joziporn.com^
 ||jp-foot.net^
 ||jp-loveless.com^
 ||jp-sex.com^
@@ -8482,6 +8486,7 @@
 ||kampusbokep.com^
 ||kamukta.shop^
 ||kamuktas.com^
+||kamuktasexstory.com^
 ||kanadoll.com^
 ||kanakox.com^
 ||kanav.ad^
@@ -11311,7 +11316,9 @@
 ||pegasproductions.com^
 ||peitsche.de^
 ||pejnya.me^
+||pejnya.nl^
 ||pejnya.ru^
+||pejnya1.nl^
 ||pejuhin.link^
 ||pekob.fyi^
 ||peliculaspornonline.com^
@@ -12213,6 +12220,7 @@
 ||porno80sm.site^
 ||porno80sn.org^
 ||pornoabuelas.net^
+||pornoaccion.com^
 ||pornoadictivo.com^
 ||pornoaffe.net^
 ||pornoafisha.xyz^
@@ -15707,6 +15715,7 @@
 ||toprelatos.com^
 ||topsadulttoys.uk^
 ||topsex.blog^
+||topsexbd.net^
 ||topsexhdvideos.com^
 ||topslut.net^
 ||topteensex.com^
@@ -16483,6 +16492,7 @@
 ||viojav.com^
 ||violetmovies.com^
 ||vip-kitty.com^
+||vip.com^
 ||vip4k.com^
 ||vipdosug.biz^
 ||viper.to^
@@ -18792,6 +18802,7 @@
 ||zybrdr.com^
 ||zyshow.net^
 ||zysj.com.cn^
+||zz3r0.com^
 ||zzbabes.com^
 ||zzcartoon.com^
 ||zzgays.com^
