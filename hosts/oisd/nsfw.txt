@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610241642
+! Version: 202610242006
 ! Title: oisd nsfw
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 474936
-! Last modified: 2026-10-24T16:42:05+0000
+! Entries: 474967
+! Last modified: 2026-10-24T20:06:59+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -5836,6 +5836,7 @@
 ||2018porn.pro^
 ||2018zhuan.com^
 ||201ee.com^
+||201jsk.com^
 ||201oo.com^
 ||201ss.com^
 ||201uu.com^
@@ -16733,8 +16734,10 @@
 ||752qq.com^
 ||752rr.com^
 ||752uu.com^
+||752yu.com^
 ||753gg.com^
 ||753hs.com^
+||753oo.com^
 ||753tt.com^
 ||753uu.com^
 ||753yc.vip^
@@ -17797,6 +17800,7 @@
 ||7ww.xyz^
 ||7wwtv.com^
 ||7wywy.cc^
+||7wzyg.com^
 ||7x24mall.com.cn^
 ||7x3.net^
 ||7x4.xyz^
@@ -17930,6 +17934,7 @@
 ||8090se.net^
 ||8090sex.icu^
 ||8090sex.top^
+||8090sex1.icu^
 ||8090wy.com^
 ||80972.com^
 ||809hokn8hwyq1t.xyz^
@@ -18387,6 +18392,7 @@
 ||85xvideo.com^
 ||85xxxx.com^
 ||85y.xyz^
+||85yt.com^
 ||86-uuulz2.garden^
 ||8601688.com^
 ||860dd.com^
@@ -18603,6 +18609,7 @@
 ||8800584.xyz^
 ||8800587.xyz^
 ||8800594.xyz^
+||8801.org^
 ||88021.top^
 ||88021qp.com^
 ||880522.com^
@@ -21184,6 +21191,7 @@
 ||91zdy.com^
 ||91zhongliang.com^
 ||91zhongwen.icu^
+||91zjj.com^
 ||91zkw.com^
 ||91zkw.vip^
 ||91zpw.com^
@@ -21256,6 +21264,7 @@
 ||92hm.top^
 ||92hongxu.cn^
 ||92isim.com^
+||92jc.com^
 ||92ke.cc^
 ||92led.net^
 ||92lll.com^
@@ -21727,6 +21736,7 @@
 ||984hh.com^
 ||984jj.com^
 ||984ss.com^
+||985.gay^
 ||985212.cc^
 ||9855dy.com^
 ||985721.com^
@@ -30564,6 +30574,7 @@
 ||adultsksizle.shop^
 ||adultsksizlev.shop^
 ||adultslife.com^
+||adultsliferule.com^
 ||adultslove.com^
 ||adultslove.in^
 ||adultslovedating.com^
@@ -32066,6 +32077,7 @@
 ||agat-tech.com^
 ||agataamepdmyhow.blogspot.com^
 ||agataeocao.blogspot.com^
+||agate-construction.com^
 ||agate.ch^
 ||agatha-vega.com^
 ||agathalamark.blogspot.com^
@@ -32672,6 +32684,7 @@
 ||ahxxxtube.net^
 ||ahxymzs.com^
 ||ahyaori.com^
+||ahycnykj.com^
 ||ahycza.com^
 ||ahyesin.com^
 ||ahyexi.com^
@@ -32993,6 +33006,7 @@
 ||aieroi.com^
 ||aierotica.io^
 ||aierotica.org^
+||aieroticdrama.com^
 ||aieroticgames.run^
 ||aieroticpics.com^
 ||aiev.online^
@@ -33375,6 +33389,7 @@
 ||aipornd.cc^
 ||aiporndex.com^
 ||aiporndirectory.top^
+||aiporndrama.tv^
 ||aiporndude.com^
 ||aiporndude.top^
 ||aipornexpert.com^
@@ -40973,6 +40988,7 @@
 ||anal-maniav.com^
 ||anal-matome.com^
 ||anal-milfs.cam^
+||anal-mom.com^
 ||anal-movies.blogspot.com^
 ||anal-museum.com^
 ||anal-online.club^
@@ -44673,6 +44689,7 @@
 ||apenistoenvy.blogspot.com^
 ||apenk-diklozi9.blogspot.com^
 ||apenneyshii9.blogspot.com^
+||apenzel.com^
 ||apepro.info^
 ||apepside.com^
 ||aperiguete.blogspot.com^
@@ -45296,6 +45313,7 @@
 ||arab2love.com^
 ||arab2up.com^
 ||arab2xnxxsex.co.uk^
+||arab30xnxxsex.co.uk^
 ||arab3xnxxsex.co.uk^
 ||arab4porn.com^
 ||arab4sexy.blogspot.com^
@@ -47848,6 +47866,7 @@
 ||asianboyfetish.com^
 ||asianboyfriendtv.com^
 ||asianboynation.com^
+||asianboyporn.click^
 ||asianboyporn.com^
 ||asianboypornvideos.click^
 ||asianboys.net^
@@ -49842,6 +49861,7 @@
 ||asohulan.com^
 ||asongda.com^
 ||asoninsu.over-blog.fr^
+||asosn.com^
 ||asoti.net^
 ||asotok.blogspot.com^
 ||asoytube.com^
@@ -54902,6 +54922,7 @@
 ||babenice.com^
 ||babenude.com^
 ||babenudity.com^
+||babeoff.com^
 ||babeonporn.blogspot.com^
 ||babeosexois.blogspot.com^
 ||babepeda.com^
@@ -56096,6 +56117,7 @@
 ||bairddiorasexy.blogspot.com^
 ||bairddioratit.blogspot.com^
 ||bairddioravideo.blogspot.com^
+||bairi.cc^
 ||bairry.com^
 ||bairuikai.com^
 ||baise-amateur-webcam.blogspot.com^
@@ -56176,6 +56198,7 @@
 ||baixarvideoseroticos.blogspot.com^
 ||baixarxxx.org^
 ||baixi6.net.cn^
+||baixiang168.com^
 ||baixiaosheng.net.cn^
 ||baixingav.com^
 ||baixinxing.com^
@@ -57077,6 +57100,7 @@
 ||banglasexvideo.sbs^
 ||banglasexvideo.shop^
 ||banglasexvideo.team^
+||banglasexvideo.watch^
 ||banglasexvideo.world^
 ||banglasexvideo.xyz^
 ||banglasexvideo2017.blogspot.com^
@@ -60561,6 +60585,7 @@
 ||bdsmii.com^
 ||bdsmillustrations.com^
 ||bdsmindonesia.com^
+||bdsminfat.com^
 ||bdsminhchinh.com^
 ||bdsminlove.blogspot.com^
 ||bdsminzerce.cz^
@@ -61015,6 +61040,7 @@
 ||bdsmtubegalor.help^
 ||bdsmtubegalor.lol^
 ||bdsmtubegalor.online^
+||bdsmtubegalor.pics^
 ||bdsmtubegalore.buzz^
 ||bdsmtubegalore.club^
 ||bdsmtubegalore.com^
@@ -62924,6 +62950,7 @@
 ||benaughtycam.com^
 ||benaughtyshop.com^
 ||benaugty-sex.pages.dev^
+||benaya.info^
 ||benbzzaz.com^
 ||bencaicx.com^
 ||benconga.com^
@@ -66073,6 +66100,7 @@
 ||biankanascimento.com^
 ||biankaxxx-cam.blogspot.com^
 ||bianliangwenhua.com^
+||bianminniu.cn^
 ||biansuji.cn^
 ||bianxuming.com^
 ||bianyimin.com.cn^
@@ -68826,6 +68854,7 @@
 ||bisexualesbolivia.com^
 ||bisexualeschile.com^
 ||bisexualescolombia.com^
+||bisexualescorts.co.uk^
 ||bisexualescostarica.com^
 ||bisexualesdominicanrepublic.com^
 ||bisexualesecuador.com^
@@ -69748,6 +69777,7 @@
 ||bjzthr.com^
 ||bjzwap.com^
 ||bjzwcf.com^
+||bjzyjm.cn^
 ||bjzynzkpf.com^
 ||bjzzjy.com^
 ||bk00.top^
@@ -112417,6 +112447,7 @@
 ||de.lucahtetek.com^
 ||de.lucahtudung.com^
 ||de.musz.info^
+||de.np64.top^
 ||de.pantatawek.com^
 ||de.phimsexcotrang.casa^
 ||de.phimsexonline.casa^
