@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610242340
+! Version: 202610250638
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 18658
-! Last modified: 2026-10-24T23:40:42+0000
+! Entries: 18643
+! Last modified: 2026-10-25T06:38:38+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -469,6 +469,7 @@
 ||91rb.com^
 ||91rb.net^
 ||91selfie.com^
+||91short.com^
 ||91splt.app^
 ||91torture.com^
 ||91zuixindizhi.com^
@@ -3758,6 +3759,7 @@
 ||desihotmms.net^
 ||desihub.cc^
 ||desihub.city^
+||desihub.sh^
 ||desihub.top^
 ||desihub.tv^
 ||desihub.xxx^
@@ -5966,7 +5968,6 @@
 ||gettubetv.com^
 ||getvr.us^
 ||getxtube.com^
-||getzoosex.pics^
 ||gey-chat.com^
 ||gfadult.com^
 ||gfdicks.com^
@@ -6064,7 +6065,6 @@
 ||glamourhound.com^
 ||glancematures.com^
 ||glavmatures.com^
-||globalviral.shop^
 ||globalwaterintel.com^
 ||gloporn.com^
 ||gloryholesecrets.com^
@@ -6408,7 +6408,6 @@
 ||harshikapatel.com^
 ||hayagan.net^
 ||hayav.com^
-||haysex.cam^
 ||haysex69.blog^
 ||hboav.com^
 ||hcbdsm.com^
@@ -6966,7 +6965,6 @@
 ||holedk.com^
 ||holes4me.com^
 ||holeshd.com^
-||holiclip.org^
 ||holloporn.com^
 ||hollyrandall.com^
 ||hollywood-xposed.com^
@@ -7610,7 +7608,6 @@
 ||influencerchicks.com^
 ||influencersgonewild.com^
 ||info-instacams.com^
-||infotempikviral.store^
 ||ingyenporno.tv^
 ||ingyensexfilm.hu^
 ||ingyensexvideo.com^
@@ -7690,7 +7687,6 @@
 ||is-xxxtube.com^
 ||iseekgirls.com^
 ||isekaitube.com^
-||isexa.com^
 ||isexhihi.net^
 ||isexsex.com^
 ||ishotmyself.nl^
@@ -8505,7 +8501,6 @@
 ||kingsofreal.com^
 ||kingtwinks.com^
 ||kinguys.com^
-||kingviral.wiki^
 ||kink-girls.com^
 ||kink.com^
 ||kinkbook.com^
@@ -9586,7 +9581,6 @@
 ||merivasna.com^
 ||mersinipekgayrimenkul.com^
 ||mesex.tv^
-||meslibertines.com^
 ||messy-japanporn.com^
 ||messyfun.com^
 ||messytube.com^
@@ -11357,7 +11351,6 @@
 ||pina.hu^
 ||pinay-porn.com^
 ||pinaycum.xyz^
-||pinaycumvids.lol^
 ||pinayfiles.net^
 ||pinayflix.at^
 ||pinayflix.bar^
@@ -11766,7 +11759,6 @@
 ||pornez.cam^
 ||pornfaceid.com^
 ||pornfactory.info^
-||pornfans.bz^
 ||pornfant.com^
 ||pornfap.org^
 ||pornfaze.com^
@@ -14695,7 +14687,6 @@
 ||squirting.world^
 ||squirtingclips.com^
 ||squirtvideos.com^
-||sqyszbcpe.cc^
 ||srbam.com^
 ||srculo.com^
 ||srganzo.com^
@@ -16009,6 +16000,7 @@
 ||uncutjalwa.co^
 ||uncutmasti.com^
 ||uncutmaza.gg^
+||uncutmaza.movie^
 ||uncutmaza.org^
 ||uncutnow.net^
 ||uncutprime.com^
@@ -16294,8 +16286,6 @@
 ||videoxxxvierge.com^
 ||videozz.xyz^
 ||videyindo.space^
-||videyoco.pro^
-||videyyo.org^
 ||vidgay.fr^
 ||vidiosex.monster^
 ||vidiosxnxx.com^
@@ -16362,8 +16352,6 @@
 ||vipwank.org^
 ||vipwx.org^
 ||vipxnxx.com^
-||viral2026.wiki^
-||viralabg.shop^
 ||viralbf.com^
 ||viralchut.com^
 ||viralgf.wtf^
@@ -16374,7 +16362,6 @@
 ||viralpanu.com^
 ||viralsexvideos.online^
 ||viralthots.tv^
-||viralvideo.forum^
 ||viralvideoshub.xyz^
 ||viralvidoe.online^
 ||viralxporno.com^
@@ -17010,7 +16997,6 @@
 ||xh.video^
 ||xhaccess.com^
 ||xhaccess.mobi^
-||xhadult3.com^
 ||xham.live^
 ||xhamster-gay.yachts^
 ||xhamster-porn.yachts^
@@ -18348,7 +18334,6 @@
 ||yasex.lol^
 ||yasex.net^
 ||yasexr.pro^
-||yayatube.net^
 ||yazhouse8.com^
 ||ydparty04.tv^
 ||yed-9.com^
