@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202610260338
+! Version: 202610261039
 ! Title: oisd nsfw_small
 ! Description: Block. Don't break.
 ! Syntax: Adblock Plus Filter List
-! Entries: 18595
-! Last modified: 2026-10-26T03:38:30+0000
+! Entries: 18602
+! Last modified: 2026-10-26T10:39:54+0000
 ! Expires: 1 hours
 ! License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ! Maintainer: Stephan van Ruth
@@ -4989,6 +4989,7 @@
 ||fhgte.com^
 ||fhnation.live^
 ||fhofficial.com^
+||fhplatinum.com^
 ||fhxy-c.top^
 ||fhxyacg.com^
 ||fibail.com^
@@ -5908,6 +5909,7 @@
 ||gaziantepkuruyemis.com^
 ||gazounabi.com^
 ||gcbt.net^
+||gccams.com^
 ||gcolle.net^
 ||gedecomix.com^
 ||geilefrauen.pics^
@@ -5946,6 +5948,7 @@
 ||getchinaporn.shop^
 ||getchu.com^
 ||geteroticmassage.com^
+||getglue.com^
 ||getiton.com^
 ||getiton.mx^
 ||getjapansex.shop^
@@ -6798,6 +6801,7 @@
 ||herbiceps.com^
 ||herbicepscam.com^
 ||herdeaths.net^
+||heren.biz^
 ||hereporn.com^
 ||herestars.com^
 ||herexxx.com^
@@ -6838,6 +6842,7 @@
 ||hi5.com^
 ||hiarab.net^
 ||hidden-zone.com^
+||hidden.com^
 ||hiddencamhd.com^
 ||hiddenlust.net^
 ||hiddenvoyeurspy.com^
@@ -6905,6 +6910,7 @@
 ||hitmaal.io^
 ||hitokoto.cn^
 ||hitomi.la^
+||hitomi.mom^
 ||hitomi.uk^
 ||hitprn.net^
 ||hittaporr.eu^
@@ -6924,6 +6930,7 @@
 ||hl365.com^
 ||hl718.com^
 ||hlamer.ru^
+||hlbc.net^
 ||hlbdy.me^
 ||hlbdy1.com^
 ||hlcgw.com^
