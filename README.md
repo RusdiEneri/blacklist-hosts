@@ -21,6 +21,6 @@ Koleksi blocklist DNS terkurasi untuk **AdGuard Home, Pi-hole, dan resolver pemb
 <sub>*Jumlah entri dihitung dari baris aturan nonkosong yang bukan komentar/header. Total ini bukan jumlah domain unik; duplikasi antar-daftar dapat terjadi.</sub>
 
 ---
-*Sinkronisasi konten terakhir: 2026-10-27 15:48 WIB*
+*Sinkronisasi konten terakhir: 2026-10-28 05:26 WIB*
 
 Sumber dan URL upstream dikelola melalui [`sources.md`](sources.md).
