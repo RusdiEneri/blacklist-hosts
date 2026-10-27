@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v7.0.1
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
           persist-credentials: true
 
       - name: Validate and fetch sources
@@ -110,7 +110,7 @@ jobs:
               --retry-connrefused \
               --connect-timeout 15 \
               --max-time 300 \
-              --user-agent "DNS-Blocklist-Registry/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
+              --user-agent "DNS-Blocklist-Registry/1.0 (+https://github.com/${GITHUB_REPOSITORY:-RusdiEneri/blacklist-hosts})" \
               --output "$dest.tmp" \
               "$url"
 
@@ -128,6 +128,25 @@ jobs:
             if head -c 4096 "$dest.tmp" | grep -Eiq '<!doctype[[:space:]]+html|<html([[:space:]>])|<head([[:space:]>])'; then
               echo "::error::Sumber mengembalikan HTML, bukan blocklist: $url"
               exit 1
+            fi
+
+            # Validasi format konten: Adblock vs hosts syntax
+            if [[ "$path" == HaGeZi/* || "$url" == */adblock/* ]]; then
+              if ! grep -qE '^[[:space:]]*\|\|[a-zA-Z0-9_.-]+\^' "$dest.tmp" && ! grep -qi '^\[Adblock' "$dest.tmp"; then
+                echo "::error::Format Adblock tidak valid untuk sumber: $url"
+                exit 1
+              fi
+            elif [[ "$path" == StevenBlack/* || "$url" == */hosts || "$url" == */hosts/* ]]; then
+              if ! grep -qE '^[[:space:]]*(0\.0\.0\.0|127\.0\.0\.1)[[:space:]]+[a-zA-Z0-9_.-]+' "$dest.tmp"; then
+                echo "::error::Format hosts tidak valid untuk sumber: $url"
+                exit 1
+              fi
+            else
+              if ! grep -qE '^[[:space:]]*\|\|[a-zA-Z0-9_.-]+\^' "$dest.tmp" && \
+                 ! grep -qE '^[[:space:]]*(0\.0\.0\.0|127\.0\.0\.1)[[:space:]]+[a-zA-Z0-9_.-]+' "$dest.tmp"; then
+                echo "::error::Format blocklist tidak dikenal (bukan Adblock maupun hosts format): $url"
+                exit 1
+              fi
             fi
 
             entry_count="$(grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$dest.tmp" || true)"
@@ -178,7 +197,10 @@ jobs:
               rm -f "$source_file"
             else
               echo "UPDATED:   $target_file"
-              mv "$source_file" "$target_file"
+              target_tmp="${target_file}.tmp.$$"
+              cp "$source_file" "$target_tmp"
+              mv -f "$target_tmp" "$target_file"
+              rm -f "$source_file"
               changed=1
               updated=$((updated + 1))
             fi
@@ -209,15 +231,28 @@ jobs:
         run: |
           set -Eeuo pipefail
 
-          RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
-          JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
-          RAWGITHACK="https://raw.githack.com/${REPO}/main"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          REPO_NAME="${REPO:-RusdiEneri/blacklist-hosts}"
+          RAW_GITHUB="https://raw.githubusercontent.com/${REPO_NAME}/${BRANCH}"
+          JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO_NAME}@${BRANCH}"
+          RAWGITHACK="https://raw.githack.com/${REPO_NAME}/${BRANCH}"
           CURRENT_TIME="$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')"
+
+          format_num() {
+            local val="$1"
+            if command -v python3 >/dev/null 2>&1; then
+              python3 -c 'import sys; print(f"{int(sys.argv[1]):,}")' "$val"
+            elif command -v python >/dev/null 2>&1; then
+              python -c 'import sys; print(f"{int(sys.argv[1]):,}")' "$val"
+            else
+              printf "%'d\n" "$val" 2>/dev/null || echo "$val"
+            fi
+          }
 
           # Pertahankan waktu sinkronisasi saat isi blocklist tidak berubah.
           PREVIOUS_SYNC=""
           if [[ -f README.md ]]; then
-            PREVIOUS_SYNC="$(sed -nE 's/^\*Sinkronisasi konten terakhir: (.*)\*$/\1/p' README.md | head -n 1 || true)"
+            PREVIOUS_SYNC="$(sed -nE 's/^\*(Sinkronisasi konten terakhir|Terakhir sinkronisasi): (.*)\*$/\2/p' README.md | head -n 1 || true)"
           fi
 
           if [[ "$REGISTRY_CHANGED" == "true" || -z "$PREVIOUS_SYNC" ]]; then
@@ -226,18 +261,18 @@ jobs:
             SYNC_TIME="$PREVIOUS_SYNC"
           fi
 
-          cat > README.md <<EOF
-          # 🛡️ DNS Blocklist Registry
-
-          Koleksi blocklist DNS terkurasi untuk **AdGuard Home, Pi-hole, dan resolver pemblokir DNS lainnya**. Berkas di repositori ini disinkronkan otomatis dari sumber upstream dan disediakan melalui GitHub Raw, jsDelivr, serta RawGitHack.
-
-          > **Catatan:** pilih daftar sesuai kebutuhan. Mengaktifkan beberapa daftar dengan cakupan serupa dapat menambah duplikasi dan risiko false positive. HaGeZi Multi PRO++ bersifat lebih agresif; uji kompatibilitas perangkat dan situs yang biasa digunakan.
-
-          ## Daftar Blocklist
-
-          | Daftar | Kegunaan | RawGitHack | jsDelivr | GitHub Raw | Jumlah entri* |
-          |---|---|---|---|---|---:|
-          EOF
+          {
+            echo "# 🛡️ DNS Blocklist Registry"
+            echo
+            echo "Koleksi blocklist DNS terkurasi untuk **AdGuard Home, Pi-hole, dan resolver pemblokir DNS lainnya**. Berkas di repositori ini disinkronkan otomatis dari sumber upstream dan disediakan melalui GitHub Raw, jsDelivr, serta RawGitHack."
+            echo
+            echo "> **Catatan:** pilih daftar sesuai kebutuhan. Mengaktifkan beberapa daftar dengan cakupan serupa dapat menambah duplikasi dan risiko false positive. HaGeZi Multi PRO++ bersifat lebih agresif; uji kompatibilitas perangkat dan situs yang biasa digunakan."
+            echo
+            echo "## Daftar Blocklist"
+            echo
+            echo "| Daftar | Kegunaan | RawGitHack | jsDelivr | GitHub Raw | Jumlah entri* |"
+            echo "|---|---|---|---|---|---:|"
+          } > README.md
 
           total=0
           file_count=0
@@ -272,13 +307,13 @@ jobs:
                 purpose="Blocklist tambahan dari sources.md" ;;
             esac
 
-            count_fmt="$(python3 -c 'import sys; print(f"{int(sys.argv[1]):,}")' "$count")"
+            count_fmt="$(format_num "$count")"
             printf '| **%s** | %s | [RawGitHack](%s/%s) | [jsDelivr](%s/%s) | [GitHub](%s/%s) | %s |\n' \
               "$name" "$purpose" "$RAWGITHACK" "$file" "$JSDELIVR" "$file" "$RAW_GITHUB" "$file" "$count_fmt" \
               >> README.md
           done < <(find hosts -type f -name '*.txt' -print | sort)
 
-          total_fmt="$(python3 -c 'import sys; print(f"{int(sys.argv[1]):,}")' "$total")"
+          total_fmt="$(format_num "$total")"
 
           {
             echo
@@ -323,7 +358,7 @@ jobs:
             exit 1
           fi
 
-          KEY_DIR="${RUNNER_TEMP}/git-signing"
+          KEY_DIR="${RUNNER_TEMP:-${TMPDIR:-/tmp}}/git-signing"
           PRIVATE_KEY="$KEY_DIR/signing_key"
           PUBLIC_KEY="$KEY_DIR/signing_key.pub"
           ALLOWED_SIGNERS="$KEY_DIR/allowed_signers"
@@ -331,7 +366,7 @@ jobs:
           chmod 700 "$KEY_DIR"
           trap 'ssh-agent -k >/dev/null 2>&1 || true; rm -rf "$KEY_DIR"' EXIT
 
-          printf '%s\n' "$SIGNING_KEY" > "$PRIVATE_KEY"
+          printf '%s\n' "$SIGNING_KEY" | tr -d '\r' > "$PRIVATE_KEY"
           chmod 600 "$PRIVATE_KEY"
 
           if ! ssh-keygen -y -P "" -f "$PRIVATE_KEY" > "$PUBLIC_KEY"; then
@@ -371,7 +406,7 @@ jobs:
 
             echo "Push ditolak/gagal; mengambil main terbaru lalu mencoba rebase."
             git fetch origin main
-            if ! git rebase --gpg-sign origin/main; then
+            if ! git rebase -S origin/main; then
               git rebase --abort || true
               echo "::error::Rebase gagal, kemungkinan ada konflik dengan perubahan terbaru di main."
               exit 1
