@@ -1,162 +1,176 @@
-name: "Update Hosts Registry"
+name: Update DNS Blocklist Registry
 
 on:
+  # Jalankan setiap 6 jam (cron menggunakan UTC).
   schedule:
-    - cron: "0 * * * *"
+    - cron: "23 */6 * * *"
 
   workflow_dispatch:
 
   push:
+    branches:
+      - main
     paths:
       - ".github/workflows/update-hosts.yml"
-      # - "sources.list"
+      - "sources.md"
 
 permissions:
   contents: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: update-dns-blocklist-registry-main
   cancel-in-progress: false
 
 jobs:
   update:
+    name: Fetch, validate, and publish blocklists
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
 
     steps:
-      - name: "Checkout repository"
-        uses: actions/checkout@v4
+      - name: Checkout main
+        uses: actions/checkout@v7.0.1
         with:
+          ref: main
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
-      - name: "Setup Git"
-        shell: bash
+      - name: Validate and fetch sources
+        id: fetch
+        env:
+          SOURCE_FILE: sources.md
+          STAGING_DIR: ${{ runner.temp }}/hosts-staging
         run: |
           set -Eeuo pipefail
 
-          git config --local user.name "RusdiEneri"
-          git config --local user.email "nuruddinrusydiilham@gmail.com"
-          git config --local pull.rebase true
-
-          git remote set-url origin \
-            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-
-          git fetch origin main
-          git checkout main
-          git reset --hard origin/main
-
-      - name: "Check Sources"
-        shell: bash
-        run: |
-          set -Eeuo pipefail
-
-          if [[ ! -f "sources.list" ]]; then
-            echo "::error::sources.list tidak ditemukan."
+          if [[ ! -f "$SOURCE_FILE" ]]; then
+            echo "::error::$SOURCE_FILE tidak ditemukan."
             exit 1
           fi
 
-          echo "✅ sources.list ditemukan."
+          rm -rf "$STAGING_DIR"
+          mkdir -p "$STAGING_DIR/hosts"
+          : > "$STAGING_DIR/manifest.txt"
+
+          declare -A SEEN_PATHS=()
+          source_count=0
+
+          echo "Sumber yang akan diproses: $SOURCE_FILE"
+          cat "$SOURCE_FILE"
           echo
-          echo "Daftar sumber:"
-          cat sources.list
-
-      - name: "Fetch Sources"
-        shell: bash
-        run: |
-          set -Eeuo pipefail
-
-          STAGING=".hosts-staging"
-
-          rm -rf "$STAGING"
-          mkdir -p "$STAGING/hosts"
-
-          : > "$STAGING/manifest.txt"
 
           while IFS= read -r line || [[ -n "$line" ]]; do
-            # Hilangkan CR dari Windows line ending
+            # Mendukung line ending Windows, baris kosong, dan komentar Markdown.
             line="${line%$'\r'}"
-
-            # Skip kosong / komentar
             [[ -z "${line//[[:space:]]/}" ]] && continue
             [[ "$line" =~ ^[[:space:]]*# ]] && continue
 
-            # Ambil path dan URL
             read -r path url extra <<< "$line"
 
             if [[ -z "${path:-}" || -z "${url:-}" || -n "${extra:-}" ]]; then
-              echo "::error::Format sources.list tidak valid:"
-              echo "   $line"
-              rm -rf "$STAGING"
+              echo "::error::Format sumber tidak valid: $line"
               exit 1
             fi
 
-            # Mencegah path traversal
-            if [[ "$path" == /* || "$path" == *".."* ]]; then
-              echo "::error::Path tidak aman: $path"
-              rm -rf "$STAGING"
+            # Hanya path relatif sederhana dan URL HTTPS yang diperbolehkan.
+            if [[ ! "$path" =~ ^[A-Za-z0-9][A-Za-z0-9._/-]*$ || "$path" == *".."* || "$path" == *"//"* ]]; then
+              echo "::error::Path sumber tidak aman: $path"
               exit 1
             fi
 
-            dest="$STAGING/hosts/${path}.txt"
+            if [[ "$url" != https://* ]]; then
+              echo "::error::Sumber harus menggunakan HTTPS: $url"
+              exit 1
+            fi
+
+            if [[ -n "${SEEN_PATHS[$path]+x}" ]]; then
+              echo "::error::Path sumber duplikat: $path"
+              exit 1
+            fi
+            SEEN_PATHS["$path"]=1
+
+            dest="$STAGING_DIR/hosts/${path}.txt"
             mkdir -p "$(dirname "$dest")"
 
             echo "========================================"
-            echo "Downloading: $path"
-            echo "URL:         $url"
-            echo "========================================"
+            echo "Mengunduh: $path"
+            echo "URL:       $url"
 
-            printf 'hosts/%s.txt\n' "$path" >> "$STAGING/manifest.txt"
-
-            if curl \
+            curl \
               --fail \
               --silent \
               --show-error \
               --location \
               --compressed \
               --retry 3 \
-              --retry-delay 5 \
-              --connect-timeout 20 \
-              --max-time 600 \
-              --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36" \
+              --retry-delay 2 \
+              --retry-connrefused \
+              --connect-timeout 15 \
+              --max-time 300 \
+              --user-agent "DNS-Blocklist-Registry/1.0 (+https://github.com/${GITHUB_REPOSITORY})" \
               --output "$dest.tmp" \
-              "$url"; then
+              "$url"
 
-              mv "$dest.tmp" "$dest"
-              echo "✅ Download berhasil."
-
-            else
-              echo "::error::Download gagal: $url"
-              rm -f "$dest.tmp"
-              rm -rf "$STAGING"
+            if [[ ! -s "$dest.tmp" ]]; then
+              echo "::error::Sumber kosong: $url"
               exit 1
             fi
 
-          done < sources.list
+            size_bytes="$(wc -c < "$dest.tmp")"
+            if (( size_bytes < 64 )); then
+              echo "::error::File terlalu kecil untuk dianggap blocklist valid ($size_bytes bytes): $url"
+              exit 1
+            fi
 
-          echo
-          echo "✅ Semua source berhasil di-download."
+            if head -c 4096 "$dest.tmp" | grep -Eiq '<!doctype[[:space:]]+html|<html([[:space:]>])|<head([[:space:]>])'; then
+              echo "::error::Sumber mengembalikan HTML, bukan blocklist: $url"
+              exit 1
+            fi
 
-      - name: "Update Hosts Registry"
+            entry_count="$(grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$dest.tmp" || true)"
+            entry_count="${entry_count:-0}"
+            if [[ ! "$entry_count" =~ ^[0-9]+$ ]] || (( entry_count < 1 )); then
+              echo "::error::Tidak ditemukan entri aturan yang valid: $url"
+              exit 1
+            fi
+
+            mv "$dest.tmp" "$dest"
+            printf 'hosts/%s.txt\n' "$path" >> "$STAGING_DIR/manifest.txt"
+            source_count=$((source_count + 1))
+            echo "Valid: ${entry_count} entri, ${size_bytes} bytes"
+          done < "$SOURCE_FILE"
+
+          if (( source_count == 0 )); then
+            echo "::error::Tidak ada sumber yang valid di $SOURCE_FILE."
+            exit 1
+          fi
+
+          echo "source_count=$source_count" >> "$GITHUB_OUTPUT"
+          echo "Berhasil mengunduh dan memvalidasi $source_count sumber."
+
+      - name: Update registry files
         id: hosts
-        shell: bash
+        env:
+          STAGING_DIR: ${{ runner.temp }}/hosts-staging
         run: |
           set -Eeuo pipefail
 
-          STAGING=".hosts-staging"
-          CHANGED=0
+          manifest="$STAGING_DIR/manifest.txt"
+          changed=0
+          updated=0
+          removed=0
 
           mkdir -p hosts
 
-          # ----------------------------------------
-          # Tambah / update file
-          # ----------------------------------------
+          # Salin hanya jika isi berubah untuk menghindari commit yang tidak perlu.
           while IFS= read -r staged_file || [[ -n "$staged_file" ]]; do
             [[ -z "$staged_file" ]] && continue
 
-            source_file="$STAGING/$staged_file"
+            source_file="$STAGING_DIR/$staged_file"
             target_file="$staged_file"
-
             mkdir -p "$(dirname "$target_file")"
 
             if [[ -f "$target_file" ]] && cmp -s "$source_file" "$target_file"; then
@@ -165,321 +179,211 @@ jobs:
             else
               echo "UPDATED:   $target_file"
               mv "$source_file" "$target_file"
-              CHANGED=1
+              changed=1
+              updated=$((updated + 1))
             fi
+          done < "$manifest"
 
-          done < "$STAGING/manifest.txt"
-
-          # ----------------------------------------
-          # Hapus file lama yang sudah dihapus
-          # dari sources.list
-          # ----------------------------------------
+          # Hapus hanya file .txt dalam direktori hosts/ yang tidak lagi terdaftar.
           while IFS= read -r -d '' existing_file; do
-            if ! grep -Fqx -- "$existing_file" "$STAGING/manifest.txt"; then
+            if ! grep -Fqx -- "$existing_file" "$manifest"; then
               echo "REMOVED:   $existing_file"
-              rm -f "$existing_file"
-              CHANGED=1
+              rm -f -- "$existing_file"
+              changed=1
+              removed=$((removed + 1))
             fi
-          done < <(find hosts -type f -name "*.txt" -print0)
+          done < <(find hosts -type f -name '*.txt' -print0)
 
-          # Hapus folder kosong
-          find hosts -type d -empty -delete || true
+          find hosts -depth -type d -empty -delete
+          rm -rf "$STAGING_DIR"
 
-          rm -rf "$STAGING"
+          echo "changed=$([[ "$changed" -eq 1 ]] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "updated=$updated" >> "$GITHUB_OUTPUT"
+          echo "removed=$removed" >> "$GITHUB_OUTPUT"
+          echo "File diperbarui: $updated; file dihapus: $removed"
 
-          echo
-
-          if [[ "$CHANGED" -eq 1 ]]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "✅ Hosts registry berubah."
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "✅ Tidak ada perubahan pada hosts."
-          fi
-
-      - name: "Generate README"
-        if: steps.hosts.outputs.changed == 'true'
-        shell: bash
+      - name: Generate README
+        env:
+          REPO: ${{ github.repository }}
+          REGISTRY_CHANGED: ${{ steps.hosts.outputs.changed }}
         run: |
           set -Eeuo pipefail
-
-          REPO="${{ github.repository }}"
 
           RAW_GITHUB="https://raw.githubusercontent.com/${REPO}/main"
           JSDELIVR="https://cdn.jsdelivr.net/gh/${REPO}@main"
           RAWGITHACK="https://raw.githack.com/${REPO}/main"
-
           CURRENT_TIME="$(TZ=Asia/Jakarta date '+%Y-%m-%d %H:%M WIB')"
+
+          # Pertahankan waktu sinkronisasi saat isi blocklist tidak berubah.
+          PREVIOUS_SYNC=""
+          if [[ -f README.md ]]; then
+            PREVIOUS_SYNC="$(sed -nE 's/^\*Sinkronisasi konten terakhir: (.*)\*$/\1/p' README.md | head -n 1 || true)"
+          fi
+
+          if [[ "$REGISTRY_CHANGED" == "true" || -z "$PREVIOUS_SYNC" ]]; then
+            SYNC_TIME="$CURRENT_TIME"
+          else
+            SYNC_TIME="$PREVIOUS_SYNC"
+          fi
 
           cat > README.md <<EOF
           # 🛡️ DNS Blocklist Registry
-          
-          Koleksi daftar hitam domain (hosts/blocklist) terkurasi. Repositori ini menyediakan berbagai daftar dari **HaGeZi, OISD, dan Steven Black** yang siap digunakan untuk aplikasi seperti AdGuard Home, Pi-hole, NextDNS, atau uBlock Origin.
-          
-          ## 📖 Panduan Memilih Blocklist
-          
-          ### 1. Pilih SATU Level Utama
-          
-          - **Light / OISD Small:** Sangat ringan untuk penggunaan dasar.
-          - **Multi / OISD Big:** Kombinasi berbagai sumber untuk penggunaan umum.
-          - **Pro / Pro Plus:** Pemblokiran lebih agresif.
-          - **Ultimate:** Pemblokiran paling ketat dan mungkin membutuhkan whitelist manual.
-          
-          ### 2. Kategori Khusus
-          
-          - **NSFW / OISD NSFW:** Memblokir situs dewasa.
-          - **Gambling:** Memblokir situs judi online.
-          - **Social:** Memblokir media sosial.
-          - **Popupads / Fake:** Memblokir iklan pop-up dan situs penipuan.
-          
-          ### 3. Native / Vendor Tracking
-          
-          Daftar khusus perangkat atau platform:
-          
-          - \`native.xiaomi\`
-          - \`native.samsung\`
-          - \`native.oppo-realme\`
-          - \`native.vivo\`
-          - \`native.huawei\`
-          - \`native.apple\`
-          - \`native.winoffice\`
-          
-          ### 4. Keamanan & Anti-Bypass
-          
-          - **TIF:** Threat intelligence, malware, dan phishing.
-          - **DoH / VPN-Proxy-Bypass:** Daftar untuk membantu mengidentifikasi endpoint bypass DNS.
-          
-          ---
-          
-          ## 📊 Statistik & Link Unduh
-          
-          > 💡 Gunakan **RawGitHack** atau **jsDelivr** untuk penggunaan pada aplikasi pemblokir DNS.
-          
-          | File | RawGitHack | jsDelivr | GitHub Raw | Jumlah Domain | Terakhir Diupdate |
-          |------|------------|----------|------------|---------------|-------------------|
+
+          Koleksi blocklist DNS terkurasi untuk **AdGuard Home, Pi-hole, dan resolver pemblokir DNS lainnya**. Berkas di repositori ini disinkronkan otomatis dari sumber upstream dan disediakan melalui GitHub Raw, jsDelivr, serta RawGitHack.
+
+          > **Catatan:** pilih daftar sesuai kebutuhan. Mengaktifkan beberapa daftar dengan cakupan serupa dapat menambah duplikasi dan risiko false positive. HaGeZi Multi PRO++ bersifat lebih agresif; uji kompatibilitas perangkat dan situs yang biasa digunakan.
+
+          ## Daftar Blocklist
+
+          | Daftar | Kegunaan | RawGitHack | jsDelivr | GitHub Raw | Jumlah entri* |
+          |---|---|---|---|---|---:|
           EOF
 
           total=0
+          file_count=0
 
           while IFS= read -r file; do
-            count="$(
-              grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$file" || true
-            )"
+            [[ -z "$file" ]] && continue
 
+            count="$(grep -cE '^[[:space:]]*[^!#[:space:]\[]' "$file" || true)"
             count="${count:-0}"
-
             [[ "$count" =~ ^[0-9]+$ ]] || count=0
-
             total=$((total + count))
+            file_count=$((file_count + 1))
 
-            epoch_time="$(stat -c %Y "$file")"
+            case "$file" in
+              "hosts/HaGeZi/nsfw.txt")
+                name="HaGeZi NSFW"
+                purpose="Memblokir konten dewasa" ;;
+              "hosts/HaGeZi/tif.medium.txt")
+                name="HaGeZi Threat Intelligence Feeds — Medium"
+                purpose="Daftar threat intelligence versi medium" ;;
+              "hosts/HaGeZi/gambling.txt")
+                name="HaGeZi Gambling"
+                purpose="Memblokir konten perjudian" ;;
+              "hosts/HaGeZi/pro.plus.txt")
+                name="HaGeZi Multi PRO++"
+                purpose="Perlindungan umum yang lebih agresif" ;;
+              "hosts/StevenBlack/fakenews.txt")
+                name="StevenBlack Fake News & Misinformation"
+                purpose="Memblokir sumber fake news dan misinformasi" ;;
+              *)
+                name="${file#hosts/}"
+                purpose="Blocklist tambahan dari sources.md" ;;
+            esac
 
-            file_time="$(
-              TZ=Asia/Jakarta date \
-                -d "@$epoch_time" \
-                '+%Y-%m-%d %H:%M WIB' \
-                2>/dev/null || echo "$CURRENT_TIME"
-            )"
-
-            count_fmt="$(printf "%'d" "$count")"
-
-            display_name="${file#hosts/}"
-
-            link_rawgithack="[RawGitHack]($RAWGITHACK/$file)"
-            link_jsdelivr="[jsDelivr]($JSDELIVR/$file)"
-            link_raw_github="[GitHub]($RAW_GITHUB/$file)"
-
-            printf \
-              '| `%s` | %s | %s | %s | %s | %s |\n' \
-              "$display_name" \
-              "$link_rawgithack" \
-              "$link_jsdelivr" \
-              "$link_raw_github" \
-              "$count_fmt" \
-              "$file_time" \
+            count_fmt="$(python3 -c 'import sys; print(f"{int(sys.argv[1]):,}")' "$count")"
+            printf '| **%s** | %s | [RawGitHack](%s/%s) | [jsDelivr](%s/%s) | [GitHub](%s/%s) | %s |\n' \
+              "$name" "$purpose" "$RAWGITHACK" "$file" "$JSDELIVR" "$file" "$RAW_GITHUB" "$file" "$count_fmt" \
               >> README.md
+          done < <(find hosts -type f -name '*.txt' -print | sort)
 
-          done < <(
-            find hosts -type f -name "*.txt" | sort
-          )
-
-          total_fmt="$(printf "%'d" "$total")"
+          total_fmt="$(python3 -c 'import sys; print(f"{int(sys.argv[1]):,}")' "$total")"
 
           {
             echo
-            echo "**Total Domain Terblokir:** $total_fmt"
+            echo "**Jumlah file:** $file_count"
+            echo
+            echo "**Total entri lintas daftar:** $total_fmt"
+            echo
+            echo "<sub>*Jumlah entri dihitung dari baris aturan nonkosong yang bukan komentar/header. Total ini bukan jumlah domain unik; duplikasi antar-daftar dapat terjadi.</sub>"
             echo
             echo "---"
-            echo "*Terakhir sinkronisasi: $CURRENT_TIME*"
+            echo "*Sinkronisasi konten terakhir: $SYNC_TIME*"
+            echo
+            echo "Sumber dan URL upstream dikelola melalui [\`sources.md\`](sources.md)."
           } >> README.md
-          
-      - name: "Check Git Changes"
+
+          echo "README dibuat untuk $file_count file; total baris aturan terdeteksi: $total_fmt."
+
+      - name: Check Git changes
         id: git_changes
-        shell: bash
         run: |
           set -Eeuo pipefail
-
-          git add -A
+          git add -A -- README.md hosts
 
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "✅ Tidak ada perubahan Git."
+            echo "Tidak ada perubahan yang perlu di-commit."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "📝 Ada perubahan yang akan di-commit."
-            echo
+            echo "Perubahan yang akan di-commit:"
             git diff --cached --stat
           fi
 
-      - name: "Configure SSH Signing and Commit"
+      - name: Sign, commit, and push
         if: steps.git_changes.outputs.changed == 'true'
         env:
           SIGNING_KEY: ${{ secrets.COMMIT_SIGNING_KEY }}
-        shell: bash
         run: |
           set -Eeuo pipefail
 
-          # ==========================================
-          # 1. Validasi secret
-          # ==========================================
           if [[ -z "${SIGNING_KEY:-}" ]]; then
             echo "::error::Secret COMMIT_SIGNING_KEY tidak ditemukan atau kosong."
             exit 1
           fi
 
-          # ==========================================
-          # 2. Siapkan direktori key
-          # ==========================================
           KEY_DIR="${RUNNER_TEMP}/git-signing"
-          PRIVATE_KEY="${KEY_DIR}/signing_key"
-          PUBLIC_KEY="${KEY_DIR}/signing_key.pub"
-          ALLOWED_SIGNERS="${KEY_DIR}/allowed_signers"
-
+          PRIVATE_KEY="$KEY_DIR/signing_key"
+          PUBLIC_KEY="$KEY_DIR/signing_key.pub"
+          ALLOWED_SIGNERS="$KEY_DIR/allowed_signers"
           mkdir -p "$KEY_DIR"
           chmod 700 "$KEY_DIR"
+          trap 'ssh-agent -k >/dev/null 2>&1 || true; rm -rf "$KEY_DIR"' EXIT
 
-          # ==========================================
-          # 3. Simpan private key
-          # ==========================================
           printf '%s\n' "$SIGNING_KEY" > "$PRIVATE_KEY"
           chmod 600 "$PRIVATE_KEY"
 
-          # ==========================================
-          # 4. Generate public key
-          # ==========================================
-          ssh-keygen -y \
-            -f "$PRIVATE_KEY" \
-            > "$PUBLIC_KEY"
-
-          chmod 644 "$PUBLIC_KEY"
-
-          if [[ ! -s "$PUBLIC_KEY" ]]; then
-            echo "::error::Public key gagal dibuat."
+          if ! ssh-keygen -y -P "" -f "$PRIVATE_KEY" > "$PUBLIC_KEY"; then
+            echo "::error::COMMIT_SIGNING_KEY tidak valid atau menggunakan passphrase yang belum didukung workflow ini."
             exit 1
           fi
+          chmod 644 "$PUBLIC_KEY"
 
-          # ==========================================
-          # 5. Start SSH agent
-          # ==========================================
-          eval "$(ssh-agent -s)"
+          eval "$(ssh-agent -s)" >/dev/null
+          ssh-add "$PRIVATE_KEY" >/dev/null
 
-          ssh-add "$PRIVATE_KEY"
-
-          # ==========================================
-          # 6. Git identity
-          # ==========================================
           git config --local user.name "RusdiEneri"
           git config --local user.email "nuruddinrusydiilham@gmail.com"
-
-          # ==========================================
-          # 7. SSH commit signing
-          # ==========================================
           git config --local gpg.format ssh
           git config --local gpg.ssh.program ssh-keygen
           git config --local user.signingkey "$PUBLIC_KEY"
           git config --local commit.gpgsign true
 
-          # ==========================================
-          # 8. Allowed signers untuk local verification
-          # ==========================================
-          printf '%s %s\n' \
-            "nuruddinrusydiilham@gmail.com" \
-            "$(cat "$PUBLIC_KEY")" \
-            > "$ALLOWED_SIGNERS"
-
+          printf '%s %s\n' "nuruddinrusydiilham@gmail.com" "$(cat "$PUBLIC_KEY")" > "$ALLOWED_SIGNERS"
           chmod 644 "$ALLOWED_SIGNERS"
+          git config --local gpg.ssh.allowedSignersFile "$ALLOWED_SIGNERS"
 
-          git config --local \
-            gpg.ssh.allowedSignersFile "$ALLOWED_SIGNERS"
-
-          echo "✅ SSH signing key berhasil disiapkan."
-
-          # ==========================================
-          # 9. Buat signed commit
-          # ==========================================
-          git commit -S \
-            -m "auto: update hosts $(TZ=Asia/Jakarta date '+%Y%m%d-%H%M')"
-
-          echo
-          echo "✅ Commit signed berhasil dibuat."
-
-          # ==========================================
-          # 10. Verifikasi signature secara lokal
-          # ==========================================
-          echo
-          echo "🔏 Verifying commit signature..."
-
+          git commit -S -m "chore: update DNS blocklists $(TZ=Asia/Jakarta date '+%Y%m%d-%H%M')"
           git verify-commit HEAD
 
-          echo
-          echo "✅ Signature valid."
-
-      - name: "Push Changes"
-        if: steps.git_changes.outputs.changed == 'true'
-        shell: bash
-        run: |
-          set -Eeuo pipefail
-
+          # Agent tetap hidup di step ini, sehingga rebase juga dapat ditandatangani.
           for attempt in 1 2 3 4 5; do
-            echo "========================================"
-            echo "🚀 Push attempt $attempt/5"
-            echo "========================================"
-
-            # Coba push langsung terlebih dahulu.
+            echo "Push percobaan $attempt/5..."
             if git push origin HEAD:main; then
-              echo "✅ Push berhasil."
+              echo "Push berhasil."
               exit 0
             fi
-
-            echo "⚠️ Push ditolak. Remote mungkin berubah."
 
             if [[ "$attempt" -eq 5 ]]; then
               break
             fi
 
-            echo "🔄 Fetch origin/main..."
+            echo "Push ditolak/gagal; mengambil main terbaru lalu mencoba rebase."
             git fetch origin main
-
-            echo "🔄 Rebase dengan SSH signature..."
-            git rebase --gpg-sign origin/main
-
-            echo "✅ Rebase selesai dan commit ditandatangani ulang."
-
-            echo
-            echo "🔏 Verifikasi signature setelah rebase..."
+            if ! git rebase --gpg-sign origin/main; then
+              git rebase --abort || true
+              echo "::error::Rebase gagal, kemungkinan ada konflik dengan perubahan terbaru di main."
+              exit 1
+            fi
             git verify-commit HEAD
-
-            echo
-            echo "⏳ Menunggu 5 detik sebelum mencoba lagi..."
-            sleep 5
+            sleep 3
           done
 
           echo "::error::Push gagal setelah 5 percobaan."
           exit 1
 
-      - name: "No Changes"
+      - name: No changes
         if: steps.git_changes.outputs.changed == 'false'
-        shell: bash
         run: |
-          echo "✅ Semua blocklist masih sama."
-          echo "Tidak membuat commit baru."
+          echo "Semua blocklist dan README masih sama; tidak membuat commit baru."
