@@ -8,19 +8,19 @@ Koleksi blocklist DNS terkurasi untuk **AdGuard Home, Pi-hole, dan resolver pemb
 
 | Daftar | Kegunaan | RawGitHack | jsDelivr | GitHub Raw | Jumlah entri* |
 |---|---|---|---|---|---:|
-| **HaGeZi Gambling** | Memblokir konten perjudian | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/gambling.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/gambling.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/gambling.txt) | 626,316 |
-| **HaGeZi NSFW** | Memblokir konten dewasa | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/nsfw.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | 92,021 |
-| **HaGeZi Multi PRO++** | Perlindungan umum yang lebih agresif | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro.plus.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/pro.plus.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro.plus.txt) | 261,413 |
-| **HaGeZi Threat Intelligence Feeds — Medium** | Daftar threat intelligence versi medium | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/tif.medium.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/tif.medium.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/tif.medium.txt) | 318,578 |
+| **HaGeZi Gambling** | Memblokir konten perjudian | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/gambling.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/gambling.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/gambling.txt) | 627,999 |
+| **HaGeZi NSFW** | Memblokir konten dewasa | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/nsfw.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/nsfw.txt) | 91,928 |
+| **HaGeZi Multi PRO++** | Perlindungan umum yang lebih agresif | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro.plus.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/pro.plus.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/pro.plus.txt) | 245,097 |
+| **HaGeZi Threat Intelligence Feeds — Medium** | Daftar threat intelligence versi medium | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/tif.medium.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/HaGeZi/tif.medium.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/HaGeZi/tif.medium.txt) | 317,653 |
 | **StevenBlack Fake News & Misinformation** | Memblokir sumber fake news dan misinformasi | [RawGitHack](https://raw.githack.com/RusdiEneri/blacklist-hosts/main/hosts/StevenBlack/fakenews.txt) | [jsDelivr](https://cdn.jsdelivr.net/gh/RusdiEneri/blacklist-hosts@main/hosts/StevenBlack/fakenews.txt) | [GitHub](https://raw.githubusercontent.com/RusdiEneri/blacklist-hosts/main/hosts/StevenBlack/fakenews.txt) | 2,187 |
 
 **Jumlah file:** 5
 
-**Total entri lintas daftar:** 1,300,515
+**Total entri lintas daftar:** 1,284,864
 
 <sub>*Jumlah entri dihitung dari baris aturan nonkosong yang bukan komentar/header. Total ini bukan jumlah domain unik; duplikasi antar-daftar dapat terjadi.</sub>
 
 ---
-*Sinkronisasi konten terakhir: 2026-11-04 02:40 WIB*
+*Sinkronisasi konten terakhir: 2026-11-05 02:56 WIB*
 
 Sumber dan URL upstream dikelola melalui [`sources.md`](sources.md).
